@@ -1,0 +1,14 @@
+{
+  "name": "invoice-tax-platform",
+  "version": "1.0.0",
+  "description": "发票单据防伪与税务协同平台",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["invoice", "tax", "ocr", "verification"],
+  "author": "",
+  "license": "MIT"
+}
+

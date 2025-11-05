@@ -1,0 +1,12 @@
+{
+  "name": "data-privacy-compliance-platform",
+  "version": "1.0.0",
+  "description": "数据要素合规流通平台",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}
+
