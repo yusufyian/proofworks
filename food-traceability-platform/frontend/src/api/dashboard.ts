@@ -1,0 +1,8 @@
+import apiClient from './client';
+
+export const dashboardApi = {
+  getStats: () => {
+    return apiClient.get<{ success: boolean; data: any }>('/dashboard/stats');
+  },
+};
+
