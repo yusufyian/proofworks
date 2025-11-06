@@ -1,0 +1,48 @@
+{
+  "name": "carbon-esg-backend",
+  "version": "1.0.0",
+  "description": "碳足迹/ESG数据确权与核证平台后端服务",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "seed": "tsx src/utils/seed.ts",
+    "fix-emails": "tsx src/utils/fixEmails.ts",
+    "reset-passwords": "tsx src/utils/resetPasswords.ts",
+    "update-blockchain": "tsx src/utils/updateBlockchain.ts"
+  },
+  "keywords": [
+    "carbon",
+    "esg",
+    "carbon-footprint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1",
+    "dayjs": "^1.11.10",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.6",
+    "@types/cors": "^2.8.17",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0"
+  }
+}

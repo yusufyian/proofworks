@@ -1,0 +1,3182 @@
+[
+  {
+    "id": "0cb75780-7ec0-44a9-b94a-05bbdf917696",
+    "assetId": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+    "asset": {
+      "id": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+      "certificateId": "CERT-20251106-878153",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.pdf",
+      "fileHash": "0x805ff88b9313271ba5d0f8172977ed6e19ad5c5b9938f263e087af7de3bb6b50",
+      "fileSize": 14467943,
+      "author": {
+        "name": "刘洋",
+        "idCard": "4409557626865",
+        "ca_cert": "CA-378173"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-29T02:59:43.397Z",
+        "tsa_signature": "0x8d836e046bdb64c7062e71ac32e17c1bfa59df25eb2e95a5bc535b0bbb81b16d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x50b8e624e0192d24a5c2d7d84ff70269116de9cf93eccce4e72f9bdd3ec4a88f",
+        "blockHeight": 1581846,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+      "status": "registered",
+      "createdAt": "2025-07-29T02:59:43.397Z"
+    },
+    "licensorId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+    "licenseeId": "4174f62c-4447-494c-bac3-e32f7cb2c202",
+    "licenseType": "regional",
+    "price": 28661,
+    "duration": 3,
+    "scope": "全球",
+    "nftTokenId": "NFT-890659",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xbcb9f587b0ef1dd4f1723d44e8b40442b8e81db46b0c3d35532aab71553d4567",
+      "blockHeight": 1537458
+    },
+    "createdAt": "2025-10-04T02:59:43.401Z",
+    "expiresAt": "2028-10-04T02:59:43.401Z"
+  },
+  {
+    "id": "c9c0dc4d-f8a5-434c-8a65-7aea784fd601",
+    "assetId": "2ca10d9c-6edc-4f63-ba33-6bd7fa7560a7",
+    "asset": {
+      "id": "2ca10d9c-6edc-4f63-ba33-6bd7fa7560a7",
+      "certificateId": "CERT-20251106-472798",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.pdf",
+      "fileHash": "0x41bae4388cc8e05c96aaf0b75230be9131fbafcf528b5244e3c149aeb13263c6",
+      "fileSize": 25951061,
+      "author": {
+        "name": "何秀英",
+        "idCard": "3308278649205",
+        "ca_cert": "CA-474930"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-28T02:59:43.397Z",
+        "tsa_signature": "0x3ea30ff0aaa418ea4d984830c9969e4cd9af96a2c2d5551ffda047a078dcf556"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9324c918a827d3a9901f10b0a0bb9baf96832b4b232d86ac382d87663895f5a4",
+        "blockHeight": 1546186,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "70076dbc-4102-43d8-b8e1-d7aa88e5f53b",
+      "status": "registered",
+      "createdAt": "2025-06-28T02:59:43.397Z"
+    },
+    "licensorId": "70076dbc-4102-43d8-b8e1-d7aa88e5f53b",
+    "licenseeId": "19791eec-a0ce-42db-aa83-e9656ae66bec",
+    "licenseType": "non_exclusive",
+    "price": 34813,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-482811",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x6d2ce563080904ce14813c74053f1760e2bf1dbfb688312f67eaa324f57cc9fa",
+      "blockHeight": 1573928
+    },
+    "createdAt": "2025-08-02T02:59:43.401Z",
+    "expiresAt": "2035-08-02T02:59:43.401Z"
+  },
+  {
+    "id": "9c70b07e-c582-4ccd-b9f8-0621dbbf2046",
+    "assetId": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+    "asset": {
+      "id": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+      "certificateId": "CERT-20251106-970322",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0xd42971bab17aef8dfc4c5ee84601017dc2aa75b2be8ffb4e94f0b730c76b3599",
+      "fileSize": 30835006,
+      "author": {
+        "name": "林勇",
+        "idCard": "1101730277658",
+        "ca_cert": "CA-625306"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-06T02:59:43.397Z",
+        "tsa_signature": "0xb317d1ed2e48216928c7138db0c6b01690178016411464c4b6224812f4e062c4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2e32fd9195e2fe937354c711a250b70c036d8732f12fc583aee2f30d7c77f7b0",
+        "blockHeight": 1513638,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+      "status": "registered",
+      "createdAt": "2025-06-06T02:59:43.397Z"
+    },
+    "licensorId": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+    "licenseeId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "licenseType": "temporal",
+    "price": 25493,
+    "duration": 3,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-166728",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x0c260cb4867852a7fd70e719401a5f2d92ad2aab8f908b7a00595a269abe1072",
+      "blockHeight": 1525591
+    },
+    "createdAt": "2025-08-20T02:59:43.401Z",
+    "expiresAt": "2028-08-20T02:59:43.401Z"
+  },
+  {
+    "id": "e667899b-f1eb-4c5e-b43a-f93224c6855a",
+    "assetId": "2b1e64f0-ec50-484b-b142-3384c29d1e3c",
+    "asset": {
+      "id": "2b1e64f0-ec50-484b-b142-3384c29d1e3c",
+      "certificateId": "CERT-20251106-370365",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x7d9e2b637ebeb4b9098cb7fcfd5dbdb3afd0456bf1bde19f6f2cb6f9f67c31bb",
+      "fileSize": 47180704,
+      "author": {
+        "name": "杨磊",
+        "idCard": "4408023347654",
+        "ca_cert": "CA-272562"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-08T02:59:43.395Z",
+        "tsa_signature": "0x77ed702330b2fa06ec05e9ef673d8320ea6a7de83dc58ffbe36b2771c4227f74"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x6af345d852dff5fc1bd16edba17f56e6aabf24dfa8525a80e0bfd291bdb854d9",
+        "blockHeight": 1513824,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+      "status": "registered",
+      "createdAt": "2025-10-08T02:59:43.395Z"
+    },
+    "licensorId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+    "licenseeId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "licenseType": "non_exclusive",
+    "price": 42896,
+    "duration": 10,
+    "scope": "全球",
+    "nftTokenId": "NFT-986464",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x45c23fc8db1658ec74548eaa6d1f1be3ae1ffb5c7e964f98f627f4216b0d003d",
+      "blockHeight": 1593848
+    },
+    "createdAt": "2025-08-22T02:59:43.401Z",
+    "expiresAt": "2035-08-22T02:59:43.401Z"
+  },
+  {
+    "id": "654d3911-cfba-45b1-9069-a92fe0b87325",
+    "assetId": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+    "asset": {
+      "id": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+      "certificateId": "CERT-20251106-370778",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.jpg",
+      "fileHash": "0xc318daf01d1fa7fdeb20f0d09234e69e6cd36d4a6b501ae668c50f3336cd5094",
+      "fileSize": 35136525,
+      "author": {
+        "name": "何艳",
+        "idCard": "4401212879699",
+        "ca_cert": "CA-228474"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.396Z",
+        "tsa_signature": "0x57677f9f31141dd6a7115660c1dbc297a205f09c9570a3e670faf296b98bfe68"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x874384e8ae78d9f5540fe7369c217cdd352df8892b3afb53582b41e8cdfdf5a2",
+        "blockHeight": 1571307,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.jpg",
+        "tags": [
+          "创意素材",
+          "JPG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "6c8f53e3-34ce-4cf6-825f-f1ca4c6daf49",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.396Z"
+    },
+    "licensorId": "6c8f53e3-34ce-4cf6-825f-f1ca4c6daf49",
+    "licenseeId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseType": "exclusive",
+    "price": 44412,
+    "duration": 3,
+    "scope": "海外",
+    "nftTokenId": "NFT-468163",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x4dbd339bfecbaea31c6c41e0ebc3b7e1ba008efe1c8c7fa8774ea8b0a98fd8f1",
+      "blockHeight": 1538463
+    },
+    "createdAt": "2025-08-23T02:59:43.401Z",
+    "expiresAt": "2028-08-23T02:59:43.401Z"
+  },
+  {
+    "id": "2ab0a3ec-69e1-4dac-b07c-e7ba08445ce0",
+    "assetId": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+    "asset": {
+      "id": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+      "certificateId": "CERT-20251106-943309",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0x1cc90f3fc99917c8e2bc7c997e0195e1c6622498e91c64df1ae6d7106ace7c89",
+      "fileSize": 45027912,
+      "author": {
+        "name": "高华",
+        "idCard": "1107556964771",
+        "ca_cert": "CA-622471"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.397Z",
+        "tsa_signature": "0x1d5c7ab32c5ce6ccb30080902fb14bfa342462d8dec957e63e5fbc88fcee5f59"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe5dce91b309f97a1514ee4daf8c7b312b93290fa1e8423abf0c720d93cfd9d72",
+        "blockHeight": 1554213,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.397Z"
+    },
+    "licensorId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "licenseeId": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "licenseType": "temporal",
+    "price": 26889,
+    "duration": 1,
+    "scope": "海外",
+    "nftTokenId": "NFT-501826",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x722e19e20a6e70e25ecbe3c4b7856a37ff4a097a8b158cbc9984373404e35dd9",
+      "blockHeight": 1518951
+    },
+    "createdAt": "2025-10-03T02:59:43.401Z",
+    "expiresAt": "2026-10-03T02:59:43.401Z"
+  },
+  {
+    "id": "992ae9d6-2660-4e55-bddd-81bb6a99e568",
+    "assetId": "0f922c65-f5a2-4336-9a4c-5736f4585647",
+    "asset": {
+      "id": "0f922c65-f5a2-4336-9a4c-5736f4585647",
+      "certificateId": "CERT-20251106-413985",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0x810a6e419b1777c156a656e0bbf3898ceadd051d3c437038e25e7501a715137d",
+      "fileSize": 30290136,
+      "author": {
+        "name": "赵军",
+        "idCard": "1106807586899",
+        "ca_cert": "CA-897823"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-15T02:59:43.396Z",
+        "tsa_signature": "0xa0015a3f2b405547925aee462f1e0d97d99bcd3acd608d9d43c88f8dc924ecd4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x96aefc2012e627dd5eaab9bffb03038d2598493356ea77d647b3dbe4c150c2e0",
+        "blockHeight": 1534722,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+      "status": "registered",
+      "createdAt": "2025-07-15T02:59:43.396Z"
+    },
+    "licensorId": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "licenseeId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseType": "sole",
+    "price": 20584,
+    "duration": 1,
+    "scope": "海外",
+    "nftTokenId": "NFT-520392",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x6f826c43eff5d3b696e6e575c3630413baaf9eb7b2396a9648a6bfddab059517",
+      "blockHeight": 1586514
+    },
+    "createdAt": "2025-08-17T02:59:43.401Z",
+    "expiresAt": "2026-08-17T02:59:43.401Z"
+  },
+  {
+    "id": "1c04a7ba-af00-4517-8481-a03e074ae91d",
+    "assetId": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+    "asset": {
+      "id": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+      "certificateId": "CERT-20251106-087318",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0x7c2019b15c1926caeb585a74b6f8f4931acb20b41c333361d9a61ecf25eef498",
+      "fileSize": 36004985,
+      "author": {
+        "name": "何勇",
+        "idCard": "3109435902400",
+        "ca_cert": "CA-161815"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-16T02:59:43.398Z",
+        "tsa_signature": "0xc1658e158e72a0afcda764ab4c3e7a92e00951e1a5bc1e40c65b50f478a87816"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5ae3e995ad55fcbda87e941982b70f3d7f8c9047327190486a898d4a3952a595",
+        "blockHeight": 1537499,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+      "status": "registered",
+      "createdAt": "2025-08-16T02:59:43.398Z"
+    },
+    "licensorId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseeId": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "licenseType": "regional",
+    "price": 10217,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-820758",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xd49f8c5b147ca825074b31647b9f3bc76721f7144553347fe50ffa5abb54448c",
+      "blockHeight": 1518145
+    },
+    "createdAt": "2025-07-24T02:59:43.401Z",
+    "expiresAt": "2035-07-24T02:59:43.401Z"
+  },
+  {
+    "id": "a3e6c453-c2f2-4aea-9573-8beecacf128c",
+    "assetId": "e3013992-39af-450c-a23f-647a34166982",
+    "asset": {
+      "id": "e3013992-39af-450c-a23f-647a34166982",
+      "certificateId": "CERT-20251106-352096",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0xa3898511632640dfdcbf7026d0e499984716108a9dbf91a0a40bcb48d993d907",
+      "fileSize": 1394770,
+      "author": {
+        "name": "周艳",
+        "idCard": "3206520712389",
+        "ca_cert": "CA-240591"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-06T02:59:43.397Z",
+        "tsa_signature": "0xb8a82754e5c1442c3e0fecee52d92a74106bc80ad63f8f487a2db3df733dc9f6"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x100bace0b248b978187b1e0ffd3b789b98377700ea8483f76170737f2301443c",
+        "blockHeight": 1565261,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-10-06T02:59:43.397Z"
+    },
+    "licensorId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "licenseeId": "1a51315f-9053-4a27-b76c-df204416ba93",
+    "licenseType": "temporal",
+    "price": 13568,
+    "duration": 1,
+    "scope": "全球",
+    "nftTokenId": "NFT-850352",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x7d022a7d57af1d4ec744b0bc5c65d188214fe3c7545ebddfdbb13bb93368b7a3",
+      "blockHeight": 1591290
+    },
+    "createdAt": "2025-10-02T02:59:43.401Z",
+    "expiresAt": "2026-10-02T02:59:43.401Z"
+  },
+  {
+    "id": "0e158801-ae45-4918-9c35-7a055c1b106e",
+    "assetId": "b3fb5c41-b869-48d9-8356-b7cb2eb2db33",
+    "asset": {
+      "id": "b3fb5c41-b869-48d9-8356-b7cb2eb2db33",
+      "certificateId": "CERT-20251106-977633",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mp4",
+      "fileHash": "0x80938662b0bf2b16fa8480b674bbea087c1c2c4482b8b68092146313c5552680",
+      "fileSize": 24328610,
+      "author": {
+        "name": "周艳",
+        "idCard": "1101212609949",
+        "ca_cert": "CA-353362"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-16T02:59:43.395Z",
+        "tsa_signature": "0x39cd8b92068a6a009eae70f4c2e607553f8518472bfe1b941f69f0d748605edc"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2778f3cc3256f4a16ee8af91eb566061e1bab260bb3254b872cd3b65ec5e89a9",
+        "blockHeight": 1511430,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-08-16T02:59:43.395Z"
+    },
+    "licensorId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "licenseeId": "d69f3895-c269-450e-8214-a9367a2d94de",
+    "licenseType": "exclusive",
+    "price": 29284,
+    "duration": 3,
+    "scope": "海外",
+    "nftTokenId": "NFT-696216",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x05e9e12a0de382ce14d9a6d174a22d71eec54cbfd06801a3d8d1dddf0eb37e1f",
+      "blockHeight": 1515859
+    },
+    "createdAt": "2025-10-17T02:59:43.401Z",
+    "expiresAt": "2028-10-17T02:59:43.401Z"
+  },
+  {
+    "id": "b5be4134-24d2-47c0-9d46-e844748572dd",
+    "assetId": "dcb058b1-8a7a-41f0-b3f3-6c8bc3a86002",
+    "asset": {
+      "id": "dcb058b1-8a7a-41f0-b3f3-6c8bc3a86002",
+      "certificateId": "CERT-20251106-794518",
+      "assetType": "技术文档",
+      "fileName": "技术文档规范.pdf",
+      "fileHash": "0xdcb6fa40c4d8eb98f8e02fe9c123d1d5353f060f0614bb799950e517ba5f086f",
+      "fileSize": 25966711,
+      "author": {
+        "name": "周艳",
+        "idCard": "3109123664505",
+        "ca_cert": "CA-470622"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-26T02:59:43.397Z",
+        "tsa_signature": "0x7af025bcc6cc6c2bd0ae5b67ae78e6a04e6aa32a797cda968ff43d9869d59f2e"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc0dc98cc60e5dbc1d0325bd1ed95dccf931e50cb8ec03f92e2798d71fd32ad60",
+        "blockHeight": 1563908,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档规范.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-06-26T02:59:43.397Z"
+    },
+    "licensorId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "licenseeId": "094a221f-516a-4d9e-b08e-17d8b52ebc2e",
+    "licenseType": "temporal",
+    "price": 40468,
+    "duration": 1,
+    "scope": "海外",
+    "nftTokenId": "NFT-225932",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x48a79a0d0d2238de5e3b0b6d4fe148cbbc25b7538e6c6f3956ec978227ab5ca0",
+      "blockHeight": 1584619
+    },
+    "createdAt": "2025-09-08T02:59:43.401Z",
+    "expiresAt": "2026-09-08T02:59:43.401Z"
+  },
+  {
+    "id": "f4707ea6-b84d-4e45-bd94-367f92fb1c09",
+    "assetId": "fbd0087b-352d-4c09-8056-df620645131c",
+    "asset": {
+      "id": "fbd0087b-352d-4c09-8056-df620645131c",
+      "certificateId": "CERT-20251106-424773",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.ai",
+      "fileHash": "0xef16b519a74775817e1a18b34db00a286c6895b3b281640240c6ba8b7004969e",
+      "fileSize": 8894084,
+      "author": {
+        "name": "杨军",
+        "idCard": "3108829213489",
+        "ca_cert": "CA-321428"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.398Z",
+        "tsa_signature": "0x9c3985159c9966c5bc2ef664d90cb74ff253a2b3ae27de53c5517dcbb2b2ae87"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8850ed1e9f8e3d0df5f03a09124e4e93313bd04361f99565027a783f6f7e21d6",
+        "blockHeight": 1517667,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.ai",
+        "tags": [
+          "创意素材",
+          "AI"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+      "status": "registered",
+      "createdAt": "2025-07-22T02:59:43.398Z"
+    },
+    "licensorId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "licenseeId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "licenseType": "sole",
+    "price": 21810,
+    "duration": 3,
+    "scope": "海外",
+    "nftTokenId": "NFT-927482",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x5bfa65ad070fbde8f65d58a2ad94962c9c102e7c38d8d78d11fbd609c46fa28c",
+      "blockHeight": 1551688
+    },
+    "createdAt": "2025-08-23T02:59:43.402Z",
+    "expiresAt": "2028-08-23T02:59:43.402Z"
+  },
+  {
+    "id": "ae36b446-27a7-4556-b179-e0aa57b61729",
+    "assetId": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+    "asset": {
+      "id": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+      "certificateId": "CERT-20251106-665982",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0xdbef6340ad737c7034ac42844ecb3813d06861f9e1b31123dcb5393d62ea3029",
+      "fileSize": 33723406,
+      "author": {
+        "name": "胡娜",
+        "idCard": "1103224905195",
+        "ca_cert": "CA-311027"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-22T02:59:43.395Z",
+        "tsa_signature": "0x5f3d61efcc5abb1526d78adbbaf90c9969d1d68e2cb02abc1bf42fea81d79edb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xfd60040bd736bb2e9e62b6a1dd4617d5c4b8836f65461cba5cb584c734ac4ece",
+        "blockHeight": 1546631,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+      "status": "registered",
+      "createdAt": "2025-08-22T02:59:43.395Z"
+    },
+    "licensorId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+    "licenseeId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "licenseType": "temporal",
+    "price": 31571,
+    "duration": 3,
+    "scope": "全球",
+    "nftTokenId": "NFT-301916",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x09bcae812bfd8e9245dfc1df587b02466160c0f55f0c5603b6a6b609bf9c80bb",
+      "blockHeight": 1582968
+    },
+    "createdAt": "2025-07-21T02:59:43.402Z",
+    "expiresAt": "2028-07-21T02:59:43.402Z"
+  },
+  {
+    "id": "ad76a736-7cdb-426b-bf7d-e44edb023bee",
+    "assetId": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+    "asset": {
+      "id": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+      "certificateId": "CERT-20251106-979226",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.dwg",
+      "fileHash": "0x1024247087dddd19c620c54b67ea0ccdf1438206b301b2a6f511842fe0aea554",
+      "fileSize": 1536518,
+      "author": {
+        "name": "杨娜",
+        "idCard": "4403272522910",
+        "ca_cert": "CA-622755"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-16T02:59:43.397Z",
+        "tsa_signature": "0x7e0a44a2058c60fd3d93ae3c16114160c934ef80d88e0371029aadf3da966657"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2d80705aa6dd2e39ab5f45f03b29b7ca778ae5b7f95281b9754ade175e32bc05",
+        "blockHeight": 1556488,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+      "status": "registered",
+      "createdAt": "2025-09-16T02:59:43.397Z"
+    },
+    "licensorId": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+    "licenseeId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "licenseType": "non_exclusive",
+    "price": 16820,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-556101",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x1618cd01dc614d7ba90d45b38d11b4fba3daafb42960d0b28b37e527e3f597dd",
+      "blockHeight": 1583117
+    },
+    "createdAt": "2025-08-24T02:59:43.402Z",
+    "expiresAt": "2030-08-24T02:59:43.402Z"
+  },
+  {
+    "id": "87282e76-1699-42e7-a08d-6b31a56d708c",
+    "assetId": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+    "asset": {
+      "id": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+      "certificateId": "CERT-20251106-710492",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0xe4498f16f3eec69e6e94457d8c31b0f77ddbc22a516a70cd6a51a9cbef6ea22c",
+      "fileSize": 44381231,
+      "author": {
+        "name": "马丽",
+        "idCard": "1102929938316",
+        "ca_cert": "CA-922885"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-24T02:59:43.395Z",
+        "tsa_signature": "0x79fefba274014b2c37551c65635cc042ebe48d4f7bf31b6515f56f31ceac6acf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa049c29eedf67fbb1a35145f3d47165fc7c3153e615a7566d362a72084358938",
+        "blockHeight": 1575369,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-05-24T02:59:43.395Z"
+    },
+    "licensorId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "licenseeId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+    "licenseType": "non_exclusive",
+    "price": 17842,
+    "duration": 3,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-370464",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x456b73c73c02b6a8aa81053694c28e2c899ad5e87fc094e97024eb814b1f701b",
+      "blockHeight": 1556257
+    },
+    "createdAt": "2025-10-06T02:59:43.402Z",
+    "expiresAt": "2028-10-06T02:59:43.402Z"
+  },
+  {
+    "id": "56419e05-ee8b-4589-88db-f8f5af4a279d",
+    "assetId": "55ed8319-535c-4146-90ce-a556b2c68f2a",
+    "asset": {
+      "id": "55ed8319-535c-4146-90ce-a556b2c68f2a",
+      "certificateId": "CERT-20251106-508967",
+      "assetType": "源代码",
+      "fileName": "代码库算法.git",
+      "fileHash": "0x5bb5c161ea35842fa47fe853859c4a3fb1fd46654f11e41747afcdd4b7e9713e",
+      "fileSize": 13584184,
+      "author": {
+        "name": "张军",
+        "idCard": "1103161848995",
+        "ca_cert": "CA-336283"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-25T02:59:43.397Z",
+        "tsa_signature": "0x79383280d16aa05beed49a8204812fb38f85a3eff7a3973e7fb5815821693c22"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1e94dc5f35b8be7ae62ccbf67dcf9c68694abc703d4d0ed07b4e54103103c29b",
+        "blockHeight": 1588778,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库算法.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+      "status": "registered",
+      "createdAt": "2025-09-25T02:59:43.397Z"
+    },
+    "licensorId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+    "licenseeId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseType": "regional",
+    "price": 20085,
+    "duration": 10,
+    "scope": "全球",
+    "nftTokenId": "NFT-114913",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xdcda39d5a56c3709a642a48128149be3e80e38f3e4fa5b4d879908bd6397914c",
+      "blockHeight": 1561263
+    },
+    "createdAt": "2025-07-27T02:59:43.402Z",
+    "expiresAt": "2035-07-27T02:59:43.402Z"
+  },
+  {
+    "id": "4dea5d46-c3d8-4333-97ff-21cab830aa30",
+    "assetId": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+    "asset": {
+      "id": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+      "certificateId": "CERT-20251106-723940",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.3dmax",
+      "fileHash": "0x4205108c335f28ac8c1ddad41d084be1730e8c10a908f7d1f8926979a45e99ab",
+      "fileSize": 46080948,
+      "author": {
+        "name": "张军",
+        "idCard": "3209876898453",
+        "ca_cert": "CA-135171"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-26T02:59:43.398Z",
+        "tsa_signature": "0xe374f1d2e2255e33c173bcc3c5d7b8d5da36bc0399ff241b39aae301dc16c357"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x551308b73b561939a5fc6dd5397918d30ed01cf36f65218b90909ddec3e6a916",
+        "blockHeight": 1596752,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+      "status": "registered",
+      "createdAt": "2025-06-26T02:59:43.398Z"
+    },
+    "licensorId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+    "licenseeId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseType": "non_exclusive",
+    "price": 7506,
+    "duration": 5,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-971926",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xf2839d6e3ea9951f3247ccd450f66f9def446c01afb6ae7ee5432547690a1d15",
+      "blockHeight": 1572499
+    },
+    "createdAt": "2025-08-09T02:59:43.402Z",
+    "expiresAt": "2030-08-09T02:59:43.402Z"
+  },
+  {
+    "id": "a18b7c39-4c67-412c-aff3-7b7b42b3fd07",
+    "assetId": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+    "asset": {
+      "id": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+      "certificateId": "CERT-20251106-767528",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.3dmax",
+      "fileHash": "0xc67b9a347dac3bff0c20758bb7f9b26a9a8a5fe5ec6dcbf0df6a7b2075055a6c",
+      "fileSize": 10537619,
+      "author": {
+        "name": "张军",
+        "idCard": "3209443382500",
+        "ca_cert": "CA-125011"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.396Z",
+        "tsa_signature": "0x0eea2262478896ce9c3d57b2485c0f60989b6d89565f31bd3c9ae6e23280ddb6"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5525dde5a6be71e413cd533e4c1472302628892f2635fc8947722a497a68110a",
+        "blockHeight": 1541414,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.396Z"
+    },
+    "licensorId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "licenseeId": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+    "licenseType": "non_exclusive",
+    "price": 24096,
+    "duration": 3,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-955505",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x89dc5c0cce189066c41747e93a7b965b1787ec4512aa1c98fca57279ee1fd722",
+      "blockHeight": 1592297
+    },
+    "createdAt": "2025-10-20T02:59:43.402Z",
+    "expiresAt": "2028-10-20T02:59:43.402Z"
+  },
+  {
+    "id": "0acd9af1-7fd7-405e-999e-e2c10ea0c170",
+    "assetId": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+    "asset": {
+      "id": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+      "certificateId": "CERT-20251106-829409",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mov",
+      "fileHash": "0x9d6c938214b48e4476caa1a3b57f657752180a816935b9f20d81d53d6af25842",
+      "fileSize": 49104681,
+      "author": {
+        "name": "马磊",
+        "idCard": "4407055538312",
+        "ca_cert": "CA-807081"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-08T02:59:43.396Z",
+        "tsa_signature": "0x6a7fc0ab1143d248492bbe379a9af8bf2e64c92ad2db171f7c51fef17bb1ef00"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe7fce95b44b8f83d23f3e0d6051fb08e8bc2762a09430525839a6c160c42de4c",
+        "blockHeight": 1502174,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-06-08T02:59:43.396Z"
+    },
+    "licensorId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+    "licenseeId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+    "licenseType": "non_exclusive",
+    "price": 27580,
+    "duration": 3,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-746233",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x0e7252b89e375ee69d191f25581f383fc51f4d237147247820396fd6944d8cb6",
+      "blockHeight": 1505976
+    },
+    "createdAt": "2025-09-30T02:59:43.402Z",
+    "expiresAt": "2028-09-30T02:59:43.402Z"
+  },
+  {
+    "id": "2603839a-a275-48b0-af6b-ac8f18a5e165",
+    "assetId": "7972e2d0-0546-4214-a698-677e6f88da6e",
+    "asset": {
+      "id": "7972e2d0-0546-4214-a698-677e6f88da6e",
+      "certificateId": "CERT-20251106-844557",
+      "assetType": "源代码",
+      "fileName": "代码库前端.git",
+      "fileHash": "0x267cf13db7b0fb6373529c712f98103e949c72e9407a1cf1b185b204eb1d0fa0",
+      "fileSize": 8878430,
+      "author": {
+        "name": "张军",
+        "idCard": "5106303232049",
+        "ca_cert": "CA-506094"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-17T02:59:43.396Z",
+        "tsa_signature": "0x4f94aa41af3910de91ad1b92f3f31ff9dce82bc2b85ce3a12267b3f786efdedf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9d440aa2fbfaa23034cf1ba0b6b97f6f04f222bcaa5e3c9b03af6106ce293721",
+        "blockHeight": 1534807,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+      "status": "registered",
+      "createdAt": "2025-06-17T02:59:43.396Z"
+    },
+    "licensorId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "licenseeId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseType": "exclusive",
+    "price": 48235,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-999526",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xf32affcb8213c1a6706406bb64f089ebab3b44aced9baeac39ec52f31a0bf425",
+      "blockHeight": 1533815
+    },
+    "createdAt": "2025-08-23T02:59:43.402Z",
+    "expiresAt": "2026-08-23T02:59:43.402Z"
+  },
+  {
+    "id": "2fd1c20b-476c-47a4-a8b3-25dc414c0b3a",
+    "assetId": "b790c493-57f3-4ad5-aec8-975b387409a3",
+    "asset": {
+      "id": "b790c493-57f3-4ad5-aec8-975b387409a3",
+      "certificateId": "CERT-20251106-546625",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0xe9f77a3c7af3db8d47e5dd3b4018e71cb455c5ebd67655ce240070dd8936d8eb",
+      "fileSize": 49067117,
+      "author": {
+        "name": "马丽",
+        "idCard": "3101942843679",
+        "ca_cert": "CA-833127"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-30T02:59:43.396Z",
+        "tsa_signature": "0x3ad15be9572dc40a220f2fd6818f087c106ad07923b6ee1f0d8893f3e4d136ca"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x73f1e867b9cda8caab7ad209ae590740f70ba4917461745b622cbd50439d665b",
+        "blockHeight": 1598130,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-08-30T02:59:43.396Z"
+    },
+    "licensorId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "licenseeId": "e14d1792-f266-4e7a-b6b9-1e373d67245e",
+    "licenseType": "non_exclusive",
+    "price": 37628,
+    "duration": 5,
+    "scope": "全球",
+    "nftTokenId": "NFT-711382",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xb6763a2c79241b9f5250bb15784ecaeac0fc680d365acc713b9769170844627a",
+      "blockHeight": 1580664
+    },
+    "createdAt": "2025-10-07T02:59:43.402Z",
+    "expiresAt": "2030-10-07T02:59:43.402Z"
+  },
+  {
+    "id": "768d4554-cf9a-4cf2-9d2d-7d6a9b548baa",
+    "assetId": "5e0418c7-afcb-43fd-b779-ceb1a2042335",
+    "asset": {
+      "id": "5e0418c7-afcb-43fd-b779-ceb1a2042335",
+      "certificateId": "CERT-20251106-927587",
+      "assetType": "创意素材",
+      "fileName": "创意设计设计.psd",
+      "fileHash": "0x8c31668919391922c516ca0c1b56a010ed1fe9a07a7cffe7afb01b2c262e4f30",
+      "fileSize": 3014347,
+      "author": {
+        "name": "何艳",
+        "idCard": "3208358847877",
+        "ca_cert": "CA-690201"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-20T02:59:43.397Z",
+        "tsa_signature": "0xc549a7b2af310cc5e12f3f0f9f571f8e14d16da6be0336c70300075429785a09"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe0179810c6e832f85351adb00c492de7e2e22facd228aecd4e27bfbcd3a22368",
+        "blockHeight": 1537086,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计设计.psd",
+        "tags": [
+          "创意素材",
+          "PSD"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "1e4fa69f-f5e7-4390-942d-6ad34c50cdc9",
+      "status": "registered",
+      "createdAt": "2025-10-20T02:59:43.397Z"
+    },
+    "licensorId": "1e4fa69f-f5e7-4390-942d-6ad34c50cdc9",
+    "licenseeId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+    "licenseType": "exclusive",
+    "price": 21823,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-720392",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xfb9e40c2c02f90adb223196fe81733769500f00250777d6500e262eeeb368e93",
+      "blockHeight": 1539353
+    },
+    "createdAt": "2025-07-12T02:59:43.402Z",
+    "expiresAt": "2030-07-12T02:59:43.402Z"
+  },
+  {
+    "id": "2a0754cc-2522-4a2d-953f-a9441b439493",
+    "assetId": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+    "asset": {
+      "id": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+      "certificateId": "CERT-20251106-087318",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0x7c2019b15c1926caeb585a74b6f8f4931acb20b41c333361d9a61ecf25eef498",
+      "fileSize": 36004985,
+      "author": {
+        "name": "何勇",
+        "idCard": "3109435902400",
+        "ca_cert": "CA-161815"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-16T02:59:43.398Z",
+        "tsa_signature": "0xc1658e158e72a0afcda764ab4c3e7a92e00951e1a5bc1e40c65b50f478a87816"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5ae3e995ad55fcbda87e941982b70f3d7f8c9047327190486a898d4a3952a595",
+        "blockHeight": 1537499,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+      "status": "registered",
+      "createdAt": "2025-08-16T02:59:43.398Z"
+    },
+    "licensorId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseeId": "6bd7e425-895e-473d-9d4c-fc4ebedd4b02",
+    "licenseType": "non_exclusive",
+    "price": 33781,
+    "duration": 1,
+    "scope": "海外",
+    "nftTokenId": "NFT-285083",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0xf1b641f55369faab6e059567fafa5d0463e5a445197d68ad17a79cc409422283",
+      "blockHeight": 1577277
+    },
+    "createdAt": "2025-07-17T02:59:43.402Z",
+    "expiresAt": "2026-07-17T02:59:43.402Z"
+  },
+  {
+    "id": "4ba49d66-8bf2-4f62-bc92-f9a84071ac10",
+    "assetId": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+    "asset": {
+      "id": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+      "certificateId": "CERT-20251106-723940",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.3dmax",
+      "fileHash": "0x4205108c335f28ac8c1ddad41d084be1730e8c10a908f7d1f8926979a45e99ab",
+      "fileSize": 46080948,
+      "author": {
+        "name": "张军",
+        "idCard": "3209876898453",
+        "ca_cert": "CA-135171"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-26T02:59:43.398Z",
+        "tsa_signature": "0xe374f1d2e2255e33c173bcc3c5d7b8d5da36bc0399ff241b39aae301dc16c357"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x551308b73b561939a5fc6dd5397918d30ed01cf36f65218b90909ddec3e6a916",
+        "blockHeight": 1596752,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+      "status": "registered",
+      "createdAt": "2025-06-26T02:59:43.398Z"
+    },
+    "licensorId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+    "licenseeId": "19791eec-a0ce-42db-aa83-e9656ae66bec",
+    "licenseType": "sole",
+    "price": 24906,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-235233",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0xb257b7b1efc7e3f195e068a2b2ac0009edd016167eb34cf7d6261a61ce5f0661",
+      "blockHeight": 1515610
+    },
+    "createdAt": "2025-08-11T02:59:43.402Z",
+    "expiresAt": "2035-08-11T02:59:43.402Z"
+  },
+  {
+    "id": "6396e1c0-6aa8-4248-ac54-ba535f814e02",
+    "assetId": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+    "asset": {
+      "id": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+      "certificateId": "CERT-20251106-943309",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0x1cc90f3fc99917c8e2bc7c997e0195e1c6622498e91c64df1ae6d7106ace7c89",
+      "fileSize": 45027912,
+      "author": {
+        "name": "高华",
+        "idCard": "1107556964771",
+        "ca_cert": "CA-622471"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.397Z",
+        "tsa_signature": "0x1d5c7ab32c5ce6ccb30080902fb14bfa342462d8dec957e63e5fbc88fcee5f59"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe5dce91b309f97a1514ee4daf8c7b312b93290fa1e8423abf0c720d93cfd9d72",
+        "blockHeight": 1554213,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.397Z"
+    },
+    "licensorId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "licenseeId": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+    "licenseType": "exclusive",
+    "price": 7055,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-736415",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xf1b5703f111abf3ba9f1adf32e0e61a882856767889a7bd7b5927fde49a86f50",
+      "blockHeight": 1505722
+    },
+    "createdAt": "2025-08-30T02:59:43.402Z",
+    "expiresAt": "2035-08-30T02:59:43.402Z"
+  },
+  {
+    "id": "750d6a03-7eac-40f8-b679-b97843ddf3d0",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "licensorId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseeId": "012dab09-0e87-4ce7-a532-d0aee0849379",
+    "licenseType": "temporal",
+    "price": 21095,
+    "duration": 3,
+    "scope": "全球",
+    "nftTokenId": "NFT-813877",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x14460c04a703c71b107e17817d40aaf09aaebd87af1391308466bca9aa76b5b1",
+      "blockHeight": 1543075
+    },
+    "createdAt": "2025-09-03T02:59:43.402Z",
+    "expiresAt": "2028-09-03T02:59:43.402Z"
+  },
+  {
+    "id": "f25b3dca-fec6-4648-b812-c40d51ebec3f",
+    "assetId": "b7fdbe1f-3c15-42d7-922d-41e671612fe3",
+    "asset": {
+      "id": "b7fdbe1f-3c15-42d7-922d-41e671612fe3",
+      "certificateId": "CERT-20251106-049505",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0xb0ffc1da509f21fffe3765ae32860132487a525a64015f5dd52111e4c64a12c5",
+      "fileSize": 27379903,
+      "author": {
+        "name": "徐勇",
+        "idCard": "3204944826901",
+        "ca_cert": "CA-800459"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-09T02:59:43.396Z",
+        "tsa_signature": "0x15e1ff2f2b4e3c98281b71234ba9911098ad5f619a89deac499c0a7f1e655d2a"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa61741c8c5fedd838cbe8078be3893efa87a9e4d12c430d34bd013d2df680b54",
+        "blockHeight": 1575872,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "6bd7e425-895e-473d-9d4c-fc4ebedd4b02",
+      "status": "registered",
+      "createdAt": "2025-07-09T02:59:43.396Z"
+    },
+    "licensorId": "6bd7e425-895e-473d-9d4c-fc4ebedd4b02",
+    "licenseeId": "6cdb7d7c-7174-46fb-9b81-c9e165e1f923",
+    "licenseType": "regional",
+    "price": 14646,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-267749",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x75e352462ac4e38a3e7e0e01241edbcd8e68f3fafc28604c381545cfecabbe95",
+      "blockHeight": 1577891
+    },
+    "createdAt": "2025-07-18T02:59:43.402Z",
+    "expiresAt": "2026-07-18T02:59:43.402Z"
+  },
+  {
+    "id": "c731b741-0dd8-40b6-894e-bac492bdc4cb",
+    "assetId": "857cbafc-1a34-47fd-9a3f-dc60a54cfc17",
+    "asset": {
+      "id": "857cbafc-1a34-47fd-9a3f-dc60a54cfc17",
+      "certificateId": "CERT-20251106-011391",
+      "assetType": "源代码",
+      "fileName": "代码库算法.git",
+      "fileHash": "0xfb50c2154e66e2669389a3db7a5d3552d6e24159788d6ede938d576a3859224e",
+      "fileSize": 41789574,
+      "author": {
+        "name": "陈华",
+        "idCard": "1104341627369",
+        "ca_cert": "CA-614983"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-09T02:59:43.397Z",
+        "tsa_signature": "0x6e9be45e6ecddbed660e1530378dbeccd7d813084063c626b7825dc20df814d4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1ec840827d0838440d8ad8cfa7a0ec4044f467839c877a54c7493b3828423bb0",
+        "blockHeight": 1531185,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库算法.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-06-09T02:59:43.397Z"
+    },
+    "licensorId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseeId": "1a51315f-9053-4a27-b76c-df204416ba93",
+    "licenseType": "temporal",
+    "price": 35184,
+    "duration": 5,
+    "scope": "全球",
+    "nftTokenId": "NFT-894958",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x0fcb6e9865bc10ee650298eb9d271d44efca38b22268330aa35758cd2815725a",
+      "blockHeight": 1532217
+    },
+    "createdAt": "2025-10-02T02:59:43.402Z",
+    "expiresAt": "2030-10-02T02:59:43.402Z"
+  },
+  {
+    "id": "2c6d02e0-f168-413c-952e-106f1276dd01",
+    "assetId": "fbd0087b-352d-4c09-8056-df620645131c",
+    "asset": {
+      "id": "fbd0087b-352d-4c09-8056-df620645131c",
+      "certificateId": "CERT-20251106-424773",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.ai",
+      "fileHash": "0xef16b519a74775817e1a18b34db00a286c6895b3b281640240c6ba8b7004969e",
+      "fileSize": 8894084,
+      "author": {
+        "name": "杨军",
+        "idCard": "3108829213489",
+        "ca_cert": "CA-321428"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.398Z",
+        "tsa_signature": "0x9c3985159c9966c5bc2ef664d90cb74ff253a2b3ae27de53c5517dcbb2b2ae87"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8850ed1e9f8e3d0df5f03a09124e4e93313bd04361f99565027a783f6f7e21d6",
+        "blockHeight": 1517667,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.ai",
+        "tags": [
+          "创意素材",
+          "AI"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+      "status": "registered",
+      "createdAt": "2025-07-22T02:59:43.398Z"
+    },
+    "licensorId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "licenseeId": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+    "licenseType": "sole",
+    "price": 14094,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-805904",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x94355f81e8a15a26d532c29d6db39a94278715ef3b493749f109d3d6c2a2e1b9",
+      "blockHeight": 1589675
+    },
+    "createdAt": "2025-08-31T02:59:43.402Z",
+    "expiresAt": "2030-08-31T02:59:43.402Z"
+  },
+  {
+    "id": "7a49867b-3205-49e3-b168-5338d038d07d",
+    "assetId": "640d89f4-73aa-4561-80d7-a09f5162a90a",
+    "asset": {
+      "id": "640d89f4-73aa-4561-80d7-a09f5162a90a",
+      "certificateId": "CERT-20251106-026725",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.dwg",
+      "fileHash": "0x1ba63fd1e28bdf963b7ee1db1b9ba920794ab15f3947570693632bbf79f5d7bd",
+      "fileSize": 48050060,
+      "author": {
+        "name": "赵敏",
+        "idCard": "5102057423064",
+        "ca_cert": "CA-254532"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-13T02:59:43.396Z",
+        "tsa_signature": "0x4d9205db2ad8067ba05c35a645acaeb30dba8eb0ae56ae603ceb51e01cb2d6fa"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xf5d5074cad4242d18d627670a6d1f1a9e983b30545de1036b1be8dca1a150871",
+        "blockHeight": 1559189,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+      "status": "registered",
+      "createdAt": "2025-09-13T02:59:43.396Z"
+    },
+    "licensorId": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "licenseeId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+    "licenseType": "exclusive",
+    "price": 39700,
+    "duration": 5,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-586468",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x614af0e10d56062158380b87085ac74159e346f2cb17a257f254795bf230ada9",
+      "blockHeight": 1587813
+    },
+    "createdAt": "2025-08-03T02:59:43.402Z",
+    "expiresAt": "2030-08-03T02:59:43.402Z"
+  },
+  {
+    "id": "a05f4178-9f6c-4293-821f-49b88171b0f8",
+    "assetId": "7972e2d0-0546-4214-a698-677e6f88da6e",
+    "asset": {
+      "id": "7972e2d0-0546-4214-a698-677e6f88da6e",
+      "certificateId": "CERT-20251106-844557",
+      "assetType": "源代码",
+      "fileName": "代码库前端.git",
+      "fileHash": "0x267cf13db7b0fb6373529c712f98103e949c72e9407a1cf1b185b204eb1d0fa0",
+      "fileSize": 8878430,
+      "author": {
+        "name": "张军",
+        "idCard": "5106303232049",
+        "ca_cert": "CA-506094"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-17T02:59:43.396Z",
+        "tsa_signature": "0x4f94aa41af3910de91ad1b92f3f31ff9dce82bc2b85ce3a12267b3f786efdedf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9d440aa2fbfaa23034cf1ba0b6b97f6f04f222bcaa5e3c9b03af6106ce293721",
+        "blockHeight": 1534807,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+      "status": "registered",
+      "createdAt": "2025-06-17T02:59:43.396Z"
+    },
+    "licensorId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "licenseeId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+    "licenseType": "temporal",
+    "price": 42777,
+    "duration": 3,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-247608",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xa973cd79c7d2609a3208c84c25f08a295fd75a411c546e4839ed43890ac394b5",
+      "blockHeight": 1517302
+    },
+    "createdAt": "2025-08-07T02:59:43.402Z",
+    "expiresAt": "2028-08-07T02:59:43.402Z"
+  },
+  {
+    "id": "c9c5ff4d-b888-4960-9707-bada02e39237",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "licensorId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseeId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "licenseType": "regional",
+    "price": 17419,
+    "duration": 1,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-816246",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xc755d789bf1999a7240af9adfb85c450bed3a9dd8a71615edf0c2f75028783a9",
+      "blockHeight": 1514547
+    },
+    "createdAt": "2025-10-03T02:59:43.402Z",
+    "expiresAt": "2026-10-03T02:59:43.402Z"
+  },
+  {
+    "id": "d7fb8e32-e374-4ba8-a625-50f678476ce8",
+    "assetId": "86f71d7c-6799-43a0-954d-35739a5415e0",
+    "asset": {
+      "id": "86f71d7c-6799-43a0-954d-35739a5415e0",
+      "certificateId": "CERT-20251106-185657",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0x39e852ac3c6912c253fad95c9786f8078ee38ce587c04496a060a6e285135bff",
+      "fileSize": 49345298,
+      "author": {
+        "name": "刘洋",
+        "idCard": "5101309081155",
+        "ca_cert": "CA-815671"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-26T02:59:43.397Z",
+        "tsa_signature": "0xc95e6ca23ea0c35ccb56a72540a041db0351678f69af6d91dcc6145e9e8ed0bf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb6c381c1cdd0e646ec57c7c0530c5df1aeb5edc2cfc6e0ef2e888678d310ae42",
+        "blockHeight": 1515911,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+      "status": "registered",
+      "createdAt": "2025-07-26T02:59:43.397Z"
+    },
+    "licensorId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "licenseeId": "a7f357b7-432c-4896-b70e-41a60a1a823c",
+    "licenseType": "exclusive",
+    "price": 39972,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-453124",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x13b61e316e2274ae56f91f1918b43f9ad35b8d7bcd675af72b091fe5a9dc4957",
+      "blockHeight": 1594169
+    },
+    "createdAt": "2025-08-26T02:59:43.402Z",
+    "expiresAt": "2035-08-26T02:59:43.402Z"
+  },
+  {
+    "id": "acd16616-8502-4d12-8bcd-8fb5706b5e17",
+    "assetId": "b3fb5c41-b869-48d9-8356-b7cb2eb2db33",
+    "asset": {
+      "id": "b3fb5c41-b869-48d9-8356-b7cb2eb2db33",
+      "certificateId": "CERT-20251106-977633",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mp4",
+      "fileHash": "0x80938662b0bf2b16fa8480b674bbea087c1c2c4482b8b68092146313c5552680",
+      "fileSize": 24328610,
+      "author": {
+        "name": "周艳",
+        "idCard": "1101212609949",
+        "ca_cert": "CA-353362"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-16T02:59:43.395Z",
+        "tsa_signature": "0x39cd8b92068a6a009eae70f4c2e607553f8518472bfe1b941f69f0d748605edc"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2778f3cc3256f4a16ee8af91eb566061e1bab260bb3254b872cd3b65ec5e89a9",
+        "blockHeight": 1511430,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-08-16T02:59:43.395Z"
+    },
+    "licensorId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "licenseeId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "licenseType": "sole",
+    "price": 31525,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-553761",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x4c705532ef9b0c4269f08f5e5667a516553fb75a25508121a0827eb829d3b5ff",
+      "blockHeight": 1507944
+    },
+    "createdAt": "2025-09-03T02:59:43.402Z",
+    "expiresAt": "2035-09-03T02:59:43.402Z"
+  },
+  {
+    "id": "de74785a-afcf-4b14-95b9-65e67455f27d",
+    "assetId": "77c416dd-a8cc-4341-aa0c-8b400a2c9777",
+    "asset": {
+      "id": "77c416dd-a8cc-4341-aa0c-8b400a2c9777",
+      "certificateId": "CERT-20251106-176719",
+      "assetType": "创意素材",
+      "fileName": "创意设计插画.png",
+      "fileHash": "0x155967229ae44593669d503aed2f5248912140fc7e63f639bd6f4838a878d499",
+      "fileSize": 48301432,
+      "author": {
+        "name": "杨磊",
+        "idCard": "3108924888180",
+        "ca_cert": "CA-989440"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-03T02:59:43.396Z",
+        "tsa_signature": "0x466eea30f94e23e4a019c52751bda71c148f1d4090703387afe5d30630e9dd27"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1f5933957f65cb50002a18fe5ade318d9242d649089fa7ac14f468a630b02c04",
+        "blockHeight": 1557608,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计插画.png",
+        "tags": [
+          "创意素材",
+          "PNG"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "19791eec-a0ce-42db-aa83-e9656ae66bec",
+      "status": "registered",
+      "createdAt": "2025-10-03T02:59:43.396Z"
+    },
+    "licensorId": "19791eec-a0ce-42db-aa83-e9656ae66bec",
+    "licenseeId": "6bd7e425-895e-473d-9d4c-fc4ebedd4b02",
+    "licenseType": "non_exclusive",
+    "price": 8692,
+    "duration": 10,
+    "scope": "全球",
+    "nftTokenId": "NFT-684352",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x6d72448a28fac6497defd7f180045ae668aab4db6d9109fee2bb0e1a4edf143d",
+      "blockHeight": 1555235
+    },
+    "createdAt": "2025-08-03T02:59:43.402Z",
+    "expiresAt": "2035-08-03T02:59:43.402Z"
+  },
+  {
+    "id": "7b48194d-17d6-4faf-958c-b244ad5c5e5a",
+    "assetId": "38c5461d-fa20-4baf-9494-b309c2d0ee49",
+    "asset": {
+      "id": "38c5461d-fa20-4baf-9494-b309c2d0ee49",
+      "certificateId": "CERT-20251106-228632",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.3dmax",
+      "fileHash": "0x0fffe6121647bff27d5f92c80e64c56a26d09c589cb016b6d025dda9f881c907",
+      "fileSize": 27325879,
+      "author": {
+        "name": "何勇",
+        "idCard": "3109510279654",
+        "ca_cert": "CA-363147"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-26T02:59:43.398Z",
+        "tsa_signature": "0x0e93bb6b2cf0b36faba82dd910cca0850c1f1352a938f9fc90076c3f56343e80"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x410e4cab143f4c0dd03d4f0c02dcb725db5c610753b0d1997e700a25ca203528",
+        "blockHeight": 1539696,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+      "status": "registered",
+      "createdAt": "2025-10-26T02:59:43.398Z"
+    },
+    "licensorId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseeId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "licenseType": "non_exclusive",
+    "price": 18981,
+    "duration": 10,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-665124",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x455458be970796bad4cdb6f623752d67f8df1f770b760f927086187daec0b7df",
+      "blockHeight": 1526742
+    },
+    "createdAt": "2025-10-20T02:59:43.402Z",
+    "expiresAt": "2035-10-20T02:59:43.402Z"
+  },
+  {
+    "id": "80e123d5-e987-4e4e-b5c4-232f9dd398bc",
+    "assetId": "0f2d865f-d148-4e46-b379-31cbb0e2af10",
+    "asset": {
+      "id": "0f2d865f-d148-4e46-b379-31cbb0e2af10",
+      "certificateId": "CERT-20251106-757247",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0x5d79bfcf99b6e69692b0575d269b8c78eb19dd2c832519944c142584b1027645",
+      "fileSize": 7109576,
+      "author": {
+        "name": "李勇",
+        "idCard": "3101304085680",
+        "ca_cert": "CA-528393"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-26T02:59:43.396Z",
+        "tsa_signature": "0x04e91e1e760cf4ab6b3bec03560b21fd25c042df1c0918289e7ccf9e133fdb52"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5f4a23e4bf1c657879ef62e3fd2379f086508273d3ae6135faa9aeb453e68880",
+        "blockHeight": 1562908,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+      "status": "registered",
+      "createdAt": "2025-07-26T02:59:43.396Z"
+    },
+    "licensorId": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "licenseeId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "licenseType": "non_exclusive",
+    "price": 47369,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-655059",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xc4c2cc10f3807d27806e37344960ce7b0a19c7ce1483c2c26a264eb0e0615372",
+      "blockHeight": 1509911
+    },
+    "createdAt": "2025-10-07T02:59:43.402Z",
+    "expiresAt": "2026-10-07T02:59:43.402Z"
+  },
+  {
+    "id": "0c6dd7cc-02cc-44ac-a9fd-3270ba43f93b",
+    "assetId": "2b1e64f0-ec50-484b-b142-3384c29d1e3c",
+    "asset": {
+      "id": "2b1e64f0-ec50-484b-b142-3384c29d1e3c",
+      "certificateId": "CERT-20251106-370365",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x7d9e2b637ebeb4b9098cb7fcfd5dbdb3afd0456bf1bde19f6f2cb6f9f67c31bb",
+      "fileSize": 47180704,
+      "author": {
+        "name": "杨磊",
+        "idCard": "4408023347654",
+        "ca_cert": "CA-272562"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-08T02:59:43.395Z",
+        "tsa_signature": "0x77ed702330b2fa06ec05e9ef673d8320ea6a7de83dc58ffbe36b2771c4227f74"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x6af345d852dff5fc1bd16edba17f56e6aabf24dfa8525a80e0bfd291bdb854d9",
+        "blockHeight": 1513824,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+      "status": "registered",
+      "createdAt": "2025-10-08T02:59:43.395Z"
+    },
+    "licensorId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+    "licenseeId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "licenseType": "non_exclusive",
+    "price": 20095,
+    "duration": 1,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-982917",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xa666d105cb466e8fb52b572975219be0c3e5e3e446b486888658c83f66ed02f5",
+      "blockHeight": 1566870
+    },
+    "createdAt": "2025-10-13T02:59:43.402Z",
+    "expiresAt": "2026-10-13T02:59:43.402Z"
+  },
+  {
+    "id": "0842f30a-8b8f-4b8e-9d4d-39301b0b05f6",
+    "assetId": "05df224e-27b1-4a4b-84f8-87d6881600f3",
+    "asset": {
+      "id": "05df224e-27b1-4a4b-84f8-87d6881600f3",
+      "certificateId": "CERT-20251106-208590",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v1.3dmax",
+      "fileHash": "0x293d0d2eebf3c76fbc85c50381bc920d29d56405e0901b51c4bea50b0e61a282",
+      "fileSize": 49288619,
+      "author": {
+        "name": "朱秀英",
+        "idCard": "3105076853652",
+        "ca_cert": "CA-236507"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-04T02:59:43.396Z",
+        "tsa_signature": "0x4695a97272eccff4a18c468c08e2febec63eb8133a9cb470b9048b43d51e8c78"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x41e0cea0a145f13ec3c5c10cb8d59519671d6560a5cd5f0e9bce78112c6ca0ec",
+        "blockHeight": 1542893,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v1.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+      "status": "registered",
+      "createdAt": "2025-10-04T02:59:43.396Z"
+    },
+    "licensorId": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+    "licenseeId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "licenseType": "regional",
+    "price": 42940,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-941167",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x03498f5332dcea0ca8188d1be7d6b66dd331bb92b1d84a180ecbd2aa978917ee",
+      "blockHeight": 1560621
+    },
+    "createdAt": "2025-10-01T02:59:43.402Z",
+    "expiresAt": "2030-10-01T02:59:43.402Z"
+  },
+  {
+    "id": "93cb08ad-0faa-4316-859e-18e585c97aa3",
+    "assetId": "b790c493-57f3-4ad5-aec8-975b387409a3",
+    "asset": {
+      "id": "b790c493-57f3-4ad5-aec8-975b387409a3",
+      "certificateId": "CERT-20251106-546625",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0xe9f77a3c7af3db8d47e5dd3b4018e71cb455c5ebd67655ce240070dd8936d8eb",
+      "fileSize": 49067117,
+      "author": {
+        "name": "马丽",
+        "idCard": "3101942843679",
+        "ca_cert": "CA-833127"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-30T02:59:43.396Z",
+        "tsa_signature": "0x3ad15be9572dc40a220f2fd6818f087c106ad07923b6ee1f0d8893f3e4d136ca"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x73f1e867b9cda8caab7ad209ae590740f70ba4917461745b622cbd50439d665b",
+        "blockHeight": 1598130,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-08-30T02:59:43.396Z"
+    },
+    "licensorId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "licenseeId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "licenseType": "regional",
+    "price": 48918,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-347249",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x5f206def45185fc5741522f2ab4994addef2b4575a3285d6c8690103895533ab",
+      "blockHeight": 1534114
+    },
+    "createdAt": "2025-10-21T02:59:43.402Z",
+    "expiresAt": "2026-10-21T02:59:43.402Z"
+  },
+  {
+    "id": "ffa88581-f98e-4edb-a12b-1750237026d3",
+    "assetId": "ffef2bd3-145a-41d6-afc2-74b04200406d",
+    "asset": {
+      "id": "ffef2bd3-145a-41d6-afc2-74b04200406d",
+      "certificateId": "CERT-20251106-739950",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.3dmax",
+      "fileHash": "0x898824e8e0e63f761e13f26b5f90e0edd0ac4821761ad0bd9f589f2dcd3816ab",
+      "fileSize": 28573406,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5108446425617",
+        "ca_cert": "CA-531217"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-15T02:59:43.397Z",
+        "tsa_signature": "0xe5eb5fca790c1ba2c8367fb2f1585ea51b7b1b636fd24a7d0e60fe4d91a2f2ba"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xcfa7f4e6ec8e93653e61941d11d80e998c6dff2ebcd2d97ea9b530d948193a0a",
+        "blockHeight": 1561744,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-15T02:59:43.397Z"
+    },
+    "licensorId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "licenseeId": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "licenseType": "non_exclusive",
+    "price": 41647,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-844018",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x6054d6183fc0dbad038a95e84c7017a64888c9a9350c6ba4739763fa879f35c5",
+      "blockHeight": 1588804
+    },
+    "createdAt": "2025-09-20T02:59:43.402Z",
+    "expiresAt": "2035-09-20T02:59:43.402Z"
+  },
+  {
+    "id": "9c6f0379-7876-41c3-b95c-a256118192d3",
+    "assetId": "e31ce1d7-0cfc-4dcf-b91e-94c4dac2f78d",
+    "asset": {
+      "id": "e31ce1d7-0cfc-4dcf-b91e-94c4dac2f78d",
+      "certificateId": "CERT-20251106-819845",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v3.3dmax",
+      "fileHash": "0xa980ee46fb39c3270112903d23492099b365815fadfa0b594831701ad6979584",
+      "fileSize": 38798283,
+      "author": {
+        "name": "胡明",
+        "idCard": "3101313088754",
+        "ca_cert": "CA-409420"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-19T02:59:43.398Z",
+        "tsa_signature": "0x658294325ed6432692c0a499e2dcbb0cbcfa422b30fb25692431ef3b38650ff5"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x987609dab9095eece2dd7e1409dbb64561b3f3b5833ccb1a15f832313ba2982f",
+        "blockHeight": 1592413,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v3.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "c0dbdc9c-6663-4e9c-b68c-08cb39834715",
+      "status": "registered",
+      "createdAt": "2025-06-19T02:59:43.398Z"
+    },
+    "licensorId": "c0dbdc9c-6663-4e9c-b68c-08cb39834715",
+    "licenseeId": "b6ff328c-e710-4e68-b35d-ab0ef9f601bd",
+    "licenseType": "exclusive",
+    "price": 31669,
+    "duration": 10,
+    "scope": "全球",
+    "nftTokenId": "NFT-959865",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xd8617ba97cada8a36eb07aa7e18128462a918bd7822a7c160445237c6c70b643",
+      "blockHeight": 1511993
+    },
+    "createdAt": "2025-10-15T02:59:43.402Z",
+    "expiresAt": "2035-10-15T02:59:43.402Z"
+  },
+  {
+    "id": "7981e8c9-d847-4116-8792-3af8afed962b",
+    "assetId": "bfb4e1fb-52b1-4e80-b4ca-dabdbadebb72",
+    "asset": {
+      "id": "bfb4e1fb-52b1-4e80-b4ca-dabdbadebb72",
+      "certificateId": "CERT-20251106-444349",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.jpg",
+      "fileHash": "0xb50bca6f6387a269e58a83139135801cb65e987a1769d9665954abee10b54937",
+      "fileSize": 8308859,
+      "author": {
+        "name": "王娜",
+        "idCard": "5104802221270",
+        "ca_cert": "CA-737500"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-02T02:59:43.397Z",
+        "tsa_signature": "0x708a8dffe95649a88ebfc663da8c832fbc443576475a99fef8a58d8520d95a17"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x00a59496cc3db4d5834ae15cffa903960bb2a1069e3e4d4c60cc99a639039ac7",
+        "blockHeight": 1572389,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.jpg",
+        "tags": [
+          "创意素材",
+          "JPG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+      "status": "registered",
+      "createdAt": "2025-06-02T02:59:43.397Z"
+    },
+    "licensorId": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+    "licenseeId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "licenseType": "non_exclusive",
+    "price": 16611,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-804734",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xc75c5efdd47977d87cbdb70780570bea40fc87f1cd07713410ec8c3cc502b0a8",
+      "blockHeight": 1583401
+    },
+    "createdAt": "2025-09-11T02:59:43.402Z",
+    "expiresAt": "2026-09-11T02:59:43.402Z"
+  },
+  {
+    "id": "3750ff02-a593-4409-af9b-f6ab1283871c",
+    "assetId": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+    "asset": {
+      "id": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+      "certificateId": "CERT-20251106-829409",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mov",
+      "fileHash": "0x9d6c938214b48e4476caa1a3b57f657752180a816935b9f20d81d53d6af25842",
+      "fileSize": 49104681,
+      "author": {
+        "name": "马磊",
+        "idCard": "4407055538312",
+        "ca_cert": "CA-807081"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-08T02:59:43.396Z",
+        "tsa_signature": "0x6a7fc0ab1143d248492bbe379a9af8bf2e64c92ad2db171f7c51fef17bb1ef00"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe7fce95b44b8f83d23f3e0d6051fb08e8bc2762a09430525839a6c160c42de4c",
+        "blockHeight": 1502174,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-06-08T02:59:43.396Z"
+    },
+    "licensorId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+    "licenseeId": "6bd7e425-895e-473d-9d4c-fc4ebedd4b02",
+    "licenseType": "regional",
+    "price": 33220,
+    "duration": 10,
+    "scope": "海外",
+    "nftTokenId": "NFT-177433",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0xafbba36ebbbc58909965e7eac877b428647f2a351d40f651f25ccb0c69410cf8",
+      "blockHeight": 1559447
+    },
+    "createdAt": "2025-10-15T02:59:43.402Z",
+    "expiresAt": "2035-10-15T02:59:43.402Z"
+  },
+  {
+    "id": "2346db37-22cd-4ee9-990e-bc35212720c7",
+    "assetId": "704f30f5-93e1-4374-a77e-1fab172a321f",
+    "asset": {
+      "id": "704f30f5-93e1-4374-a77e-1fab172a321f",
+      "certificateId": "CERT-20251106-453761",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0xc151db70f5a3fba1685b82c82f81ed4e87f9c82d97592b70c34f638d53f8d779",
+      "fileSize": 31669910,
+      "author": {
+        "name": "赵磊",
+        "idCard": "3204893814033",
+        "ca_cert": "CA-490714"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-23T02:59:43.397Z",
+        "tsa_signature": "0x3db657e1414d5f1118863be3b3c07345a0b9c2d6912daa4d150b078b3111e083"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb66db6e9d4f9552b08ad44a26ced59b6135264d35b58c1477b114186183a1885",
+        "blockHeight": 1537001,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+      "status": "registered",
+      "createdAt": "2025-07-23T02:59:43.397Z"
+    },
+    "licensorId": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+    "licenseeId": "f1fc7774-c38e-4607-a9fe-ad79ef6f6524",
+    "licenseType": "temporal",
+    "price": 27131,
+    "duration": 1,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-246556",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xbd218298bcadf12b33c77aaf13ea97ac2160220147701dfd62cf1f99ff68de5f",
+      "blockHeight": 1510010
+    },
+    "createdAt": "2025-07-15T02:59:43.402Z",
+    "expiresAt": "2026-07-15T02:59:43.402Z"
+  },
+  {
+    "id": "329b6804-0b8a-4365-8508-542be342a993",
+    "assetId": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+    "asset": {
+      "id": "05d47b6d-9420-4026-b4cc-ba12b060b81d",
+      "certificateId": "CERT-20251106-943309",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0x1cc90f3fc99917c8e2bc7c997e0195e1c6622498e91c64df1ae6d7106ace7c89",
+      "fileSize": 45027912,
+      "author": {
+        "name": "高华",
+        "idCard": "1107556964771",
+        "ca_cert": "CA-622471"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.397Z",
+        "tsa_signature": "0x1d5c7ab32c5ce6ccb30080902fb14bfa342462d8dec957e63e5fbc88fcee5f59"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe5dce91b309f97a1514ee4daf8c7b312b93290fa1e8423abf0c720d93cfd9d72",
+        "blockHeight": 1554213,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.397Z"
+    },
+    "licensorId": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "licenseeId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+    "licenseType": "regional",
+    "price": 43852,
+    "duration": 1,
+    "scope": "海外",
+    "nftTokenId": "NFT-120552",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0xa3c3c0a4b65002ae014ec96c041481b9a16fc31240da32c84e3e30af0ff9afef",
+      "blockHeight": 1515344
+    },
+    "createdAt": "2025-09-08T02:59:43.402Z",
+    "expiresAt": "2026-09-08T02:59:43.402Z"
+  },
+  {
+    "id": "e5762294-25cc-4c2b-ace5-edeb11224c89",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "licensorId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseeId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "licenseType": "regional",
+    "price": 34919,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-361351",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x0a5abaf43569642b2ad5756b877f3a02a5567dcf0a110187149c048c28377636",
+      "blockHeight": 1521670
+    },
+    "createdAt": "2025-10-12T02:59:43.402Z",
+    "expiresAt": "2035-10-12T02:59:43.402Z"
+  },
+  {
+    "id": "a7b6315c-e7be-4369-97ab-672958db1a0b",
+    "assetId": "2a388238-8155-47a8-836b-816420a3979b",
+    "asset": {
+      "id": "2a388238-8155-47a8-836b-816420a3979b",
+      "certificateId": "CERT-20251106-866884",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x3dea6df39aa9de1de8478979a92d809aad96273ea73ded97f7d631dd87837b4e",
+      "fileSize": 42788145,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5104031214767",
+        "ca_cert": "CA-120828"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-04T02:59:43.398Z",
+        "tsa_signature": "0x216c78912908cf47614ecb31c3b67fed07b5255090405ed137d80f68f153bced"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x882c9b52f0d9ad67b5476dc1c204a182c179bcb43473f551fb68caf25100ee48",
+        "blockHeight": 1573803,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-04T02:59:43.398Z"
+    },
+    "licensorId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "licenseeId": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "licenseType": "regional",
+    "price": 24771,
+    "duration": 10,
+    "scope": "全球",
+    "nftTokenId": "NFT-823054",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x258755df8e7893a4de00d2aa900ca989c93f7bed539a977e4afacfe75a8d9a54",
+      "blockHeight": 1581142
+    },
+    "createdAt": "2025-08-04T02:59:43.402Z",
+    "expiresAt": "2035-08-04T02:59:43.402Z"
+  },
+  {
+    "id": "d3c424bb-adff-42a4-8935-5b6e3d2e0037",
+    "assetId": "8be00c59-2992-419c-9800-5f61665fd496",
+    "asset": {
+      "id": "8be00c59-2992-419c-9800-5f61665fd496",
+      "certificateId": "CERT-20251106-178178",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mov",
+      "fileHash": "0x5474c3ca064396ca6eba83ea85159b1465f155e06710109792939f518dc5921d",
+      "fileSize": 25515659,
+      "author": {
+        "name": "张军",
+        "idCard": "3109183171641",
+        "ca_cert": "CA-529024"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-07T02:59:43.397Z",
+        "tsa_signature": "0x0815cbc22631108fb03648813054540540842a7e2aa4c8857125cab271c616d3"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xd8699052930fcd7e86bde8a2c22f4919ded9b6c04e2de7aec9d07115b3798251",
+        "blockHeight": 1517650,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+      "status": "registered",
+      "createdAt": "2025-10-07T02:59:43.397Z"
+    },
+    "licensorId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "licenseeId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "licenseType": "exclusive",
+    "price": 32219,
+    "duration": 3,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-108914",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0xd20797c3fb68d802512216e8ec1aaa20ac1997ab6528ad878468fb25ba564006",
+      "blockHeight": 1527120
+    },
+    "createdAt": "2025-10-21T02:59:43.402Z",
+    "expiresAt": "2028-10-21T02:59:43.402Z"
+  },
+  {
+    "id": "21207dfe-3cfa-48ff-91e7-235e1bc6950c",
+    "assetId": "857cbafc-1a34-47fd-9a3f-dc60a54cfc17",
+    "asset": {
+      "id": "857cbafc-1a34-47fd-9a3f-dc60a54cfc17",
+      "certificateId": "CERT-20251106-011391",
+      "assetType": "源代码",
+      "fileName": "代码库算法.git",
+      "fileHash": "0xfb50c2154e66e2669389a3db7a5d3552d6e24159788d6ede938d576a3859224e",
+      "fileSize": 41789574,
+      "author": {
+        "name": "陈华",
+        "idCard": "1104341627369",
+        "ca_cert": "CA-614983"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-09T02:59:43.397Z",
+        "tsa_signature": "0x6e9be45e6ecddbed660e1530378dbeccd7d813084063c626b7825dc20df814d4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1ec840827d0838440d8ad8cfa7a0ec4044f467839c877a54c7493b3828423bb0",
+        "blockHeight": 1531185,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库算法.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-06-09T02:59:43.397Z"
+    },
+    "licensorId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "licenseeId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "licenseType": "regional",
+    "price": 39213,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-812853",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x0915fdc7fe7b2db02d82970e1a35fa663b1c5f00762b09713f791b5497f534b4",
+      "blockHeight": 1559811
+    },
+    "createdAt": "2025-07-31T02:59:43.402Z",
+    "expiresAt": "2030-07-31T02:59:43.402Z"
+  },
+  {
+    "id": "ca1663e5-2629-4664-aed0-1460a99acc98",
+    "assetId": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+    "asset": {
+      "id": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+      "certificateId": "CERT-20251106-710492",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0xe4498f16f3eec69e6e94457d8c31b0f77ddbc22a516a70cd6a51a9cbef6ea22c",
+      "fileSize": 44381231,
+      "author": {
+        "name": "马丽",
+        "idCard": "1102929938316",
+        "ca_cert": "CA-922885"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-24T02:59:43.395Z",
+        "tsa_signature": "0x79fefba274014b2c37551c65635cc042ebe48d4f7bf31b6515f56f31ceac6acf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa049c29eedf67fbb1a35145f3d47165fc7c3153e615a7566d362a72084358938",
+        "blockHeight": 1575369,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-05-24T02:59:43.395Z"
+    },
+    "licensorId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "licenseeId": "b6ff328c-e710-4e68-b35d-ab0ef9f601bd",
+    "licenseType": "sole",
+    "price": 12188,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-743044",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x961566e7e0f58adfd8d4425560c26f9bca46ed0149ea05eab539f7fcbea779fd",
+      "blockHeight": 1596427
+    },
+    "createdAt": "2025-10-19T02:59:43.402Z",
+    "expiresAt": "2035-10-19T02:59:43.402Z"
+  },
+  {
+    "id": "a635280e-7cb4-45f3-8d69-1308bac554a0",
+    "assetId": "fbd0087b-352d-4c09-8056-df620645131c",
+    "asset": {
+      "id": "fbd0087b-352d-4c09-8056-df620645131c",
+      "certificateId": "CERT-20251106-424773",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.ai",
+      "fileHash": "0xef16b519a74775817e1a18b34db00a286c6895b3b281640240c6ba8b7004969e",
+      "fileSize": 8894084,
+      "author": {
+        "name": "杨军",
+        "idCard": "3108829213489",
+        "ca_cert": "CA-321428"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.398Z",
+        "tsa_signature": "0x9c3985159c9966c5bc2ef664d90cb74ff253a2b3ae27de53c5517dcbb2b2ae87"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8850ed1e9f8e3d0df5f03a09124e4e93313bd04361f99565027a783f6f7e21d6",
+        "blockHeight": 1517667,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.ai",
+        "tags": [
+          "创意素材",
+          "AI"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+      "status": "registered",
+      "createdAt": "2025-07-22T02:59:43.398Z"
+    },
+    "licensorId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "licenseeId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "licenseType": "regional",
+    "price": 25214,
+    "duration": 5,
+    "scope": "全球",
+    "nftTokenId": "NFT-558705",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0xbfd0b323fe91238a2e17a6bdf16d903acae1585d522c2a88fd995371a2f42675",
+      "blockHeight": 1556833
+    },
+    "createdAt": "2025-07-10T02:59:43.402Z",
+    "expiresAt": "2030-07-10T02:59:43.402Z"
+  },
+  {
+    "id": "89ac6e82-cd4f-41cd-8a9f-6db1f1eb12a2",
+    "assetId": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+    "asset": {
+      "id": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+      "certificateId": "CERT-20251106-710492",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0xe4498f16f3eec69e6e94457d8c31b0f77ddbc22a516a70cd6a51a9cbef6ea22c",
+      "fileSize": 44381231,
+      "author": {
+        "name": "马丽",
+        "idCard": "1102929938316",
+        "ca_cert": "CA-922885"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-24T02:59:43.395Z",
+        "tsa_signature": "0x79fefba274014b2c37551c65635cc042ebe48d4f7bf31b6515f56f31ceac6acf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa049c29eedf67fbb1a35145f3d47165fc7c3153e615a7566d362a72084358938",
+        "blockHeight": 1575369,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-05-24T02:59:43.395Z"
+    },
+    "licensorId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "licenseeId": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+    "licenseType": "temporal",
+    "price": 29220,
+    "duration": 3,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-435852",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x4dd633a59be20e0f0ea499a41bff3992dc8c6a78d36262c75da0ceef5b6d4a55",
+      "blockHeight": 1586225
+    },
+    "createdAt": "2025-07-29T02:59:43.402Z",
+    "expiresAt": "2028-07-29T02:59:43.402Z"
+  },
+  {
+    "id": "8478bc0c-3b50-4855-aa6a-1859a572710c",
+    "assetId": "9814b275-75f0-40eb-94b5-46b01e995653",
+    "asset": {
+      "id": "9814b275-75f0-40eb-94b5-46b01e995653",
+      "certificateId": "CERT-20251106-595005",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.dwg",
+      "fileHash": "0x396772d5c224cf99fef50767c81d4531d3fd54c03e8ffacc582475a287dac291",
+      "fileSize": 52395728,
+      "author": {
+        "name": "张洋",
+        "idCard": "3108574292906",
+        "ca_cert": "CA-161186"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.395Z",
+        "tsa_signature": "0x7a63453c211dd5ba4cbbb88997e82a82e16250d9a6a98b4c8ed813fa2d9f45fb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fb9879f98081d1009a11455919e45fbc343c6a7993948389261e4ac5228b68c",
+        "blockHeight": 1506130,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.395Z"
+    },
+    "licensorId": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "licenseeId": "ee272645-bf02-4648-a850-eadb3416a9af",
+    "licenseType": "sole",
+    "price": 2483,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-232880",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x3428579e95feb6e83ea6e747c3c4b0540a8c5096472d4db35f1f182015eaafc0",
+      "blockHeight": 1543481
+    },
+    "createdAt": "2025-08-19T02:59:43.402Z",
+    "expiresAt": "2035-08-19T02:59:43.402Z"
+  },
+  {
+    "id": "17722e42-251c-4af5-b617-b556d1f4a435",
+    "assetId": "0f922c65-f5a2-4336-9a4c-5736f4585647",
+    "asset": {
+      "id": "0f922c65-f5a2-4336-9a4c-5736f4585647",
+      "certificateId": "CERT-20251106-413985",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0x810a6e419b1777c156a656e0bbf3898ceadd051d3c437038e25e7501a715137d",
+      "fileSize": 30290136,
+      "author": {
+        "name": "赵军",
+        "idCard": "1106807586899",
+        "ca_cert": "CA-897823"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-15T02:59:43.396Z",
+        "tsa_signature": "0xa0015a3f2b405547925aee462f1e0d97d99bcd3acd608d9d43c88f8dc924ecd4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x96aefc2012e627dd5eaab9bffb03038d2598493356ea77d647b3dbe4c150c2e0",
+        "blockHeight": 1534722,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+      "status": "registered",
+      "createdAt": "2025-07-15T02:59:43.396Z"
+    },
+    "licensorId": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "licenseeId": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+    "licenseType": "non_exclusive",
+    "price": 33083,
+    "duration": 10,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-882683",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0x7ea7632a173830941e6ca0ab945668f9b90eb3292d0e7310e1ca6a2e1790f342",
+      "blockHeight": 1528388
+    },
+    "createdAt": "2025-10-06T02:59:43.402Z",
+    "expiresAt": "2035-10-06T02:59:43.402Z"
+  },
+  {
+    "id": "6dc7756d-3f1f-4e5f-ae5e-b9d3b4e87102",
+    "assetId": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+    "asset": {
+      "id": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+      "certificateId": "CERT-20251106-767528",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.3dmax",
+      "fileHash": "0xc67b9a347dac3bff0c20758bb7f9b26a9a8a5fe5ec6dcbf0df6a7b2075055a6c",
+      "fileSize": 10537619,
+      "author": {
+        "name": "张军",
+        "idCard": "3209443382500",
+        "ca_cert": "CA-125011"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.396Z",
+        "tsa_signature": "0x0eea2262478896ce9c3d57b2485c0f60989b6d89565f31bd3c9ae6e23280ddb6"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5525dde5a6be71e413cd533e4c1472302628892f2635fc8947722a497a68110a",
+        "blockHeight": 1541414,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.396Z"
+    },
+    "licensorId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "licenseeId": "b6ff328c-e710-4e68-b35d-ab0ef9f601bd",
+    "licenseType": "temporal",
+    "price": 33294,
+    "duration": 5,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-557197",
+    "status": "active",
+    "blockchain": {
+      "txHash": "0x52dcfeca0b9444f300a82cee31e3d9215a9571d6a49080b36cd672d26aadf140",
+      "blockHeight": 1505654
+    },
+    "createdAt": "2025-09-21T02:59:43.402Z",
+    "expiresAt": "2030-09-21T02:59:43.402Z"
+  },
+  {
+    "id": "f3607f16-f414-4ea0-9e17-a1e66226e006",
+    "assetId": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+    "asset": {
+      "id": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+      "certificateId": "CERT-20251106-880472",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0x28c1ca021778ebbc2bc3ebb61620f4d650763af628a1ce3352ad770bd9617330",
+      "fileSize": 5329070,
+      "author": {
+        "name": "何强",
+        "idCard": "3105303066127",
+        "ca_cert": "CA-231188"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-08T02:59:43.397Z",
+        "tsa_signature": "0x3e5cabf7c73a6c3bd3b47d988be70b7281b4da9f9943bc99632fa2ad5670fe20"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fe73e1b439119431ad57d36383cdefe88d02b2ac3517fa18877d9d48ca637ec",
+        "blockHeight": 1547609,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+      "status": "registered",
+      "createdAt": "2025-07-08T02:59:43.397Z"
+    },
+    "licensorId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "licenseeId": "012dab09-0e87-4ce7-a532-d0aee0849379",
+    "licenseType": "exclusive",
+    "price": 37450,
+    "duration": 10,
+    "scope": "中国大陆",
+    "nftTokenId": "NFT-161913",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x1b32df55da92c107242c940f9001873203b8a544963d3cce210341ee86e56608",
+      "blockHeight": 1590608
+    },
+    "createdAt": "2025-09-09T02:59:43.402Z",
+    "expiresAt": "2035-09-09T02:59:43.402Z"
+  },
+  {
+    "id": "9f44f68d-fa08-45be-b24b-9e27435594f7",
+    "assetId": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+    "asset": {
+      "id": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+      "certificateId": "CERT-20251106-979226",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.dwg",
+      "fileHash": "0x1024247087dddd19c620c54b67ea0ccdf1438206b301b2a6f511842fe0aea554",
+      "fileSize": 1536518,
+      "author": {
+        "name": "杨娜",
+        "idCard": "4403272522910",
+        "ca_cert": "CA-622755"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-16T02:59:43.397Z",
+        "tsa_signature": "0x7e0a44a2058c60fd3d93ae3c16114160c934ef80d88e0371029aadf3da966657"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2d80705aa6dd2e39ab5f45f03b29b7ca778ae5b7f95281b9754ade175e32bc05",
+        "blockHeight": 1556488,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+      "status": "registered",
+      "createdAt": "2025-09-16T02:59:43.397Z"
+    },
+    "licensorId": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+    "licenseeId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "licenseType": "non_exclusive",
+    "price": 44374,
+    "duration": 1,
+    "scope": "港澳台",
+    "nftTokenId": "NFT-289077",
+    "status": "revoked",
+    "blockchain": {
+      "txHash": "0x028d6f2c277733975973558967369514c2a29b550d79dbd11b1fab30e19bfa8a",
+      "blockHeight": 1595586
+    },
+    "createdAt": "2025-07-27T02:59:43.402Z",
+    "expiresAt": "2026-07-27T02:59:43.402Z"
+  },
+  {
+    "id": "882280d0-f3fd-4c88-b099-e1cdaab2b40f",
+    "assetId": "2a388238-8155-47a8-836b-816420a3979b",
+    "asset": {
+      "id": "2a388238-8155-47a8-836b-816420a3979b",
+      "certificateId": "CERT-20251106-866884",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x3dea6df39aa9de1de8478979a92d809aad96273ea73ded97f7d631dd87837b4e",
+      "fileSize": 42788145,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5104031214767",
+        "ca_cert": "CA-120828"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-04T02:59:43.398Z",
+        "tsa_signature": "0x216c78912908cf47614ecb31c3b67fed07b5255090405ed137d80f68f153bced"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x882c9b52f0d9ad67b5476dc1c204a182c179bcb43473f551fb68caf25100ee48",
+        "blockHeight": 1573803,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-04T02:59:43.398Z"
+    },
+    "licensorId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "licenseeId": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+    "licenseType": "exclusive",
+    "price": 22235,
+    "duration": 1,
+    "scope": "全球",
+    "nftTokenId": "NFT-235392",
+    "status": "listed",
+    "blockchain": {
+      "txHash": "0xdf92257f229292ec2395eb8e2e038222250977f667c15e4ddb3bb76801f9f818",
+      "blockHeight": 1530678
+    },
+    "createdAt": "2025-09-29T02:59:43.402Z",
+    "expiresAt": "2026-09-29T02:59:43.402Z"
+  },
+  {
+    "id": "a3c12ac4-ab71-4abd-93e4-70fc5a30836d",
+    "assetId": "8be00c59-2992-419c-9800-5f61665fd496",
+    "asset": {
+      "id": "8be00c59-2992-419c-9800-5f61665fd496",
+      "certificateId": "CERT-20251106-178178",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mov",
+      "fileHash": "0x5474c3ca064396ca6eba83ea85159b1465f155e06710109792939f518dc5921d",
+      "fileSize": 25515659,
+      "author": {
+        "name": "张军",
+        "idCard": "3109183171641",
+        "ca_cert": "CA-529024"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-07T02:59:43.397Z",
+        "tsa_signature": "0x0815cbc22631108fb03648813054540540842a7e2aa4c8857125cab271c616d3"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xd8699052930fcd7e86bde8a2c22f4919ded9b6c04e2de7aec9d07115b3798251",
+        "blockHeight": 1517650,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+      "status": "registered",
+      "createdAt": "2025-10-07T02:59:43.397Z"
+    },
+    "licensorId": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "licenseeId": "076c3fce-3670-4945-9d1e-0f63c0dc8103",
+    "licenseType": "exclusive",
+    "price": 18470,
+    "duration": 5,
+    "scope": "海外",
+    "nftTokenId": "NFT-910619",
+    "status": "expired",
+    "blockchain": {
+      "txHash": "0x3b94b35fa46733912af968db571953200fb1308db66a726199da869cb805255e",
+      "blockHeight": 1579437
+    },
+    "createdAt": "2025-08-18T02:59:43.402Z",
+    "expiresAt": "2030-08-18T02:59:43.402Z"
+  }
+]

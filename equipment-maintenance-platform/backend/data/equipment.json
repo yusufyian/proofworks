@@ -1,0 +1,4750 @@
+[
+  {
+    "id": "6525efef-55b5-4907-8574-60115566436f",
+    "equipmentNo": "数控-0001",
+    "name": "数控磨床-001",
+    "model": "CNC-T800",
+    "serialNumber": "SN710069",
+    "category": "数控机床",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2024-10-22T05:14:13.074Z",
+    "purchasePrice": 1108652,
+    "status": "repair",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "罗军"
+    },
+    "technicalParams": {
+      "power": 15,
+      "weight": 2807
+    },
+    "healthScore": 65,
+    "runtimeHours": 1220,
+    "workCycles": 33030,
+    "lastMaintenanceDate": "2025-09-22T05:14:13.074Z",
+    "qrCode": "EQUIP-1-1762406053074",
+    "createdAt": "2024-10-22T05:14:13.074Z",
+    "updatedAt": "2025-11-02T05:14:13.074Z",
+    "blockchainHash": "9f95e597ce57b270512153d8c0600a7c25c519d5110b166913c603180e7eaea1"
+  },
+  {
+    "id": "da25d423-d395-49a0-a262-541a6461e582",
+    "equipmentNo": "数控-0002",
+    "name": "数控磨床-002",
+    "model": "CNC-X600",
+    "serialNumber": "SN411899",
+    "category": "数控机床",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2024-02-20T05:14:13.074Z",
+    "purchasePrice": 1869225,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 43,
+      "weight": 4083
+    },
+    "healthScore": 64,
+    "runtimeHours": 7938,
+    "workCycles": 21274,
+    "lastMaintenanceDate": "2025-09-05T05:14:13.074Z",
+    "qrCode": "EQUIP-2-1762406053074",
+    "createdAt": "2024-02-20T05:14:13.074Z",
+    "updatedAt": "2025-11-05T05:14:13.074Z",
+    "blockchainHash": "adfd9d6a47cddcef18bf4fc5a776648cba88e9d7daf4e34bd0e0168a84d51747"
+  },
+  {
+    "id": "85f89f3c-0470-4a0a-91cc-c0fd48ecaa01",
+    "equipmentNo": "检测-0003",
+    "name": "光谱仪-003",
+    "model": "TEST-001",
+    "serialNumber": "SX917182",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-11-19T05:14:13.074Z",
+    "purchasePrice": 1093944,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 12,
+      "weight": 1015
+    },
+    "healthScore": 60,
+    "runtimeHours": 549,
+    "workCycles": 42321,
+    "lastMaintenanceDate": "2025-10-03T05:14:13.074Z",
+    "qrCode": "EQUIP-3-1762406053074",
+    "createdAt": "2023-11-19T05:14:13.074Z",
+    "updatedAt": "2025-10-30T05:14:13.074Z"
+  },
+  {
+    "id": "9f71148e-23f9-4f30-abd9-dfc0c0013875",
+    "equipmentNo": "检测-0004",
+    "name": "三坐标测量机-004",
+    "model": "TEST-001",
+    "serialNumber": "SN589513",
+    "category": "检测设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2022-08-17T05:14:13.074Z",
+    "purchasePrice": 349888,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "胡飞"
+    },
+    "technicalParams": {
+      "power": 13,
+      "weight": 1886
+    },
+    "healthScore": 78,
+    "runtimeHours": 1275,
+    "workCycles": 28498,
+    "lastMaintenanceDate": "2025-10-25T05:14:13.074Z",
+    "qrCode": "EQUIP-4-1762406053074",
+    "createdAt": "2022-08-17T05:14:13.074Z",
+    "updatedAt": "2025-11-06T05:14:13.074Z"
+  },
+  {
+    "id": "ac285ffc-390a-47a9-97eb-f14bf11239b2",
+    "equipmentNo": "数控-0005",
+    "name": "数控铣床-005",
+    "model": "CNC-M1000",
+    "serialNumber": "SR420878",
+    "category": "数控机床",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2024-12-20T05:14:13.074Z",
+    "purchasePrice": 1484185,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "徐华"
+    },
+    "technicalParams": {
+      "power": 11,
+      "weight": 1544
+    },
+    "healthScore": 69,
+    "runtimeHours": 1942,
+    "workCycles": 34149,
+    "lastMaintenanceDate": "2025-09-03T05:14:13.074Z",
+    "qrCode": "EQUIP-5-1762406053074",
+    "createdAt": "2024-12-20T05:14:13.074Z",
+    "updatedAt": "2025-10-31T05:14:13.074Z",
+    "blockchainHash": "d5c797cc81c3b3597eba0c07adb8fcb2ff9adbefbc8935c2826547fdf6856031"
+  },
+  {
+    "id": "78ebe9bd-7c1f-47bd-bf6c-08b2bad73684",
+    "equipmentNo": "焊接-0006",
+    "name": "二保焊机-006",
+    "model": "WELD-500A",
+    "serialNumber": "SN130842",
+    "category": "焊接设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-08-12T05:14:13.075Z",
+    "purchasePrice": 450357,
+    "status": "repair",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 4364
+    },
+    "healthScore": 82,
+    "runtimeHours": 4817,
+    "workCycles": 30574,
+    "lastMaintenanceDate": "2025-10-20T05:14:13.075Z",
+    "qrCode": "EQUIP-6-1762406053075",
+    "createdAt": "2023-08-12T05:14:13.075Z",
+    "updatedAt": "2025-11-04T05:14:13.075Z",
+    "blockchainHash": "cf7defa4d1385dfa9d9646cc82241ba381c25e1233d173cc7d4c779fd4b09a9d"
+  },
+  {
+    "id": "00490915-d425-4e8c-b4ad-0e8b65022e96",
+    "equipmentNo": "空压-0007",
+    "name": "储气罐-007",
+    "model": "AIR-75KW",
+    "serialNumber": "SX257213",
+    "category": "空压设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2021-05-20T05:14:13.075Z",
+    "purchasePrice": 595966,
+    "status": "maintenance",
+    "location": {
+      "workshop": "包装车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "徐鹏"
+    },
+    "technicalParams": {
+      "power": 39,
+      "weight": 1471
+    },
+    "healthScore": 86,
+    "runtimeHours": 5990,
+    "workCycles": 44566,
+    "lastMaintenanceDate": "2025-08-26T05:14:13.075Z",
+    "qrCode": "EQUIP-7-1762406053075",
+    "createdAt": "2021-05-20T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z",
+    "blockchainHash": "94a66b115122aea0307310ae44bd4a3c53caa86b19a5d5062feb9ba4a68c3c13"
+  },
+  {
+    "id": "53711010-9a55-42af-b0f3-5640af12406e",
+    "equipmentNo": "叉车-0008",
+    "name": "内燃叉车-008",
+    "model": "FORK-2T",
+    "serialNumber": "SX922995",
+    "category": "叉车",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2023-10-20T05:14:13.075Z",
+    "purchasePrice": 1463429,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 2547
+    },
+    "healthScore": 63,
+    "runtimeHours": 7206,
+    "workCycles": 26183,
+    "lastMaintenanceDate": "2025-09-04T05:14:13.075Z",
+    "qrCode": "EQUIP-8-1762406053075",
+    "createdAt": "2023-10-20T05:14:13.075Z",
+    "updatedAt": "2025-11-03T05:14:13.075Z",
+    "blockchainHash": "7a33052978861db9b2ac594c5c5624c7a16fdf0d515d027c81120ce09d63ad73"
+  },
+  {
+    "id": "c4d7b2b3-6313-4728-86c3-fcbe6f842734",
+    "equipmentNo": "焊接-0009",
+    "name": "氩弧焊机-009",
+    "model": "WELD-500A",
+    "serialNumber": "SN950749",
+    "category": "焊接设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2025-04-10T05:14:13.075Z",
+    "purchasePrice": 945115,
+    "status": "repair",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 25,
+      "weight": 2401
+    },
+    "healthScore": 63,
+    "runtimeHours": 2274,
+    "workCycles": 47824,
+    "lastMaintenanceDate": "2025-09-21T05:14:13.075Z",
+    "qrCode": "EQUIP-9-1762406053075",
+    "createdAt": "2025-04-10T05:14:13.075Z",
+    "updatedAt": "2025-10-31T05:14:13.075Z",
+    "blockchainHash": "a9b9ff7c2756f32f738ce766f6d10e1559cf504c31c1a7c917315d9e7a806577"
+  },
+  {
+    "id": "5712938f-548c-44f6-906a-5dc0712cdb8e",
+    "equipmentNo": "注塑-0010",
+    "name": "注塑机-010",
+    "model": "IM-200T",
+    "serialNumber": "SR625611",
+    "category": "注塑设备",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2023-04-26T05:14:13.075Z",
+    "purchasePrice": 165548,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "何华"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 1002
+    },
+    "healthScore": 97,
+    "runtimeHours": 2130,
+    "workCycles": 14914,
+    "lastMaintenanceDate": "2025-10-30T05:14:13.075Z",
+    "qrCode": "EQUIP-10-1762406053075",
+    "createdAt": "2023-04-26T05:14:13.075Z",
+    "updatedAt": "2025-10-30T05:14:13.075Z"
+  },
+  {
+    "id": "befcfd11-7c4f-4f49-949d-93ddef793f05",
+    "equipmentNo": "数控-0011",
+    "name": "加工中心-011",
+    "model": "CNC-X600",
+    "serialNumber": "SN425728",
+    "category": "数控机床",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2024-07-20T05:14:13.075Z",
+    "purchasePrice": 731202,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "徐鹏"
+    },
+    "technicalParams": {
+      "power": 19,
+      "weight": 874
+    },
+    "healthScore": 60,
+    "runtimeHours": 657,
+    "workCycles": 42692,
+    "lastMaintenanceDate": "2025-08-19T05:14:13.075Z",
+    "qrCode": "EQUIP-11-1762406053075",
+    "createdAt": "2024-07-20T05:14:13.075Z",
+    "updatedAt": "2025-10-30T05:14:13.075Z"
+  },
+  {
+    "id": "e705545d-6967-4e89-98ab-16794879024b",
+    "equipmentNo": "注塑-0012",
+    "name": "挤出机-012",
+    "model": "IM-200T",
+    "serialNumber": "SR111399",
+    "category": "注塑设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2023-05-11T05:14:13.075Z",
+    "purchasePrice": 1532822,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "徐强"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 576
+    },
+    "healthScore": 76,
+    "runtimeHours": 2758,
+    "workCycles": 36361,
+    "lastMaintenanceDate": "2025-09-24T05:14:13.075Z",
+    "qrCode": "EQUIP-12-1762406053075",
+    "createdAt": "2023-05-11T05:14:13.075Z",
+    "updatedAt": "2025-11-04T05:14:13.075Z",
+    "blockchainHash": "08f9c2275194d57497c653ff33aecbfd4f8894a3a91b031b4afee41c3d91c693"
+  },
+  {
+    "id": "c9c839f1-2209-49db-bd12-f84e7cdf74dc",
+    "equipmentNo": "空压-0013",
+    "name": "空压机-013",
+    "model": "AIR-75KW",
+    "serialNumber": "SR418750",
+    "category": "空压设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2022-04-21T05:14:13.075Z",
+    "purchasePrice": 1429968,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "郭华"
+    },
+    "technicalParams": {
+      "power": 33,
+      "weight": 3381
+    },
+    "healthScore": 69,
+    "runtimeHours": 4015,
+    "workCycles": 11303,
+    "lastMaintenanceDate": "2025-08-22T05:14:13.075Z",
+    "qrCode": "EQUIP-13-1762406053075",
+    "createdAt": "2022-04-21T05:14:13.075Z",
+    "updatedAt": "2025-11-01T05:14:13.075Z",
+    "blockchainHash": "29e551c36a6031ebf329a41da5030a8f7bea119227628601df07a3aeac27e6dd"
+  },
+  {
+    "id": "7ed1d333-fefe-47ca-a5e4-b2a38717c67e",
+    "equipmentNo": "注塑-0014",
+    "name": "注塑机-014",
+    "model": "IM-500T",
+    "serialNumber": "SX131862",
+    "category": "注塑设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2022-08-25T05:14:13.075Z",
+    "purchasePrice": 1467967,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "高静"
+    },
+    "technicalParams": {
+      "power": 23,
+      "weight": 3494
+    },
+    "healthScore": 73,
+    "runtimeHours": 4085,
+    "workCycles": 26499,
+    "lastMaintenanceDate": "2025-09-23T05:14:13.075Z",
+    "qrCode": "EQUIP-14-1762406053075",
+    "createdAt": "2022-08-25T05:14:13.075Z",
+    "updatedAt": "2025-11-04T05:14:13.075Z"
+  },
+  {
+    "id": "d5f8b0b7-b734-49fb-8f4f-620abccc4f1d",
+    "equipmentNo": "数控-0015",
+    "name": "数控磨床-015",
+    "model": "CNC-T800",
+    "serialNumber": "SN431609",
+    "category": "数控机床",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2025-08-30T05:14:13.075Z",
+    "purchasePrice": 1788652,
+    "status": "maintenance",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "林伟"
+    },
+    "technicalParams": {
+      "power": 38,
+      "weight": 1322
+    },
+    "healthScore": 89,
+    "runtimeHours": 4745,
+    "workCycles": 47491,
+    "lastMaintenanceDate": "2025-10-16T05:14:13.075Z",
+    "qrCode": "EQUIP-15-1762406053075",
+    "createdAt": "2025-08-30T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z"
+  },
+  {
+    "id": "fe3b235c-45c4-40c8-a900-a788b0fbc5f8",
+    "equipmentNo": "焊接-0016",
+    "name": "氩弧焊机-016",
+    "model": "WELD-500A",
+    "serialNumber": "SR383593",
+    "category": "焊接设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2022-08-24T05:14:13.075Z",
+    "purchasePrice": 106320,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "徐强"
+    },
+    "technicalParams": {
+      "power": 37,
+      "weight": 1352
+    },
+    "healthScore": 82,
+    "runtimeHours": 1597,
+    "workCycles": 48106,
+    "lastMaintenanceDate": "2025-10-17T05:14:13.075Z",
+    "qrCode": "EQUIP-16-1762406053075",
+    "createdAt": "2022-08-24T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z",
+    "blockchainHash": "06e5bd2b00ea444cbe56a27b66f5697cb61f047accf22ff25a8ea5ffc011608e"
+  },
+  {
+    "id": "f47da590-678f-4b0e-ad88-95cd836c34d1",
+    "equipmentNo": "数控-0017",
+    "name": "数控铣床-017",
+    "model": "CNC-X500",
+    "serialNumber": "SR478211",
+    "category": "数控机床",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2021-12-22T05:14:13.075Z",
+    "purchasePrice": 1021053,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 25,
+      "weight": 2150
+    },
+    "healthScore": 88,
+    "runtimeHours": 6138,
+    "workCycles": 14689,
+    "lastMaintenanceDate": "2025-09-04T05:14:13.075Z",
+    "qrCode": "EQUIP-17-1762406053075",
+    "createdAt": "2021-12-22T05:14:13.075Z",
+    "updatedAt": "2025-11-03T05:14:13.075Z",
+    "blockchainHash": "bb50eb5b27e1e9ba696bf6f23cfad9735cf875210c6a3e52a1bdfa0187ce7328"
+  },
+  {
+    "id": "0566cf44-c7fc-4119-99a2-26e78fa2c8e8",
+    "equipmentNo": "检测-0018",
+    "name": "硬度计-018",
+    "model": "TEST-001",
+    "serialNumber": "SN839625",
+    "category": "检测设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2025-02-12T05:14:13.075Z",
+    "purchasePrice": 1523088,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭超"
+    },
+    "technicalParams": {
+      "power": 50,
+      "weight": 3178
+    },
+    "healthScore": 62,
+    "runtimeHours": 7735,
+    "workCycles": 39109,
+    "lastMaintenanceDate": "2025-09-14T05:14:13.075Z",
+    "qrCode": "EQUIP-18-1762406053075",
+    "createdAt": "2025-02-12T05:14:13.075Z",
+    "updatedAt": "2025-11-01T05:14:13.075Z",
+    "blockchainHash": "d46b2179bd3789608fae904fb98cbbc16de7dacb9d9c3894cfe52f671009178a"
+  },
+  {
+    "id": "dbdbfd54-5978-4416-bd5f-cfb12d9f3b6c",
+    "equipmentNo": "焊接-0019",
+    "name": "焊接机器人-019",
+    "model": "WELD-300A",
+    "serialNumber": "SN819353",
+    "category": "焊接设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2022-08-23T05:14:13.075Z",
+    "purchasePrice": 1051675,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李静"
+    },
+    "technicalParams": {
+      "power": 17,
+      "weight": 564
+    },
+    "healthScore": 83,
+    "runtimeHours": 1573,
+    "workCycles": 8787,
+    "lastMaintenanceDate": "2025-09-30T05:14:13.075Z",
+    "qrCode": "EQUIP-19-1762406053075",
+    "createdAt": "2022-08-23T05:14:13.075Z",
+    "updatedAt": "2025-10-30T05:14:13.075Z"
+  },
+  {
+    "id": "f478443d-0fda-4458-a081-58ff3c160026",
+    "equipmentNo": "空压-0020",
+    "name": "冷干机-020",
+    "model": "AIR-75KW",
+    "serialNumber": "SN420762",
+    "category": "空压设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-02-22T05:14:13.075Z",
+    "purchasePrice": 1846243,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "徐丽"
+    },
+    "technicalParams": {
+      "power": 91,
+      "weight": 2895
+    },
+    "healthScore": 73,
+    "runtimeHours": 4326,
+    "workCycles": 20029,
+    "lastMaintenanceDate": "2025-10-12T05:14:13.075Z",
+    "qrCode": "EQUIP-20-1762406053075",
+    "createdAt": "2023-02-22T05:14:13.075Z",
+    "updatedAt": "2025-11-01T05:14:13.075Z",
+    "blockchainHash": "1685553d6c4f5802b929eb6468a9722691b50d95c1d9ada9d2e7e058611e0b06"
+  },
+  {
+    "id": "3c08dab4-3e64-4b4a-bde2-d45c836603cd",
+    "equipmentNo": "数控-0021",
+    "name": "加工中心-021",
+    "model": "CNC-T800",
+    "serialNumber": "SN859940",
+    "category": "数控机床",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2025-08-06T05:14:13.075Z",
+    "purchasePrice": 1524977,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "杨飞"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 1433
+    },
+    "healthScore": 86,
+    "runtimeHours": 865,
+    "workCycles": 6102,
+    "lastMaintenanceDate": "2025-09-30T05:14:13.075Z",
+    "qrCode": "EQUIP-21-1762406053075",
+    "createdAt": "2025-08-06T05:14:13.075Z",
+    "updatedAt": "2025-10-31T05:14:13.075Z",
+    "blockchainHash": "9b11175e749beb0efeb0acde284e8d77cb53aa899c8cc44b97328c044d4e45ae"
+  },
+  {
+    "id": "51100b60-42d1-4910-985f-1d6d387b4d93",
+    "equipmentNo": "注塑-0022",
+    "name": "注塑机-022",
+    "model": "IM-200T",
+    "serialNumber": "SN392330",
+    "category": "注塑设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2024-06-15T05:14:13.075Z",
+    "purchasePrice": 517031,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "李华"
+    },
+    "technicalParams": {
+      "power": 5,
+      "weight": 4444
+    },
+    "healthScore": 91,
+    "runtimeHours": 2166,
+    "workCycles": 19818,
+    "lastMaintenanceDate": "2025-08-26T05:14:13.075Z",
+    "qrCode": "EQUIP-22-1762406053075",
+    "createdAt": "2024-06-15T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z",
+    "blockchainHash": "6f5fca8e88b7c96ea229388c4a576b382047f747f6e006f82500e0e29c52b9ee"
+  },
+  {
+    "id": "205a485d-94fa-4ad8-b7c6-f26e9d777393",
+    "equipmentNo": "叉车-0023",
+    "name": "内燃叉车-023",
+    "model": "FORK-3T",
+    "serialNumber": "SR296405",
+    "category": "叉车",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2022-08-09T05:14:13.075Z",
+    "purchasePrice": 1106008,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "朱杰"
+    },
+    "technicalParams": {
+      "power": 36,
+      "weight": 4959
+    },
+    "healthScore": 93,
+    "runtimeHours": 7055,
+    "workCycles": 31612,
+    "lastMaintenanceDate": "2025-09-02T05:14:13.075Z",
+    "qrCode": "EQUIP-23-1762406053075",
+    "createdAt": "2022-08-09T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z"
+  },
+  {
+    "id": "36113971-171c-4379-9919-a29864901982",
+    "equipmentNo": "数控-0024",
+    "name": "数控车床-024",
+    "model": "CNC-X600",
+    "serialNumber": "SX855623",
+    "category": "数控机床",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-05-29T05:14:13.075Z",
+    "purchasePrice": 1087061,
+    "status": "maintenance",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "周勇"
+    },
+    "technicalParams": {
+      "power": 43,
+      "weight": 4458
+    },
+    "healthScore": 90,
+    "runtimeHours": 7427,
+    "workCycles": 43903,
+    "lastMaintenanceDate": "2025-09-25T05:14:13.075Z",
+    "qrCode": "EQUIP-24-1762406053075",
+    "createdAt": "2023-05-29T05:14:13.075Z",
+    "updatedAt": "2025-11-04T05:14:13.075Z",
+    "blockchainHash": "f467007ccace546ad42d3ff286da65a48c9f226645e575f69632a4d27d8bd2b9"
+  },
+  {
+    "id": "60e2f16c-e1e9-41bc-9417-182b399ad4b9",
+    "equipmentNo": "数控-0025",
+    "name": "数控铣床-025",
+    "model": "CNC-X600",
+    "serialNumber": "SX331112",
+    "category": "数控机床",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2022-04-22T05:14:13.075Z",
+    "purchasePrice": 1676452,
+    "status": "repair",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "徐丽"
+    },
+    "technicalParams": {
+      "power": 49,
+      "weight": 537
+    },
+    "healthScore": 62,
+    "runtimeHours": 2315,
+    "workCycles": 20816,
+    "lastMaintenanceDate": "2025-08-10T05:14:13.075Z",
+    "qrCode": "EQUIP-25-1762406053075",
+    "createdAt": "2022-04-22T05:14:13.075Z",
+    "updatedAt": "2025-10-31T05:14:13.075Z",
+    "blockchainHash": "3ed4ca4b8df606e0c6cfdeaf97dfe477130a579969b1660fe0c3c91e592ce7e2"
+  },
+  {
+    "id": "03525c9c-b2e3-4336-beb2-f56edd268ac0",
+    "equipmentNo": "检测-0026",
+    "name": "光谱仪-026",
+    "model": "TEST-003",
+    "serialNumber": "SX928420",
+    "category": "检测设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2022-07-25T05:14:13.075Z",
+    "purchasePrice": 1691183,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "周华"
+    },
+    "technicalParams": {
+      "power": 13,
+      "weight": 2882
+    },
+    "healthScore": 84,
+    "runtimeHours": 6276,
+    "workCycles": 38669,
+    "lastMaintenanceDate": "2025-09-30T05:14:13.075Z",
+    "qrCode": "EQUIP-26-1762406053075",
+    "createdAt": "2022-07-25T05:14:13.075Z",
+    "updatedAt": "2025-10-30T05:14:13.075Z",
+    "blockchainHash": "d4463ba088d3ed716231a6a29e3f34a697c51b9b5ceab0f231d2b0e0a831981f"
+  },
+  {
+    "id": "ed3651ec-ad00-446e-8a60-d768ef2aaa82",
+    "equipmentNo": "空压-0027",
+    "name": "冷干机-027",
+    "model": "AIR-55KW",
+    "serialNumber": "SN242582",
+    "category": "空压设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2021-02-10T05:14:13.075Z",
+    "purchasePrice": 1571309,
+    "status": "repair",
+    "location": {
+      "workshop": "装配车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "郭超"
+    },
+    "technicalParams": {
+      "power": 86,
+      "weight": 2356
+    },
+    "healthScore": 75,
+    "runtimeHours": 7700,
+    "workCycles": 16795,
+    "lastMaintenanceDate": "2025-10-03T05:14:13.075Z",
+    "qrCode": "EQUIP-27-1762406053075",
+    "createdAt": "2021-02-10T05:14:13.075Z",
+    "updatedAt": "2025-11-06T05:14:13.075Z",
+    "blockchainHash": "21aacaa0f84ebf424a18668589aaa04fc91943d81bd6e3fae3f0aeaa4c695b18"
+  },
+  {
+    "id": "364daf24-3747-4be6-8fae-8f57993560ff",
+    "equipmentNo": "检测-0028",
+    "name": "硬度计-028",
+    "model": "TEST-003",
+    "serialNumber": "SR260326",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-01-08T05:14:13.075Z",
+    "purchasePrice": 1581901,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "黄勇"
+    },
+    "technicalParams": {
+      "power": 8,
+      "weight": 2035
+    },
+    "healthScore": 87,
+    "runtimeHours": 3438,
+    "workCycles": 32608,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.075Z",
+    "qrCode": "EQUIP-28-1762406053075",
+    "createdAt": "2023-01-08T05:14:13.075Z",
+    "updatedAt": "2025-11-01T05:14:13.075Z",
+    "blockchainHash": "0ccce4e2c03fece0f3cd8b5aea820c1ec85950b7cd37bf69167457a83920eff1"
+  },
+  {
+    "id": "0757c1f2-a49b-4808-b9db-3463392c8d7e",
+    "equipmentNo": "焊接-0029",
+    "name": "焊接机器人-029",
+    "model": "WELD-300A",
+    "serialNumber": "SX967192",
+    "category": "焊接设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2024-04-24T05:14:13.075Z",
+    "purchasePrice": 1741168,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 2383
+    },
+    "healthScore": 60,
+    "runtimeHours": 6186,
+    "workCycles": 29420,
+    "lastMaintenanceDate": "2025-10-29T05:14:13.075Z",
+    "qrCode": "EQUIP-29-1762406053075",
+    "createdAt": "2024-04-24T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z",
+    "blockchainHash": "753a73ea11dde0866370f885998c4918626ee7076a44f66a99b808d43b0f083e"
+  },
+  {
+    "id": "eb644cb2-4f23-4d9e-9c55-6c132de52471",
+    "equipmentNo": "检测-0030",
+    "name": "硬度计-030",
+    "model": "TEST-001",
+    "serialNumber": "SN794108",
+    "category": "检测设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2020-12-16T05:14:13.075Z",
+    "purchasePrice": 1138125,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "刘杰"
+    },
+    "technicalParams": {
+      "power": 38,
+      "weight": 1054
+    },
+    "healthScore": 61,
+    "runtimeHours": 4941,
+    "workCycles": 2741,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.075Z",
+    "qrCode": "EQUIP-30-1762406053075",
+    "createdAt": "2020-12-16T05:14:13.075Z",
+    "updatedAt": "2025-11-05T05:14:13.075Z",
+    "blockchainHash": "dcd6f101d22425c4ece5a0ad4614dae12a3a0ce3c91f53ebdf2a60a5f86b5cee"
+  },
+  {
+    "id": "a1cbdad6-0fd8-4656-8b96-b6f7b0dea045",
+    "equipmentNo": "注塑-0031",
+    "name": "注塑机-031",
+    "model": "IM-350T",
+    "serialNumber": "SR327686",
+    "category": "注塑设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2023-10-26T05:14:13.075Z",
+    "purchasePrice": 1040814,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "周华"
+    },
+    "technicalParams": {
+      "power": 19,
+      "weight": 713
+    },
+    "healthScore": 95,
+    "runtimeHours": 3046,
+    "workCycles": 42315,
+    "lastMaintenanceDate": "2025-09-28T05:14:13.075Z",
+    "qrCode": "EQUIP-31-1762406053075",
+    "createdAt": "2023-10-26T05:14:13.075Z",
+    "updatedAt": "2025-11-02T05:14:13.075Z",
+    "blockchainHash": "cf53fc35f334dc391bebf7b6fd74b8de068e83360cc05d94933c3236746c9728"
+  },
+  {
+    "id": "8aa4f85c-fde0-4ecf-ba2d-936c2a3c7e00",
+    "equipmentNo": "空压-0032",
+    "name": "冷干机-032",
+    "model": "AIR-75KW",
+    "serialNumber": "SR938961",
+    "category": "空压设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2024-03-07T05:14:13.075Z",
+    "purchasePrice": 1663801,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "徐强"
+    },
+    "technicalParams": {
+      "power": 53,
+      "weight": 4825
+    },
+    "healthScore": 69,
+    "runtimeHours": 6836,
+    "workCycles": 12694,
+    "lastMaintenanceDate": "2025-10-03T05:14:13.075Z",
+    "qrCode": "EQUIP-32-1762406053075",
+    "createdAt": "2024-03-07T05:14:13.075Z",
+    "updatedAt": "2025-11-02T05:14:13.075Z"
+  },
+  {
+    "id": "7f49d0ec-3a2b-4478-b001-45d5648a75e9",
+    "equipmentNo": "焊接-0033",
+    "name": "二保焊机-033",
+    "model": "WELD-500A",
+    "serialNumber": "SN451733",
+    "category": "焊接设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2021-06-15T05:14:13.076Z",
+    "purchasePrice": 1024957,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "林伟"
+    },
+    "technicalParams": {
+      "power": 7,
+      "weight": 2453
+    },
+    "healthScore": 62,
+    "runtimeHours": 3674,
+    "workCycles": 24233,
+    "lastMaintenanceDate": "2025-08-19T05:14:13.076Z",
+    "qrCode": "EQUIP-33-1762406053076",
+    "createdAt": "2021-06-15T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "985052df508810b44eb4371d3e45feb63d2dae34a67875b2879dd09accb1a092"
+  },
+  {
+    "id": "18106375-e8fb-4c5a-8421-154b29de1938",
+    "equipmentNo": "检测-0034",
+    "name": "光谱仪-034",
+    "model": "TEST-003",
+    "serialNumber": "SX555384",
+    "category": "检测设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2025-06-19T05:14:13.076Z",
+    "purchasePrice": 833272,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "朱超"
+    },
+    "technicalParams": {
+      "power": 18,
+      "weight": 3524
+    },
+    "healthScore": 88,
+    "runtimeHours": 7571,
+    "workCycles": 40943,
+    "lastMaintenanceDate": "2025-11-02T05:14:13.076Z",
+    "qrCode": "EQUIP-34-1762406053076",
+    "createdAt": "2025-06-19T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "47990865f895f6afa1a63161c87a28151d3d227057ee763270e575cc67339901"
+  },
+  {
+    "id": "9a9ed5ce-fcc0-4ec8-94cc-e91f93e64574",
+    "equipmentNo": "检测-0035",
+    "name": "硬度计-035",
+    "model": "TEST-002",
+    "serialNumber": "SN515392",
+    "category": "检测设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2022-07-31T05:14:13.076Z",
+    "purchasePrice": 1664321,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "孙军"
+    },
+    "technicalParams": {
+      "power": 32,
+      "weight": 1280
+    },
+    "healthScore": 67,
+    "runtimeHours": 7875,
+    "workCycles": 20965,
+    "lastMaintenanceDate": "2025-09-07T05:14:13.076Z",
+    "qrCode": "EQUIP-35-1762406053076",
+    "createdAt": "2022-07-31T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "f3fc6838-89ed-4761-a39c-bd88cc8d6715",
+    "equipmentNo": "空压-0036",
+    "name": "冷干机-036",
+    "model": "AIR-55KW",
+    "serialNumber": "SX508618",
+    "category": "空压设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2022-06-30T05:14:13.076Z",
+    "purchasePrice": 1381227,
+    "status": "repair",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "徐丽"
+    },
+    "technicalParams": {
+      "power": 94,
+      "weight": 4708
+    },
+    "healthScore": 78,
+    "runtimeHours": 741,
+    "workCycles": 22481,
+    "lastMaintenanceDate": "2025-10-10T05:14:13.076Z",
+    "qrCode": "EQUIP-36-1762406053076",
+    "createdAt": "2022-06-30T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "39ee785f28a1e3d3ab7d9e4f9689b01489247fc6c6e08dbde965e8cfe6919b8d"
+  },
+  {
+    "id": "ed453df7-7692-4c12-a303-a7cf56007f9d",
+    "equipmentNo": "叉车-0037",
+    "name": "电动叉车-037",
+    "model": "FORK-2T",
+    "serialNumber": "SR828464",
+    "category": "叉车",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2024-09-28T05:14:13.076Z",
+    "purchasePrice": 1042559,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "罗军"
+    },
+    "technicalParams": {
+      "power": 34,
+      "weight": 4314
+    },
+    "healthScore": 73,
+    "runtimeHours": 7255,
+    "workCycles": 24439,
+    "lastMaintenanceDate": "2025-08-27T05:14:13.076Z",
+    "qrCode": "EQUIP-37-1762406053076",
+    "createdAt": "2024-09-28T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "a13ba9459930f1f4d63804bb78e48f60cc3783cf8435b1b44b8d7c7711ca7a69"
+  },
+  {
+    "id": "1a2f13c4-f32f-4ca1-84ac-2d34dde9ebda",
+    "equipmentNo": "叉车-0038",
+    "name": "仓储叉车-038",
+    "model": "FORK-2T",
+    "serialNumber": "SR967677",
+    "category": "叉车",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2023-04-09T05:14:13.076Z",
+    "purchasePrice": 74977,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "刘杰"
+    },
+    "technicalParams": {
+      "power": 19,
+      "weight": 2355
+    },
+    "healthScore": 90,
+    "runtimeHours": 1906,
+    "workCycles": 18303,
+    "lastMaintenanceDate": "2025-10-11T05:14:13.076Z",
+    "qrCode": "EQUIP-38-1762406053076",
+    "createdAt": "2023-04-09T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "33be0cfd2c3508fad97da49f48d2f78847cb257b2db37c4eb66b0eb219cbc793"
+  },
+  {
+    "id": "b50c4819-36e9-4e8b-8a86-38983bef7de6",
+    "equipmentNo": "数控-0039",
+    "name": "数控磨床-039",
+    "model": "CNC-M1000",
+    "serialNumber": "SN982114",
+    "category": "数控机床",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-03-18T05:14:13.076Z",
+    "purchasePrice": 1280588,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 20,
+      "weight": 1195
+    },
+    "healthScore": 65,
+    "runtimeHours": 948,
+    "workCycles": 19568,
+    "lastMaintenanceDate": "2025-08-11T05:14:13.076Z",
+    "qrCode": "EQUIP-39-1762406053076",
+    "createdAt": "2023-03-18T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "4eaddf6eca08730b8f5175b51c77839e56d846ab9ca709da68c15cd50ef41102"
+  },
+  {
+    "id": "376a26a9-f582-47ff-b325-2eae5f1d5230",
+    "equipmentNo": "检测-0040",
+    "name": "三坐标测量机-040",
+    "model": "TEST-001",
+    "serialNumber": "SR203702",
+    "category": "检测设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2021-11-11T05:14:13.076Z",
+    "purchasePrice": 1005553,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 12,
+      "weight": 2847
+    },
+    "healthScore": 89,
+    "runtimeHours": 2905,
+    "workCycles": 37738,
+    "lastMaintenanceDate": "2025-09-14T05:14:13.076Z",
+    "qrCode": "EQUIP-40-1762406053076",
+    "createdAt": "2021-11-11T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "7276ab39-6105-4569-bf20-7af4a15e5276",
+    "equipmentNo": "注塑-0041",
+    "name": "吹塑机-041",
+    "model": "IM-200T",
+    "serialNumber": "SX430420",
+    "category": "注塑设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2024-03-27T05:14:13.076Z",
+    "purchasePrice": 1336338,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "胡敏"
+    },
+    "technicalParams": {
+      "power": 36,
+      "weight": 1069
+    },
+    "healthScore": 80,
+    "runtimeHours": 2817,
+    "workCycles": 30646,
+    "lastMaintenanceDate": "2025-09-24T05:14:13.076Z",
+    "qrCode": "EQUIP-41-1762406053076",
+    "createdAt": "2024-03-27T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z"
+  },
+  {
+    "id": "46e6ad00-27a1-4884-9299-8f4d65bc5890",
+    "equipmentNo": "数控-0042",
+    "name": "加工中心-042",
+    "model": "CNC-T800",
+    "serialNumber": "SN713141",
+    "category": "数控机床",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2025-09-10T05:14:13.076Z",
+    "purchasePrice": 1692561,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "何华"
+    },
+    "technicalParams": {
+      "power": 14,
+      "weight": 579
+    },
+    "healthScore": 64,
+    "runtimeHours": 5708,
+    "workCycles": 9609,
+    "lastMaintenanceDate": "2025-08-28T05:14:13.076Z",
+    "qrCode": "EQUIP-42-1762406053076",
+    "createdAt": "2025-09-10T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z"
+  },
+  {
+    "id": "89a4ada8-a5c2-4eaa-986b-a078bf504113",
+    "equipmentNo": "数控-0043",
+    "name": "加工中心-043",
+    "model": "CNC-M1000",
+    "serialNumber": "SN171343",
+    "category": "数控机床",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2022-10-18T05:14:13.076Z",
+    "purchasePrice": 1137551,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "张华"
+    },
+    "technicalParams": {
+      "power": 42,
+      "weight": 1490
+    },
+    "healthScore": 90,
+    "runtimeHours": 5767,
+    "workCycles": 24154,
+    "lastMaintenanceDate": "2025-10-15T05:14:13.076Z",
+    "qrCode": "EQUIP-43-1762406053076",
+    "createdAt": "2022-10-18T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z"
+  },
+  {
+    "id": "b3ee7df9-e5de-47f7-9ef3-e9a66ab32e96",
+    "equipmentNo": "焊接-0044",
+    "name": "二保焊机-044",
+    "model": "WELD-300A",
+    "serialNumber": "SN244667",
+    "category": "焊接设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2021-06-01T05:14:13.076Z",
+    "purchasePrice": 827120,
+    "status": "maintenance",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "胡敏"
+    },
+    "technicalParams": {
+      "power": 5,
+      "weight": 4762
+    },
+    "healthScore": 71,
+    "runtimeHours": 2955,
+    "workCycles": 4113,
+    "lastMaintenanceDate": "2025-09-26T05:14:13.076Z",
+    "qrCode": "EQUIP-44-1762406053076",
+    "createdAt": "2021-06-01T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z"
+  },
+  {
+    "id": "87b59632-6d8c-4723-b149-0d29fff6d62f",
+    "equipmentNo": "检测-0045",
+    "name": "三坐标测量机-045",
+    "model": "TEST-003",
+    "serialNumber": "SX154017",
+    "category": "检测设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2025-01-31T05:14:13.076Z",
+    "purchasePrice": 118031,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 39,
+      "weight": 535
+    },
+    "healthScore": 83,
+    "runtimeHours": 3215,
+    "workCycles": 20435,
+    "lastMaintenanceDate": "2025-08-24T05:14:13.076Z",
+    "qrCode": "EQUIP-45-1762406053076",
+    "createdAt": "2025-01-31T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "746a67d1261a9c638e6e3b5d471b76a007a347e27023d9f99dedb80f64bfc190"
+  },
+  {
+    "id": "85ce94f9-ae3c-478e-ad5b-8f734232bdba",
+    "equipmentNo": "检测-0046",
+    "name": "三坐标测量机-046",
+    "model": "TEST-001",
+    "serialNumber": "SR618356",
+    "category": "检测设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2025-05-04T05:14:13.076Z",
+    "purchasePrice": 1484556,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 17,
+      "weight": 2128
+    },
+    "healthScore": 92,
+    "runtimeHours": 3458,
+    "workCycles": 19003,
+    "lastMaintenanceDate": "2025-08-31T05:14:13.076Z",
+    "qrCode": "EQUIP-46-1762406053076",
+    "createdAt": "2025-05-04T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "073ede1d-5a6b-4ac4-ba8e-a0656d0fe594",
+    "equipmentNo": "焊接-0047",
+    "name": "二保焊机-047",
+    "model": "WELD-400A",
+    "serialNumber": "SR602409",
+    "category": "焊接设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2024-04-26T05:14:13.076Z",
+    "purchasePrice": 1143778,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 686
+    },
+    "healthScore": 76,
+    "runtimeHours": 6836,
+    "workCycles": 1416,
+    "lastMaintenanceDate": "2025-08-08T05:14:13.076Z",
+    "qrCode": "EQUIP-47-1762406053076",
+    "createdAt": "2024-04-26T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z"
+  },
+  {
+    "id": "5d72c91a-de73-41dd-9647-932e0e4fc04b",
+    "equipmentNo": "空压-0048",
+    "name": "空压机-048",
+    "model": "AIR-55KW",
+    "serialNumber": "SR587013",
+    "category": "空压设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2023-06-14T05:14:13.076Z",
+    "purchasePrice": 265481,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李飞"
+    },
+    "technicalParams": {
+      "power": 64,
+      "weight": 3918
+    },
+    "healthScore": 81,
+    "runtimeHours": 7008,
+    "workCycles": 7950,
+    "lastMaintenanceDate": "2025-10-04T05:14:13.076Z",
+    "qrCode": "EQUIP-48-1762406053076",
+    "createdAt": "2023-06-14T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "af63c775fc022ddddbf3114b36712c62ce9cbbed9c9ddbe8b4db1fd94c0badc9"
+  },
+  {
+    "id": "636b7c17-3c41-4430-835d-1a1f1e244912",
+    "equipmentNo": "数控-0049",
+    "name": "数控磨床-049",
+    "model": "CNC-M1000",
+    "serialNumber": "SN386060",
+    "category": "数控机床",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2024-06-06T05:14:13.076Z",
+    "purchasePrice": 1202605,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 4460
+    },
+    "healthScore": 88,
+    "runtimeHours": 1601,
+    "workCycles": 31840,
+    "lastMaintenanceDate": "2025-10-04T05:14:13.076Z",
+    "qrCode": "EQUIP-49-1762406053076",
+    "createdAt": "2024-06-06T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "618cd369220852c1e42b48c4028c949bbbad14f1d1ed9c2962f01e70389a4078"
+  },
+  {
+    "id": "741f201a-5b0e-4625-8c64-798224b90ab9",
+    "equipmentNo": "检测-0050",
+    "name": "硬度计-050",
+    "model": "TEST-001",
+    "serialNumber": "SR914557",
+    "category": "检测设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2025-09-12T05:14:13.076Z",
+    "purchasePrice": 1446273,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 9,
+      "weight": 999
+    },
+    "healthScore": 71,
+    "runtimeHours": 1131,
+    "workCycles": 12148,
+    "lastMaintenanceDate": "2025-10-16T05:14:13.076Z",
+    "qrCode": "EQUIP-50-1762406053076",
+    "createdAt": "2025-09-12T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z"
+  },
+  {
+    "id": "032d287c-2e2f-4b76-9e89-f214969c1538",
+    "equipmentNo": "注塑-0051",
+    "name": "吹塑机-051",
+    "model": "IM-350T",
+    "serialNumber": "SN963923",
+    "category": "注塑设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2023-12-03T05:14:13.076Z",
+    "purchasePrice": 1602149,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "罗军"
+    },
+    "technicalParams": {
+      "power": 20,
+      "weight": 3135
+    },
+    "healthScore": 90,
+    "runtimeHours": 5064,
+    "workCycles": 34685,
+    "lastMaintenanceDate": "2025-08-28T05:14:13.076Z",
+    "qrCode": "EQUIP-51-1762406053076",
+    "createdAt": "2023-12-03T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "e5cd954c-6d0d-44ef-8cf8-4c28756802ed",
+    "equipmentNo": "叉车-0052",
+    "name": "内燃叉车-052",
+    "model": "FORK-5T",
+    "serialNumber": "SX299549",
+    "category": "叉车",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2021-10-08T05:14:13.076Z",
+    "purchasePrice": 1758293,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "朱杰"
+    },
+    "technicalParams": {
+      "power": 12,
+      "weight": 4343
+    },
+    "healthScore": 98,
+    "runtimeHours": 3459,
+    "workCycles": 48755,
+    "lastMaintenanceDate": "2025-09-29T05:14:13.076Z",
+    "qrCode": "EQUIP-52-1762406053076",
+    "createdAt": "2021-10-08T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z"
+  },
+  {
+    "id": "59d73d7e-d7e9-4957-8b3f-6aa9aacb83fd",
+    "equipmentNo": "注塑-0053",
+    "name": "吹塑机-053",
+    "model": "IM-350T",
+    "serialNumber": "SR173006",
+    "category": "注塑设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2021-01-20T05:14:13.076Z",
+    "purchasePrice": 1856197,
+    "status": "maintenance",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "王勇"
+    },
+    "technicalParams": {
+      "power": 26,
+      "weight": 2515
+    },
+    "healthScore": 65,
+    "runtimeHours": 7411,
+    "workCycles": 48790,
+    "lastMaintenanceDate": "2025-10-29T05:14:13.076Z",
+    "qrCode": "EQUIP-53-1762406053076",
+    "createdAt": "2021-01-20T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "7a5d7523-d794-48e3-9d65-87af735b8766",
+    "equipmentNo": "空压-0054",
+    "name": "储气罐-054",
+    "model": "AIR-75KW",
+    "serialNumber": "SR141866",
+    "category": "空压设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2024-05-22T05:14:13.076Z",
+    "purchasePrice": 180407,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 34,
+      "weight": 3354
+    },
+    "healthScore": 93,
+    "runtimeHours": 4662,
+    "workCycles": 43164,
+    "lastMaintenanceDate": "2025-08-08T05:14:13.076Z",
+    "qrCode": "EQUIP-54-1762406053076",
+    "createdAt": "2024-05-22T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z"
+  },
+  {
+    "id": "34874042-8fc7-4a84-a1d2-4c9e4569fec6",
+    "equipmentNo": "检测-0055",
+    "name": "硬度计-055",
+    "model": "TEST-002",
+    "serialNumber": "SR290637",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-05-31T05:14:13.076Z",
+    "purchasePrice": 589393,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "罗明"
+    },
+    "technicalParams": {
+      "power": 7,
+      "weight": 4415
+    },
+    "healthScore": 79,
+    "runtimeHours": 2030,
+    "workCycles": 49947,
+    "lastMaintenanceDate": "2025-09-28T05:14:13.076Z",
+    "qrCode": "EQUIP-55-1762406053076",
+    "createdAt": "2023-05-31T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z"
+  },
+  {
+    "id": "c9f75e07-4e81-4e91-bf53-101400c86dd0",
+    "equipmentNo": "空压-0056",
+    "name": "储气罐-056",
+    "model": "AIR-37KW",
+    "serialNumber": "SR127919",
+    "category": "空压设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2023-05-26T05:14:13.076Z",
+    "purchasePrice": 1164261,
+    "status": "maintenance",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "朱超"
+    },
+    "technicalParams": {
+      "power": 64,
+      "weight": 3401
+    },
+    "healthScore": 77,
+    "runtimeHours": 3100,
+    "workCycles": 12557,
+    "lastMaintenanceDate": "2025-10-12T05:14:13.076Z",
+    "qrCode": "EQUIP-56-1762406053076",
+    "createdAt": "2023-05-26T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "f30f6b38801f9463e94a35ccf70a7352dfee8b3a08e03b49d3683bbbdc30c2cc"
+  },
+  {
+    "id": "95fa462f-3193-4b1c-aa4a-7912572c66e0",
+    "equipmentNo": "检测-0057",
+    "name": "三坐标测量机-057",
+    "model": "TEST-002",
+    "serialNumber": "SR903888",
+    "category": "检测设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2022-01-30T05:14:13.076Z",
+    "purchasePrice": 1749138,
+    "status": "repair",
+    "location": {
+      "workshop": "装配车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "黄勇"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 1010
+    },
+    "healthScore": 98,
+    "runtimeHours": 6089,
+    "workCycles": 16672,
+    "lastMaintenanceDate": "2025-08-25T05:14:13.076Z",
+    "qrCode": "EQUIP-57-1762406053076",
+    "createdAt": "2022-01-30T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "70ad74a1524bbe643afd037511edce7f1fd1e608e114ac4567adceeea55ee3be"
+  },
+  {
+    "id": "a1eaaa49-5c82-41ba-ac0a-021d0c07eb01",
+    "equipmentNo": "空压-0058",
+    "name": "储气罐-058",
+    "model": "AIR-75KW",
+    "serialNumber": "SN649866",
+    "category": "空压设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2024-06-07T05:14:13.076Z",
+    "purchasePrice": 445867,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 57,
+      "weight": 1626
+    },
+    "healthScore": 78,
+    "runtimeHours": 2691,
+    "workCycles": 47255,
+    "lastMaintenanceDate": "2025-08-22T05:14:13.076Z",
+    "qrCode": "EQUIP-58-1762406053076",
+    "createdAt": "2024-06-07T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "82b3d1e0b56d87e14ab6f50f5841541901ebfa269f11b472a68f33091a8257be"
+  },
+  {
+    "id": "1984d8b3-96d2-44ff-90a3-ae8d8d7d68de",
+    "equipmentNo": "叉车-0059",
+    "name": "仓储叉车-059",
+    "model": "FORK-2T",
+    "serialNumber": "SR235562",
+    "category": "叉车",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2024-06-27T05:14:13.076Z",
+    "purchasePrice": 1688857,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "徐娜"
+    },
+    "technicalParams": {
+      "power": 40,
+      "weight": 1777
+    },
+    "healthScore": 87,
+    "runtimeHours": 5615,
+    "workCycles": 43207,
+    "lastMaintenanceDate": "2025-08-16T05:14:13.076Z",
+    "qrCode": "EQUIP-59-1762406053076",
+    "createdAt": "2024-06-27T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "d18f566d-18fa-4724-acec-7c3698daa4b8",
+    "equipmentNo": "注塑-0060",
+    "name": "注塑机-060",
+    "model": "IM-200T",
+    "serialNumber": "SX160355",
+    "category": "注塑设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2022-11-07T05:14:13.076Z",
+    "purchasePrice": 186832,
+    "status": "repair",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "杨强"
+    },
+    "technicalParams": {
+      "power": 23,
+      "weight": 761
+    },
+    "healthScore": 97,
+    "runtimeHours": 5191,
+    "workCycles": 5228,
+    "lastMaintenanceDate": "2025-08-29T05:14:13.076Z",
+    "qrCode": "EQUIP-60-1762406053076",
+    "createdAt": "2022-11-07T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z",
+    "blockchainHash": "2c6b321fc2fa5fbca0458435c055607471c4ceb30b8ca4e7de7718f9217fb9b7"
+  },
+  {
+    "id": "d9602eb1-6f8c-407d-960d-852bbf0cfa5d",
+    "equipmentNo": "叉车-0061",
+    "name": "仓储叉车-061",
+    "model": "FORK-5T",
+    "serialNumber": "SR391584",
+    "category": "叉车",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2023-12-08T05:14:13.076Z",
+    "purchasePrice": 836593,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "陈勇"
+    },
+    "technicalParams": {
+      "power": 34,
+      "weight": 3535
+    },
+    "healthScore": 72,
+    "runtimeHours": 5942,
+    "workCycles": 9638,
+    "lastMaintenanceDate": "2025-10-17T05:14:13.076Z",
+    "qrCode": "EQUIP-61-1762406053076",
+    "createdAt": "2023-12-08T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "f34a385f2589b07598d267eefe442c4dba0fbfc19fb3322322b5323b69aa0e02"
+  },
+  {
+    "id": "c105d88a-7fbe-49c3-8f8c-c041258026b2",
+    "equipmentNo": "检测-0062",
+    "name": "硬度计-062",
+    "model": "TEST-001",
+    "serialNumber": "SX330025",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2025-07-08T05:14:13.076Z",
+    "purchasePrice": 53338,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "周华"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 1560
+    },
+    "healthScore": 61,
+    "runtimeHours": 3467,
+    "workCycles": 5611,
+    "lastMaintenanceDate": "2025-09-20T05:14:13.076Z",
+    "qrCode": "EQUIP-62-1762406053076",
+    "createdAt": "2025-07-08T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z",
+    "blockchainHash": "ff6d249e7d4f2d0a5c7855309260902ac03f39f12bd478aba985e81232e9785e"
+  },
+  {
+    "id": "80c31feb-b8be-4a20-af9d-2e7231e165c9",
+    "equipmentNo": "检测-0063",
+    "name": "硬度计-063",
+    "model": "TEST-002",
+    "serialNumber": "SN581718",
+    "category": "检测设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2022-04-20T05:14:13.076Z",
+    "purchasePrice": 314191,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "何华"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 1163
+    },
+    "healthScore": 60,
+    "runtimeHours": 5617,
+    "workCycles": 2249,
+    "lastMaintenanceDate": "2025-10-21T05:14:13.076Z",
+    "qrCode": "EQUIP-63-1762406053076",
+    "createdAt": "2022-04-20T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "1316bcbd1789942384f1ffb26eebe3a84c956f262c2bdfe1031c8ccd83d982db"
+  },
+  {
+    "id": "0bb6e16d-ecbb-4dc2-b162-8b7be808ecdd",
+    "equipmentNo": "焊接-0064",
+    "name": "氩弧焊机-064",
+    "model": "WELD-300A",
+    "serialNumber": "SX864774",
+    "category": "焊接设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-11-07T05:14:13.076Z",
+    "purchasePrice": 784852,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "高静"
+    },
+    "technicalParams": {
+      "power": 42,
+      "weight": 3744
+    },
+    "healthScore": 95,
+    "runtimeHours": 5832,
+    "workCycles": 39407,
+    "lastMaintenanceDate": "2025-08-10T05:14:13.076Z",
+    "qrCode": "EQUIP-64-1762406053076",
+    "createdAt": "2023-11-07T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z"
+  },
+  {
+    "id": "41e27050-ed05-49d7-9add-3547bd934ac0",
+    "equipmentNo": "数控-0065",
+    "name": "加工中心-065",
+    "model": "CNC-M1000",
+    "serialNumber": "SX764502",
+    "category": "数控机床",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2024-12-30T05:14:13.076Z",
+    "purchasePrice": 1885197,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "罗明"
+    },
+    "technicalParams": {
+      "power": 31,
+      "weight": 4577
+    },
+    "healthScore": 88,
+    "runtimeHours": 3776,
+    "workCycles": 26833,
+    "lastMaintenanceDate": "2025-11-01T05:14:13.076Z",
+    "qrCode": "EQUIP-65-1762406053076",
+    "createdAt": "2024-12-30T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "ab3271ec91d96aacc2c3773423040454bff82f719060172688ed69dbe9f26399"
+  },
+  {
+    "id": "c58d6799-eeb1-4745-a70b-be349dbec478",
+    "equipmentNo": "注塑-0066",
+    "name": "吹塑机-066",
+    "model": "IM-500T",
+    "serialNumber": "SR586043",
+    "category": "注塑设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2024-08-23T05:14:13.076Z",
+    "purchasePrice": 1075332,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 7,
+      "weight": 1525
+    },
+    "healthScore": 69,
+    "runtimeHours": 697,
+    "workCycles": 13795,
+    "lastMaintenanceDate": "2025-08-11T05:14:13.076Z",
+    "qrCode": "EQUIP-66-1762406053076",
+    "createdAt": "2024-08-23T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "07d99010b4c807fa003af4c6ff357f8b6b424f5b2afdd1c42a0b6a7a0b599b38"
+  },
+  {
+    "id": "487bc9a4-a155-48ec-9017-15396bfd7826",
+    "equipmentNo": "数控-0067",
+    "name": "加工中心-067",
+    "model": "CNC-X500",
+    "serialNumber": "SX289002",
+    "category": "数控机床",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2023-11-06T05:14:13.076Z",
+    "purchasePrice": 310986,
+    "status": "repair",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "张华"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 2433
+    },
+    "healthScore": 83,
+    "runtimeHours": 5142,
+    "workCycles": 24407,
+    "lastMaintenanceDate": "2025-10-30T05:14:13.076Z",
+    "qrCode": "EQUIP-67-1762406053076",
+    "createdAt": "2023-11-06T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "88573f6d6c4426fdc4fc544d3e2e405c841015b2cfef7103bfba62797144831a"
+  },
+  {
+    "id": "f6ebf8db-bc85-4610-aa5a-11f18592fe07",
+    "equipmentNo": "焊接-0068",
+    "name": "二保焊机-068",
+    "model": "WELD-400A",
+    "serialNumber": "SN112411",
+    "category": "焊接设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2025-03-13T05:14:13.076Z",
+    "purchasePrice": 789371,
+    "status": "maintenance",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "周华"
+    },
+    "technicalParams": {
+      "power": 39,
+      "weight": 3116
+    },
+    "healthScore": 96,
+    "runtimeHours": 5018,
+    "workCycles": 42785,
+    "lastMaintenanceDate": "2025-09-02T05:14:13.076Z",
+    "qrCode": "EQUIP-68-1762406053076",
+    "createdAt": "2025-03-13T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "bf24d351-b4b4-4c0b-b148-be573008394a",
+    "equipmentNo": "叉车-0069",
+    "name": "电动叉车-069",
+    "model": "FORK-5T",
+    "serialNumber": "SR748463",
+    "category": "叉车",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2025-01-14T05:14:13.076Z",
+    "purchasePrice": 1316873,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 24,
+      "weight": 698
+    },
+    "healthScore": 81,
+    "runtimeHours": 6606,
+    "workCycles": 25650,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.076Z",
+    "qrCode": "EQUIP-69-1762406053076",
+    "createdAt": "2025-01-14T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "987293fc-2be8-49cc-a525-d76e51689870",
+    "equipmentNo": "检测-0070",
+    "name": "光谱仪-070",
+    "model": "TEST-002",
+    "serialNumber": "SX440207",
+    "category": "检测设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2024-12-15T05:14:13.076Z",
+    "purchasePrice": 211763,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "胡敏"
+    },
+    "technicalParams": {
+      "power": 19,
+      "weight": 3489
+    },
+    "healthScore": 94,
+    "runtimeHours": 2504,
+    "workCycles": 7615,
+    "lastMaintenanceDate": "2025-08-11T05:14:13.076Z",
+    "qrCode": "EQUIP-70-1762406053076",
+    "createdAt": "2024-12-15T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "01b29421-2e69-4945-b63b-f441bc5930e9",
+    "equipmentNo": "数控-0071",
+    "name": "数控车床-071",
+    "model": "CNC-T800",
+    "serialNumber": "SN567399",
+    "category": "数控机床",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2021-12-30T05:14:13.076Z",
+    "purchasePrice": 1869359,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 45,
+      "weight": 3468
+    },
+    "healthScore": 68,
+    "runtimeHours": 4807,
+    "workCycles": 17025,
+    "lastMaintenanceDate": "2025-08-21T05:14:13.076Z",
+    "qrCode": "EQUIP-71-1762406053076",
+    "createdAt": "2021-12-30T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "76820a86a62e6980640dd6a9fd16f98bf4b519037f6c364386cb4762ad04a88c"
+  },
+  {
+    "id": "eb6528b3-b25e-4648-98c2-84d00ad2925e",
+    "equipmentNo": "数控-0072",
+    "name": "数控磨床-072",
+    "model": "CNC-X500",
+    "serialNumber": "SR953247",
+    "category": "数控机床",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2021-02-14T05:14:13.076Z",
+    "purchasePrice": 836006,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "罗明"
+    },
+    "technicalParams": {
+      "power": 21,
+      "weight": 1698
+    },
+    "healthScore": 70,
+    "runtimeHours": 7530,
+    "workCycles": 28381,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-72-1762406053076",
+    "createdAt": "2021-02-14T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "252e05679835c7ad6a810e4f60de95ea8dac4fa857feebf980045f5d6d36afb4"
+  },
+  {
+    "id": "fc3f9607-d35a-4f6b-a2a3-03ef4c04c40f",
+    "equipmentNo": "空压-0073",
+    "name": "储气罐-073",
+    "model": "AIR-55KW",
+    "serialNumber": "SN814248",
+    "category": "空压设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2024-06-19T05:14:13.076Z",
+    "purchasePrice": 151118,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "胡敏"
+    },
+    "technicalParams": {
+      "power": 87,
+      "weight": 4512
+    },
+    "healthScore": 77,
+    "runtimeHours": 7631,
+    "workCycles": 43257,
+    "lastMaintenanceDate": "2025-10-11T05:14:13.076Z",
+    "qrCode": "EQUIP-73-1762406053076",
+    "createdAt": "2024-06-19T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "be349b9b30f553fc6cd433d69063a864a80829c72718b6cf9a34129cee59f833"
+  },
+  {
+    "id": "8ca2bca6-a62f-4f5d-9d92-e5ecbd0500e3",
+    "equipmentNo": "注塑-0074",
+    "name": "吹塑机-074",
+    "model": "IM-500T",
+    "serialNumber": "SN308828",
+    "category": "注塑设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2022-02-10T05:14:13.076Z",
+    "purchasePrice": 1373523,
+    "status": "repair",
+    "location": {
+      "workshop": "装配车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "高静"
+    },
+    "technicalParams": {
+      "power": 43,
+      "weight": 1414
+    },
+    "healthScore": 62,
+    "runtimeHours": 2099,
+    "workCycles": 34511,
+    "lastMaintenanceDate": "2025-08-30T05:14:13.076Z",
+    "qrCode": "EQUIP-74-1762406053076",
+    "createdAt": "2022-02-10T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "3c76b5f9c53de4d8d0fb6d6e2e4e9833c827c2d78df651a72d84da8fa5e1c54f"
+  },
+  {
+    "id": "e3b83efd-0ec8-445e-ad9b-c3fd31761701",
+    "equipmentNo": "注塑-0075",
+    "name": "注塑机-075",
+    "model": "IM-350T",
+    "serialNumber": "SN240749",
+    "category": "注塑设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2021-08-31T05:14:13.076Z",
+    "purchasePrice": 126992,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 505
+    },
+    "healthScore": 78,
+    "runtimeHours": 4078,
+    "workCycles": 20128,
+    "lastMaintenanceDate": "2025-09-18T05:14:13.076Z",
+    "qrCode": "EQUIP-75-1762406053076",
+    "createdAt": "2021-08-31T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "d4951a75f80c95d80c980faef0e226f7fea24ec2df40bb41ddc2e55921ba9db6"
+  },
+  {
+    "id": "c564be21-3942-4e43-a2a8-a2d59149715c",
+    "equipmentNo": "注塑-0076",
+    "name": "挤出机-076",
+    "model": "IM-500T",
+    "serialNumber": "SN525170",
+    "category": "注塑设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2025-08-25T05:14:13.076Z",
+    "purchasePrice": 1959513,
+    "status": "maintenance",
+    "location": {
+      "workshop": "装配车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "黄华"
+    },
+    "technicalParams": {
+      "power": 16,
+      "weight": 3518
+    },
+    "healthScore": 94,
+    "runtimeHours": 650,
+    "workCycles": 5821,
+    "lastMaintenanceDate": "2025-08-15T05:14:13.076Z",
+    "qrCode": "EQUIP-76-1762406053076",
+    "createdAt": "2025-08-25T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z"
+  },
+  {
+    "id": "96267ba7-9e00-4b3a-95a1-3c4e231a8202",
+    "equipmentNo": "检测-0077",
+    "name": "光谱仪-077",
+    "model": "TEST-001",
+    "serialNumber": "SX925111",
+    "category": "检测设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2025-07-22T05:14:13.076Z",
+    "purchasePrice": 1641839,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 4691
+    },
+    "healthScore": 83,
+    "runtimeHours": 608,
+    "workCycles": 15951,
+    "lastMaintenanceDate": "2025-10-08T05:14:13.076Z",
+    "qrCode": "EQUIP-77-1762406053076",
+    "createdAt": "2025-07-22T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z"
+  },
+  {
+    "id": "a74ae81d-c2a7-40e2-b8bd-3c8831712fc2",
+    "equipmentNo": "数控-0078",
+    "name": "数控铣床-078",
+    "model": "CNC-X600",
+    "serialNumber": "SX800480",
+    "category": "数控机床",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2023-11-02T05:14:13.076Z",
+    "purchasePrice": 1419860,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 2489
+    },
+    "healthScore": 79,
+    "runtimeHours": 898,
+    "workCycles": 40605,
+    "lastMaintenanceDate": "2025-10-04T05:14:13.076Z",
+    "qrCode": "EQUIP-78-1762406053076",
+    "createdAt": "2023-11-02T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "d3940cc55de06fd0a88a1ae5f4c255f4e09af18a9c16a9e55a98364f242b2351"
+  },
+  {
+    "id": "e9695e10-e5ed-420e-9fec-672f8b456db2",
+    "equipmentNo": "叉车-0079",
+    "name": "内燃叉车-079",
+    "model": "FORK-2T",
+    "serialNumber": "SX731120",
+    "category": "叉车",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2021-06-01T05:14:13.076Z",
+    "purchasePrice": 1991792,
+    "status": "maintenance",
+    "location": {
+      "workshop": "包装车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 4007
+    },
+    "healthScore": 89,
+    "runtimeHours": 1240,
+    "workCycles": 37385,
+    "lastMaintenanceDate": "2025-11-03T05:14:13.076Z",
+    "qrCode": "EQUIP-79-1762406053076",
+    "createdAt": "2021-06-01T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "6a0c9562-1dc4-40e1-9bf9-fe75275dc1a2",
+    "equipmentNo": "叉车-0080",
+    "name": "仓储叉车-080",
+    "model": "FORK-5T",
+    "serialNumber": "SX201270",
+    "category": "叉车",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2023-02-12T05:14:13.076Z",
+    "purchasePrice": 1300632,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "陈超"
+    },
+    "technicalParams": {
+      "power": 26,
+      "weight": 1535
+    },
+    "healthScore": 73,
+    "runtimeHours": 4720,
+    "workCycles": 24651,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-80-1762406053076",
+    "createdAt": "2023-02-12T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "1f4ef42d2b302ac192cd09cfc50ad225db7e05feeb0d6f635cb133a7842382ff"
+  },
+  {
+    "id": "a5ee1bf8-ac44-4b5c-8aa4-b7ab299af0f8",
+    "equipmentNo": "空压-0081",
+    "name": "空压机-081",
+    "model": "AIR-55KW",
+    "serialNumber": "SR271202",
+    "category": "空压设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2022-05-09T05:14:13.076Z",
+    "purchasePrice": 1609782,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "郭静"
+    },
+    "technicalParams": {
+      "power": 59,
+      "weight": 3713
+    },
+    "healthScore": 82,
+    "runtimeHours": 4331,
+    "workCycles": 33792,
+    "lastMaintenanceDate": "2025-10-23T05:14:13.076Z",
+    "qrCode": "EQUIP-81-1762406053076",
+    "createdAt": "2022-05-09T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "a5b90e8e-4e49-434a-b31a-1bf8f3190a47",
+    "equipmentNo": "检测-0082",
+    "name": "三坐标测量机-082",
+    "model": "TEST-003",
+    "serialNumber": "SR547459",
+    "category": "检测设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2022-12-13T05:14:13.076Z",
+    "purchasePrice": 443611,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "孙军"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 4963
+    },
+    "healthScore": 72,
+    "runtimeHours": 1916,
+    "workCycles": 33404,
+    "lastMaintenanceDate": "2025-08-27T05:14:13.076Z",
+    "qrCode": "EQUIP-82-1762406053076",
+    "createdAt": "2022-12-13T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "8e8458c9543ee72fd93b7a2350392e5a6acf4ea5fee97517b2c23e2e0d37dacb"
+  },
+  {
+    "id": "b0a53990-3667-489a-bb40-6eb9bb72d239",
+    "equipmentNo": "焊接-0083",
+    "name": "焊接机器人-083",
+    "model": "WELD-500A",
+    "serialNumber": "SN465520",
+    "category": "焊接设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2023-04-08T05:14:13.076Z",
+    "purchasePrice": 461714,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 18,
+      "weight": 1195
+    },
+    "healthScore": 86,
+    "runtimeHours": 5188,
+    "workCycles": 14090,
+    "lastMaintenanceDate": "2025-09-17T05:14:13.076Z",
+    "qrCode": "EQUIP-83-1762406053076",
+    "createdAt": "2023-04-08T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z",
+    "blockchainHash": "67d37da85e1bec5c773009543db7c6197717bb01c4fe29d2202467265838a79c"
+  },
+  {
+    "id": "48db8a29-1549-47ca-8a93-b3e7c7304afe",
+    "equipmentNo": "数控-0084",
+    "name": "数控车床-084",
+    "model": "CNC-M1000",
+    "serialNumber": "SX759697",
+    "category": "数控机床",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2022-08-24T05:14:13.076Z",
+    "purchasePrice": 801444,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "周磊"
+    },
+    "technicalParams": {
+      "power": 11,
+      "weight": 1199
+    },
+    "healthScore": 86,
+    "runtimeHours": 7946,
+    "workCycles": 12505,
+    "lastMaintenanceDate": "2025-11-05T05:14:13.076Z",
+    "qrCode": "EQUIP-84-1762406053076",
+    "createdAt": "2022-08-24T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "bda69655171cbbb78cf06df115afb81c929107f04b2db116c12cf68066f53563"
+  },
+  {
+    "id": "aaed42c0-cdbc-4af3-aad4-3387fb7bedd4",
+    "equipmentNo": "数控-0085",
+    "name": "数控磨床-085",
+    "model": "CNC-M1000",
+    "serialNumber": "SX157625",
+    "category": "数控机床",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-01-17T05:14:13.076Z",
+    "purchasePrice": 1986559,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "李丽"
+    },
+    "technicalParams": {
+      "power": 19,
+      "weight": 4931
+    },
+    "healthScore": 89,
+    "runtimeHours": 7755,
+    "workCycles": 45349,
+    "lastMaintenanceDate": "2025-09-29T05:14:13.076Z",
+    "qrCode": "EQUIP-85-1762406053076",
+    "createdAt": "2023-01-17T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "539ac8a80964f321d8779da8d2f79d4aff836fc21160d01d51fb68002c5b027f"
+  },
+  {
+    "id": "1707ab20-0eed-44b4-8029-f64d6bca67ea",
+    "equipmentNo": "数控-0086",
+    "name": "加工中心-086",
+    "model": "CNC-T800",
+    "serialNumber": "SN272456",
+    "category": "数控机床",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2025-06-08T05:14:13.076Z",
+    "purchasePrice": 527566,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "刘杰"
+    },
+    "technicalParams": {
+      "power": 31,
+      "weight": 996
+    },
+    "healthScore": 68,
+    "runtimeHours": 882,
+    "workCycles": 29264,
+    "lastMaintenanceDate": "2025-10-09T05:14:13.076Z",
+    "qrCode": "EQUIP-86-1762406053076",
+    "createdAt": "2025-06-08T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "47945bcf-9cef-4048-9c2d-ed632945ed12",
+    "equipmentNo": "检测-0087",
+    "name": "三坐标测量机-087",
+    "model": "TEST-001",
+    "serialNumber": "SR559325",
+    "category": "检测设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2023-03-07T05:14:13.076Z",
+    "purchasePrice": 61147,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "陈勇"
+    },
+    "technicalParams": {
+      "power": 25,
+      "weight": 4228
+    },
+    "healthScore": 97,
+    "runtimeHours": 2378,
+    "workCycles": 5848,
+    "lastMaintenanceDate": "2025-10-15T05:14:13.076Z",
+    "qrCode": "EQUIP-87-1762406053076",
+    "createdAt": "2023-03-07T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "68bf704e4cfb112b590de28d519ed1d7b96084e060d2a60af4f5a8fea6988ffc"
+  },
+  {
+    "id": "2814f506-c911-4cb2-8427-456c507446a2",
+    "equipmentNo": "焊接-0088",
+    "name": "二保焊机-088",
+    "model": "WELD-400A",
+    "serialNumber": "SN349787",
+    "category": "焊接设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2023-04-05T05:14:13.076Z",
+    "purchasePrice": 262666,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 3586
+    },
+    "healthScore": 93,
+    "runtimeHours": 1802,
+    "workCycles": 41618,
+    "lastMaintenanceDate": "2025-08-24T05:14:13.076Z",
+    "qrCode": "EQUIP-88-1762406053076",
+    "createdAt": "2023-04-05T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "3a1616fa74ce55143aa26b29bdddb321e8a1f326dc5ec89e8f49cba8a5f8e3eb"
+  },
+  {
+    "id": "6d64ff02-27a1-4242-bf8f-d6df20249487",
+    "equipmentNo": "注塑-0089",
+    "name": "挤出机-089",
+    "model": "IM-350T",
+    "serialNumber": "SR962273",
+    "category": "注塑设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2020-12-20T05:14:13.076Z",
+    "purchasePrice": 1448500,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 13,
+      "weight": 4044
+    },
+    "healthScore": 78,
+    "runtimeHours": 1248,
+    "workCycles": 12456,
+    "lastMaintenanceDate": "2025-11-05T05:14:13.076Z",
+    "qrCode": "EQUIP-89-1762406053076",
+    "createdAt": "2020-12-20T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "ff223fd7a8c9653bad94f0047a3673610f53d51915f90ddcda426afbfd40b373"
+  },
+  {
+    "id": "d6eff427-cce3-4fa7-9d4b-9377a06b500b",
+    "equipmentNo": "叉车-0090",
+    "name": "内燃叉车-090",
+    "model": "FORK-5T",
+    "serialNumber": "SR230738",
+    "category": "叉车",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2024-10-13T05:14:13.076Z",
+    "purchasePrice": 217585,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 2680
+    },
+    "healthScore": 92,
+    "runtimeHours": 7627,
+    "workCycles": 30389,
+    "lastMaintenanceDate": "2025-08-28T05:14:13.076Z",
+    "qrCode": "EQUIP-90-1762406053076",
+    "createdAt": "2024-10-13T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "b001a7aa2b7bb5425dccdb9bc44d735550665169bb127a37f211b2b85be33849"
+  },
+  {
+    "id": "74f07015-117e-4e50-a756-1d0aeef9e26f",
+    "equipmentNo": "空压-0091",
+    "name": "空压机-091",
+    "model": "AIR-55KW",
+    "serialNumber": "SX942159",
+    "category": "空压设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2020-12-25T05:14:13.076Z",
+    "purchasePrice": 1285202,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "孙军"
+    },
+    "technicalParams": {
+      "power": 82,
+      "weight": 3026
+    },
+    "healthScore": 68,
+    "runtimeHours": 2590,
+    "workCycles": 42371,
+    "lastMaintenanceDate": "2025-08-19T05:14:13.076Z",
+    "qrCode": "EQUIP-91-1762406053076",
+    "createdAt": "2020-12-25T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "78e2824635d0f91524f00fc5dbcc34c42ee0af5d44abf3ee812d3ddd8ab6bc94"
+  },
+  {
+    "id": "fb94a72d-7266-474f-bb44-878158e7d662",
+    "equipmentNo": "检测-0092",
+    "name": "光谱仪-092",
+    "model": "TEST-001",
+    "serialNumber": "SR702037",
+    "category": "检测设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2025-03-10T05:14:13.076Z",
+    "purchasePrice": 1968384,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 33,
+      "weight": 1150
+    },
+    "healthScore": 87,
+    "runtimeHours": 7709,
+    "workCycles": 41829,
+    "lastMaintenanceDate": "2025-08-29T05:14:13.076Z",
+    "qrCode": "EQUIP-92-1762406053076",
+    "createdAt": "2025-03-10T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "144a26c24a950666d40ea66d8127488ac2d1b0c45c9cb6217291cf70508e0282"
+  },
+  {
+    "id": "f692de74-04bd-4d76-be29-91c9ed8772c7",
+    "equipmentNo": "焊接-0093",
+    "name": "氩弧焊机-093",
+    "model": "WELD-400A",
+    "serialNumber": "SN472763",
+    "category": "焊接设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2023-12-17T05:14:13.076Z",
+    "purchasePrice": 1544024,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "陈超"
+    },
+    "technicalParams": {
+      "power": 49,
+      "weight": 4695
+    },
+    "healthScore": 96,
+    "runtimeHours": 3160,
+    "workCycles": 8133,
+    "lastMaintenanceDate": "2025-11-01T05:14:13.076Z",
+    "qrCode": "EQUIP-93-1762406053076",
+    "createdAt": "2023-12-17T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z",
+    "blockchainHash": "c645b3b9c445ec60a103bbd08aafacd013765463a2e4b3d4daef0e27b4beed2f"
+  },
+  {
+    "id": "cdf54d5a-e85a-4bef-8a3a-dff983284b72",
+    "equipmentNo": "叉车-0094",
+    "name": "仓储叉车-094",
+    "model": "FORK-5T",
+    "serialNumber": "SX433056",
+    "category": "叉车",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2022-11-26T05:14:13.076Z",
+    "purchasePrice": 1660382,
+    "status": "repair",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "周鹏"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 4626
+    },
+    "healthScore": 69,
+    "runtimeHours": 2316,
+    "workCycles": 30236,
+    "lastMaintenanceDate": "2025-09-28T05:14:13.076Z",
+    "qrCode": "EQUIP-94-1762406053076",
+    "createdAt": "2022-11-26T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z"
+  },
+  {
+    "id": "2bea5d68-21cf-437b-8e5e-1f33883e57c4",
+    "equipmentNo": "检测-0095",
+    "name": "硬度计-095",
+    "model": "TEST-003",
+    "serialNumber": "SX906933",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2021-10-09T05:14:13.076Z",
+    "purchasePrice": 1369677,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 3727
+    },
+    "healthScore": 94,
+    "runtimeHours": 2754,
+    "workCycles": 26088,
+    "lastMaintenanceDate": "2025-10-02T05:14:13.076Z",
+    "qrCode": "EQUIP-95-1762406053076",
+    "createdAt": "2021-10-09T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "4de4d2fdee23b7e5a5e52c665c665600d7b10e50cfda65be9805e448df68bad6"
+  },
+  {
+    "id": "da5192d2-3d82-44ea-9760-0be196c11272",
+    "equipmentNo": "叉车-0096",
+    "name": "仓储叉车-096",
+    "model": "FORK-2T",
+    "serialNumber": "SX324598",
+    "category": "叉车",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2024-02-21T05:14:13.076Z",
+    "purchasePrice": 1190614,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 22,
+      "weight": 2743
+    },
+    "healthScore": 78,
+    "runtimeHours": 1392,
+    "workCycles": 43606,
+    "lastMaintenanceDate": "2025-09-01T05:14:13.076Z",
+    "qrCode": "EQUIP-96-1762406053076",
+    "createdAt": "2024-02-21T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z"
+  },
+  {
+    "id": "c90cb535-a8b8-4726-8065-f5ea59e69241",
+    "equipmentNo": "焊接-0097",
+    "name": "二保焊机-097",
+    "model": "WELD-400A",
+    "serialNumber": "SN744117",
+    "category": "焊接设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2021-11-27T05:14:13.076Z",
+    "purchasePrice": 1198789,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "王勇"
+    },
+    "technicalParams": {
+      "power": 44,
+      "weight": 3995
+    },
+    "healthScore": 83,
+    "runtimeHours": 5206,
+    "workCycles": 39184,
+    "lastMaintenanceDate": "2025-10-26T05:14:13.076Z",
+    "qrCode": "EQUIP-97-1762406053076",
+    "createdAt": "2021-11-27T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "01e54f010a9258ef29f5a49e1f9e81818a89c1dd05fd8371a452bb39b4e62a3d"
+  },
+  {
+    "id": "57729fcf-8476-4a6d-a1aa-67792fb021c3",
+    "equipmentNo": "注塑-0098",
+    "name": "注塑机-098",
+    "model": "IM-200T",
+    "serialNumber": "SN177893",
+    "category": "注塑设备",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2022-08-23T05:14:13.076Z",
+    "purchasePrice": 315197,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "朱超"
+    },
+    "technicalParams": {
+      "power": 22,
+      "weight": 4925
+    },
+    "healthScore": 92,
+    "runtimeHours": 3578,
+    "workCycles": 40232,
+    "lastMaintenanceDate": "2025-08-12T05:14:13.076Z",
+    "qrCode": "EQUIP-98-1762406053076",
+    "createdAt": "2022-08-23T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "4e2d0310-bfee-4721-8f8b-6e02075ba1f0",
+    "equipmentNo": "焊接-0099",
+    "name": "氩弧焊机-099",
+    "model": "WELD-400A",
+    "serialNumber": "SX335341",
+    "category": "焊接设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2024-03-26T05:14:13.076Z",
+    "purchasePrice": 1096541,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 1700
+    },
+    "healthScore": 63,
+    "runtimeHours": 2619,
+    "workCycles": 1070,
+    "lastMaintenanceDate": "2025-11-02T05:14:13.076Z",
+    "qrCode": "EQUIP-99-1762406053076",
+    "createdAt": "2024-03-26T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "28f318a2-a2a6-4244-81e1-9347ea1af53f",
+    "equipmentNo": "注塑-0100",
+    "name": "挤出机-100",
+    "model": "IM-350T",
+    "serialNumber": "SX438606",
+    "category": "注塑设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2023-12-17T05:14:13.076Z",
+    "purchasePrice": 116533,
+    "status": "repair",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "王勇"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 1714
+    },
+    "healthScore": 63,
+    "runtimeHours": 2177,
+    "workCycles": 2706,
+    "lastMaintenanceDate": "2025-10-30T05:14:13.076Z",
+    "qrCode": "EQUIP-100-1762406053076",
+    "createdAt": "2023-12-17T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z",
+    "blockchainHash": "4886a2a17786d119c7090678b006fe0a9eeb7347b554dc394907f7c6d5626e5a"
+  },
+  {
+    "id": "9376c9ef-f835-4b3c-9395-d077d9bb3e0c",
+    "equipmentNo": "焊接-0101",
+    "name": "二保焊机-101",
+    "model": "WELD-400A",
+    "serialNumber": "SX454557",
+    "category": "焊接设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2024-09-10T05:14:13.076Z",
+    "purchasePrice": 396790,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "陈强"
+    },
+    "technicalParams": {
+      "power": 8,
+      "weight": 3800
+    },
+    "healthScore": 63,
+    "runtimeHours": 3071,
+    "workCycles": 18171,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-101-1762406053076",
+    "createdAt": "2024-09-10T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "65a1f31597689c2587f3e6379a2da2e6418f6c24f77b3d5b7d03eb6f8034d32f"
+  },
+  {
+    "id": "3b4ff441-5b27-496d-995c-142d65d101f3",
+    "equipmentNo": "空压-0102",
+    "name": "空压机-102",
+    "model": "AIR-37KW",
+    "serialNumber": "SX324563",
+    "category": "空压设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2025-02-25T05:14:13.076Z",
+    "purchasePrice": 1335930,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "高静"
+    },
+    "technicalParams": {
+      "power": 53,
+      "weight": 4629
+    },
+    "healthScore": 70,
+    "runtimeHours": 2989,
+    "workCycles": 12618,
+    "lastMaintenanceDate": "2025-10-05T05:14:13.076Z",
+    "qrCode": "EQUIP-102-1762406053076",
+    "createdAt": "2025-02-25T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "eece521b-386d-47c1-a6c5-5e5cd610c44b",
+    "equipmentNo": "检测-0103",
+    "name": "硬度计-103",
+    "model": "TEST-002",
+    "serialNumber": "SN311191",
+    "category": "检测设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2021-11-26T05:14:13.076Z",
+    "purchasePrice": 179473,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 36,
+      "weight": 1542
+    },
+    "healthScore": 85,
+    "runtimeHours": 6945,
+    "workCycles": 41828,
+    "lastMaintenanceDate": "2025-09-22T05:14:13.076Z",
+    "qrCode": "EQUIP-103-1762406053076",
+    "createdAt": "2021-11-26T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z",
+    "blockchainHash": "0ab7b053a260ff8d277f0934771737f6c74871bb8775ce9ce8cf4b59b55bb64e"
+  },
+  {
+    "id": "c0899ed7-2074-4a89-ac4c-9a6272867038",
+    "equipmentNo": "空压-0104",
+    "name": "空压机-104",
+    "model": "AIR-55KW",
+    "serialNumber": "SR425734",
+    "category": "空压设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2025-05-30T05:14:13.076Z",
+    "purchasePrice": 1009431,
+    "status": "repair",
+    "location": {
+      "workshop": "包装车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "罗丽"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 951
+    },
+    "healthScore": 66,
+    "runtimeHours": 5816,
+    "workCycles": 46988,
+    "lastMaintenanceDate": "2025-09-09T05:14:13.076Z",
+    "qrCode": "EQUIP-104-1762406053076",
+    "createdAt": "2025-05-30T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "402b7357a942308e9f39c5ee43a48dbad10d5858133bfc01809c447138d0c572"
+  },
+  {
+    "id": "97ee94e2-e5b4-40c7-b030-97ce0c11cd15",
+    "equipmentNo": "注塑-0105",
+    "name": "吹塑机-105",
+    "model": "IM-200T",
+    "serialNumber": "SN960152",
+    "category": "注塑设备",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2022-03-27T05:14:13.076Z",
+    "purchasePrice": 1235878,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 43,
+      "weight": 3928
+    },
+    "healthScore": 88,
+    "runtimeHours": 3483,
+    "workCycles": 21910,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.076Z",
+    "qrCode": "EQUIP-105-1762406053076",
+    "createdAt": "2022-03-27T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "7a8e74508bcfda0765890662e8c57d93beb6dc7ea758983f1b077d65f95b5233"
+  },
+  {
+    "id": "c749754b-7612-43bc-87ca-5e4aac4ac5ef",
+    "equipmentNo": "叉车-0106",
+    "name": "电动叉车-106",
+    "model": "FORK-3T",
+    "serialNumber": "SN808966",
+    "category": "叉车",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2022-11-04T05:14:13.076Z",
+    "purchasePrice": 1731324,
+    "status": "maintenance",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "周磊"
+    },
+    "technicalParams": {
+      "power": 44,
+      "weight": 539
+    },
+    "healthScore": 91,
+    "runtimeHours": 2637,
+    "workCycles": 3532,
+    "lastMaintenanceDate": "2025-09-03T05:14:13.076Z",
+    "qrCode": "EQUIP-106-1762406053076",
+    "createdAt": "2022-11-04T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "bd30f4df5c3c56ed3a03f746a6670731c7e267008076432fadb10c63edfdb5b4"
+  },
+  {
+    "id": "27b59c9f-3077-4cce-a79b-a6b58588dbc8",
+    "equipmentNo": "数控-0107",
+    "name": "数控车床-107",
+    "model": "CNC-X600",
+    "serialNumber": "SX147474",
+    "category": "数控机床",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2025-04-01T05:14:13.076Z",
+    "purchasePrice": 1806638,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "徐强"
+    },
+    "technicalParams": {
+      "power": 14,
+      "weight": 3167
+    },
+    "healthScore": 80,
+    "runtimeHours": 1753,
+    "workCycles": 14996,
+    "lastMaintenanceDate": "2025-10-20T05:14:13.076Z",
+    "qrCode": "EQUIP-107-1762406053076",
+    "createdAt": "2025-04-01T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z"
+  },
+  {
+    "id": "e3456a26-8ea2-40cd-967f-330cdab251fb",
+    "equipmentNo": "数控-0108",
+    "name": "数控磨床-108",
+    "model": "CNC-X500",
+    "serialNumber": "SX611565",
+    "category": "数控机床",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2021-08-28T05:14:13.076Z",
+    "purchasePrice": 1192370,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "王勇"
+    },
+    "technicalParams": {
+      "power": 34,
+      "weight": 4319
+    },
+    "healthScore": 85,
+    "runtimeHours": 1292,
+    "workCycles": 7599,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.076Z",
+    "qrCode": "EQUIP-108-1762406053076",
+    "createdAt": "2021-08-28T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z",
+    "blockchainHash": "a1916e23d7ea4405d424c8b72b894509fb17bf504fb7d7814e8cfa1b88477fe4"
+  },
+  {
+    "id": "4e8664c1-8da8-4b6c-9020-1c2b73910eb3",
+    "equipmentNo": "注塑-0109",
+    "name": "挤出机-109",
+    "model": "IM-350T",
+    "serialNumber": "SR549971",
+    "category": "注塑设备",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2021-03-13T05:14:13.076Z",
+    "purchasePrice": 508215,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 22,
+      "weight": 1082
+    },
+    "healthScore": 70,
+    "runtimeHours": 2725,
+    "workCycles": 39198,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-109-1762406053076",
+    "createdAt": "2021-03-13T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z"
+  },
+  {
+    "id": "e412dbce-9d58-46a5-9738-04af870d2049",
+    "equipmentNo": "焊接-0110",
+    "name": "焊接机器人-110",
+    "model": "WELD-500A",
+    "serialNumber": "SX225135",
+    "category": "焊接设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2021-08-24T05:14:13.076Z",
+    "purchasePrice": 1883283,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "孙超"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 1737
+    },
+    "healthScore": 93,
+    "runtimeHours": 889,
+    "workCycles": 26135,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-110-1762406053076",
+    "createdAt": "2021-08-24T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z"
+  },
+  {
+    "id": "c7f01b68-2d3e-435d-82d0-9c1911c58022",
+    "equipmentNo": "焊接-0111",
+    "name": "焊接机器人-111",
+    "model": "WELD-400A",
+    "serialNumber": "SR685001",
+    "category": "焊接设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2022-06-28T05:14:13.076Z",
+    "purchasePrice": 1072149,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "高静"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 3715
+    },
+    "healthScore": 71,
+    "runtimeHours": 7561,
+    "workCycles": 43141,
+    "lastMaintenanceDate": "2025-10-30T05:14:13.076Z",
+    "qrCode": "EQUIP-111-1762406053076",
+    "createdAt": "2022-06-28T05:14:13.076Z",
+    "updatedAt": "2025-11-05T05:14:13.076Z",
+    "blockchainHash": "4e1880a21c517ae24bc2342080d87c6fd9ab26f2acf826183a83b699a5b57da3"
+  },
+  {
+    "id": "6186f7d3-53e8-4b7b-b4db-dbf49f4752cf",
+    "equipmentNo": "数控-0112",
+    "name": "加工中心-112",
+    "model": "CNC-T800",
+    "serialNumber": "SX565955",
+    "category": "数控机床",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2023-07-12T05:14:13.076Z",
+    "purchasePrice": 1188500,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "郭超"
+    },
+    "technicalParams": {
+      "power": 44,
+      "weight": 738
+    },
+    "healthScore": 64,
+    "runtimeHours": 1031,
+    "workCycles": 3061,
+    "lastMaintenanceDate": "2025-08-24T05:14:13.076Z",
+    "qrCode": "EQUIP-112-1762406053076",
+    "createdAt": "2023-07-12T05:14:13.076Z",
+    "updatedAt": "2025-10-30T05:14:13.076Z"
+  },
+  {
+    "id": "f0f92642-ef1e-4f65-a426-db9dec3387b3",
+    "equipmentNo": "叉车-0113",
+    "name": "电动叉车-113",
+    "model": "FORK-3T",
+    "serialNumber": "SN524912",
+    "category": "叉车",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2023-12-29T05:14:13.076Z",
+    "purchasePrice": 1697001,
+    "status": "maintenance",
+    "location": {
+      "workshop": "动力车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "刘杰"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 4996
+    },
+    "healthScore": 81,
+    "runtimeHours": 2196,
+    "workCycles": 9946,
+    "lastMaintenanceDate": "2025-10-07T05:14:13.076Z",
+    "qrCode": "EQUIP-113-1762406053076",
+    "createdAt": "2023-12-29T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "0f32d8d04456ba6ce226e15a0278e1e1078c9b4007443ac595ac69f6321fbcdc"
+  },
+  {
+    "id": "e998aeb6-6387-4e56-9178-8b4956596d61",
+    "equipmentNo": "注塑-0114",
+    "name": "挤出机-114",
+    "model": "IM-200T",
+    "serialNumber": "SX114673",
+    "category": "注塑设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2025-02-09T05:14:13.076Z",
+    "purchasePrice": 583661,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "郭超"
+    },
+    "technicalParams": {
+      "power": 50,
+      "weight": 3069
+    },
+    "healthScore": 84,
+    "runtimeHours": 6188,
+    "workCycles": 35963,
+    "lastMaintenanceDate": "2025-09-23T05:14:13.076Z",
+    "qrCode": "EQUIP-114-1762406053076",
+    "createdAt": "2025-02-09T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "67bad89f1ef6885d18b94f4b4960c592c6da061e8257814b730b8e89f9972767"
+  },
+  {
+    "id": "09edac28-af3a-421e-ad55-bdd68cc5f5b5",
+    "equipmentNo": "叉车-0115",
+    "name": "仓储叉车-115",
+    "model": "FORK-3T",
+    "serialNumber": "SX136573",
+    "category": "叉车",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2024-08-13T05:14:13.076Z",
+    "purchasePrice": 871350,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "李华"
+    },
+    "technicalParams": {
+      "power": 22,
+      "weight": 2117
+    },
+    "healthScore": 71,
+    "runtimeHours": 3803,
+    "workCycles": 38139,
+    "lastMaintenanceDate": "2025-10-08T05:14:13.076Z",
+    "qrCode": "EQUIP-115-1762406053076",
+    "createdAt": "2024-08-13T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "0de1d33759dfcb644b2591d1090c5944e6a9469e3d4b9c3c64ab3592f5be50a4"
+  },
+  {
+    "id": "6ebe77fb-fc58-47ba-bc60-1eb317d3fb27",
+    "equipmentNo": "数控-0116",
+    "name": "加工中心-116",
+    "model": "CNC-M1000",
+    "serialNumber": "SX305372",
+    "category": "数控机床",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2022-11-25T05:14:13.076Z",
+    "purchasePrice": 726154,
+    "status": "repair",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李静"
+    },
+    "technicalParams": {
+      "power": 9,
+      "weight": 3547
+    },
+    "healthScore": 60,
+    "runtimeHours": 7379,
+    "workCycles": 42777,
+    "lastMaintenanceDate": "2025-08-20T05:14:13.076Z",
+    "qrCode": "EQUIP-116-1762406053076",
+    "createdAt": "2022-11-25T05:14:13.076Z",
+    "updatedAt": "2025-11-01T05:14:13.076Z"
+  },
+  {
+    "id": "85c27851-8dbb-40dd-9402-5ac721e49164",
+    "equipmentNo": "检测-0117",
+    "name": "硬度计-117",
+    "model": "TEST-001",
+    "serialNumber": "SN570569",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2021-10-18T05:14:13.076Z",
+    "purchasePrice": 997850,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "周鹏"
+    },
+    "technicalParams": {
+      "power": 11,
+      "weight": 579
+    },
+    "healthScore": 79,
+    "runtimeHours": 3542,
+    "workCycles": 35347,
+    "lastMaintenanceDate": "2025-09-27T05:14:13.076Z",
+    "qrCode": "EQUIP-117-1762406053076",
+    "createdAt": "2021-10-18T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "ae98290a1171981720ba4b656f65f00962d451583a20f3b5e46db21eeb2d9620"
+  },
+  {
+    "id": "877f2feb-61b4-4ca2-8130-8e0a70043c1f",
+    "equipmentNo": "注塑-0118",
+    "name": "挤出机-118",
+    "model": "IM-350T",
+    "serialNumber": "SX241459",
+    "category": "注塑设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2025-07-02T05:14:13.076Z",
+    "purchasePrice": 892764,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "吴浩"
+    },
+    "technicalParams": {
+      "power": 23,
+      "weight": 2418
+    },
+    "healthScore": 98,
+    "runtimeHours": 2011,
+    "workCycles": 26641,
+    "lastMaintenanceDate": "2025-08-17T05:14:13.076Z",
+    "qrCode": "EQUIP-118-1762406053076",
+    "createdAt": "2025-07-02T05:14:13.076Z",
+    "updatedAt": "2025-10-31T05:14:13.076Z",
+    "blockchainHash": "bd36ba74bc7a13fe952c6bbb1d03960f41edaeb0a7dfa549447cc90ba632a547"
+  },
+  {
+    "id": "e6a56ce5-8807-42cf-88a0-1796202782c0",
+    "equipmentNo": "叉车-0119",
+    "name": "仓储叉车-119",
+    "model": "FORK-2T",
+    "serialNumber": "SR106811",
+    "category": "叉车",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2021-08-15T05:14:13.076Z",
+    "purchasePrice": 1351926,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "陈勇"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 3057
+    },
+    "healthScore": 88,
+    "runtimeHours": 4255,
+    "workCycles": 36746,
+    "lastMaintenanceDate": "2025-10-06T05:14:13.076Z",
+    "qrCode": "EQUIP-119-1762406053076",
+    "createdAt": "2021-08-15T05:14:13.076Z",
+    "updatedAt": "2025-11-02T05:14:13.076Z",
+    "blockchainHash": "d2584f6b46f08628163e2d57b12eb69dee941e73920bd6de930105b055087cdc"
+  },
+  {
+    "id": "5d3e9118-4bed-44a2-a100-1016678a2a54",
+    "equipmentNo": "检测-0120",
+    "name": "光谱仪-120",
+    "model": "TEST-003",
+    "serialNumber": "SX183828",
+    "category": "检测设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2022-06-27T05:14:13.076Z",
+    "purchasePrice": 454597,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 5,
+      "weight": 4378
+    },
+    "healthScore": 61,
+    "runtimeHours": 1711,
+    "workCycles": 4955,
+    "lastMaintenanceDate": "2025-10-13T05:14:13.076Z",
+    "qrCode": "EQUIP-120-1762406053076",
+    "createdAt": "2022-06-27T05:14:13.076Z",
+    "updatedAt": "2025-11-04T05:14:13.076Z"
+  },
+  {
+    "id": "7ab2d51d-87f2-4107-9c98-29cdacd86984",
+    "equipmentNo": "检测-0121",
+    "name": "硬度计-121",
+    "model": "TEST-001",
+    "serialNumber": "SX566742",
+    "category": "检测设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2024-06-09T05:14:13.076Z",
+    "purchasePrice": 1751800,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "徐华"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 1188
+    },
+    "healthScore": 90,
+    "runtimeHours": 2688,
+    "workCycles": 28256,
+    "lastMaintenanceDate": "2025-09-20T05:14:13.076Z",
+    "qrCode": "EQUIP-121-1762406053076",
+    "createdAt": "2024-06-09T05:14:13.076Z",
+    "updatedAt": "2025-11-06T05:14:13.076Z",
+    "blockchainHash": "7405688d5de84f21fec58144c7101e08bcecce32cd9467bed9546e66f6a43bb5"
+  },
+  {
+    "id": "222bc67a-3a5b-4271-811f-0ec675ddb5ca",
+    "equipmentNo": "检测-0122",
+    "name": "三坐标测量机-122",
+    "model": "TEST-002",
+    "serialNumber": "SR879785",
+    "category": "检测设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2024-10-09T05:14:13.076Z",
+    "purchasePrice": 320256,
+    "status": "maintenance",
+    "location": {
+      "workshop": "包装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "朱超"
+    },
+    "technicalParams": {
+      "power": 37,
+      "weight": 4414
+    },
+    "healthScore": 60,
+    "runtimeHours": 1152,
+    "workCycles": 41763,
+    "lastMaintenanceDate": "2025-08-08T05:14:13.076Z",
+    "qrCode": "EQUIP-122-1762406053076",
+    "createdAt": "2024-10-09T05:14:13.076Z",
+    "updatedAt": "2025-11-03T05:14:13.076Z",
+    "blockchainHash": "8e1c9e68976e5a36e8048bd59cd33d4b093fbaa43f6c4d0a2111310738c8ecf8"
+  },
+  {
+    "id": "5d4bda89-1964-4a25-a4e9-1fb298100d7b",
+    "equipmentNo": "焊接-0123",
+    "name": "氩弧焊机-123",
+    "model": "WELD-300A",
+    "serialNumber": "SN783484",
+    "category": "焊接设备",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2025-02-06T05:14:13.077Z",
+    "purchasePrice": 375282,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "徐娜"
+    },
+    "technicalParams": {
+      "power": 41,
+      "weight": 1861
+    },
+    "healthScore": 80,
+    "runtimeHours": 6837,
+    "workCycles": 2932,
+    "lastMaintenanceDate": "2025-08-20T05:14:13.077Z",
+    "qrCode": "EQUIP-123-1762406053077",
+    "createdAt": "2025-02-06T05:14:13.077Z",
+    "updatedAt": "2025-11-05T05:14:13.077Z",
+    "blockchainHash": "8784bbed2660f79b53389b0fc79b6ec0d08dbb6cc2a4252095228fb0d4e97655"
+  },
+  {
+    "id": "b6d50796-05ba-46ff-bfdf-5acec08bc98c",
+    "equipmentNo": "检测-0124",
+    "name": "光谱仪-124",
+    "model": "TEST-001",
+    "serialNumber": "SN931899",
+    "category": "检测设备",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2022-12-24T05:14:13.077Z",
+    "purchasePrice": 402677,
+    "status": "repair",
+    "location": {
+      "workshop": "装配车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 24,
+      "weight": 1997
+    },
+    "healthScore": 76,
+    "runtimeHours": 5457,
+    "workCycles": 35264,
+    "lastMaintenanceDate": "2025-08-30T05:14:13.077Z",
+    "qrCode": "EQUIP-124-1762406053077",
+    "createdAt": "2022-12-24T05:14:13.077Z",
+    "updatedAt": "2025-11-05T05:14:13.077Z",
+    "blockchainHash": "bcec449eaf379b53418dd194c42f8641707e0772cd5eef43b6298ef9039d48b0"
+  },
+  {
+    "id": "925758a6-791e-478d-a9fa-bafdd1c1eb72",
+    "equipmentNo": "叉车-0125",
+    "name": "仓储叉车-125",
+    "model": "FORK-3T",
+    "serialNumber": "SR690073",
+    "category": "叉车",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2023-02-14T05:14:13.077Z",
+    "purchasePrice": 1622610,
+    "status": "repair",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 3083
+    },
+    "healthScore": 61,
+    "runtimeHours": 6873,
+    "workCycles": 17548,
+    "lastMaintenanceDate": "2025-10-06T05:14:13.077Z",
+    "qrCode": "EQUIP-125-1762406053077",
+    "createdAt": "2023-02-14T05:14:13.077Z",
+    "updatedAt": "2025-11-01T05:14:13.077Z"
+  },
+  {
+    "id": "e4beb739-4a11-4ae0-ad3d-36d90369be76",
+    "equipmentNo": "检测-0126",
+    "name": "硬度计-126",
+    "model": "TEST-001",
+    "serialNumber": "SX342886",
+    "category": "检测设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-08-17T05:14:13.077Z",
+    "purchasePrice": 1840248,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "李静"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 3977
+    },
+    "healthScore": 63,
+    "runtimeHours": 6672,
+    "workCycles": 24930,
+    "lastMaintenanceDate": "2025-08-20T05:14:13.077Z",
+    "qrCode": "EQUIP-126-1762406053077",
+    "createdAt": "2023-08-17T05:14:13.077Z",
+    "updatedAt": "2025-11-04T05:14:13.077Z"
+  },
+  {
+    "id": "039b083c-acf4-4ed7-9b7f-fe0dc7419117",
+    "equipmentNo": "叉车-0127",
+    "name": "仓储叉车-127",
+    "model": "FORK-2T",
+    "serialNumber": "SX598745",
+    "category": "叉车",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2021-07-12T05:14:13.077Z",
+    "purchasePrice": 723980,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "李静"
+    },
+    "technicalParams": {
+      "power": 22,
+      "weight": 1242
+    },
+    "healthScore": 88,
+    "runtimeHours": 7617,
+    "workCycles": 45132,
+    "lastMaintenanceDate": "2025-09-30T05:14:13.077Z",
+    "qrCode": "EQUIP-127-1762406053077",
+    "createdAt": "2021-07-12T05:14:13.077Z",
+    "updatedAt": "2025-11-04T05:14:13.077Z",
+    "blockchainHash": "c57c734f505b8b06ba21f5ebd9d0bd7eb6f3921060ba77fb7111b1ac953d866b"
+  },
+  {
+    "id": "d09ab52e-942d-4c2f-80aa-459f4bf45d14",
+    "equipmentNo": "焊接-0128",
+    "name": "焊接机器人-128",
+    "model": "WELD-500A",
+    "serialNumber": "SX525920",
+    "category": "焊接设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2025-08-25T05:14:13.077Z",
+    "purchasePrice": 92632,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 33,
+      "weight": 3837
+    },
+    "healthScore": 67,
+    "runtimeHours": 1025,
+    "workCycles": 8994,
+    "lastMaintenanceDate": "2025-08-09T05:14:13.077Z",
+    "qrCode": "EQUIP-128-1762406053077",
+    "createdAt": "2025-08-25T05:14:13.077Z",
+    "updatedAt": "2025-11-06T05:14:13.077Z"
+  },
+  {
+    "id": "de509ae0-cd43-47a5-a16c-f0e58ad70afb",
+    "equipmentNo": "叉车-0129",
+    "name": "电动叉车-129",
+    "model": "FORK-5T",
+    "serialNumber": "SX344220",
+    "category": "叉车",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2021-04-14T05:14:13.077Z",
+    "purchasePrice": 1163583,
+    "status": "repair",
+    "location": {
+      "workshop": "动力车间",
+      "position": "1号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "徐华"
+    },
+    "technicalParams": {
+      "power": 25,
+      "weight": 1424
+    },
+    "healthScore": 97,
+    "runtimeHours": 1936,
+    "workCycles": 39503,
+    "lastMaintenanceDate": "2025-10-28T05:14:13.077Z",
+    "qrCode": "EQUIP-129-1762406053077",
+    "createdAt": "2021-04-14T05:14:13.077Z",
+    "updatedAt": "2025-11-03T05:14:13.077Z",
+    "blockchainHash": "d6599f989303244d37c24a1d7ab733ce2dc5af34f0b194665e00afb8f67a9c30"
+  },
+  {
+    "id": "7452f599-9646-42f8-81d9-c28e69267281",
+    "equipmentNo": "检测-0130",
+    "name": "三坐标测量机-130",
+    "model": "TEST-001",
+    "serialNumber": "SX875117",
+    "category": "检测设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2023-09-21T05:14:13.077Z",
+    "purchasePrice": 1039703,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "郭磊"
+    },
+    "technicalParams": {
+      "power": 37,
+      "weight": 3715
+    },
+    "healthScore": 76,
+    "runtimeHours": 6113,
+    "workCycles": 38099,
+    "lastMaintenanceDate": "2025-10-20T05:14:13.077Z",
+    "qrCode": "EQUIP-130-1762406053077",
+    "createdAt": "2023-09-21T05:14:13.077Z",
+    "updatedAt": "2025-11-06T05:14:13.077Z"
+  },
+  {
+    "id": "e4014c97-4c9f-4e20-a294-01298979485e",
+    "equipmentNo": "注塑-0131",
+    "name": "挤出机-131",
+    "model": "IM-500T",
+    "serialNumber": "SX414998",
+    "category": "注塑设备",
+    "supplier": "沈阳机床集团股份有限公司",
+    "purchaseDate": "2022-07-08T05:14:13.077Z",
+    "purchasePrice": 1709095,
+    "status": "maintenance",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "李丽"
+    },
+    "technicalParams": {
+      "power": 39,
+      "weight": 2671
+    },
+    "healthScore": 94,
+    "runtimeHours": 1083,
+    "workCycles": 23879,
+    "lastMaintenanceDate": "2025-08-08T05:14:13.077Z",
+    "qrCode": "EQUIP-131-1762406053077",
+    "createdAt": "2022-07-08T05:14:13.077Z",
+    "updatedAt": "2025-10-30T05:14:13.077Z"
+  },
+  {
+    "id": "9422b782-8117-4931-ab62-5e6f5fbeafbf",
+    "equipmentNo": "注塑-0132",
+    "name": "吹塑机-132",
+    "model": "IM-500T",
+    "serialNumber": "SX580569",
+    "category": "注塑设备",
+    "supplier": "浙江日发精密机械股份有限公司",
+    "purchaseDate": "2023-02-09T05:14:13.077Z",
+    "purchasePrice": 571678,
+    "status": "normal",
+    "location": {
+      "workshop": "装配车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "郭华"
+    },
+    "technicalParams": {
+      "power": 42,
+      "weight": 4424
+    },
+    "healthScore": 86,
+    "runtimeHours": 3459,
+    "workCycles": 7291,
+    "lastMaintenanceDate": "2025-08-15T05:14:13.077Z",
+    "qrCode": "EQUIP-132-1762406053077",
+    "createdAt": "2023-02-09T05:14:13.077Z",
+    "updatedAt": "2025-10-31T05:14:13.077Z",
+    "blockchainHash": "1641d0a052945f7b970a065004074b3f6207f4596e0a9ba5d85f56315f3d80e5"
+  },
+  {
+    "id": "692e71f1-bea3-4727-8c84-eebca201cf4a",
+    "equipmentNo": "焊接-0133",
+    "name": "氩弧焊机-133",
+    "model": "WELD-300A",
+    "serialNumber": "SR283679",
+    "category": "焊接设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2022-11-09T05:14:13.077Z",
+    "purchasePrice": 1172959,
+    "status": "maintenance",
+    "location": {
+      "workshop": "装配车间",
+      "position": "2号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "李丽"
+    },
+    "technicalParams": {
+      "power": 20,
+      "weight": 1531
+    },
+    "healthScore": 93,
+    "runtimeHours": 600,
+    "workCycles": 49072,
+    "lastMaintenanceDate": "2025-09-07T05:14:13.077Z",
+    "qrCode": "EQUIP-133-1762406053077",
+    "createdAt": "2022-11-09T05:14:13.077Z",
+    "updatedAt": "2025-11-01T05:14:13.077Z",
+    "blockchainHash": "e69b20ffa38fd250f001da77e1d84f0c22dc3132338413ba67a899e10889c269"
+  },
+  {
+    "id": "a6be1db3-8546-4f1c-bbd9-94d8d7d0a575",
+    "equipmentNo": "检测-0134",
+    "name": "三坐标测量机-134",
+    "model": "TEST-001",
+    "serialNumber": "SX809455",
+    "category": "检测设备",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2025-05-28T05:14:13.077Z",
+    "purchasePrice": 684156,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "朱超"
+    },
+    "technicalParams": {
+      "power": 11,
+      "weight": 2460
+    },
+    "healthScore": 72,
+    "runtimeHours": 3803,
+    "workCycles": 3056,
+    "lastMaintenanceDate": "2025-10-16T05:14:13.077Z",
+    "qrCode": "EQUIP-134-1762406053077",
+    "createdAt": "2025-05-28T05:14:13.077Z",
+    "updatedAt": "2025-10-30T05:14:13.077Z",
+    "blockchainHash": "1d9c717617b997c1b7c267145bb3a2b38d729f1453d2ab1afa6de9fc5ce700f2"
+  },
+  {
+    "id": "c6868355-cd7a-4563-80a0-035987fd4aec",
+    "equipmentNo": "注塑-0135",
+    "name": "吹塑机-135",
+    "model": "IM-500T",
+    "serialNumber": "SX173732",
+    "category": "注塑设备",
+    "supplier": "海天精密机械制造有限公司",
+    "purchaseDate": "2023-11-10T05:14:13.077Z",
+    "purchasePrice": 742744,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "张明"
+    },
+    "technicalParams": {
+      "power": 47,
+      "weight": 4905
+    },
+    "healthScore": 84,
+    "runtimeHours": 3709,
+    "workCycles": 6789,
+    "lastMaintenanceDate": "2025-08-08T05:14:13.077Z",
+    "qrCode": "EQUIP-135-1762406053077",
+    "createdAt": "2023-11-10T05:14:13.077Z",
+    "updatedAt": "2025-11-05T05:14:13.077Z",
+    "blockchainHash": "c10f354c66b3ca25c10968f3a4e85af14032d7403855eae27a3aeec87d5b75e1"
+  },
+  {
+    "id": "c915f8d8-8d94-494b-ae21-a7287001f287",
+    "equipmentNo": "焊接-0136",
+    "name": "二保焊机-136",
+    "model": "WELD-400A",
+    "serialNumber": "SR300731",
+    "category": "焊接设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2025-03-13T05:14:13.077Z",
+    "purchasePrice": 1194223,
+    "status": "normal",
+    "location": {
+      "workshop": "包装车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "刘杰"
+    },
+    "technicalParams": {
+      "power": 9,
+      "weight": 2889
+    },
+    "healthScore": 62,
+    "runtimeHours": 5317,
+    "workCycles": 38612,
+    "lastMaintenanceDate": "2025-08-14T05:14:13.077Z",
+    "qrCode": "EQUIP-136-1762406053077",
+    "createdAt": "2025-03-13T05:14:13.077Z",
+    "updatedAt": "2025-11-05T05:14:13.077Z"
+  },
+  {
+    "id": "97c31a2c-d6be-480e-bf9d-6ed36b621d11",
+    "equipmentNo": "数控-0137",
+    "name": "数控车床-137",
+    "model": "CNC-X500",
+    "serialNumber": "SN887418",
+    "category": "数控机床",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2024-04-08T05:14:13.077Z",
+    "purchasePrice": 811702,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "张华"
+    },
+    "technicalParams": {
+      "power": 15,
+      "weight": 2909
+    },
+    "healthScore": 69,
+    "runtimeHours": 5821,
+    "workCycles": 36503,
+    "lastMaintenanceDate": "2025-11-04T05:14:13.077Z",
+    "qrCode": "EQUIP-137-1762406053077",
+    "createdAt": "2024-04-08T05:14:13.077Z",
+    "updatedAt": "2025-10-31T05:14:13.077Z",
+    "blockchainHash": "8a139e8c17385e039a2b7f14e6ced371bb077bc6e988125280ff161a743da282"
+  },
+  {
+    "id": "2b8531f3-6a81-47c5-8e00-4690a6c77969",
+    "equipmentNo": "焊接-0138",
+    "name": "氩弧焊机-138",
+    "model": "WELD-500A",
+    "serialNumber": "SX443650",
+    "category": "焊接设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2021-06-07T05:14:13.077Z",
+    "purchasePrice": 365654,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "徐强"
+    },
+    "technicalParams": {
+      "power": 6,
+      "weight": 4120
+    },
+    "healthScore": 85,
+    "runtimeHours": 6934,
+    "workCycles": 11716,
+    "lastMaintenanceDate": "2025-10-17T05:14:13.077Z",
+    "qrCode": "EQUIP-138-1762406053077",
+    "createdAt": "2021-06-07T05:14:13.077Z",
+    "updatedAt": "2025-11-06T05:14:13.077Z",
+    "blockchainHash": "523955be45751e0693cff77f5cd25a8c7b432ed17f4aae2f6baaed2dbb0b5e7a"
+  },
+  {
+    "id": "5c55d59d-db1a-4f1a-96c0-1733c55fae91",
+    "equipmentNo": "检测-0139",
+    "name": "硬度计-139",
+    "model": "TEST-002",
+    "serialNumber": "SN660794",
+    "category": "检测设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-06-07T05:14:13.077Z",
+    "purchasePrice": 1895348,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "质量部",
+      "person": "王勇"
+    },
+    "technicalParams": {
+      "power": 9,
+      "weight": 758
+    },
+    "healthScore": 74,
+    "runtimeHours": 6310,
+    "workCycles": 31651,
+    "lastMaintenanceDate": "2025-10-22T05:14:13.077Z",
+    "qrCode": "EQUIP-139-1762406053077",
+    "createdAt": "2023-06-07T05:14:13.077Z",
+    "updatedAt": "2025-11-04T05:14:13.077Z"
+  },
+  {
+    "id": "e174e2e5-fd8b-4931-a83c-5a1e7ad28318",
+    "equipmentNo": "数控-0140",
+    "name": "加工中心-140",
+    "model": "CNC-X500",
+    "serialNumber": "SX575678",
+    "category": "数控机床",
+    "supplier": "山东威达重工股份有限公司",
+    "purchaseDate": "2023-07-09T05:14:13.077Z",
+    "purchasePrice": 710867,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "4号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "罗杰"
+    },
+    "technicalParams": {
+      "power": 46,
+      "weight": 1336
+    },
+    "healthScore": 86,
+    "runtimeHours": 5037,
+    "workCycles": 20486,
+    "lastMaintenanceDate": "2025-10-24T05:14:13.077Z",
+    "qrCode": "EQUIP-140-1762406053077",
+    "createdAt": "2023-07-09T05:14:13.077Z",
+    "updatedAt": "2025-10-31T05:14:13.077Z",
+    "blockchainHash": "7f0216a6fa4caa6c52984ee5e4a47202bd86d24751257de909b122b80aae9971"
+  },
+  {
+    "id": "b82e4a47-5602-4d6f-9483-043c2189af90",
+    "equipmentNo": "数控-0141",
+    "name": "数控铣床-141",
+    "model": "CNC-X600",
+    "serialNumber": "SX291541",
+    "category": "数控机床",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2021-04-12T05:14:13.077Z",
+    "purchasePrice": 174930,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "3号工位"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "陈杰"
+    },
+    "technicalParams": {
+      "power": 37,
+      "weight": 2755
+    },
+    "healthScore": 67,
+    "runtimeHours": 7294,
+    "workCycles": 3516,
+    "lastMaintenanceDate": "2025-08-27T05:14:13.077Z",
+    "qrCode": "EQUIP-141-1762406053077",
+    "createdAt": "2021-04-12T05:14:13.077Z",
+    "updatedAt": "2025-11-03T05:14:13.077Z",
+    "blockchainHash": "bd8b495aa023f83a12579952e9e91ca97afebd79702c8a631143598bd66eba76"
+  },
+  {
+    "id": "21ea1d03-24bc-4fdf-8428-d9a84871ab21",
+    "equipmentNo": "叉车-0142",
+    "name": "电动叉车-142",
+    "model": "FORK-5T",
+    "serialNumber": "SN179259",
+    "category": "叉车",
+    "supplier": "秦川机床工具集团股份有限公司",
+    "purchaseDate": "2024-07-16T05:14:13.077Z",
+    "purchasePrice": 1682175,
+    "status": "normal",
+    "location": {
+      "workshop": "动力车间",
+      "position": "C区"
+    },
+    "responsibility": {
+      "department": "技术部",
+      "person": "罗军"
+    },
+    "technicalParams": {
+      "power": 14,
+      "weight": 4337
+    },
+    "healthScore": 78,
+    "runtimeHours": 4610,
+    "workCycles": 14963,
+    "lastMaintenanceDate": "2025-10-12T05:14:13.077Z",
+    "qrCode": "EQUIP-142-1762406053077",
+    "createdAt": "2024-07-16T05:14:13.077Z",
+    "updatedAt": "2025-11-04T05:14:13.077Z",
+    "blockchainHash": "d0427ebdb93e4e5cb1c0e1c242e54a89eba786de2586e754ad49bbc813c2efb7"
+  },
+  {
+    "id": "1c09a2fb-2721-43d0-bff3-d99a17e5c925",
+    "equipmentNo": "注塑-0143",
+    "name": "挤出机-143",
+    "model": "IM-200T",
+    "serialNumber": "SR410194",
+    "category": "注塑设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2020-12-24T05:14:13.077Z",
+    "purchasePrice": 262222,
+    "status": "normal",
+    "location": {
+      "workshop": "生产车间B",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "李飞"
+    },
+    "technicalParams": {
+      "power": 30,
+      "weight": 3905
+    },
+    "healthScore": 71,
+    "runtimeHours": 3959,
+    "workCycles": 32645,
+    "lastMaintenanceDate": "2025-10-08T05:14:13.077Z",
+    "qrCode": "EQUIP-143-1762406053077",
+    "createdAt": "2020-12-24T05:14:13.077Z",
+    "updatedAt": "2025-10-30T05:14:13.077Z",
+    "blockchainHash": "a6a594d3ede90fc8b39b28e083d183bd717ff730993afdf0ce9fabec2c953ee1"
+  },
+  {
+    "id": "72504778-b629-4942-bed4-da8ae793dbc0",
+    "equipmentNo": "叉车-0144",
+    "name": "电动叉车-144",
+    "model": "FORK-2T",
+    "serialNumber": "SN592644",
+    "category": "叉车",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2022-03-02T05:14:13.077Z",
+    "purchasePrice": 520816,
+    "status": "normal",
+    "location": {
+      "workshop": "涂装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "徐华"
+    },
+    "technicalParams": {
+      "power": 8,
+      "weight": 4978
+    },
+    "healthScore": 95,
+    "runtimeHours": 1523,
+    "workCycles": 2104,
+    "lastMaintenanceDate": "2025-10-27T05:14:13.077Z",
+    "qrCode": "EQUIP-144-1762406053077",
+    "createdAt": "2022-03-02T05:14:13.077Z",
+    "updatedAt": "2025-10-31T05:14:13.077Z",
+    "blockchainHash": "a6e05e5af00a79d1a9743b244ba399382d95da45dc49d36af611b42b11920950"
+  },
+  {
+    "id": "c8134ac9-57d8-43ab-8143-dd12e2776005",
+    "equipmentNo": "注塑-0145",
+    "name": "挤出机-145",
+    "model": "IM-200T",
+    "serialNumber": "SR709527",
+    "category": "注塑设备",
+    "supplier": "大连机床集团有限责任公司",
+    "purchaseDate": "2025-01-21T05:14:13.077Z",
+    "purchasePrice": 801132,
+    "status": "repair",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "D区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "周勇"
+    },
+    "technicalParams": {
+      "power": 20,
+      "weight": 2229
+    },
+    "healthScore": 69,
+    "runtimeHours": 4690,
+    "workCycles": 23194,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.077Z",
+    "qrCode": "EQUIP-145-1762406053077",
+    "createdAt": "2025-01-21T05:14:13.077Z",
+    "updatedAt": "2025-11-03T05:14:13.077Z",
+    "blockchainHash": "98fedd9d1c24a812c03e1b531666fb11bc676fe1eadaa936aceb1a9d4d2ff236"
+  },
+  {
+    "id": "b8726b39-d8a3-4c97-bfd5-4ba17306fdaa",
+    "equipmentNo": "检测-0146",
+    "name": "三坐标测量机-146",
+    "model": "TEST-001",
+    "serialNumber": "SR271974",
+    "category": "检测设备",
+    "supplier": "安徽中鼎密封件股份有限公司",
+    "purchaseDate": "2023-02-11T05:14:13.077Z",
+    "purchasePrice": 1924080,
+    "status": "maintenance",
+    "location": {
+      "workshop": "生产车间A",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "设备部",
+      "person": "罗军"
+    },
+    "technicalParams": {
+      "power": 35,
+      "weight": 2072
+    },
+    "healthScore": 61,
+    "runtimeHours": 5654,
+    "workCycles": 30536,
+    "lastMaintenanceDate": "2025-11-03T05:14:13.077Z",
+    "qrCode": "EQUIP-146-1762406053077",
+    "createdAt": "2023-02-11T05:14:13.077Z",
+    "updatedAt": "2025-10-31T05:14:13.077Z"
+  },
+  {
+    "id": "3c213b37-5624-4845-b2f0-be11b307dae9",
+    "equipmentNo": "空压-0147",
+    "name": "储气罐-147",
+    "model": "AIR-37KW",
+    "serialNumber": "SR867361",
+    "category": "空压设备",
+    "supplier": "北京精雕科技集团有限公司",
+    "purchaseDate": "2022-06-09T05:14:13.077Z",
+    "purchasePrice": 1825623,
+    "status": "normal",
+    "location": {
+      "workshop": "焊接车间",
+      "position": "B区"
+    },
+    "responsibility": {
+      "department": "安全部",
+      "person": "李娜"
+    },
+    "technicalParams": {
+      "power": 80,
+      "weight": 2335
+    },
+    "healthScore": 94,
+    "runtimeHours": 1170,
+    "workCycles": 18971,
+    "lastMaintenanceDate": "2025-08-21T05:14:13.077Z",
+    "qrCode": "EQUIP-147-1762406053077",
+    "createdAt": "2022-06-09T05:14:13.077Z",
+    "updatedAt": "2025-11-02T05:14:13.077Z",
+    "blockchainHash": "61bd267016fe93758144e83f0ec29fdb44e7ffaf168833b439ea8347a45d18d4"
+  },
+  {
+    "id": "6df976b8-e036-437a-8763-9a33f5188248",
+    "equipmentNo": "叉车-0148",
+    "name": "电动叉车-148",
+    "model": "FORK-5T",
+    "serialNumber": "SN107857",
+    "category": "叉车",
+    "supplier": "广州数控设备有限公司",
+    "purchaseDate": "2024-03-24T05:14:13.077Z",
+    "purchasePrice": 74716,
+    "status": "normal",
+    "location": {
+      "workshop": "机加工车间",
+      "position": "5号工位"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "周勇"
+    },
+    "technicalParams": {
+      "power": 35,
+      "weight": 1085
+    },
+    "healthScore": 72,
+    "runtimeHours": 4182,
+    "workCycles": 17305,
+    "lastMaintenanceDate": "2025-10-01T05:14:13.077Z",
+    "qrCode": "EQUIP-148-1762406053077",
+    "createdAt": "2024-03-24T05:14:13.077Z",
+    "updatedAt": "2025-11-02T05:14:13.077Z",
+    "blockchainHash": "d87d094103bdb7f69a6e3b7bd9d3e3df5e1637a520418a5829194ffb63907344"
+  },
+  {
+    "id": "af50e896-9075-41c5-88fe-edc5f7b5c396",
+    "equipmentNo": "空压-0149",
+    "name": "空压机-149",
+    "model": "AIR-55KW",
+    "serialNumber": "SX561781",
+    "category": "空压设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2024-02-02T05:14:13.077Z",
+    "purchasePrice": 1272744,
+    "status": "repair",
+    "location": {
+      "workshop": "包装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "物流部",
+      "person": "张华"
+    },
+    "technicalParams": {
+      "power": 48,
+      "weight": 1751
+    },
+    "healthScore": 91,
+    "runtimeHours": 1734,
+    "workCycles": 8582,
+    "lastMaintenanceDate": "2025-09-16T05:14:13.077Z",
+    "qrCode": "EQUIP-149-1762406053077",
+    "createdAt": "2024-02-02T05:14:13.077Z",
+    "updatedAt": "2025-11-02T05:14:13.077Z",
+    "blockchainHash": "67974a42f2c5adb054dc3feef4d094999384c5f88a52bf5b003f274252a0a1e3"
+  },
+  {
+    "id": "fd639de5-ca23-463e-b7c4-4f765cbaf99f",
+    "equipmentNo": "检测-0150",
+    "name": "三坐标测量机-150",
+    "model": "TEST-002",
+    "serialNumber": "SX182376",
+    "category": "检测设备",
+    "supplier": "江苏亚威机床股份有限公司",
+    "purchaseDate": "2021-11-04T05:14:13.077Z",
+    "purchasePrice": 1570597,
+    "status": "maintenance",
+    "location": {
+      "workshop": "包装车间",
+      "position": "A区"
+    },
+    "responsibility": {
+      "department": "生产部",
+      "person": "杨飞"
+    },
+    "technicalParams": {
+      "power": 27,
+      "weight": 1092
+    },
+    "healthScore": 81,
+    "runtimeHours": 5885,
+    "workCycles": 15896,
+    "lastMaintenanceDate": "2025-09-09T05:14:13.077Z",
+    "qrCode": "EQUIP-150-1762406053077",
+    "createdAt": "2021-11-04T05:14:13.077Z",
+    "updatedAt": "2025-11-03T05:14:13.077Z",
+    "blockchainHash": "5bb8c64feb71bc330552638a11b5c85491acc209f8e3bb033a259e612ed3ff15"
+  }
+]

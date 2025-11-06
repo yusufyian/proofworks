@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "6b98553b-a195-46b9-8244-d97dbedbcea6",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-8245",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-03T05:14:13.090Z",
+    "updatedAt": "2025-11-01T05:14:13.090Z"
+  },
+  {
+    "id": "d9498105-6099-401e-a91b-decdc4d27a52",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-5810",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-16T05:14:13.090Z",
+    "updatedAt": "2025-10-29T05:14:13.090Z"
+  },
+  {
+    "id": "381c55ab-060c-4735-95e8-64691bb3bb8e",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-8284",
+    "symptom": "温度异常",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-26T05:14:13.090Z",
+    "updatedAt": "2025-09-22T05:14:13.090Z"
+  },
+  {
+    "id": "479aa7c1-2ae0-40e3-b390-f531dcb513d9",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-2353",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-09-16T05:14:13.090Z",
+    "updatedAt": "2025-10-11T05:14:13.090Z"
+  },
+  {
+    "id": "d7427dc7-5245-4033-901b-13fc5c85c061",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-4529",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-27T05:14:13.090Z",
+    "updatedAt": "2025-10-13T05:14:13.090Z"
+  },
+  {
+    "id": "fd4cc76d-713d-42af-81aa-70bef53638f2",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-9135",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-21T05:14:13.090Z",
+    "updatedAt": "2025-10-08T05:14:13.090Z"
+  },
+  {
+    "id": "d7a5b77a-a283-4252-aea0-152a05371009",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-3680",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-04-24T05:14:13.090Z",
+    "updatedAt": "2025-10-13T05:14:13.090Z"
+  },
+  {
+    "id": "b57477f5-9e37-4261-8776-8a0a4b50f67b",
+    "equipmentType": "检测设备",
+    "faultCode": "FC-8069",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-05-09T05:14:13.090Z",
+    "updatedAt": "2025-10-15T05:14:13.090Z"
+  },
+  {
+    "id": "90e48d44-7d5a-445a-8d5f-ed89a488e27e",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-2024",
+    "symptom": "温度异常",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-24T05:14:13.090Z",
+    "updatedAt": "2025-10-15T05:14:13.090Z"
+  },
+  {
+    "id": "0bfb3a81-3159-4ea6-8f1d-579dd75e6fb6",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-4026",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-18T05:14:13.090Z",
+    "updatedAt": "2025-10-06T05:14:13.090Z"
+  },
+  {
+    "id": "07b3a34a-ccec-4fb8-94d8-e34391c5db58",
+    "equipmentType": "空压设备",
+    "faultCode": "FC-2792",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-10-13T05:14:13.090Z",
+    "updatedAt": "2025-09-21T05:14:13.090Z"
+  },
+  {
+    "id": "94dcdbcd-73b2-4b04-ab3b-96663c084152",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-2960",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-09-11T05:14:13.090Z",
+    "updatedAt": "2025-10-27T05:14:13.090Z"
+  },
+  {
+    "id": "528f43a5-bfb4-4725-8314-a85c693f83be",
+    "equipmentType": "叉车",
+    "faultCode": "FC-6796",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-09T05:14:13.090Z",
+    "updatedAt": "2025-10-10T05:14:13.090Z"
+  },
+  {
+    "id": "355529c1-343d-48b1-aef7-d2eb74767775",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-9118",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-17T05:14:13.090Z",
+    "updatedAt": "2025-10-28T05:14:13.090Z"
+  },
+  {
+    "id": "a1f42856-3ed5-49af-8610-0bbfe1a68876",
+    "equipmentType": "叉车",
+    "faultCode": "FC-6244",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-17T05:14:13.090Z",
+    "updatedAt": "2025-10-13T05:14:13.090Z"
+  },
+  {
+    "id": "c6179112-a6ee-45af-9584-3c6cd3553c5a",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-7445",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-25T05:14:13.090Z",
+    "updatedAt": "2025-11-06T05:14:13.090Z"
+  },
+  {
+    "id": "704b860e-cfb0-4c93-b539-62244c52e506",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-4579",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-01T05:14:13.090Z",
+    "updatedAt": "2025-11-02T05:14:13.090Z"
+  },
+  {
+    "id": "8358205c-5bda-490b-b955-90f48a1b5512",
+    "equipmentType": "空压设备",
+    "faultCode": "FC-1246",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-28T05:14:13.090Z",
+    "updatedAt": "2025-10-25T05:14:13.090Z"
+  },
+  {
+    "id": "9365a630-f8a2-41f0-a47a-2b8b4c3b2f2e",
+    "equipmentType": "叉车",
+    "faultCode": "FC-7362",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-19T05:14:13.090Z",
+    "updatedAt": "2025-11-04T05:14:13.090Z"
+  },
+  {
+    "id": "c6604236-4f14-4d91-9db3-acb76a8e135f",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-2821",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-09T05:14:13.090Z",
+    "updatedAt": "2025-09-26T05:14:13.090Z"
+  },
+  {
+    "id": "defcec0e-9e3d-4adb-b53b-9fdefb43065a",
+    "equipmentType": "空压设备",
+    "faultCode": "FC-9472",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-27T05:14:13.090Z",
+    "updatedAt": "2025-10-19T05:14:13.090Z"
+  },
+  {
+    "id": "5d9d901c-74f1-4215-8fb5-a28c0ba8fe69",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-3993",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-29T05:14:13.090Z",
+    "updatedAt": "2025-11-01T05:14:13.090Z"
+  },
+  {
+    "id": "19ee2000-3403-4055-ab3b-9dbfbb20524e",
+    "equipmentType": "叉车",
+    "faultCode": "FC-6112",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-28T05:14:13.090Z",
+    "updatedAt": "2025-10-14T05:14:13.090Z"
+  },
+  {
+    "id": "7eb1844b-799c-4d49-8b70-0901ad69bd6c",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-9675",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-31T05:14:13.090Z",
+    "updatedAt": "2025-11-05T05:14:13.090Z"
+  },
+  {
+    "id": "74617704-cfbd-4ca7-ae01-2e5dbb2c6803",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-4926",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-06T05:14:13.090Z",
+    "updatedAt": "2025-09-23T05:14:13.090Z"
+  },
+  {
+    "id": "bf9ecc7d-f5ca-4e37-9c76-6b188f375e9f",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-8154",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-13T05:14:13.090Z",
+    "updatedAt": "2025-10-21T05:14:13.090Z"
+  },
+  {
+    "id": "eb165305-d4d2-4ada-85ee-f6bd1a72335d",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-2968",
+    "symptom": "主轴异响",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-10-15T05:14:13.090Z",
+    "updatedAt": "2025-10-31T05:14:13.090Z"
+  },
+  {
+    "id": "e7aef1a6-ad1a-43a2-ac3e-c31b2437f795",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-9433",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-09-18T05:14:13.090Z",
+    "updatedAt": "2025-10-25T05:14:13.090Z"
+  },
+  {
+    "id": "e1f2ad7f-69b2-4d39-93f3-c5beea6fec20",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-2629",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-14T05:14:13.090Z",
+    "updatedAt": "2025-11-03T05:14:13.090Z"
+  },
+  {
+    "id": "5ff4446e-01f0-4c0a-a4ff-b557eb3f43d5",
+    "equipmentType": "检测设备",
+    "faultCode": "FC-7565",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-08T05:14:13.090Z",
+    "updatedAt": "2025-10-03T05:14:13.090Z"
+  },
+  {
+    "id": "633dfd34-4cb7-4618-aa82-6e3bd4ffd69c",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-6688",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-09-29T05:14:13.090Z",
+    "updatedAt": "2025-10-19T05:14:13.090Z"
+  },
+  {
+    "id": "fe9966e1-b9cf-4d90-8d21-8c5ad31ebcd2",
+    "equipmentType": "叉车",
+    "faultCode": "FC-7847",
+    "symptom": "温度异常",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-25T05:14:13.090Z",
+    "updatedAt": "2025-10-11T05:14:13.090Z"
+  },
+  {
+    "id": "ceae2129-29db-464e-b988-6c090590ef12",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-6567",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-28T05:14:13.090Z",
+    "updatedAt": "2025-10-05T05:14:13.090Z"
+  },
+  {
+    "id": "038fa161-4adb-4dbb-9212-cf5aa8297787",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-9811",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-04-20T05:14:13.090Z",
+    "updatedAt": "2025-10-20T05:14:13.090Z"
+  },
+  {
+    "id": "ca882b31-8743-4a38-8aca-299e9cb87f8b",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-4778",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-27T05:14:13.090Z",
+    "updatedAt": "2025-09-22T05:14:13.090Z"
+  },
+  {
+    "id": "8b28b9c1-c1a3-4924-afeb-a6c4efc60aee",
+    "equipmentType": "叉车",
+    "faultCode": "FC-3014",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-05T05:14:13.090Z",
+    "updatedAt": "2025-10-17T05:14:13.090Z"
+  },
+  {
+    "id": "2791e886-56d1-4705-9ffa-3f8b074044ef",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-3284",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-12T05:14:13.090Z",
+    "updatedAt": "2025-10-29T05:14:13.090Z"
+  },
+  {
+    "id": "4215c407-8c55-40a8-a8af-363cf6ce6164",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-5221",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-05-25T05:14:13.090Z",
+    "updatedAt": "2025-10-04T05:14:13.090Z"
+  },
+  {
+    "id": "82190a3a-ee83-4dfe-9c37-2a89ef580627",
+    "equipmentType": "检测设备",
+    "faultCode": "FC-5935",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-23T05:14:13.090Z",
+    "updatedAt": "2025-10-06T05:14:13.090Z"
+  },
+  {
+    "id": "d341e3b6-7938-4029-a16d-fc48a05b3b97",
+    "equipmentType": "空压设备",
+    "faultCode": "FC-5013",
+    "symptom": "振动过大",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-10-01T05:14:13.090Z",
+    "updatedAt": "2025-10-30T05:14:13.090Z"
+  },
+  {
+    "id": "b30fa733-77a1-42ca-a486-f1aeda06981d",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-5050",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-18T05:14:13.090Z",
+    "updatedAt": "2025-09-28T05:14:13.090Z"
+  },
+  {
+    "id": "82cb0a5c-2aa2-48c6-a9e2-25622835c8a6",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-1766",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-04T05:14:13.090Z",
+    "updatedAt": "2025-11-04T05:14:13.090Z"
+  },
+  {
+    "id": "416246c0-4feb-498f-b9d2-8702119e92c8",
+    "equipmentType": "数控机床",
+    "faultCode": "FC-6571",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-08-17T05:14:13.090Z",
+    "updatedAt": "2025-10-23T05:14:13.090Z"
+  },
+  {
+    "id": "f95f730d-7063-4827-8f2d-d4b4f8b068be",
+    "equipmentType": "叉车",
+    "faultCode": "FC-2947",
+    "symptom": "漏油",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-02T05:14:13.090Z",
+    "updatedAt": "2025-09-30T05:14:13.090Z"
+  },
+  {
+    "id": "11a7b3b0-b9a3-461c-81d2-fe76f4b9ce53",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-9875",
+    "symptom": "加工精度下降",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-03T05:14:13.090Z",
+    "updatedAt": "2025-11-04T05:14:13.090Z"
+  },
+  {
+    "id": "da40a999-c07c-4b13-8884-69bde60058b8",
+    "equipmentType": "检测设备",
+    "faultCode": "FC-7767",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-21T05:14:13.090Z",
+    "updatedAt": "2025-10-06T05:14:13.090Z"
+  },
+  {
+    "id": "3bd27d2e-6d3d-4ba8-a075-da07c6c9d4ad",
+    "equipmentType": "注塑设备",
+    "faultCode": "FC-1047",
+    "symptom": "电气故障",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动",
+      "电气故障"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-07-12T05:14:13.090Z",
+    "updatedAt": "2025-11-02T05:14:13.090Z"
+  },
+  {
+    "id": "d6ee4a3d-fe90-4c25-abdb-ae1bce5f03cb",
+    "equipmentType": "叉车",
+    "faultCode": "FC-5732",
+    "symptom": "卡滞",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件",
+      "4. 测量关键参数"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-06-16T05:14:13.090Z",
+    "updatedAt": "2025-09-22T05:14:13.090Z"
+  },
+  {
+    "id": "a81279fb-aaff-42c8-b92c-8d161d221a25",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-6154",
+    "symptom": "温度异常",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-05-01T05:14:13.090Z",
+    "updatedAt": "2025-10-07T05:14:13.090Z"
+  },
+  {
+    "id": "12de8dc7-8909-4d54-8117-498018e05a33",
+    "equipmentType": "焊接设备",
+    "faultCode": "FC-5988",
+    "symptom": "设备无法启动",
+    "possibleCauses": [
+      "轴承磨损",
+      "润滑不良",
+      "部件松动"
+    ],
+    "diagnosticSteps": [
+      "1. 目视检查设备外观",
+      "2. 听声音判断异响位置",
+      "3. 检查相关部件"
+    ],
+    "solutions": [
+      {
+        "cause": "轴承磨损",
+        "solution": "更换主轴轴承",
+        "spareParts": [
+          "主轴轴承-NSK-7010"
+        ],
+        "estimatedTime": "4小时",
+        "skillRequired": "高级技师"
+      }
+    ],
+    "createdAt": "2025-04-24T05:14:13.090Z",
+    "updatedAt": "2025-10-17T05:14:13.090Z"
+  }
+]

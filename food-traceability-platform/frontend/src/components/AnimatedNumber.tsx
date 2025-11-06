@@ -44,3 +44,4 @@ export default function AnimatedNumber({ value, decimals = 0, duration = 1000 }:
 
 
 
+

@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "436a666d-902c-4aaa-82ad-bfcbdf754db3",
+    "tokenId": "DEVICE-20251106-6483",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 Smart-200",
+    "serialNumber": "SN-2025-0490",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-04-15T02:59:43.402Z",
+    "originalValue": 629162,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1340kg",
+      "power": "49kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-18326",
+    "images": [
+      "/devices/image_0_1.jpg",
+      "/devices/image_0_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_0.pdf",
+      "/documents/acceptance_report_0.pdf"
+    ],
+    "createdAt": "2025-04-15T02:59:43.402Z",
+    "updatedAt": "2025-09-08T02:59:43.402Z"
+  },
+  {
+    "id": "252a904a-ff3a-4e2b-a1b7-ea2b67293fd5",
+    "tokenId": "DEVICE-20251106-3449",
+    "assetType": "生产设备",
+    "name": "冲压机 Pro-3000",
+    "serialNumber": "SN-2025-1810",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2024-03-03T02:59:43.403Z",
+    "originalValue": 316997,
+    "location": "实验室",
+    "status": "transferred",
+    "owner": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2427kg",
+      "power": "42kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-80197",
+    "images": [
+      "/devices/image_1_1.jpg",
+      "/devices/image_1_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_1.pdf",
+      "/documents/acceptance_report_1.pdf"
+    ],
+    "createdAt": "2024-03-03T02:59:43.403Z",
+    "updatedAt": "2024-04-14T02:59:43.403Z"
+  },
+  {
+    "id": "3c09fe98-2d12-4e39-841f-7d3a0dcba070",
+    "tokenId": "DEVICE-20251106-0944",
+    "assetType": "检测设备",
+    "name": "质量检测系统 Pro-3000",
+    "serialNumber": "SN-2025-6794",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2024-07-21T02:59:43.403Z",
+    "originalValue": 965306,
+    "location": "实验室",
+    "status": "maintenance",
+    "owner": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1908kg",
+      "power": "15kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-79534",
+    "images": [
+      "/devices/image_2_1.jpg",
+      "/devices/image_2_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_2.pdf",
+      "/documents/acceptance_report_2.pdf"
+    ],
+    "createdAt": "2024-07-21T02:59:43.403Z",
+    "updatedAt": "2024-09-29T02:59:43.403Z"
+  },
+  {
+    "id": "313d935b-1651-419c-838a-cfcae0eda1a2",
+    "tokenId": "DEVICE-20251106-7039",
+    "assetType": "生产设备",
+    "name": "冲压机 Pro-3000",
+    "serialNumber": "SN-2025-0998",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-06-29T02:59:43.403Z",
+    "originalValue": 296146,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+    "metadata": {
+      "model": "X500",
+      "weight": "2781kg",
+      "power": "32kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-11573",
+    "images": [
+      "/devices/image_3_1.jpg",
+      "/devices/image_3_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_3.pdf",
+      "/documents/acceptance_report_3.pdf"
+    ],
+    "createdAt": "2024-06-29T02:59:43.403Z",
+    "updatedAt": "2024-10-18T02:59:43.403Z"
+  },
+  {
+    "id": "b888419e-e88e-432b-b474-5c216d75b9f7",
+    "tokenId": "DEVICE-20251106-1908",
+    "assetType": "办公设备",
+    "name": "服务器 Smart-200",
+    "serialNumber": "SN-2025-5406",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2023-12-28T02:59:43.403Z",
+    "originalValue": 959735,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "d69f3895-c269-450e-8214-a9367a2d94de",
+    "metadata": {
+      "model": "X500",
+      "weight": "4068kg",
+      "power": "25kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-97033",
+    "images": [
+      "/devices/image_4_1.jpg",
+      "/devices/image_4_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_4.pdf",
+      "/documents/acceptance_report_4.pdf"
+    ],
+    "createdAt": "2023-12-28T02:59:43.403Z",
+    "updatedAt": "2024-10-04T02:59:43.403Z"
+  },
+  {
+    "id": "9d50860e-9623-4794-9c0a-aa1a73c1174b",
+    "tokenId": "DEVICE-20251106-2061",
+    "assetType": "办公设备",
+    "name": "服务器 CNC-X500",
+    "serialNumber": "SN-2025-8882",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-03-14T02:59:43.403Z",
+    "originalValue": 382827,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4155kg",
+      "power": "39kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-43467",
+    "images": [
+      "/devices/image_5_1.jpg",
+      "/devices/image_5_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_5.pdf",
+      "/documents/acceptance_report_5.pdf"
+    ],
+    "createdAt": "2025-03-14T02:59:43.403Z",
+    "updatedAt": "2026-01-07T02:59:43.403Z"
+  },
+  {
+    "id": "7d29c411-f506-43f7-a18a-55bf90b70fc0",
+    "tokenId": "DEVICE-20251106-5734",
+    "assetType": "办公设备",
+    "name": "打印机 Smart-200",
+    "serialNumber": "SN-2025-7592",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2023-12-01T02:59:43.403Z",
+    "originalValue": 268790,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "6c709f32-9b54-451a-bce7-a43de519534e",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4992kg",
+      "power": "37kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-56676",
+    "images": [
+      "/devices/image_6_1.jpg",
+      "/devices/image_6_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_6.pdf",
+      "/documents/acceptance_report_6.pdf"
+    ],
+    "createdAt": "2023-12-01T02:59:43.403Z",
+    "updatedAt": "2024-06-28T02:59:43.403Z"
+  },
+  {
+    "id": "536b2793-85d4-4083-930a-b578366651b5",
+    "tokenId": "DEVICE-20251106-6336",
+    "assetType": "检测设备",
+    "name": "质量检测系统 Pro-3000",
+    "serialNumber": "SN-2025-5068",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2025-01-22T02:59:43.403Z",
+    "originalValue": 730893,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4010kg",
+      "power": "43kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-60710",
+    "images": [
+      "/devices/image_7_1.jpg",
+      "/devices/image_7_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_7.pdf",
+      "/documents/acceptance_report_7.pdf"
+    ],
+    "createdAt": "2025-01-22T02:59:43.403Z",
+    "updatedAt": "2025-03-14T02:59:43.403Z"
+  },
+  {
+    "id": "4b2dbf40-4e05-43e9-9ab1-75eb57a11aa0",
+    "tokenId": "DEVICE-20251106-6040",
+    "assetType": "办公设备",
+    "name": "工作站 AUTO-500",
+    "serialNumber": "SN-2025-6171",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-01-20T02:59:43.403Z",
+    "originalValue": 216493,
+    "location": "仓库区",
+    "status": "scrapped",
+    "owner": "70076dbc-4102-43d8-b8e1-d7aa88e5f53b",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4334kg",
+      "power": "47kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-85369",
+    "images": [
+      "/devices/image_8_1.jpg",
+      "/devices/image_8_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_8.pdf",
+      "/documents/acceptance_report_8.pdf"
+    ],
+    "createdAt": "2024-01-20T02:59:43.403Z",
+    "updatedAt": "2024-03-05T02:59:43.403Z"
+  },
+  {
+    "id": "80004713-b724-48f8-96eb-a18f092f0ecc",
+    "tokenId": "DEVICE-20251106-7239",
+    "assetType": "生产设备",
+    "name": "数控加工中心 Smart-200",
+    "serialNumber": "SN-2025-0862",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2025-04-16T02:59:43.403Z",
+    "originalValue": 384476,
+    "location": "仓库区",
+    "status": "transferred",
+    "owner": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "metadata": {
+      "model": "X500",
+      "weight": "4332kg",
+      "power": "39kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-87124",
+    "images": [
+      "/devices/image_9_1.jpg",
+      "/devices/image_9_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_9.pdf",
+      "/documents/acceptance_report_9.pdf"
+    ],
+    "createdAt": "2025-04-16T02:59:43.403Z",
+    "updatedAt": "2026-03-13T02:59:43.403Z"
+  },
+  {
+    "id": "9514c0e2-5bc6-4c21-9a60-db8c50924740",
+    "tokenId": "DEVICE-20251106-0160",
+    "assetType": "办公设备",
+    "name": "打印机 CNC-X500",
+    "serialNumber": "SN-2025-1806",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2025-09-17T02:59:43.403Z",
+    "originalValue": 733022,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+    "metadata": {
+      "model": "X500",
+      "weight": "510kg",
+      "power": "11kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-88675",
+    "images": [
+      "/devices/image_10_1.jpg",
+      "/devices/image_10_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_10.pdf",
+      "/documents/acceptance_report_10.pdf"
+    ],
+    "createdAt": "2025-09-17T02:59:43.403Z",
+    "updatedAt": "2026-07-25T02:59:43.403Z"
+  },
+  {
+    "id": "bcc14171-a915-4f5b-be4e-97dc1cd2fee9",
+    "tokenId": "DEVICE-20251106-1908",
+    "assetType": "生产设备",
+    "name": "注塑机 CNC-X500",
+    "serialNumber": "SN-2025-9865",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2025-01-06T02:59:43.403Z",
+    "originalValue": 478406,
+    "location": "车间A-区域1",
+    "status": "transferred",
+    "owner": "094a221f-516a-4d9e-b08e-17d8b52ebc2e",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2490kg",
+      "power": "13kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-49967",
+    "images": [
+      "/devices/image_11_1.jpg",
+      "/devices/image_11_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_11.pdf",
+      "/documents/acceptance_report_11.pdf"
+    ],
+    "createdAt": "2025-01-06T02:59:43.403Z",
+    "updatedAt": "2025-04-07T02:59:43.403Z"
+  },
+  {
+    "id": "4e3bba2c-3c09-46f0-80a5-0bb259bf5216",
+    "tokenId": "DEVICE-20251106-3392",
+    "assetType": "办公设备",
+    "name": "打印机 Smart-200",
+    "serialNumber": "SN-2025-0873",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-02-21T02:59:43.403Z",
+    "originalValue": 706210,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "6c709f32-9b54-451a-bce7-a43de519534e",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2127kg",
+      "power": "14kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-34148",
+    "images": [
+      "/devices/image_12_1.jpg",
+      "/devices/image_12_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_12.pdf",
+      "/documents/acceptance_report_12.pdf"
+    ],
+    "createdAt": "2024-02-21T02:59:43.403Z",
+    "updatedAt": "2025-01-04T02:59:43.403Z"
+  },
+  {
+    "id": "4b33ac47-4481-41d0-861a-b5d27b7c4629",
+    "tokenId": "DEVICE-20251106-5906",
+    "assetType": "生产设备",
+    "name": "装配线 CNC-X500",
+    "serialNumber": "SN-2025-4920",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-01-18T02:59:43.403Z",
+    "originalValue": 594206,
+    "location": "车间A-区域1",
+    "status": "transferred",
+    "owner": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "metadata": {
+      "model": "X500",
+      "weight": "2741kg",
+      "power": "5kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-62968",
+    "images": [
+      "/devices/image_13_1.jpg",
+      "/devices/image_13_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_13.pdf",
+      "/documents/acceptance_report_13.pdf"
+    ],
+    "createdAt": "2024-01-18T02:59:43.403Z",
+    "updatedAt": "2024-03-08T02:59:43.403Z"
+  },
+  {
+    "id": "20005c47-7a16-478e-b813-e96dd8410f46",
+    "tokenId": "DEVICE-20251106-7550",
+    "assetType": "生产设备",
+    "name": "数控加工中心 Pro-3000",
+    "serialNumber": "SN-2025-6739",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2025-09-13T02:59:43.403Z",
+    "originalValue": 196831,
+    "location": "实验室",
+    "status": "transferred",
+    "owner": "f1fc7774-c38e-4607-a9fe-ad79ef6f6524",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4503kg",
+      "power": "8kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-29653",
+    "images": [
+      "/devices/image_14_1.jpg",
+      "/devices/image_14_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_14.pdf",
+      "/documents/acceptance_report_14.pdf"
+    ],
+    "createdAt": "2025-09-13T02:59:43.403Z",
+    "updatedAt": "2026-01-14T02:59:43.403Z"
+  },
+  {
+    "id": "1bc9ec37-4527-4115-80f4-c7d84c98610e",
+    "tokenId": "DEVICE-20251106-3589",
+    "assetType": "生产设备",
+    "name": "注塑机 AUTO-500",
+    "serialNumber": "SN-2025-4934",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2025-05-06T02:59:43.403Z",
+    "originalValue": 610359,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4340kg",
+      "power": "24kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-47655",
+    "images": [
+      "/devices/image_15_1.jpg",
+      "/devices/image_15_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_15.pdf",
+      "/documents/acceptance_report_15.pdf"
+    ],
+    "createdAt": "2025-05-06T02:59:43.403Z",
+    "updatedAt": "2025-06-11T02:59:43.403Z"
+  },
+  {
+    "id": "41b1c69c-f1c8-45cd-a7b8-8fbf4575b453",
+    "tokenId": "DEVICE-20251106-4129",
+    "assetType": "检测设备",
+    "name": "硬度测试机 Smart-200",
+    "serialNumber": "SN-2025-3618",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-10-20T02:59:43.403Z",
+    "originalValue": 975629,
+    "location": "车间B-区域3",
+    "status": "scrapped",
+    "owner": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2220kg",
+      "power": "16kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-31498",
+    "images": [
+      "/devices/image_16_1.jpg",
+      "/devices/image_16_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_16.pdf",
+      "/documents/acceptance_report_16.pdf"
+    ],
+    "createdAt": "2025-10-20T02:59:43.403Z",
+    "updatedAt": "2026-04-22T02:59:43.403Z"
+  },
+  {
+    "id": "037f596b-e117-4d78-9cb6-4682777d75e6",
+    "tokenId": "DEVICE-20251106-5216",
+    "assetType": "检测设备",
+    "name": "质量检测系统 AUTO-500",
+    "serialNumber": "SN-2025-6754",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2024-07-05T02:59:43.403Z",
+    "originalValue": 774068,
+    "location": "车间A-区域1",
+    "status": "transferred",
+    "owner": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "metadata": {
+      "model": "X500",
+      "weight": "2796kg",
+      "power": "27kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-16381",
+    "images": [
+      "/devices/image_17_1.jpg",
+      "/devices/image_17_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_17.pdf",
+      "/documents/acceptance_report_17.pdf"
+    ],
+    "createdAt": "2024-07-05T02:59:43.403Z",
+    "updatedAt": "2025-06-11T02:59:43.403Z"
+  },
+  {
+    "id": "4a631889-396e-409c-a287-fc48ed4bfe76",
+    "tokenId": "DEVICE-20251106-5752",
+    "assetType": "办公设备",
+    "name": "工作站 CNC-X500",
+    "serialNumber": "SN-2025-6646",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-01-23T02:59:43.403Z",
+    "originalValue": 140658,
+    "location": "车间B-区域3",
+    "status": "scrapped",
+    "owner": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1781kg",
+      "power": "27kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-81325",
+    "images": [
+      "/devices/image_18_1.jpg",
+      "/devices/image_18_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_18.pdf",
+      "/documents/acceptance_report_18.pdf"
+    ],
+    "createdAt": "2025-01-23T02:59:43.403Z",
+    "updatedAt": "2025-12-31T02:59:43.403Z"
+  },
+  {
+    "id": "a04ec636-43c7-4f40-8709-50073c3a51c0",
+    "tokenId": "DEVICE-20251106-4607",
+    "assetType": "办公设备",
+    "name": "投影仪 Smart-200",
+    "serialNumber": "SN-2025-8899",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-09-21T02:59:43.403Z",
+    "originalValue": 871675,
+    "location": "实验室",
+    "status": "scrapped",
+    "owner": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4848kg",
+      "power": "41kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-98473",
+    "images": [
+      "/devices/image_19_1.jpg",
+      "/devices/image_19_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_19.pdf",
+      "/documents/acceptance_report_19.pdf"
+    ],
+    "createdAt": "2025-09-21T02:59:43.403Z",
+    "updatedAt": "2026-09-16T02:59:43.403Z"
+  },
+  {
+    "id": "d1d2967e-e553-479d-8507-fcd4ef57c58c",
+    "tokenId": "DEVICE-20251106-8164",
+    "assetType": "生产设备",
+    "name": "注塑机 Smart-200",
+    "serialNumber": "SN-2025-3685",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2023-12-01T02:59:43.403Z",
+    "originalValue": 881673,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+    "metadata": {
+      "model": "X500",
+      "weight": "3523kg",
+      "power": "41kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-94214",
+    "images": [
+      "/devices/image_20_1.jpg",
+      "/devices/image_20_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_20.pdf",
+      "/documents/acceptance_report_20.pdf"
+    ],
+    "createdAt": "2023-12-01T02:59:43.403Z",
+    "updatedAt": "2023-12-13T02:59:43.403Z"
+  },
+  {
+    "id": "d87a5640-08c1-4b7e-b4a2-d65984b29402",
+    "tokenId": "DEVICE-20251106-1842",
+    "assetType": "办公设备",
+    "name": "服务器 Pro-3000",
+    "serialNumber": "SN-2025-5480",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2024-04-13T02:59:43.403Z",
+    "originalValue": 422324,
+    "location": "实验室",
+    "status": "normal",
+    "owner": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "542kg",
+      "power": "48kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-36530",
+    "images": [
+      "/devices/image_21_1.jpg",
+      "/devices/image_21_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_21.pdf",
+      "/documents/acceptance_report_21.pdf"
+    ],
+    "createdAt": "2024-04-13T02:59:43.403Z",
+    "updatedAt": "2024-11-03T02:59:43.403Z"
+  },
+  {
+    "id": "aa7a2bc7-35d5-42c9-a98c-f7b48fd52917",
+    "tokenId": "DEVICE-20251106-2270",
+    "assetType": "生产设备",
+    "name": "注塑机 Pro-3000",
+    "serialNumber": "SN-2025-6486",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2025-09-12T02:59:43.403Z",
+    "originalValue": 832551,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2448kg",
+      "power": "38kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-43624",
+    "images": [
+      "/devices/image_22_1.jpg",
+      "/devices/image_22_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_22.pdf",
+      "/documents/acceptance_report_22.pdf"
+    ],
+    "createdAt": "2025-09-12T02:59:43.403Z",
+    "updatedAt": "2026-04-10T02:59:43.403Z"
+  },
+  {
+    "id": "ac697cc1-48da-4c5f-aa35-43ed5e4fff58",
+    "tokenId": "DEVICE-20251106-2475",
+    "assetType": "办公设备",
+    "name": "投影仪 AUTO-500",
+    "serialNumber": "SN-2025-8262",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-07-12T02:59:43.403Z",
+    "originalValue": 322564,
+    "location": "车间B-区域3",
+    "status": "maintenance",
+    "owner": "076c3fce-3670-4945-9d1e-0f63c0dc8103",
+    "metadata": {
+      "model": "X500",
+      "weight": "3670kg",
+      "power": "31kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-51055",
+    "images": [
+      "/devices/image_23_1.jpg",
+      "/devices/image_23_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_23.pdf",
+      "/documents/acceptance_report_23.pdf"
+    ],
+    "createdAt": "2025-07-12T02:59:43.403Z",
+    "updatedAt": "2026-06-03T02:59:43.403Z"
+  },
+  {
+    "id": "1a422cbf-87a4-45d9-9e02-97afc7dcd7dc",
+    "tokenId": "DEVICE-20251106-4137",
+    "assetType": "生产设备",
+    "name": "冲压机 Smart-200",
+    "serialNumber": "SN-2025-6832",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-05-06T02:59:43.403Z",
+    "originalValue": 157442,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4682kg",
+      "power": "31kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-52143",
+    "images": [
+      "/devices/image_24_1.jpg",
+      "/devices/image_24_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_24.pdf",
+      "/documents/acceptance_report_24.pdf"
+    ],
+    "createdAt": "2024-05-06T02:59:43.403Z",
+    "updatedAt": "2024-09-19T02:59:43.403Z"
+  },
+  {
+    "id": "0e4eee86-9e4e-42f6-9c70-c21facc2cefa",
+    "tokenId": "DEVICE-20251106-4048",
+    "assetType": "检测设备",
+    "name": "硬度测试机 AUTO-500",
+    "serialNumber": "SN-2025-1214",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2024-01-26T02:59:43.403Z",
+    "originalValue": 394378,
+    "location": "车间A-区域2",
+    "status": "scrapped",
+    "owner": "e9f83f8a-6e6a-45a6-aef0-df91475cb895",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "1854kg",
+      "power": "14kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-29203",
+    "images": [
+      "/devices/image_25_1.jpg",
+      "/devices/image_25_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_25.pdf",
+      "/documents/acceptance_report_25.pdf"
+    ],
+    "createdAt": "2024-01-26T02:59:43.403Z",
+    "updatedAt": "2024-04-18T02:59:43.403Z"
+  },
+  {
+    "id": "f2d3fcd2-1bab-499d-a4ae-d0a0a8e858ca",
+    "tokenId": "DEVICE-20251106-5219",
+    "assetType": "办公设备",
+    "name": "服务器 CNC-X500",
+    "serialNumber": "SN-2025-1036",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-10-26T02:59:43.403Z",
+    "originalValue": 463856,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "6cdb7d7c-7174-46fb-9b81-c9e165e1f923",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2637kg",
+      "power": "6kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-26832",
+    "images": [
+      "/devices/image_26_1.jpg",
+      "/devices/image_26_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_26.pdf",
+      "/documents/acceptance_report_26.pdf"
+    ],
+    "createdAt": "2024-10-26T02:59:43.403Z",
+    "updatedAt": "2025-08-12T02:59:43.403Z"
+  },
+  {
+    "id": "67c222ab-0791-4e9a-ae4a-b7376c8e2160",
+    "tokenId": "DEVICE-20251106-3950",
+    "assetType": "生产设备",
+    "name": "焊接机器人 CNC-X500",
+    "serialNumber": "SN-2025-0812",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2024-02-03T02:59:43.403Z",
+    "originalValue": 223661,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "858kg",
+      "power": "37kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-63590",
+    "images": [
+      "/devices/image_27_1.jpg",
+      "/devices/image_27_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_27.pdf",
+      "/documents/acceptance_report_27.pdf"
+    ],
+    "createdAt": "2024-02-03T02:59:43.403Z",
+    "updatedAt": "2024-12-08T02:59:43.403Z"
+  },
+  {
+    "id": "c35e05c0-2296-46bf-b124-e578a7f747d1",
+    "tokenId": "DEVICE-20251106-5669",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 AUTO-500",
+    "serialNumber": "SN-2025-2703",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2024-03-03T02:59:43.403Z",
+    "originalValue": 157468,
+    "location": "车间A-区域1",
+    "status": "normal",
+    "owner": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "metadata": {
+      "model": "X500",
+      "weight": "2012kg",
+      "power": "35kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-89252",
+    "images": [
+      "/devices/image_28_1.jpg",
+      "/devices/image_28_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_28.pdf",
+      "/documents/acceptance_report_28.pdf"
+    ],
+    "createdAt": "2024-03-03T02:59:43.403Z",
+    "updatedAt": "2025-01-12T02:59:43.403Z"
+  },
+  {
+    "id": "105b497c-3021-445b-9c59-ccc12ea168a6",
+    "tokenId": "DEVICE-20251106-2614",
+    "assetType": "办公设备",
+    "name": "服务器 Pro-3000",
+    "serialNumber": "SN-2025-3843",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-10-05T02:59:43.403Z",
+    "originalValue": 91083,
+    "location": "车间B-区域3",
+    "status": "transferred",
+    "owner": "e14d1792-f266-4e7a-b6b9-1e373d67245e",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2599kg",
+      "power": "29kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-73583",
+    "images": [
+      "/devices/image_29_1.jpg",
+      "/devices/image_29_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_29.pdf",
+      "/documents/acceptance_report_29.pdf"
+    ],
+    "createdAt": "2024-10-05T02:59:43.403Z",
+    "updatedAt": "2024-12-17T02:59:43.403Z"
+  },
+  {
+    "id": "0fce3a3c-b599-47d0-a007-866958811d34",
+    "tokenId": "DEVICE-20251106-2630",
+    "assetType": "检测设备",
+    "name": "硬度测试机 AUTO-500",
+    "serialNumber": "SN-2025-9008",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2024-03-27T02:59:43.403Z",
+    "originalValue": 456266,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "f1fc7774-c38e-4607-a9fe-ad79ef6f6524",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4602kg",
+      "power": "33kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-41737",
+    "images": [
+      "/devices/image_30_1.jpg",
+      "/devices/image_30_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_30.pdf",
+      "/documents/acceptance_report_30.pdf"
+    ],
+    "createdAt": "2024-03-27T02:59:43.403Z",
+    "updatedAt": "2024-10-06T02:59:43.403Z"
+  },
+  {
+    "id": "b4196e89-e32e-411d-b882-9ee94fef659c",
+    "tokenId": "DEVICE-20251106-3631",
+    "assetType": "生产设备",
+    "name": "冲压机 CNC-X500",
+    "serialNumber": "SN-2025-2164",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-07-31T02:59:43.403Z",
+    "originalValue": 469564,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2398kg",
+      "power": "20kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-36500",
+    "images": [
+      "/devices/image_31_1.jpg",
+      "/devices/image_31_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_31.pdf",
+      "/documents/acceptance_report_31.pdf"
+    ],
+    "createdAt": "2024-07-31T02:59:43.403Z",
+    "updatedAt": "2024-12-10T02:59:43.403Z"
+  },
+  {
+    "id": "a5ff2f7e-d6eb-48ff-910a-9beb6896318d",
+    "tokenId": "DEVICE-20251106-1704",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 CNC-X500",
+    "serialNumber": "SN-2025-4057",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2023-11-17T02:59:43.403Z",
+    "originalValue": 433497,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "f204d26a-6bdb-4690-a862-77ba5206173f",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4422kg",
+      "power": "31kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-89650",
+    "images": [
+      "/devices/image_32_1.jpg",
+      "/devices/image_32_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_32.pdf",
+      "/documents/acceptance_report_32.pdf"
+    ],
+    "createdAt": "2023-11-17T02:59:43.403Z",
+    "updatedAt": "2024-07-06T02:59:43.403Z"
+  },
+  {
+    "id": "ca9a43db-2401-47d9-871d-b34b3a478639",
+    "tokenId": "DEVICE-20251106-0632",
+    "assetType": "办公设备",
+    "name": "投影仪 Smart-200",
+    "serialNumber": "SN-2025-6783",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-01-20T02:59:43.403Z",
+    "originalValue": 680398,
+    "location": "实验室",
+    "status": "scrapped",
+    "owner": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "metadata": {
+      "model": "X500",
+      "weight": "4273kg",
+      "power": "25kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-47032",
+    "images": [
+      "/devices/image_33_1.jpg",
+      "/devices/image_33_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_33.pdf",
+      "/documents/acceptance_report_33.pdf"
+    ],
+    "createdAt": "2024-01-20T02:59:43.403Z",
+    "updatedAt": "2024-12-12T02:59:43.403Z"
+  },
+  {
+    "id": "2cc1c8b3-373d-47f6-8750-e9136ccab30d",
+    "tokenId": "DEVICE-20251106-7515",
+    "assetType": "生产设备",
+    "name": "装配线 AUTO-500",
+    "serialNumber": "SN-2025-8111",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2024-12-24T02:59:43.403Z",
+    "originalValue": 551977,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "1e4fa69f-f5e7-4390-942d-6ad34c50cdc9",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3987kg",
+      "power": "45kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-44812",
+    "images": [
+      "/devices/image_34_1.jpg",
+      "/devices/image_34_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_34.pdf",
+      "/documents/acceptance_report_34.pdf"
+    ],
+    "createdAt": "2024-12-24T02:59:43.403Z",
+    "updatedAt": "2025-06-16T02:59:43.403Z"
+  },
+  {
+    "id": "959b02e5-a0a9-4662-bbbf-4d0230acedf0",
+    "tokenId": "DEVICE-20251106-4792",
+    "assetType": "办公设备",
+    "name": "打印机 Smart-200",
+    "serialNumber": "SN-2025-2439",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-04-03T02:59:43.403Z",
+    "originalValue": 348545,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "metadata": {
+      "model": "X500",
+      "weight": "1548kg",
+      "power": "23kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-25529",
+    "images": [
+      "/devices/image_35_1.jpg",
+      "/devices/image_35_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_35.pdf",
+      "/documents/acceptance_report_35.pdf"
+    ],
+    "createdAt": "2025-04-03T02:59:43.403Z",
+    "updatedAt": "2025-11-29T02:59:43.403Z"
+  },
+  {
+    "id": "0c458e86-43ac-4cdf-b04b-b91ceb624cd0",
+    "tokenId": "DEVICE-20251106-1965",
+    "assetType": "办公设备",
+    "name": "投影仪 CNC-X500",
+    "serialNumber": "SN-2025-9004",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2023-12-09T02:59:43.403Z",
+    "originalValue": 285219,
+    "location": "车间B-区域3",
+    "status": "scrapped",
+    "owner": "4174f62c-4447-494c-bac3-e32f7cb2c202",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "1318kg",
+      "power": "7kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-72517",
+    "images": [
+      "/devices/image_36_1.jpg",
+      "/devices/image_36_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_36.pdf",
+      "/documents/acceptance_report_36.pdf"
+    ],
+    "createdAt": "2023-12-09T02:59:43.403Z",
+    "updatedAt": "2024-07-10T02:59:43.403Z"
+  },
+  {
+    "id": "38ba8345-4a37-4978-acaf-c6850b52632b",
+    "tokenId": "DEVICE-20251106-3769",
+    "assetType": "生产设备",
+    "name": "注塑机 AUTO-500",
+    "serialNumber": "SN-2025-3550",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2025-01-11T02:59:43.403Z",
+    "originalValue": 78167,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2880kg",
+      "power": "42kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-91794",
+    "images": [
+      "/devices/image_37_1.jpg",
+      "/devices/image_37_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_37.pdf",
+      "/documents/acceptance_report_37.pdf"
+    ],
+    "createdAt": "2025-01-11T02:59:43.403Z",
+    "updatedAt": "2025-11-18T02:59:43.403Z"
+  },
+  {
+    "id": "ff78ce9f-f3ca-4954-adb4-1e7995fb8cb1",
+    "tokenId": "DEVICE-20251106-8439",
+    "assetType": "办公设备",
+    "name": "服务器 CNC-X500",
+    "serialNumber": "SN-2025-2729",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2024-10-26T02:59:43.403Z",
+    "originalValue": 242997,
+    "location": "车间A-区域1",
+    "status": "transferred",
+    "owner": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3497kg",
+      "power": "9kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-54363",
+    "images": [
+      "/devices/image_38_1.jpg",
+      "/devices/image_38_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_38.pdf",
+      "/documents/acceptance_report_38.pdf"
+    ],
+    "createdAt": "2024-10-26T02:59:43.403Z",
+    "updatedAt": "2025-08-09T02:59:43.403Z"
+  },
+  {
+    "id": "cf1cd21c-9c07-4306-82af-4e6b51093b78",
+    "tokenId": "DEVICE-20251106-5084",
+    "assetType": "生产设备",
+    "name": "注塑机 AUTO-500",
+    "serialNumber": "SN-2025-7753",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-11-19T02:59:43.403Z",
+    "originalValue": 305323,
+    "location": "实验室",
+    "status": "maintenance",
+    "owner": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2515kg",
+      "power": "18kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-37978",
+    "images": [
+      "/devices/image_39_1.jpg",
+      "/devices/image_39_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_39.pdf",
+      "/documents/acceptance_report_39.pdf"
+    ],
+    "createdAt": "2024-11-19T02:59:43.403Z",
+    "updatedAt": "2025-07-31T02:59:43.403Z"
+  },
+  {
+    "id": "6770ef45-c303-463f-90bc-6762f1a0d37f",
+    "tokenId": "DEVICE-20251106-1112",
+    "assetType": "生产设备",
+    "name": "装配线 Pro-3000",
+    "serialNumber": "SN-2025-6921",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-07-08T02:59:43.403Z",
+    "originalValue": 96546,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "1a51315f-9053-4a27-b76c-df204416ba93",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4511kg",
+      "power": "44kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-51888",
+    "images": [
+      "/devices/image_40_1.jpg",
+      "/devices/image_40_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_40.pdf",
+      "/documents/acceptance_report_40.pdf"
+    ],
+    "createdAt": "2024-07-08T02:59:43.403Z",
+    "updatedAt": "2024-08-26T02:59:43.403Z"
+  },
+  {
+    "id": "b1df9979-214d-41ec-ba17-a18549836bdc",
+    "tokenId": "DEVICE-20251106-4735",
+    "assetType": "生产设备",
+    "name": "冲压机 CNC-X500",
+    "serialNumber": "SN-2025-7242",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2024-07-09T02:59:43.403Z",
+    "originalValue": 557460,
+    "location": "车间A-区域1",
+    "status": "normal",
+    "owner": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3859kg",
+      "power": "28kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-16354",
+    "images": [
+      "/devices/image_41_1.jpg",
+      "/devices/image_41_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_41.pdf",
+      "/documents/acceptance_report_41.pdf"
+    ],
+    "createdAt": "2024-07-09T02:59:43.403Z",
+    "updatedAt": "2025-03-08T02:59:43.403Z"
+  },
+  {
+    "id": "010837b0-ea78-4770-ae5f-ff46fb5d92ed",
+    "tokenId": "DEVICE-20251106-9492",
+    "assetType": "办公设备",
+    "name": "投影仪 CNC-X500",
+    "serialNumber": "SN-2025-6268",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2024-07-12T02:59:43.403Z",
+    "originalValue": 124107,
+    "location": "车间A-区域2",
+    "status": "scrapped",
+    "owner": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "metadata": {
+      "model": "X500",
+      "weight": "1868kg",
+      "power": "23kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-27282",
+    "images": [
+      "/devices/image_42_1.jpg",
+      "/devices/image_42_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_42.pdf",
+      "/documents/acceptance_report_42.pdf"
+    ],
+    "createdAt": "2024-07-12T02:59:43.403Z",
+    "updatedAt": "2024-11-22T02:59:43.403Z"
+  },
+  {
+    "id": "111e769a-2f80-45ab-a8dc-87cdd1a4757f",
+    "tokenId": "DEVICE-20251106-9827",
+    "assetType": "检测设备",
+    "name": "质量检测系统 Pro-3000",
+    "serialNumber": "SN-2025-2776",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2024-12-12T02:59:43.403Z",
+    "originalValue": 353405,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1424kg",
+      "power": "8kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-72709",
+    "images": [
+      "/devices/image_43_1.jpg",
+      "/devices/image_43_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_43.pdf",
+      "/documents/acceptance_report_43.pdf"
+    ],
+    "createdAt": "2024-12-12T02:59:43.403Z",
+    "updatedAt": "2025-08-29T02:59:43.403Z"
+  },
+  {
+    "id": "17531ae4-ce43-4891-a8ed-14483a990e06",
+    "tokenId": "DEVICE-20251106-0823",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 AUTO-500",
+    "serialNumber": "SN-2025-7136",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2025-08-20T02:59:43.403Z",
+    "originalValue": 876240,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "6cdb7d7c-7174-46fb-9b81-c9e165e1f923",
+    "metadata": {
+      "model": "X500",
+      "weight": "1889kg",
+      "power": "44kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-33532",
+    "images": [
+      "/devices/image_44_1.jpg",
+      "/devices/image_44_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_44.pdf",
+      "/documents/acceptance_report_44.pdf"
+    ],
+    "createdAt": "2025-08-20T02:59:43.403Z",
+    "updatedAt": "2026-04-15T02:59:43.403Z"
+  },
+  {
+    "id": "b1f1335c-b3d6-46f2-89d7-b1ace5324a56",
+    "tokenId": "DEVICE-20251106-7730",
+    "assetType": "办公设备",
+    "name": "工作站 Pro-3000",
+    "serialNumber": "SN-2025-0665",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2024-01-13T02:59:43.403Z",
+    "originalValue": 587124,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "094a221f-516a-4d9e-b08e-17d8b52ebc2e",
+    "metadata": {
+      "model": "X500",
+      "weight": "1424kg",
+      "power": "9kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-22929",
+    "images": [
+      "/devices/image_45_1.jpg",
+      "/devices/image_45_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_45.pdf",
+      "/documents/acceptance_report_45.pdf"
+    ],
+    "createdAt": "2024-01-13T02:59:43.403Z",
+    "updatedAt": "2024-09-22T02:59:43.403Z"
+  },
+  {
+    "id": "75194fda-dd06-4560-9735-454fc73e56e1",
+    "tokenId": "DEVICE-20251106-7860",
+    "assetType": "办公设备",
+    "name": "工作站 AUTO-500",
+    "serialNumber": "SN-2025-4976",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2024-08-17T02:59:43.403Z",
+    "originalValue": 385973,
+    "location": "实验室",
+    "status": "normal",
+    "owner": "70076dbc-4102-43d8-b8e1-d7aa88e5f53b",
+    "metadata": {
+      "model": "X500",
+      "weight": "1780kg",
+      "power": "35kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-38840",
+    "images": [
+      "/devices/image_46_1.jpg",
+      "/devices/image_46_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_46.pdf",
+      "/documents/acceptance_report_46.pdf"
+    ],
+    "createdAt": "2024-08-17T02:59:43.403Z",
+    "updatedAt": "2024-11-06T02:59:43.403Z"
+  },
+  {
+    "id": "3217bbba-5780-4fbf-bd0b-0a8527b77423",
+    "tokenId": "DEVICE-20251106-1685",
+    "assetType": "生产设备",
+    "name": "注塑机 CNC-X500",
+    "serialNumber": "SN-2025-9858",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2025-05-20T02:59:43.403Z",
+    "originalValue": 91584,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+    "metadata": {
+      "model": "X500",
+      "weight": "4626kg",
+      "power": "25kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-78922",
+    "images": [
+      "/devices/image_47_1.jpg",
+      "/devices/image_47_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_47.pdf",
+      "/documents/acceptance_report_47.pdf"
+    ],
+    "createdAt": "2025-05-20T02:59:43.403Z",
+    "updatedAt": "2025-07-16T02:59:43.403Z"
+  },
+  {
+    "id": "3b283d73-478c-4911-a8eb-e86cd5731a14",
+    "tokenId": "DEVICE-20251106-0549",
+    "assetType": "生产设备",
+    "name": "数控加工中心 CNC-X500",
+    "serialNumber": "SN-2025-6101",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2025-07-08T02:59:43.403Z",
+    "originalValue": 537057,
+    "location": "车间B-区域3",
+    "status": "maintenance",
+    "owner": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1857kg",
+      "power": "43kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-72626",
+    "images": [
+      "/devices/image_48_1.jpg",
+      "/devices/image_48_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_48.pdf",
+      "/documents/acceptance_report_48.pdf"
+    ],
+    "createdAt": "2025-07-08T02:59:43.403Z",
+    "updatedAt": "2025-11-19T02:59:43.403Z"
+  },
+  {
+    "id": "caa26288-e0ec-4c06-b379-3ee8034893bc",
+    "tokenId": "DEVICE-20251106-5915",
+    "assetType": "办公设备",
+    "name": "投影仪 AUTO-500",
+    "serialNumber": "SN-2025-7335",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2025-11-06T02:59:43.403Z",
+    "originalValue": 463542,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "metadata": {
+      "model": "X500",
+      "weight": "2404kg",
+      "power": "26kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-38252",
+    "images": [
+      "/devices/image_49_1.jpg",
+      "/devices/image_49_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_49.pdf",
+      "/documents/acceptance_report_49.pdf"
+    ],
+    "createdAt": "2025-11-06T02:59:43.403Z",
+    "updatedAt": "2026-08-06T02:59:43.403Z"
+  },
+  {
+    "id": "9826fde3-8579-4a43-87c5-07cc54a77e73",
+    "tokenId": "DEVICE-20251106-1574",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 AUTO-500",
+    "serialNumber": "SN-2025-9377",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-10-27T02:59:43.403Z",
+    "originalValue": 983416,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4037kg",
+      "power": "46kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-17955",
+    "images": [
+      "/devices/image_50_1.jpg",
+      "/devices/image_50_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_50.pdf",
+      "/documents/acceptance_report_50.pdf"
+    ],
+    "createdAt": "2025-10-27T02:59:43.403Z",
+    "updatedAt": "2025-11-07T02:59:43.403Z"
+  },
+  {
+    "id": "a5dcec15-4ec4-455e-a451-169619a0593c",
+    "tokenId": "DEVICE-20251106-9867",
+    "assetType": "生产设备",
+    "name": "装配线 Smart-200",
+    "serialNumber": "SN-2025-2532",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-08-13T02:59:43.403Z",
+    "originalValue": 201755,
+    "location": "车间B-区域3",
+    "status": "scrapped",
+    "owner": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "1866kg",
+      "power": "12kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-59517",
+    "images": [
+      "/devices/image_51_1.jpg",
+      "/devices/image_51_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_51.pdf",
+      "/documents/acceptance_report_51.pdf"
+    ],
+    "createdAt": "2024-08-13T02:59:43.403Z",
+    "updatedAt": "2025-07-31T02:59:43.403Z"
+  },
+  {
+    "id": "8eb9af29-14c9-45db-b802-e9745b30f64c",
+    "tokenId": "DEVICE-20251106-3549",
+    "assetType": "办公设备",
+    "name": "工作站 Pro-3000",
+    "serialNumber": "SN-2025-8343",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2025-03-16T02:59:43.403Z",
+    "originalValue": 762776,
+    "location": "实验室",
+    "status": "transferred",
+    "owner": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "625kg",
+      "power": "31kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-64482",
+    "images": [
+      "/devices/image_52_1.jpg",
+      "/devices/image_52_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_52.pdf",
+      "/documents/acceptance_report_52.pdf"
+    ],
+    "createdAt": "2025-03-16T02:59:43.403Z",
+    "updatedAt": "2025-04-10T02:59:43.403Z"
+  },
+  {
+    "id": "81e4ba87-4dfe-4566-ae4d-aceaa885c47e",
+    "tokenId": "DEVICE-20251106-5355",
+    "assetType": "办公设备",
+    "name": "投影仪 Pro-3000",
+    "serialNumber": "SN-2025-4272",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2024-06-23T02:59:43.403Z",
+    "originalValue": 935349,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "741kg",
+      "power": "7kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-70504",
+    "images": [
+      "/devices/image_53_1.jpg",
+      "/devices/image_53_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_53.pdf",
+      "/documents/acceptance_report_53.pdf"
+    ],
+    "createdAt": "2024-06-23T02:59:43.403Z",
+    "updatedAt": "2025-05-11T02:59:43.403Z"
+  },
+  {
+    "id": "05e7228f-3623-4527-a409-47fb55fe09b3",
+    "tokenId": "DEVICE-20251106-6032",
+    "assetType": "检测设备",
+    "name": "硬度测试机 Pro-3000",
+    "serialNumber": "SN-2025-1843",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-08-19T02:59:43.403Z",
+    "originalValue": 870289,
+    "location": "仓库区",
+    "status": "scrapped",
+    "owner": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2628kg",
+      "power": "14kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-28712",
+    "images": [
+      "/devices/image_54_1.jpg",
+      "/devices/image_54_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_54.pdf",
+      "/documents/acceptance_report_54.pdf"
+    ],
+    "createdAt": "2025-08-19T02:59:43.403Z",
+    "updatedAt": "2025-12-15T02:59:43.403Z"
+  },
+  {
+    "id": "0cfee524-0a5a-4731-8654-759445e56354",
+    "tokenId": "DEVICE-20251106-6825",
+    "assetType": "生产设备",
+    "name": "冲压机 Pro-3000",
+    "serialNumber": "SN-2025-9490",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-02-23T02:59:43.403Z",
+    "originalValue": 924749,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3386kg",
+      "power": "19kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-73704",
+    "images": [
+      "/devices/image_55_1.jpg",
+      "/devices/image_55_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_55.pdf",
+      "/documents/acceptance_report_55.pdf"
+    ],
+    "createdAt": "2024-02-23T02:59:43.403Z",
+    "updatedAt": "2024-03-19T02:59:43.403Z"
+  },
+  {
+    "id": "d7c498f7-2d64-45c9-bb23-4a13e0ffbdc9",
+    "tokenId": "DEVICE-20251106-1411",
+    "assetType": "检测设备",
+    "name": "硬度测试机 AUTO-500",
+    "serialNumber": "SN-2025-4547",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2024-05-24T02:59:43.403Z",
+    "originalValue": 310625,
+    "location": "车间B-区域3",
+    "status": "scrapped",
+    "owner": "55f705fb-dafb-4b4d-b074-8ef245b2bb4c",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "3454kg",
+      "power": "12kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-72926",
+    "images": [
+      "/devices/image_56_1.jpg",
+      "/devices/image_56_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_56.pdf",
+      "/documents/acceptance_report_56.pdf"
+    ],
+    "createdAt": "2024-05-24T02:59:43.403Z",
+    "updatedAt": "2024-08-29T02:59:43.403Z"
+  },
+  {
+    "id": "e3e9304d-13d5-43bd-993f-2f1d4e4facb6",
+    "tokenId": "DEVICE-20251106-0844",
+    "assetType": "生产设备",
+    "name": "装配线 AUTO-500",
+    "serialNumber": "SN-2025-2600",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2025-07-19T02:59:43.403Z",
+    "originalValue": 794113,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "1a51315f-9053-4a27-b76c-df204416ba93",
+    "metadata": {
+      "model": "X500",
+      "weight": "1452kg",
+      "power": "21kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-84783",
+    "images": [
+      "/devices/image_57_1.jpg",
+      "/devices/image_57_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_57.pdf",
+      "/documents/acceptance_report_57.pdf"
+    ],
+    "createdAt": "2025-07-19T02:59:43.403Z",
+    "updatedAt": "2025-11-11T02:59:43.403Z"
+  },
+  {
+    "id": "3173bccc-84c4-4fac-85e4-484b6b21256b",
+    "tokenId": "DEVICE-20251106-1020",
+    "assetType": "办公设备",
+    "name": "投影仪 Pro-3000",
+    "serialNumber": "SN-2025-8983",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-03-20T02:59:43.403Z",
+    "originalValue": 644223,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2649kg",
+      "power": "14kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-40334",
+    "images": [
+      "/devices/image_58_1.jpg",
+      "/devices/image_58_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_58.pdf",
+      "/documents/acceptance_report_58.pdf"
+    ],
+    "createdAt": "2025-03-20T02:59:43.403Z",
+    "updatedAt": "2025-08-07T02:59:43.403Z"
+  },
+  {
+    "id": "8a95216b-4534-4113-968a-43f2b08f81b7",
+    "tokenId": "DEVICE-20251106-4680",
+    "assetType": "办公设备",
+    "name": "工作站 Smart-200",
+    "serialNumber": "SN-2025-8610",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2025-11-06T02:59:43.403Z",
+    "originalValue": 630699,
+    "location": "仓库区",
+    "status": "scrapped",
+    "owner": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "metadata": {
+      "model": "X500",
+      "weight": "3777kg",
+      "power": "6kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-93631",
+    "images": [
+      "/devices/image_59_1.jpg",
+      "/devices/image_59_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_59.pdf",
+      "/documents/acceptance_report_59.pdf"
+    ],
+    "createdAt": "2025-11-06T02:59:43.403Z",
+    "updatedAt": "2026-04-26T02:59:43.403Z"
+  },
+  {
+    "id": "2cd5206c-46dd-4da6-8d0d-1172b6cff852",
+    "tokenId": "DEVICE-20251106-4589",
+    "assetType": "生产设备",
+    "name": "数控加工中心 Pro-3000",
+    "serialNumber": "SN-2025-2872",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2025-10-10T02:59:43.403Z",
+    "originalValue": 545021,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3905kg",
+      "power": "42kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-71089",
+    "images": [
+      "/devices/image_60_1.jpg",
+      "/devices/image_60_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_60.pdf",
+      "/documents/acceptance_report_60.pdf"
+    ],
+    "createdAt": "2025-10-10T02:59:43.403Z",
+    "updatedAt": "2025-10-16T02:59:43.403Z"
+  },
+  {
+    "id": "4e6473af-1810-4f15-82c6-2bfc833653e8",
+    "tokenId": "DEVICE-20251106-8002",
+    "assetType": "办公设备",
+    "name": "打印机 Smart-200",
+    "serialNumber": "SN-2025-0331",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-06-04T02:59:43.403Z",
+    "originalValue": 915357,
+    "location": "车间B-区域3",
+    "status": "transferred",
+    "owner": "ee272645-bf02-4648-a850-eadb3416a9af",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "618kg",
+      "power": "12kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-67022",
+    "images": [
+      "/devices/image_61_1.jpg",
+      "/devices/image_61_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_61.pdf",
+      "/documents/acceptance_report_61.pdf"
+    ],
+    "createdAt": "2025-06-04T02:59:43.403Z",
+    "updatedAt": "2025-06-27T02:59:43.403Z"
+  },
+  {
+    "id": "8a530e83-cb47-4978-80c7-7e5542a912c9",
+    "tokenId": "DEVICE-20251106-9763",
+    "assetType": "办公设备",
+    "name": "打印机 Pro-3000",
+    "serialNumber": "SN-2025-5162",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-05-08T02:59:43.403Z",
+    "originalValue": 542809,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "a3682ac2-a8c8-4d69-a7b0-85f6e45cea36",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4175kg",
+      "power": "23kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-39029",
+    "images": [
+      "/devices/image_62_1.jpg",
+      "/devices/image_62_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_62.pdf",
+      "/documents/acceptance_report_62.pdf"
+    ],
+    "createdAt": "2025-05-08T02:59:43.403Z",
+    "updatedAt": "2025-10-29T02:59:43.403Z"
+  },
+  {
+    "id": "199f7ef1-0bca-4451-8a91-da62a9c1cf50",
+    "tokenId": "DEVICE-20251106-9135",
+    "assetType": "生产设备",
+    "name": "冲压机 Pro-3000",
+    "serialNumber": "SN-2025-2565",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2024-04-24T02:59:43.403Z",
+    "originalValue": 123623,
+    "location": "车间B-区域3",
+    "status": "transferred",
+    "owner": "c0dbdc9c-6663-4e9c-b68c-08cb39834715",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "3853kg",
+      "power": "26kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-40857",
+    "images": [
+      "/devices/image_63_1.jpg",
+      "/devices/image_63_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_63.pdf",
+      "/documents/acceptance_report_63.pdf"
+    ],
+    "createdAt": "2024-04-24T02:59:43.403Z",
+    "updatedAt": "2025-02-13T02:59:43.403Z"
+  },
+  {
+    "id": "ea8b6a10-745a-4f09-a68d-eb1e5925ffb9",
+    "tokenId": "DEVICE-20251106-0024",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 Smart-200",
+    "serialNumber": "SN-2025-6350",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2024-10-04T02:59:43.403Z",
+    "originalValue": 907073,
+    "location": "车间B-区域3",
+    "status": "maintenance",
+    "owner": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2153kg",
+      "power": "26kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-78344",
+    "images": [
+      "/devices/image_64_1.jpg",
+      "/devices/image_64_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_64.pdf",
+      "/documents/acceptance_report_64.pdf"
+    ],
+    "createdAt": "2024-10-04T02:59:43.403Z",
+    "updatedAt": "2025-05-08T02:59:43.403Z"
+  },
+  {
+    "id": "50297caf-2680-4528-83b6-4e38ad2f5c42",
+    "tokenId": "DEVICE-20251106-1628",
+    "assetType": "办公设备",
+    "name": "投影仪 Smart-200",
+    "serialNumber": "SN-2025-4442",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2023-11-28T02:59:43.403Z",
+    "originalValue": 645872,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1974kg",
+      "power": "26kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-83159",
+    "images": [
+      "/devices/image_65_1.jpg",
+      "/devices/image_65_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_65.pdf",
+      "/documents/acceptance_report_65.pdf"
+    ],
+    "createdAt": "2023-11-28T02:59:43.403Z",
+    "updatedAt": "2024-07-06T02:59:43.403Z"
+  },
+  {
+    "id": "42521d95-c711-4f9d-848f-b58ac201c94e",
+    "tokenId": "DEVICE-20251106-0228",
+    "assetType": "办公设备",
+    "name": "服务器 CNC-X500",
+    "serialNumber": "SN-2025-6869",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2024-03-22T02:59:43.403Z",
+    "originalValue": 324537,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "6cdb7d7c-7174-46fb-9b81-c9e165e1f923",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "3903kg",
+      "power": "33kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-86261",
+    "images": [
+      "/devices/image_66_1.jpg",
+      "/devices/image_66_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_66.pdf",
+      "/documents/acceptance_report_66.pdf"
+    ],
+    "createdAt": "2024-03-22T02:59:43.403Z",
+    "updatedAt": "2024-12-14T02:59:43.403Z"
+  },
+  {
+    "id": "8964b987-00bd-4ef4-80e0-bb6c221566c5",
+    "tokenId": "DEVICE-20251106-7571",
+    "assetType": "生产设备",
+    "name": "注塑机 Smart-200",
+    "serialNumber": "SN-2025-8217",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-07-29T02:59:43.403Z",
+    "originalValue": 115344,
+    "location": "车间B-区域3",
+    "status": "normal",
+    "owner": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2094kg",
+      "power": "32kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-83177",
+    "images": [
+      "/devices/image_67_1.jpg",
+      "/devices/image_67_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_67.pdf",
+      "/documents/acceptance_report_67.pdf"
+    ],
+    "createdAt": "2024-07-29T02:59:43.403Z",
+    "updatedAt": "2024-08-21T02:59:43.403Z"
+  },
+  {
+    "id": "f0a0dbb0-3d96-4599-99b3-23a0a4be250f",
+    "tokenId": "DEVICE-20251106-4583",
+    "assetType": "办公设备",
+    "name": "工作站 AUTO-500",
+    "serialNumber": "SN-2025-3871",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2023-12-19T02:59:43.403Z",
+    "originalValue": 422792,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2866kg",
+      "power": "30kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-84963",
+    "images": [
+      "/devices/image_68_1.jpg",
+      "/devices/image_68_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_68.pdf",
+      "/documents/acceptance_report_68.pdf"
+    ],
+    "createdAt": "2023-12-19T02:59:43.403Z",
+    "updatedAt": "2024-12-09T02:59:43.403Z"
+  },
+  {
+    "id": "866bffd6-1daf-4444-9cbe-33d15454512e",
+    "tokenId": "DEVICE-20251106-2338",
+    "assetType": "生产设备",
+    "name": "注塑机 AUTO-500",
+    "serialNumber": "SN-2025-2906",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-03-12T02:59:43.403Z",
+    "originalValue": 876584,
+    "location": "车间A-区域1",
+    "status": "transferred",
+    "owner": "ee272645-bf02-4648-a850-eadb3416a9af",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1847kg",
+      "power": "45kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-46778",
+    "images": [
+      "/devices/image_69_1.jpg",
+      "/devices/image_69_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_69.pdf",
+      "/documents/acceptance_report_69.pdf"
+    ],
+    "createdAt": "2024-03-12T02:59:43.403Z",
+    "updatedAt": "2024-04-30T02:59:43.403Z"
+  },
+  {
+    "id": "af83f319-15a3-49ef-b38c-c098bee8f3b7",
+    "tokenId": "DEVICE-20251106-0634",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 AUTO-500",
+    "serialNumber": "SN-2025-5958",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2024-01-17T02:59:43.403Z",
+    "originalValue": 385530,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3400kg",
+      "power": "22kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-67470",
+    "images": [
+      "/devices/image_70_1.jpg",
+      "/devices/image_70_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_70.pdf",
+      "/documents/acceptance_report_70.pdf"
+    ],
+    "createdAt": "2024-01-17T02:59:43.403Z",
+    "updatedAt": "2024-10-17T02:59:43.403Z"
+  },
+  {
+    "id": "f9267024-1eeb-4dfa-8826-5b5ee441725b",
+    "tokenId": "DEVICE-20251106-9322",
+    "assetType": "办公设备",
+    "name": "打印机 AUTO-500",
+    "serialNumber": "SN-2025-0661",
+    "manufacturer": "办公设备公司",
+    "purchaseDate": "2025-01-22T02:59:43.403Z",
+    "originalValue": 308385,
+    "location": "实验室",
+    "status": "normal",
+    "owner": "f1fc7774-c38e-4607-a9fe-ad79ef6f6524",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "4955kg",
+      "power": "23kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-86727",
+    "images": [
+      "/devices/image_71_1.jpg",
+      "/devices/image_71_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_71.pdf",
+      "/documents/acceptance_report_71.pdf"
+    ],
+    "createdAt": "2025-01-22T02:59:43.403Z",
+    "updatedAt": "2025-08-20T02:59:43.403Z"
+  },
+  {
+    "id": "3f542535-c522-48a7-bb25-1bb296b90128",
+    "tokenId": "DEVICE-20251106-7545",
+    "assetType": "检测设备",
+    "name": "质量检测系统 Smart-200",
+    "serialNumber": "SN-2025-1695",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-09-22T02:59:43.403Z",
+    "originalValue": 102281,
+    "location": "车间A-区域1",
+    "status": "scrapped",
+    "owner": "b6ff328c-e710-4e68-b35d-ab0ef9f601bd",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4882kg",
+      "power": "46kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-91080",
+    "images": [
+      "/devices/image_72_1.jpg",
+      "/devices/image_72_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_72.pdf",
+      "/documents/acceptance_report_72.pdf"
+    ],
+    "createdAt": "2025-09-22T02:59:43.403Z",
+    "updatedAt": "2026-09-12T02:59:43.403Z"
+  },
+  {
+    "id": "d6b4b38a-5054-4105-ba7f-25a7f1a85c10",
+    "tokenId": "DEVICE-20251106-5785",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 Pro-3000",
+    "serialNumber": "SN-2025-9982",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2025-02-26T02:59:43.403Z",
+    "originalValue": 135321,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3544kg",
+      "power": "50kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-24971",
+    "images": [
+      "/devices/image_73_1.jpg",
+      "/devices/image_73_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_73.pdf",
+      "/documents/acceptance_report_73.pdf"
+    ],
+    "createdAt": "2025-02-26T02:59:43.403Z",
+    "updatedAt": "2025-11-21T02:59:43.403Z"
+  },
+  {
+    "id": "0f7086ca-fead-4c6a-9653-68642e435ff4",
+    "tokenId": "DEVICE-20251106-9779",
+    "assetType": "办公设备",
+    "name": "服务器 AUTO-500",
+    "serialNumber": "SN-2025-5244",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-04-19T02:59:43.403Z",
+    "originalValue": 254940,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "5c99696d-5757-421f-9e54-cf373db38d2f",
+    "metadata": {
+      "model": "X500",
+      "weight": "1162kg",
+      "power": "8kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-16209",
+    "images": [
+      "/devices/image_74_1.jpg",
+      "/devices/image_74_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_74.pdf",
+      "/documents/acceptance_report_74.pdf"
+    ],
+    "createdAt": "2024-04-19T02:59:43.403Z",
+    "updatedAt": "2024-10-08T02:59:43.403Z"
+  },
+  {
+    "id": "d7b8d5d6-110c-4319-8030-36a5ed579321",
+    "tokenId": "DEVICE-20251106-1560",
+    "assetType": "办公设备",
+    "name": "服务器 AUTO-500",
+    "serialNumber": "SN-2025-0049",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-05-22T02:59:43.403Z",
+    "originalValue": 889868,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "a7f357b7-432c-4896-b70e-41a60a1a823c",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4363kg",
+      "power": "12kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-50758",
+    "images": [
+      "/devices/image_75_1.jpg",
+      "/devices/image_75_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_75.pdf",
+      "/documents/acceptance_report_75.pdf"
+    ],
+    "createdAt": "2025-05-22T02:59:43.403Z",
+    "updatedAt": "2025-11-25T02:59:43.403Z"
+  },
+  {
+    "id": "7a9ca150-0d3d-4fc9-99de-0eea1273487d",
+    "tokenId": "DEVICE-20251106-5580",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 AUTO-500",
+    "serialNumber": "SN-2025-3438",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2025-10-14T02:59:43.403Z",
+    "originalValue": 388396,
+    "location": "实验室",
+    "status": "normal",
+    "owner": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "964kg",
+      "power": "35kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-82572",
+    "images": [
+      "/devices/image_76_1.jpg",
+      "/devices/image_76_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_76.pdf",
+      "/documents/acceptance_report_76.pdf"
+    ],
+    "createdAt": "2025-10-14T02:59:43.403Z",
+    "updatedAt": "2026-08-05T02:59:43.403Z"
+  },
+  {
+    "id": "df043c81-ca49-41b0-ab32-1185b98beff8",
+    "tokenId": "DEVICE-20251106-5895",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 CNC-X500",
+    "serialNumber": "SN-2025-7704",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2025-08-04T02:59:43.403Z",
+    "originalValue": 687672,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3698kg",
+      "power": "11kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-89658",
+    "images": [
+      "/devices/image_77_1.jpg",
+      "/devices/image_77_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_77.pdf",
+      "/documents/acceptance_report_77.pdf"
+    ],
+    "createdAt": "2025-08-04T02:59:43.403Z",
+    "updatedAt": "2026-02-09T02:59:43.403Z"
+  },
+  {
+    "id": "7ee3bafc-e26d-4b5c-b019-45dc3ce303f2",
+    "tokenId": "DEVICE-20251106-2773",
+    "assetType": "办公设备",
+    "name": "投影仪 CNC-X500",
+    "serialNumber": "SN-2025-9956",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2024-06-27T02:59:43.403Z",
+    "originalValue": 114105,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+    "metadata": {
+      "model": "X500",
+      "weight": "4237kg",
+      "power": "31kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-95115",
+    "images": [
+      "/devices/image_78_1.jpg",
+      "/devices/image_78_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_78.pdf",
+      "/documents/acceptance_report_78.pdf"
+    ],
+    "createdAt": "2024-06-27T02:59:43.403Z",
+    "updatedAt": "2025-05-03T02:59:43.403Z"
+  },
+  {
+    "id": "0dee4e95-8b84-49f8-b530-eb5dc1d91b6b",
+    "tokenId": "DEVICE-20251106-5918",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 Pro-3000",
+    "serialNumber": "SN-2025-1714",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2025-06-17T02:59:43.403Z",
+    "originalValue": 544506,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4322kg",
+      "power": "7kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-49815",
+    "images": [
+      "/devices/image_79_1.jpg",
+      "/devices/image_79_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_79.pdf",
+      "/documents/acceptance_report_79.pdf"
+    ],
+    "createdAt": "2025-06-17T02:59:43.403Z",
+    "updatedAt": "2025-12-28T02:59:43.403Z"
+  },
+  {
+    "id": "b0184ffb-f068-4292-9290-98ce649580e9",
+    "tokenId": "DEVICE-20251106-7146",
+    "assetType": "生产设备",
+    "name": "装配线 AUTO-500",
+    "serialNumber": "SN-2025-6329",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-06-08T02:59:43.403Z",
+    "originalValue": 144608,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "4387kg",
+      "power": "31kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-84244",
+    "images": [
+      "/devices/image_80_1.jpg",
+      "/devices/image_80_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_80.pdf",
+      "/documents/acceptance_report_80.pdf"
+    ],
+    "createdAt": "2024-06-08T02:59:43.403Z",
+    "updatedAt": "2025-03-04T02:59:43.403Z"
+  },
+  {
+    "id": "bfb5aa53-c65e-444b-95dc-12f2cbf7092f",
+    "tokenId": "DEVICE-20251106-0675",
+    "assetType": "检测设备",
+    "name": "硬度测试机 AUTO-500",
+    "serialNumber": "SN-2025-1555",
+    "manufacturer": "精密仪器科技",
+    "purchaseDate": "2023-12-03T02:59:43.403Z",
+    "originalValue": 287991,
+    "location": "实验室",
+    "status": "normal",
+    "owner": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+    "metadata": {
+      "model": "X500",
+      "weight": "2624kg",
+      "power": "41kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-98853",
+    "images": [
+      "/devices/image_81_1.jpg",
+      "/devices/image_81_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_81.pdf",
+      "/documents/acceptance_report_81.pdf"
+    ],
+    "createdAt": "2023-12-03T02:59:43.403Z",
+    "updatedAt": "2024-07-21T02:59:43.403Z"
+  },
+  {
+    "id": "07f12b9d-92e0-4053-8998-3ba9849d8978",
+    "tokenId": "DEVICE-20251106-1526",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 AUTO-500",
+    "serialNumber": "SN-2025-0710",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-06-30T02:59:43.403Z",
+    "originalValue": 886484,
+    "location": "仓库区",
+    "status": "scrapped",
+    "owner": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3031kg",
+      "power": "33kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-77531",
+    "images": [
+      "/devices/image_82_1.jpg",
+      "/devices/image_82_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_82.pdf",
+      "/documents/acceptance_report_82.pdf"
+    ],
+    "createdAt": "2025-06-30T02:59:43.403Z",
+    "updatedAt": "2026-05-06T02:59:43.403Z"
+  },
+  {
+    "id": "caf1f37c-3c43-498f-9236-efacef09868c",
+    "tokenId": "DEVICE-20251106-5885",
+    "assetType": "生产设备",
+    "name": "焊接机器人 CNC-X500",
+    "serialNumber": "SN-2025-0884",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2024-05-20T02:59:43.403Z",
+    "originalValue": 506452,
+    "location": "车间A-区域2",
+    "status": "maintenance",
+    "owner": "076c3fce-3670-4945-9d1e-0f63c0dc8103",
+    "metadata": {
+      "model": "X500",
+      "weight": "4270kg",
+      "power": "31kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-48837",
+    "images": [
+      "/devices/image_83_1.jpg",
+      "/devices/image_83_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_83.pdf",
+      "/documents/acceptance_report_83.pdf"
+    ],
+    "createdAt": "2024-05-20T02:59:43.403Z",
+    "updatedAt": "2024-09-06T02:59:43.403Z"
+  },
+  {
+    "id": "7bb2cc26-6d05-4420-acbb-aa02ba7a3e33",
+    "tokenId": "DEVICE-20251106-5196",
+    "assetType": "办公设备",
+    "name": "打印机 Pro-3000",
+    "serialNumber": "SN-2025-2495",
+    "manufacturer": "科技产品公司",
+    "purchaseDate": "2025-07-25T02:59:43.403Z",
+    "originalValue": 781950,
+    "location": "仓库区",
+    "status": "transferred",
+    "owner": "e14d1792-f266-4e7a-b6b9-1e373d67245e",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3897kg",
+      "power": "29kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-31085",
+    "images": [
+      "/devices/image_84_1.jpg",
+      "/devices/image_84_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_84.pdf",
+      "/documents/acceptance_report_84.pdf"
+    ],
+    "createdAt": "2025-07-25T02:59:43.403Z",
+    "updatedAt": "2025-08-30T02:59:43.403Z"
+  },
+  {
+    "id": "a7a02df6-53fa-49de-be66-3250e3102fa7",
+    "tokenId": "DEVICE-20251106-8249",
+    "assetType": "检测设备",
+    "name": "光谱分析仪 Pro-3000",
+    "serialNumber": "SN-2025-7150",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2025-03-03T02:59:43.403Z",
+    "originalValue": 997753,
+    "location": "实验室",
+    "status": "maintenance",
+    "owner": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3668kg",
+      "power": "33kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-98398",
+    "images": [
+      "/devices/image_85_1.jpg",
+      "/devices/image_85_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_85.pdf",
+      "/documents/acceptance_report_85.pdf"
+    ],
+    "createdAt": "2025-03-03T02:59:43.403Z",
+    "updatedAt": "2025-07-02T02:59:43.403Z"
+  },
+  {
+    "id": "e0f393cb-9b82-4bdf-9bf4-711a9ce00288",
+    "tokenId": "DEVICE-20251106-3106",
+    "assetType": "办公设备",
+    "name": "服务器 Pro-3000",
+    "serialNumber": "SN-2025-9727",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-05-18T02:59:43.403Z",
+    "originalValue": 876847,
+    "location": "实验室",
+    "status": "scrapped",
+    "owner": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2908kg",
+      "power": "50kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-43843",
+    "images": [
+      "/devices/image_86_1.jpg",
+      "/devices/image_86_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_86.pdf",
+      "/documents/acceptance_report_86.pdf"
+    ],
+    "createdAt": "2025-05-18T02:59:43.403Z",
+    "updatedAt": "2025-08-31T02:59:43.403Z"
+  },
+  {
+    "id": "fef617fb-a797-4e53-b2ae-546739e462e1",
+    "tokenId": "DEVICE-20251106-9026",
+    "assetType": "生产设备",
+    "name": "数控加工中心 Smart-200",
+    "serialNumber": "SN-2025-1667",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2025-06-25T02:59:43.403Z",
+    "originalValue": 286079,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "6663131a-14b7-40aa-b048-a50ed036c84a",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "3118kg",
+      "power": "44kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-69795",
+    "images": [
+      "/devices/image_87_1.jpg",
+      "/devices/image_87_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_87.pdf",
+      "/documents/acceptance_report_87.pdf"
+    ],
+    "createdAt": "2025-06-25T02:59:43.403Z",
+    "updatedAt": "2025-09-22T02:59:43.403Z"
+  },
+  {
+    "id": "218edebf-d884-427f-a704-a973854045e9",
+    "tokenId": "DEVICE-20251106-0102",
+    "assetType": "检测设备",
+    "name": "质量检测系统 Smart-200",
+    "serialNumber": "SN-2025-0842",
+    "manufacturer": "检测设备公司",
+    "purchaseDate": "2024-01-04T02:59:43.403Z",
+    "originalValue": 472407,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "5c99696d-5757-421f-9e54-cf373db38d2f",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "831kg",
+      "power": "6kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-70583",
+    "images": [
+      "/devices/image_88_1.jpg",
+      "/devices/image_88_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_88.pdf",
+      "/documents/acceptance_report_88.pdf"
+    ],
+    "createdAt": "2024-01-04T02:59:43.403Z",
+    "updatedAt": "2024-01-08T02:59:43.403Z"
+  },
+  {
+    "id": "678933cb-701c-4544-810a-131a7be6d9cb",
+    "tokenId": "DEVICE-20251106-9150",
+    "assetType": "办公设备",
+    "name": "打印机 Smart-200",
+    "serialNumber": "SN-2025-4217",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-02-29T02:59:43.403Z",
+    "originalValue": 604407,
+    "location": "车间B-区域3",
+    "status": "transferred",
+    "owner": "e9f83f8a-6e6a-45a6-aef0-df91475cb895",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "3479kg",
+      "power": "34kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-87897",
+    "images": [
+      "/devices/image_89_1.jpg",
+      "/devices/image_89_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_89.pdf",
+      "/documents/acceptance_report_89.pdf"
+    ],
+    "createdAt": "2024-02-29T02:59:43.403Z",
+    "updatedAt": "2024-08-20T02:59:43.403Z"
+  },
+  {
+    "id": "66f9324d-9ebe-4897-9b71-23d719f34032",
+    "tokenId": "DEVICE-20251106-9211",
+    "assetType": "检测设备",
+    "name": "尺寸检测仪 Pro-3000",
+    "serialNumber": "SN-2025-1966",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2025-05-03T02:59:43.403Z",
+    "originalValue": 463866,
+    "location": "车间A-区域2",
+    "status": "transferred",
+    "owner": "86b6cbf0-525e-4384-a6b7-ed0ca82517f6",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2281kg",
+      "power": "25kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-25950",
+    "images": [
+      "/devices/image_90_1.jpg",
+      "/devices/image_90_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_90.pdf",
+      "/documents/acceptance_report_90.pdf"
+    ],
+    "createdAt": "2025-05-03T02:59:43.403Z",
+    "updatedAt": "2025-08-02T02:59:43.403Z"
+  },
+  {
+    "id": "ebc74cff-4cd6-4bdc-ac6a-21a25e38e6c6",
+    "tokenId": "DEVICE-20251106-6743",
+    "assetType": "生产设备",
+    "name": "装配线 Pro-3000",
+    "serialNumber": "SN-2025-5452",
+    "manufacturer": "某某机床有限公司",
+    "purchaseDate": "2025-07-18T02:59:43.403Z",
+    "originalValue": 936640,
+    "location": "车间A-区域1",
+    "status": "normal",
+    "owner": "61fc68c2-6f54-45fe-b49b-0e6875f453e9",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "534kg",
+      "power": "30kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-21313",
+    "images": [
+      "/devices/image_91_1.jpg",
+      "/devices/image_91_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_91.pdf",
+      "/documents/acceptance_report_91.pdf"
+    ],
+    "createdAt": "2025-07-18T02:59:43.403Z",
+    "updatedAt": "2026-06-17T02:59:43.403Z"
+  },
+  {
+    "id": "e2b17f97-a619-4d7a-85e8-4cbe8360f7de",
+    "tokenId": "DEVICE-20251106-6527",
+    "assetType": "办公设备",
+    "name": "打印机 Pro-3000",
+    "serialNumber": "SN-2025-3394",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-04-03T02:59:43.403Z",
+    "originalValue": 294659,
+    "location": "仓库区",
+    "status": "maintenance",
+    "owner": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "2876kg",
+      "power": "45kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-20582",
+    "images": [
+      "/devices/image_92_1.jpg",
+      "/devices/image_92_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_92.pdf",
+      "/documents/acceptance_report_92.pdf"
+    ],
+    "createdAt": "2024-04-03T02:59:43.403Z",
+    "updatedAt": "2024-12-06T02:59:43.403Z"
+  },
+  {
+    "id": "fb71eb6c-dff3-4f93-91bb-b3ce6ad29b55",
+    "tokenId": "DEVICE-20251106-3100",
+    "assetType": "生产设备",
+    "name": "焊接机器人 AUTO-500",
+    "serialNumber": "SN-2025-8520",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-02-10T02:59:43.403Z",
+    "originalValue": 182906,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "2418kg",
+      "power": "47kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-67556",
+    "images": [
+      "/devices/image_93_1.jpg",
+      "/devices/image_93_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_93.pdf",
+      "/documents/acceptance_report_93.pdf"
+    ],
+    "createdAt": "2024-02-10T02:59:43.403Z",
+    "updatedAt": "2024-09-17T02:59:43.403Z"
+  },
+  {
+    "id": "bc334721-11b8-4dea-8c38-7ff344ad6a76",
+    "tokenId": "DEVICE-20251106-6997",
+    "assetType": "生产设备",
+    "name": "冲压机 Smart-200",
+    "serialNumber": "SN-2025-1605",
+    "manufacturer": "自动化设备制造",
+    "purchaseDate": "2025-04-24T02:59:43.403Z",
+    "originalValue": 315059,
+    "location": "车间A-区域2",
+    "status": "normal",
+    "owner": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "991kg",
+      "power": "25kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-68181",
+    "images": [
+      "/devices/image_94_1.jpg",
+      "/devices/image_94_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_94.pdf",
+      "/documents/acceptance_report_94.pdf"
+    ],
+    "createdAt": "2025-04-24T02:59:43.403Z",
+    "updatedAt": "2025-12-31T02:59:43.403Z"
+  },
+  {
+    "id": "82fdb7a3-b49f-4ab7-9cdc-8e9955833fa3",
+    "tokenId": "DEVICE-20251106-1542",
+    "assetType": "办公设备",
+    "name": "投影仪 CNC-X500",
+    "serialNumber": "SN-2025-1617",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2025-04-22T02:59:43.403Z",
+    "originalValue": 928219,
+    "location": "仓库区",
+    "status": "normal",
+    "owner": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "1768kg",
+      "power": "36kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-42442",
+    "images": [
+      "/devices/image_95_1.jpg",
+      "/devices/image_95_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_95.pdf",
+      "/documents/acceptance_report_95.pdf"
+    ],
+    "createdAt": "2025-04-22T02:59:43.403Z",
+    "updatedAt": "2025-05-29T02:59:43.403Z"
+  },
+  {
+    "id": "94deb9f6-1dc8-4c61-a21d-4a008d4687e5",
+    "tokenId": "DEVICE-20251106-9588",
+    "assetType": "检测设备",
+    "name": "质量检测系统 AUTO-500",
+    "serialNumber": "SN-2025-1250",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2025-05-12T02:59:43.403Z",
+    "originalValue": 299805,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+    "metadata": {
+      "model": "Pro-3000",
+      "weight": "4251kg",
+      "power": "12kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-95676",
+    "images": [
+      "/devices/image_96_1.jpg",
+      "/devices/image_96_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_96.pdf",
+      "/documents/acceptance_report_96.pdf"
+    ],
+    "createdAt": "2025-05-12T02:59:43.403Z",
+    "updatedAt": "2025-11-16T02:59:43.403Z"
+  },
+  {
+    "id": "8315820f-6b32-4383-9d0f-f03e61c03d84",
+    "tokenId": "DEVICE-20251106-5054",
+    "assetType": "办公设备",
+    "name": "服务器 Pro-3000",
+    "serialNumber": "SN-2025-2539",
+    "manufacturer": "IT设备供应商",
+    "purchaseDate": "2024-02-10T02:59:43.403Z",
+    "originalValue": 202787,
+    "location": "车间A-区域1",
+    "status": "maintenance",
+    "owner": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+    "metadata": {
+      "model": "X500",
+      "weight": "4996kg",
+      "power": "22kW",
+      "warranty": "2年"
+    },
+    "iot_deviceId": "IOT-58110",
+    "images": [
+      "/devices/image_97_1.jpg",
+      "/devices/image_97_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_97.pdf",
+      "/documents/acceptance_report_97.pdf"
+    ],
+    "createdAt": "2024-02-10T02:59:43.403Z",
+    "updatedAt": "2024-12-28T02:59:43.403Z"
+  },
+  {
+    "id": "4602b30d-ff28-48b3-8856-8abfed78efc0",
+    "tokenId": "DEVICE-20251106-0443",
+    "assetType": "检测设备",
+    "name": "硬度测试机 CNC-X500",
+    "serialNumber": "SN-2025-1967",
+    "manufacturer": "测量技术公司",
+    "purchaseDate": "2023-12-30T02:59:43.403Z",
+    "originalValue": 989579,
+    "location": "实验室",
+    "status": "maintenance",
+    "owner": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+    "metadata": {
+      "model": "Smart-200",
+      "weight": "682kg",
+      "power": "45kW",
+      "warranty": "1年"
+    },
+    "iot_deviceId": "IOT-46312",
+    "images": [
+      "/devices/image_98_1.jpg",
+      "/devices/image_98_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_98.pdf",
+      "/documents/acceptance_report_98.pdf"
+    ],
+    "createdAt": "2023-12-30T02:59:43.403Z",
+    "updatedAt": "2024-03-31T02:59:43.403Z"
+  },
+  {
+    "id": "f9a44214-ad5c-40bd-885e-3f5841a3c039",
+    "tokenId": "DEVICE-20251106-2525",
+    "assetType": "生产设备",
+    "name": "冲压机 Smart-200",
+    "serialNumber": "SN-2025-8819",
+    "manufacturer": "智能机械科技",
+    "purchaseDate": "2024-06-08T02:59:43.403Z",
+    "originalValue": 956349,
+    "location": "实验室",
+    "status": "scrapped",
+    "owner": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+    "metadata": {
+      "model": "AUTO-500",
+      "weight": "2450kg",
+      "power": "14kW",
+      "warranty": "3年"
+    },
+    "iot_deviceId": "IOT-37351",
+    "images": [
+      "/devices/image_99_1.jpg",
+      "/devices/image_99_2.jpg"
+    ],
+    "documents": [
+      "/documents/purchase_contract_99.pdf",
+      "/documents/acceptance_report_99.pdf"
+    ],
+    "createdAt": "2024-06-08T02:59:43.403Z",
+    "updatedAt": "2025-04-03T02:59:43.403Z"
+  }
+]

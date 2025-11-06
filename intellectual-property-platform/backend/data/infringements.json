@@ -1,0 +1,4962 @@
+[
+  {
+    "id": "e6c4e1b6-ed5d-4ce1-875e-53b8ebce1d52",
+    "assetId": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+    "asset": {
+      "id": "b3a367fc-5ca8-42dd-8df4-503fe89f2abc",
+      "certificateId": "CERT-20251106-723940",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.3dmax",
+      "fileHash": "0x4205108c335f28ac8c1ddad41d084be1730e8c10a908f7d1f8926979a45e99ab",
+      "fileSize": 46080948,
+      "author": {
+        "name": "张军",
+        "idCard": "3209876898453",
+        "ca_cert": "CA-135171"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-26T02:59:43.398Z",
+        "tsa_signature": "0xe374f1d2e2255e33c173bcc3c5d7b8d5da36bc0399ff241b39aae301dc16c357"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x551308b73b561939a5fc6dd5397918d30ed01cf36f65218b90909ddec3e6a916",
+        "blockHeight": 1596752,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+      "status": "registered",
+      "createdAt": "2025-06-26T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/771387",
+    "suspectPlatform": "站酷",
+    "similarity": 85,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_0_1.jpg",
+        "/evidence/screenshot_0_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x59b61f1bdc1cf164e39ae53fa457a8a8920451c115963415368f1c7fe4de29b5",
+      "productInfo": {
+        "seller": "陈军",
+        "sales": 7110,
+        "price": 4611
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xacd4f5b3d68aa2d6e219426d687ecf16cbc39e008dec3ba7e6675113262e19e7",
+      "txHash": "0x62031f47a5f0eb037791051e691104346ac8868f40cdc3bd1d030f8bc7251e4c",
+      "blockHeight": 1528797
+    },
+    "status": "investigating",
+    "createdAt": "2025-08-23T02:59:43.399Z",
+    "updatedAt": "2025-08-25T02:59:43.399Z"
+  },
+  {
+    "id": "d494c800-defe-4c7f-87d6-5ecb7fa16a15",
+    "assetId": "8a12b308-db58-42bf-b791-fb97463b9766",
+    "asset": {
+      "id": "8a12b308-db58-42bf-b791-fb97463b9766",
+      "certificateId": "CERT-20251106-004470",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0xaf233902958b9a3829868b3d09e5e5da47f733ee9b23c5d4f49155b98f24862e",
+      "fileSize": 17667867,
+      "author": {
+        "name": "张军",
+        "idCard": "5102016067014",
+        "ca_cert": "CA-813110"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-06T02:59:43.396Z",
+        "tsa_signature": "0xbce8791f3a8b64b8d1e3dd1b1fa71e09e80d949ddeda2f4d97b0110020373a35"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa1fc2954ba055fe71e862d912c406d3c95bf19e8d8ebaf8e16950c33443d5a38",
+        "blockHeight": 1584008,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "48e8d7c1-f0d9-4581-8f06-953166e6c9b6",
+      "status": "licensed",
+      "createdAt": "2025-07-06T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/832460",
+    "suspectPlatform": "站酷",
+    "similarity": 95,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_1_1.jpg",
+        "/evidence/screenshot_1_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x6aa384230e2a137f2699cde293e2f59621114094e2f5fd3b96b446ac9219633e",
+      "productInfo": {
+        "seller": "张艳",
+        "sales": 8207,
+        "price": 2469
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x2321a35fc3973e626662dd4a81d1ab5334d6af50cbccfb872f7b921a9b8c967a",
+      "txHash": "0xf5ea0cc7c59ccf7f49806b3e899704e6f5e60eb17a11f2d67ab707e3dbd6d4fb",
+      "blockHeight": 1507938
+    },
+    "status": "investigating",
+    "createdAt": "2025-08-09T02:59:43.399Z",
+    "updatedAt": "2025-09-02T02:59:43.399Z"
+  },
+  {
+    "id": "e24917d1-4c87-4cfe-a7b2-e36a173a5590",
+    "assetId": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+    "asset": {
+      "id": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+      "certificateId": "CERT-20251106-093617",
+      "assetType": "源代码",
+      "fileName": "代码库SDK.git",
+      "fileHash": "0x839894f1b5b868fd18e68c8da59f9b69f23329e097f0862c8e8de132eb905f12",
+      "fileSize": 29620548,
+      "author": {
+        "name": "张勇",
+        "idCard": "5101228995193",
+        "ca_cert": "CA-937860"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-11T02:59:43.397Z",
+        "tsa_signature": "0x4410563383b8bb482dbfdecfc64cf5d0312644d7de816df7fcce6ac009181c2b"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8d665c719baa73d7debde0b777e0087df42f1b1c9a072a3a403272050b50908a",
+        "blockHeight": 1563746,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库SDK.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+      "status": "licensed",
+      "createdAt": "2025-08-11T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/156364",
+    "suspectPlatform": "淘宝",
+    "similarity": 78,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_2_1.jpg",
+        "/evidence/screenshot_2_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xca3dcb4605c0188d3ab2a7238e7964574a97ed79af4648a1583a5637d12f598d",
+      "productInfo": {
+        "seller": "高强",
+        "sales": 8190,
+        "price": 4338
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x9f2bfafb5cb4654d2ebfeb9ef22b3d446207d488712be52e4ebdc1ab05ad6eb6",
+      "txHash": "0x37f5440206b951b43ae36f5e6e649dd625903fc850998d5921012c248c703bbe",
+      "blockHeight": 1536499
+    },
+    "status": "settled",
+    "createdAt": "2025-09-14T02:59:43.399Z",
+    "updatedAt": "2025-09-30T02:59:43.399Z"
+  },
+  {
+    "id": "8a4a2307-e650-4f2e-80fb-57ea0364763e",
+    "assetId": "315c9736-b370-4c40-932a-a3f035567215",
+    "asset": {
+      "id": "315c9736-b370-4c40-932a-a3f035567215",
+      "certificateId": "CERT-20251106-607522",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v1.3dmax",
+      "fileHash": "0x09675de9c735a577f6a0cea4f2d4160be32c67ac35ca16c797d0de9e325652bf",
+      "fileSize": 27883516,
+      "author": {
+        "name": "张勇",
+        "idCard": "5102938129517",
+        "ca_cert": "CA-363612"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.396Z",
+        "tsa_signature": "0xcb32f1c7fc53946d3bf9fd14957911f8171235e43c3379ae993d70bae7d0311d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7685707441415f86e6fc47a8a6956d367cf3060313f495a77534ad36c4fdb9ea",
+        "blockHeight": 1591910,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v1.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6c709f32-9b54-451a-bce7-a43de519534e",
+      "status": "licensed",
+      "createdAt": "2025-07-22T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/950217",
+    "suspectPlatform": "微信公众号",
+    "similarity": 78,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_3_1.jpg",
+        "/evidence/screenshot_3_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x2e15581cb1392c638ee3695cdf47dc7d8f7d17e473f53f5b70f62fb0bac49188",
+      "productInfo": {
+        "seller": "马勇",
+        "sales": 8901,
+        "price": 421
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xa329c14970e4cfa000e09e8d24878e0cee0f965472fc8fcc648a646749ef15c6",
+      "txHash": "0x2a5e7fe22c0c29b233ae84c94363fbc79054e897982fde473f6b89dc4ecfa16d",
+      "blockHeight": 1501577
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-14T02:59:43.399Z",
+    "updatedAt": "2025-10-01T02:59:43.399Z"
+  },
+  {
+    "id": "a0ff3db4-c1e6-4e50-8264-47d2de6ab648",
+    "assetId": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+    "asset": {
+      "id": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+      "certificateId": "CERT-20251106-093617",
+      "assetType": "源代码",
+      "fileName": "代码库SDK.git",
+      "fileHash": "0x839894f1b5b868fd18e68c8da59f9b69f23329e097f0862c8e8de132eb905f12",
+      "fileSize": 29620548,
+      "author": {
+        "name": "张勇",
+        "idCard": "5101228995193",
+        "ca_cert": "CA-937860"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-11T02:59:43.397Z",
+        "tsa_signature": "0x4410563383b8bb482dbfdecfc64cf5d0312644d7de816df7fcce6ac009181c2b"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8d665c719baa73d7debde0b777e0087df42f1b1c9a072a3a403272050b50908a",
+        "blockHeight": 1563746,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库SDK.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+      "status": "licensed",
+      "createdAt": "2025-08-11T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/701644",
+    "suspectPlatform": "淘宝",
+    "similarity": 96,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_4_1.jpg",
+        "/evidence/screenshot_4_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xafb331edac7e7fbab7910940188f4484613a51d3820ef174690cb36cd7444133",
+      "productInfo": {
+        "seller": "黄军",
+        "sales": 5827,
+        "price": 249
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x9f2bfafb5cb4654d2ebfeb9ef22b3d446207d488712be52e4ebdc1ab05ad6eb6",
+      "txHash": "0xe7ccbe6257c6b0c8894061b79174e30a6efa8e066551cd4726fb10593326d9b3",
+      "blockHeight": 1560647
+    },
+    "status": "litigation",
+    "createdAt": "2025-09-09T02:59:43.399Z",
+    "updatedAt": "2025-09-30T02:59:43.399Z"
+  },
+  {
+    "id": "3f93d7d9-ac51-49c7-8865-769359962e75",
+    "assetId": "e31ce1d7-0cfc-4dcf-b91e-94c4dac2f78d",
+    "asset": {
+      "id": "e31ce1d7-0cfc-4dcf-b91e-94c4dac2f78d",
+      "certificateId": "CERT-20251106-819845",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v3.3dmax",
+      "fileHash": "0xa980ee46fb39c3270112903d23492099b365815fadfa0b594831701ad6979584",
+      "fileSize": 38798283,
+      "author": {
+        "name": "胡明",
+        "idCard": "3101313088754",
+        "ca_cert": "CA-409420"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-19T02:59:43.398Z",
+        "tsa_signature": "0x658294325ed6432692c0a499e2dcbb0cbcfa422b30fb25692431ef3b38650ff5"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x987609dab9095eece2dd7e1409dbb64561b3f3b5833ccb1a15f832313ba2982f",
+        "blockHeight": 1592413,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v3.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "c0dbdc9c-6663-4e9c-b68c-08cb39834715",
+      "status": "registered",
+      "createdAt": "2025-06-19T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/883568",
+    "suspectPlatform": "拼多多",
+    "similarity": 84,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_5_1.jpg",
+        "/evidence/screenshot_5_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x9f443d55ff3cc33df0c01eda955ba4adb2fb7d93453373af12f6fbd59fdf0d03",
+      "productInfo": {
+        "seller": "徐杰",
+        "sales": 6037,
+        "price": 4972
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xaf2c3d35c25ab45996ebd41532c50eb1f5117edce7909fe6765f2135fa402ad1",
+      "txHash": "0x2e2e855616e20936ce58c9041a7f3341d255f384fa6693db3822ab57a632c624",
+      "blockHeight": 1543248
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-25T02:59:43.399Z",
+    "updatedAt": "2025-11-20T02:59:43.399Z"
+  },
+  {
+    "id": "23269436-d486-4d8f-8dd2-00ddfc0a8a98",
+    "assetId": "2a388238-8155-47a8-836b-816420a3979b",
+    "asset": {
+      "id": "2a388238-8155-47a8-836b-816420a3979b",
+      "certificateId": "CERT-20251106-866884",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x3dea6df39aa9de1de8478979a92d809aad96273ea73ded97f7d631dd87837b4e",
+      "fileSize": 42788145,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5104031214767",
+        "ca_cert": "CA-120828"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-04T02:59:43.398Z",
+        "tsa_signature": "0x216c78912908cf47614ecb31c3b67fed07b5255090405ed137d80f68f153bced"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x882c9b52f0d9ad67b5476dc1c204a182c179bcb43473f551fb68caf25100ee48",
+        "blockHeight": 1573803,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-04T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/256596",
+    "suspectPlatform": "拼多多",
+    "similarity": 82,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_6_1.jpg",
+        "/evidence/screenshot_6_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x5e2635af22ab43064c611a1954342878cd81aac3f72cbfa4271c8e9993b36dc4",
+      "productInfo": {
+        "seller": "高静",
+        "sales": 509,
+        "price": 2446
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x64d5fb703adc5cfbfbf679db8697768400c875125a8339b89ced63065230776c",
+      "txHash": "0x45c46241baa7c2d581536a9d4adcbf5502e9af8f309ad5e1de3e59c0565c3703",
+      "blockHeight": 1575716
+    },
+    "status": "litigation",
+    "createdAt": "2025-09-09T02:59:43.399Z",
+    "updatedAt": "2025-09-22T02:59:43.399Z"
+  },
+  {
+    "id": "4d7afdb3-cd52-4ef0-ae11-d725ee8d2efb",
+    "assetId": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+    "asset": {
+      "id": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+      "certificateId": "CERT-20251106-767528",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.3dmax",
+      "fileHash": "0xc67b9a347dac3bff0c20758bb7f9b26a9a8a5fe5ec6dcbf0df6a7b2075055a6c",
+      "fileSize": 10537619,
+      "author": {
+        "name": "张军",
+        "idCard": "3209443382500",
+        "ca_cert": "CA-125011"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.396Z",
+        "tsa_signature": "0x0eea2262478896ce9c3d57b2485c0f60989b6d89565f31bd3c9ae6e23280ddb6"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5525dde5a6be71e413cd533e4c1472302628892f2635fc8947722a497a68110a",
+        "blockHeight": 1541414,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/318660",
+    "suspectPlatform": "小红书",
+    "similarity": 91,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_7_1.jpg",
+        "/evidence/screenshot_7_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xc4a6940e5914325f80dad942985789ee79a90b58b44e01a776d6fef2c0fc7a9b",
+      "productInfo": {
+        "seller": "朱强",
+        "sales": 5404,
+        "price": 3449
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x4013d2fd4329fefe7b3f51614819acace1a79d754777c33106ca1e52e264b3b8",
+      "txHash": "0xa16f0f841f119ecef0b988a98b41b5e244390cd75c07fef0769fd3739b1fc37e",
+      "blockHeight": 1515088
+    },
+    "status": "closed",
+    "createdAt": "2025-08-22T02:59:43.399Z",
+    "updatedAt": "2025-09-10T02:59:43.399Z"
+  },
+  {
+    "id": "cbe6cdd7-ca56-4a0a-8a07-e49bb89ad7ca",
+    "assetId": "affbdbcc-a2bd-42ce-88d2-0d7226225cc5",
+    "asset": {
+      "id": "affbdbcc-a2bd-42ce-88d2-0d7226225cc5",
+      "certificateId": "CERT-20251106-318340",
+      "assetType": "技术文档",
+      "fileName": "技术文档专利申请书.pdf",
+      "fileHash": "0x79e3fab7a6bf1167f4f7e9b085c40188f14e5618be5e3141a02afd1774488aed",
+      "fileSize": 22877055,
+      "author": {
+        "name": "杨军",
+        "idCard": "4407099181403",
+        "ca_cert": "CA-750899"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-04T02:59:43.395Z",
+        "tsa_signature": "0x76fe37f4097cce4c7504a1a5e38341acaecb00a1d26cdfe6fb9283a942da3d2c"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1ca8504b531e70b8e2f00f84177d4c765b3ab3c9186408b0a1f90916e375499a",
+        "blockHeight": 1588653,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档专利申请书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+      "status": "licensed",
+      "createdAt": "2025-09-04T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/895574",
+    "suspectPlatform": "抖音",
+    "similarity": 80,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_8_1.jpg",
+        "/evidence/screenshot_8_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x44bcc3aec1b91230f20a1abcc3687538c5b1560347c6c1d3b050e4fdf9fab85a",
+      "productInfo": {
+        "seller": "孙磊",
+        "sales": 6947,
+        "price": 3499
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xd4d8428196bbdd039561f39f96d85ede359aa8c184c7ba322898aebbeea079b2",
+      "txHash": "0xd642e3338589be6155aa73f836a302d25051ef22fc73735e14df5089ee3b64af",
+      "blockHeight": 1587003
+    },
+    "status": "settled",
+    "createdAt": "2025-10-07T02:59:43.399Z",
+    "updatedAt": "2025-11-01T02:59:43.399Z"
+  },
+  {
+    "id": "0626435c-6819-415e-bcae-1ccfbb14a21d",
+    "assetId": "1e391e1f-5dfd-4051-8b83-20c6614e5087",
+    "asset": {
+      "id": "1e391e1f-5dfd-4051-8b83-20c6614e5087",
+      "certificateId": "CERT-20251106-580331",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mp4",
+      "fileHash": "0x3471fe4f22ed5bc3ed042ffe2c0cfe75c2c449caee9fdc0e7d178628644a4ab6",
+      "fileSize": 15257140,
+      "author": {
+        "name": "马强",
+        "idCard": "3206420155407",
+        "ca_cert": "CA-834070"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-22T02:59:43.397Z",
+        "tsa_signature": "0x60db3d34c107ea9a9e8fb6584d20401d5a7532582f145662ddd93df3d1bee645"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8ffe546277866aa98b9f48ff88c69b31746594ccb666aa4ece2aa266131e57bb",
+        "blockHeight": 1532112,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "ee272645-bf02-4648-a850-eadb3416a9af",
+      "status": "licensed",
+      "createdAt": "2025-05-22T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/746289",
+    "suspectPlatform": "小红书",
+    "similarity": 77,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_9_1.jpg",
+        "/evidence/screenshot_9_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xd668a56fed9ecdee000d6471ce73af97b42597849ca13e5e45a2e1f6a2fa5da5",
+      "productInfo": {
+        "seller": "赵洋",
+        "sales": 8625,
+        "price": 4550
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xc23fef0ff7626348c38df485fcbcc0631bc8d7f25e1f747350e4e8266bc1da20",
+      "txHash": "0xfeca62e97115bdf044d0a944eba6a2a3396048bf92c463f6da00f02d4c2b3098",
+      "blockHeight": 1598190
+    },
+    "status": "pending",
+    "createdAt": "2025-09-29T02:59:43.399Z",
+    "updatedAt": "2025-10-25T02:59:43.399Z"
+  },
+  {
+    "id": "94ab6a3a-5e4e-4b5d-8989-8627d0e3aa2c",
+    "assetId": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+    "asset": {
+      "id": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+      "certificateId": "CERT-20251106-878153",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.pdf",
+      "fileHash": "0x805ff88b9313271ba5d0f8172977ed6e19ad5c5b9938f263e087af7de3bb6b50",
+      "fileSize": 14467943,
+      "author": {
+        "name": "刘洋",
+        "idCard": "4409557626865",
+        "ca_cert": "CA-378173"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-29T02:59:43.397Z",
+        "tsa_signature": "0x8d836e046bdb64c7062e71ac32e17c1bfa59df25eb2e95a5bc535b0bbb81b16d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x50b8e624e0192d24a5c2d7d84ff70269116de9cf93eccce4e72f9bdd3ec4a88f",
+        "blockHeight": 1581846,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+      "status": "registered",
+      "createdAt": "2025-07-29T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/522834",
+    "suspectPlatform": "淘宝",
+    "similarity": 86,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_10_1.jpg",
+        "/evidence/screenshot_10_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xa97f5466c11d1878bb0f4c76a736a8f609be300bfc46da18e7d54a1adb6c5dca",
+      "productInfo": {
+        "seller": "吴军",
+        "sales": 2571,
+        "price": 2795
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xc9e4fd576ebb216b8f3120b1201a633a657a27d0612b8b681f407a00102dec35",
+      "txHash": "0x98a76c7fcd2ce714a717de45ccb4ef4b4c9003c7cd22320390d6ce8b181e9f23",
+      "blockHeight": 1562017
+    },
+    "status": "settled",
+    "createdAt": "2025-09-09T02:59:43.399Z",
+    "updatedAt": "2025-09-30T02:59:43.399Z"
+  },
+  {
+    "id": "4d6d5998-0b4d-4ea4-a73a-e9db9ac35378",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/460735",
+    "suspectPlatform": "小红书",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_11_1.jpg",
+        "/evidence/screenshot_11_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xe8e00eef0d26839ec0f6883898fd0b7b89593a14d05aafcd7ec7bf2f7aad2a7a",
+      "productInfo": {
+        "seller": "高军",
+        "sales": 1751,
+        "price": 1662
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xdcd69af5d27731bc2402a7129f1bcc9529a8814f2c6cf202392732900b283d1e",
+      "txHash": "0xc3242b03c8639e36ed7aae5e6fa08d23365d11fb7f430f31a2a1ec26d7de34d3",
+      "blockHeight": 1557503
+    },
+    "status": "settled",
+    "createdAt": "2025-09-21T02:59:43.399Z",
+    "updatedAt": "2025-10-11T02:59:43.399Z"
+  },
+  {
+    "id": "526220d5-bd67-435f-8637-4944e2038df8",
+    "assetId": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+    "asset": {
+      "id": "2a2f3489-a3a8-4b9f-8563-c498cb074cf9",
+      "certificateId": "CERT-20251106-767528",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.3dmax",
+      "fileHash": "0xc67b9a347dac3bff0c20758bb7f9b26a9a8a5fe5ec6dcbf0df6a7b2075055a6c",
+      "fileSize": 10537619,
+      "author": {
+        "name": "张军",
+        "idCard": "3209443382500",
+        "ca_cert": "CA-125011"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.396Z",
+        "tsa_signature": "0x0eea2262478896ce9c3d57b2485c0f60989b6d89565f31bd3c9ae6e23280ddb6"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5525dde5a6be71e413cd533e4c1472302628892f2635fc8947722a497a68110a",
+        "blockHeight": 1541414,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6663131a-14b7-40aa-b048-a50ed036c84a",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/754504",
+    "suspectPlatform": "小红书",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_12_1.jpg",
+        "/evidence/screenshot_12_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xf5476cd7b05ead7d2999b15afff2af1bb1f53405cd1f00d8ed689d6f99645852",
+      "productInfo": {
+        "seller": "马杰",
+        "sales": 8413,
+        "price": 3262
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x4013d2fd4329fefe7b3f51614819acace1a79d754777c33106ca1e52e264b3b8",
+      "txHash": "0x48a3cdbeb985b9e7496a9b3ce1c006aa1de4a52284e50d723f855c1f43f9a0e5",
+      "blockHeight": 1516718
+    },
+    "status": "litigation",
+    "createdAt": "2025-09-01T02:59:43.399Z",
+    "updatedAt": "2025-09-22T02:59:43.399Z"
+  },
+  {
+    "id": "e5fe22fc-70f1-488c-b420-ed7ed2746736",
+    "assetId": "9814b275-75f0-40eb-94b5-46b01e995653",
+    "asset": {
+      "id": "9814b275-75f0-40eb-94b5-46b01e995653",
+      "certificateId": "CERT-20251106-595005",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.dwg",
+      "fileHash": "0x396772d5c224cf99fef50767c81d4531d3fd54c03e8ffacc582475a287dac291",
+      "fileSize": 52395728,
+      "author": {
+        "name": "张洋",
+        "idCard": "3108574292906",
+        "ca_cert": "CA-161186"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.395Z",
+        "tsa_signature": "0x7a63453c211dd5ba4cbbb88997e82a82e16250d9a6a98b4c8ed813fa2d9f45fb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fb9879f98081d1009a11455919e45fbc343c6a7993948389261e4ac5228b68c",
+        "blockHeight": 1506130,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/523348",
+    "suspectPlatform": "淘宝",
+    "similarity": 95,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_13_1.jpg",
+        "/evidence/screenshot_13_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x8a57f4587131a49977d5ab6c774d13ba15b20e81c19f02964ba81fea41da2723",
+      "productInfo": {
+        "seller": "高敏",
+        "sales": 4662,
+        "price": 3700
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xe0874f84dd20b50f899bf2b9bc0d969d72a4d955aecf32d052827e121149ac29",
+      "txHash": "0x24a0ed91fdc059520757cfd9500ba30cd1b124a274e2926d3b5f3a71c14623b7",
+      "blockHeight": 1558452
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-04T02:59:43.399Z",
+    "updatedAt": "2025-10-08T02:59:43.399Z"
+  },
+  {
+    "id": "fc12768e-fd91-4da5-ad3b-2d15d567f153",
+    "assetId": "86f71d7c-6799-43a0-954d-35739a5415e0",
+    "asset": {
+      "id": "86f71d7c-6799-43a0-954d-35739a5415e0",
+      "certificateId": "CERT-20251106-185657",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0x39e852ac3c6912c253fad95c9786f8078ee38ce587c04496a060a6e285135bff",
+      "fileSize": 49345298,
+      "author": {
+        "name": "刘洋",
+        "idCard": "5101309081155",
+        "ca_cert": "CA-815671"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-26T02:59:43.397Z",
+        "tsa_signature": "0xc95e6ca23ea0c35ccb56a72540a041db0351678f69af6d91dcc6145e9e8ed0bf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb6c381c1cdd0e646ec57c7c0530c5df1aeb5edc2cfc6e0ef2e888678d310ae42",
+        "blockHeight": 1515911,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+      "status": "registered",
+      "createdAt": "2025-07-26T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/619623",
+    "suspectPlatform": "花瓣网",
+    "similarity": 88,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_14_1.jpg",
+        "/evidence/screenshot_14_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xbdc18b90291e05d46d5124d3ffc64efb3fe91988f568b69ea482ebf4a6477215",
+      "productInfo": {
+        "seller": "徐明",
+        "sales": 3159,
+        "price": 4503
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xfdccefa4f1912ac326fc9f13576aa52a0e0b9576768ef8e31ca2d1845ec3287d",
+      "txHash": "0xea55c4c3e3477ba9e8a2245dade6b5071ef8ef9d57dbb4bdefc320559ab1b0a4",
+      "blockHeight": 1581689
+    },
+    "status": "monitoring",
+    "createdAt": "2025-08-11T02:59:43.399Z",
+    "updatedAt": "2025-08-20T02:59:43.399Z"
+  },
+  {
+    "id": "cecd2799-53f9-42d1-81d6-5819e9a9886a",
+    "assetId": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+    "asset": {
+      "id": "a05ed35c-4d58-40cf-ab70-3ddc93ce37f2",
+      "certificateId": "CERT-20251106-710492",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0xe4498f16f3eec69e6e94457d8c31b0f77ddbc22a516a70cd6a51a9cbef6ea22c",
+      "fileSize": 44381231,
+      "author": {
+        "name": "马丽",
+        "idCard": "1102929938316",
+        "ca_cert": "CA-922885"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-24T02:59:43.395Z",
+        "tsa_signature": "0x79fefba274014b2c37551c65635cc042ebe48d4f7bf31b6515f56f31ceac6acf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa049c29eedf67fbb1a35145f3d47165fc7c3153e615a7566d362a72084358938",
+        "blockHeight": 1575369,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-05-24T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/517190",
+    "suspectPlatform": "小红书",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_15_1.jpg",
+        "/evidence/screenshot_15_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x44d657ee1e73087ea695542e6a4c00d154162b6a65bd2791aaea8e929dea4707",
+      "productInfo": {
+        "seller": "朱杰",
+        "sales": 3304,
+        "price": 2032
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xb862fd17fa929739d097715d4c00b5de24034cb6413519ad1bf32b1fb7532c34",
+      "txHash": "0x8554f6ac89693669188505681882cbae2e59b43d3156c3f0613ca04c896de78e",
+      "blockHeight": 1572707
+    },
+    "status": "settled",
+    "createdAt": "2025-10-25T02:59:43.399Z",
+    "updatedAt": "2025-11-03T02:59:43.399Z"
+  },
+  {
+    "id": "866c265e-ebcf-4e7d-a226-a130707752c4",
+    "assetId": "fa08235f-5c71-4b81-8efe-7f33f0222f72",
+    "asset": {
+      "id": "fa08235f-5c71-4b81-8efe-7f33f0222f72",
+      "certificateId": "CERT-20251106-990218",
+      "assetType": "技术文档",
+      "fileName": "技术文档报告.pdf",
+      "fileHash": "0x456858d8941c69cb749e9ed041f9e98dfe1f9e4149f760eeb57e96e459a61a26",
+      "fileSize": 28316291,
+      "author": {
+        "name": "杨勇",
+        "idCard": "3309936851938",
+        "ca_cert": "CA-265708"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-24T02:59:43.397Z",
+        "tsa_signature": "0xe61afd0c3a393daf3ca7b2fe55507ff50a888eaf62af2d6483835ffda91a8ae5"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7bbc8e587a26ab237c730696ed2c3a2ceb6093cf5dc147250643024ca1ab0237",
+        "blockHeight": 1573317,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档报告.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+      "status": "licensed",
+      "createdAt": "2025-06-24T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/982225",
+    "suspectPlatform": "京东",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_16_1.jpg",
+        "/evidence/screenshot_16_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xb737553c29ac38e9a875e1d917f8940933e9f3b65b5c71b8d259c3c96904026d",
+      "productInfo": {
+        "seller": "胡艳",
+        "sales": 1866,
+        "price": 3896
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x0c7635ce8fa1f41ba0b34b1982e8af5bd0503c1bc81b510e1b0dce98cb12eecf",
+      "txHash": "0x32f3906b5b83a9005da301133f674d64bfd205de734166d7b7aff6aa82abbbb8",
+      "blockHeight": 1557164
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-20T02:59:43.399Z",
+    "updatedAt": "2025-10-24T02:59:43.399Z"
+  },
+  {
+    "id": "e4d9ce8a-86db-4bb3-9800-32282a5faebd",
+    "assetId": "c6b967e8-0293-4682-a5aa-188587088b63",
+    "asset": {
+      "id": "c6b967e8-0293-4682-a5aa-188587088b63",
+      "certificateId": "CERT-20251106-324961",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.docx",
+      "fileHash": "0x57dc2cd2ce66116b853e9cac08aba7ec56fad5b5173005c6f129ae319d8d8873",
+      "fileSize": 2332304,
+      "author": {
+        "name": "杨磊",
+        "idCard": "3101041824041",
+        "ca_cert": "CA-250356"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-20T02:59:43.397Z",
+        "tsa_signature": "0x39344f72f7d6b996e053f61d142f4653e854f8a1b5fac5a0c6512ab5e5f8178e"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe42c292cac5ae207239fa73b30e9614640dc8013b637e82cfc35bf08a5ccd4f0",
+        "blockHeight": 1561469,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.docx",
+        "tags": [
+          "技术文档",
+          "DOCX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+      "status": "registered",
+      "createdAt": "2025-10-20T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/629603",
+    "suspectPlatform": "小红书",
+    "similarity": 85,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_17_1.jpg",
+        "/evidence/screenshot_17_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x662815f43c919b493c21982402aa95cde2786fd270d29ce19b4211d89d02b708",
+      "productInfo": {
+        "seller": "刘艳",
+        "sales": 3949,
+        "price": 4030
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x682ce0c72afd886bad4773ebe5efbf75e6b2d9e998f69ff945d0e67df2b3fee5",
+      "txHash": "0x20c3a297670b942f3b5ee44dd0a65332c356b0110e0a22065e5fdbc07c07732a",
+      "blockHeight": 1524672
+    },
+    "status": "closed",
+    "createdAt": "2025-09-04T02:59:43.399Z",
+    "updatedAt": "2025-09-16T02:59:43.399Z"
+  },
+  {
+    "id": "432cc1c6-bb92-4b11-96cc-98edd7bf9949",
+    "assetId": "1e391e1f-5dfd-4051-8b83-20c6614e5087",
+    "asset": {
+      "id": "1e391e1f-5dfd-4051-8b83-20c6614e5087",
+      "certificateId": "CERT-20251106-580331",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mp4",
+      "fileHash": "0x3471fe4f22ed5bc3ed042ffe2c0cfe75c2c449caee9fdc0e7d178628644a4ab6",
+      "fileSize": 15257140,
+      "author": {
+        "name": "马强",
+        "idCard": "3206420155407",
+        "ca_cert": "CA-834070"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-22T02:59:43.397Z",
+        "tsa_signature": "0x60db3d34c107ea9a9e8fb6584d20401d5a7532582f145662ddd93df3d1bee645"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8ffe546277866aa98b9f48ff88c69b31746594ccb666aa4ece2aa266131e57bb",
+        "blockHeight": 1532112,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "ee272645-bf02-4648-a850-eadb3416a9af",
+      "status": "licensed",
+      "createdAt": "2025-05-22T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/382602",
+    "suspectPlatform": "淘宝",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_18_1.jpg",
+        "/evidence/screenshot_18_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x3547adcc781a6a278962e37410f8da46a4fd80876726986554cc466157beaf98",
+      "productInfo": {
+        "seller": "何勇",
+        "sales": 4625,
+        "price": 1350
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xe237b2517ac651bf73c07d9fcd9663b0e1b533cf6bad06b88bccbd2ebad19c09",
+      "txHash": "0xffa2890aa7198029ba550defbd8fc44e2a648a774e5011801164245fa920d573",
+      "blockHeight": 1572139
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-05T02:59:43.399Z",
+    "updatedAt": "2025-11-03T02:59:43.399Z"
+  },
+  {
+    "id": "5b4e5394-5f82-4088-af43-1e2c12805cbe",
+    "assetId": "dfb39f31-8eb0-4429-9613-80d442244bb0",
+    "asset": {
+      "id": "dfb39f31-8eb0-4429-9613-80d442244bb0",
+      "certificateId": "CERT-20251106-282267",
+      "assetType": "源代码",
+      "fileName": "代码库后端.zip",
+      "fileHash": "0x9812c7eeb298c5fe31dd4836010070c8ab7f6cd2f1e831d309abe097c9da7f23",
+      "fileSize": 7181875,
+      "author": {
+        "name": "张勇",
+        "idCard": "3307868093058",
+        "ca_cert": "CA-482276"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-27T02:59:43.396Z",
+        "tsa_signature": "0x3b6022e0921ffbd68aa38e956a76134b7defba476c35bb6127b6560014347c0f"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1f68410f5eb33fecb84313288e6e84e18a751785eac3c0b5340736b8ba1bde8b",
+        "blockHeight": 1541281,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库后端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+      "status": "licensed",
+      "createdAt": "2025-07-27T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/386401",
+    "suspectPlatform": "小红书",
+    "similarity": 85,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_19_1.jpg",
+        "/evidence/screenshot_19_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x8ea97e4208dc9e3058998e17ba326318f2beb2bb4596f299c32bd4ae6b3b2d40",
+      "productInfo": {
+        "seller": "高勇",
+        "sales": 7186,
+        "price": 4095
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x5da519beb8f1db6f170e01de262b75a11f3f52def5ff85f3f900a14789ed6168",
+      "txHash": "0x0a83f4d878aa31fb63c908931011d37d493074d217c9864f36c12469d5b2cb56",
+      "blockHeight": 1535459
+    },
+    "status": "litigation",
+    "createdAt": "2025-11-02T02:59:43.399Z",
+    "updatedAt": "2025-11-18T02:59:43.399Z"
+  },
+  {
+    "id": "27ee6566-54ae-4490-9b2b-094e9eaa3c11",
+    "assetId": "fa09ecf5-8fdc-4636-a7e0-c1f72536625f",
+    "asset": {
+      "id": "fa09ecf5-8fdc-4636-a7e0-c1f72536625f",
+      "certificateId": "CERT-20251106-850049",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v3.skp",
+      "fileHash": "0xadcba1881bbf3d40ccea0bc7b064203727ccbef8a546c3c89662bc45b83ec703",
+      "fileSize": 42728368,
+      "author": {
+        "name": "杨勇",
+        "idCard": "3203983828731",
+        "ca_cert": "CA-422493"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-17T02:59:43.397Z",
+        "tsa_signature": "0x521d3ca5568638a8f30e77d8cc229ff0b353855624d759c2082100beb02f165b"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x72bbc2428decd874af96ca422915a904d762d77ebb18d3c61cfa27474391a1af",
+        "blockHeight": 1537372,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v3.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+      "status": "licensed",
+      "createdAt": "2025-06-17T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/280000",
+    "suspectPlatform": "花瓣网",
+    "similarity": 90,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_20_1.jpg",
+        "/evidence/screenshot_20_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x60b6d049f95d65764a0200309a2ddf46dd98fe104fbcd53e7d7887a6999229b5",
+      "productInfo": {
+        "seller": "黄敏",
+        "sales": 4504,
+        "price": 2561
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x8af3c42cafec5ed4d893ee217496f913cf79e0f381e240ebd04d8f7dcf608aac",
+      "txHash": "0xc4bb4c14573aaf0d92e1e50f89000f32324270d2143d0b89a908cb7260af18fb",
+      "blockHeight": 1516898
+    },
+    "status": "investigating",
+    "createdAt": "2025-10-27T02:59:43.399Z",
+    "updatedAt": "2025-11-18T02:59:43.399Z"
+  },
+  {
+    "id": "471be4f6-22b9-4648-b05b-dd34deada308",
+    "assetId": "9814b275-75f0-40eb-94b5-46b01e995653",
+    "asset": {
+      "id": "9814b275-75f0-40eb-94b5-46b01e995653",
+      "certificateId": "CERT-20251106-595005",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.dwg",
+      "fileHash": "0x396772d5c224cf99fef50767c81d4531d3fd54c03e8ffacc582475a287dac291",
+      "fileSize": 52395728,
+      "author": {
+        "name": "张洋",
+        "idCard": "3108574292906",
+        "ca_cert": "CA-161186"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-12T02:59:43.395Z",
+        "tsa_signature": "0x7a63453c211dd5ba4cbbb88997e82a82e16250d9a6a98b4c8ed813fa2d9f45fb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fb9879f98081d1009a11455919e45fbc343c6a7993948389261e4ac5228b68c",
+        "blockHeight": 1506130,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "c420cf3e-a0fe-492d-9173-17873cc1c2bf",
+      "status": "registered",
+      "createdAt": "2025-06-12T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/273485",
+    "suspectPlatform": "微信公众号",
+    "similarity": 90,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_21_1.jpg",
+        "/evidence/screenshot_21_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x907ab2d74f3f54ebd1e88d8db72997106d910f0bc64505cbfb55301cf7ababe9",
+      "productInfo": {
+        "seller": "周杰",
+        "sales": 7020,
+        "price": 227
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x2d2fb21908c411b1a08437c17305d018d10a4d5d2706c1669d13c2f8ade616f7",
+      "txHash": "0x495de33ff5688ecad4e6e9c45f2e66ebab41b79fd73c2cde6253a7baa941eae7",
+      "blockHeight": 1597934
+    },
+    "status": "pending",
+    "createdAt": "2025-10-19T02:59:43.399Z",
+    "updatedAt": "2025-11-11T02:59:43.399Z"
+  },
+  {
+    "id": "33665827-b9ef-41d8-89e5-8a96ab2c9b0f",
+    "assetId": "e725843d-fd33-4e0d-b9cc-d44a68008ff0",
+    "asset": {
+      "id": "e725843d-fd33-4e0d-b9cc-d44a68008ff0",
+      "certificateId": "CERT-20251106-376011",
+      "assetType": "视频作品",
+      "fileName": "视频教程.mp4",
+      "fileHash": "0xb6e9425e77905268cefc49d5ac3db7ccb5f5510467f18df9eeda7d7128732fcf",
+      "fileSize": 49834586,
+      "author": {
+        "name": "张强",
+        "idCard": "3108392762385",
+        "ca_cert": "CA-259957"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-03T02:59:43.398Z",
+        "tsa_signature": "0x8ca3d1d70c3cc3d609888bacf50b7874a5e2f7a59c943bb9e2212868b1c6725c"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9132ae24468006bb5a28216b6b3e7e1ac2b93468f53ed7e49e377522c892225a",
+        "blockHeight": 1537457,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频教程.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "4174f62c-4447-494c-bac3-e32f7cb2c202",
+      "status": "registered",
+      "createdAt": "2025-07-03T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/488525",
+    "suspectPlatform": "微信公众号",
+    "similarity": 95,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_22_1.jpg",
+        "/evidence/screenshot_22_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x4c2d8c6f9335af8834972f1871dde31365967da4b10e0f017653ce15c38ce0f3",
+      "productInfo": {
+        "seller": "张磊",
+        "sales": 8649,
+        "price": 2279
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xb1a55af45b0424c8f255079c8c07af2a5ae8c2fdcdee88c9304bd4dd19c5bb7f",
+      "txHash": "0x70b68a7b5f352fa136945d06447fd5017a0009d4146aad205b28cdd036bf9b7e",
+      "blockHeight": 1567318
+    },
+    "status": "settled",
+    "createdAt": "2025-08-14T02:59:43.399Z",
+    "updatedAt": "2025-08-22T02:59:43.399Z"
+  },
+  {
+    "id": "576b9963-c188-477f-91c5-14580bb033ba",
+    "assetId": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+    "asset": {
+      "id": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+      "certificateId": "CERT-20251106-970322",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0xd42971bab17aef8dfc4c5ee84601017dc2aa75b2be8ffb4e94f0b730c76b3599",
+      "fileSize": 30835006,
+      "author": {
+        "name": "林勇",
+        "idCard": "1101730277658",
+        "ca_cert": "CA-625306"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-06T02:59:43.397Z",
+        "tsa_signature": "0xb317d1ed2e48216928c7138db0c6b01690178016411464c4b6224812f4e062c4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2e32fd9195e2fe937354c711a250b70c036d8732f12fc583aee2f30d7c77f7b0",
+        "blockHeight": 1513638,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+      "status": "registered",
+      "createdAt": "2025-06-06T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/244480",
+    "suspectPlatform": "抖音",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_23_1.jpg",
+        "/evidence/screenshot_23_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x6289d7c4e9ef25a36a13e57361e1ec4d5ba83eb425cf73876381436a80526d81",
+      "productInfo": {
+        "seller": "张磊",
+        "sales": 272,
+        "price": 4503
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x0da41dc0fb672081ba96ecc6f903b3aa306d6cad5214d9620d36eaba137c970f",
+      "txHash": "0x9fb5d2c6f02463e47eaeae81527bb2d275c01e4c15101a6874697a3e28cda172",
+      "blockHeight": 1519971
+    },
+    "status": "litigation",
+    "createdAt": "2025-08-08T02:59:43.399Z",
+    "updatedAt": "2025-08-25T02:59:43.399Z"
+  },
+  {
+    "id": "5aadbe79-22f1-4679-8bca-3af46aa65a34",
+    "assetId": "2a388238-8155-47a8-836b-816420a3979b",
+    "asset": {
+      "id": "2a388238-8155-47a8-836b-816420a3979b",
+      "certificateId": "CERT-20251106-866884",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x3dea6df39aa9de1de8478979a92d809aad96273ea73ded97f7d631dd87837b4e",
+      "fileSize": 42788145,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5104031214767",
+        "ca_cert": "CA-120828"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-04T02:59:43.398Z",
+        "tsa_signature": "0x216c78912908cf47614ecb31c3b67fed07b5255090405ed137d80f68f153bced"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x882c9b52f0d9ad67b5476dc1c204a182c179bcb43473f551fb68caf25100ee48",
+        "blockHeight": 1573803,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-04T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/901733",
+    "suspectPlatform": "Dribbble",
+    "similarity": 77,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_24_1.jpg",
+        "/evidence/screenshot_24_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x5b9309a479e98701356254c35d741d586ac80c143e85c754788cbea01db3adb8",
+      "productInfo": {
+        "seller": "罗强",
+        "sales": 5674,
+        "price": 3170
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xcef20367421d1462cf9f3407cb31d6a1da68ab9b25385e702181fb586fa5abf4",
+      "txHash": "0x752b0089723a36ecd06e545741d80b36128102c484e5e98ac8ce83801442a553",
+      "blockHeight": 1510469
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-21T02:59:43.399Z",
+    "updatedAt": "2025-10-16T02:59:43.399Z"
+  },
+  {
+    "id": "792072cc-691d-4235-952d-1759067e6ae4",
+    "assetId": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+    "asset": {
+      "id": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+      "certificateId": "CERT-20251106-665982",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0xdbef6340ad737c7034ac42844ecb3813d06861f9e1b31123dcb5393d62ea3029",
+      "fileSize": 33723406,
+      "author": {
+        "name": "胡娜",
+        "idCard": "1103224905195",
+        "ca_cert": "CA-311027"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-22T02:59:43.395Z",
+        "tsa_signature": "0x5f3d61efcc5abb1526d78adbbaf90c9969d1d68e2cb02abc1bf42fea81d79edb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xfd60040bd736bb2e9e62b6a1dd4617d5c4b8836f65461cba5cb584c734ac4ece",
+        "blockHeight": 1546631,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+      "status": "registered",
+      "createdAt": "2025-08-22T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/801809",
+    "suspectPlatform": "B站",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_25_1.jpg",
+        "/evidence/screenshot_25_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x6d8c9db3020405d1bbed810e8c15e56f6b416a82d284811234d9999a328ebad6",
+      "productInfo": {
+        "seller": "赵强",
+        "sales": 6111,
+        "price": 2766
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x6be08625f7ea74cd765aba4c365fbf52e23e384d61038253b3dd80504a2acc70",
+      "txHash": "0xca3280207db3e626e5128b03cd58d1568419679d9cc1ae67ba0adfa5e8f5a131",
+      "blockHeight": 1518018
+    },
+    "status": "pending",
+    "createdAt": "2025-10-15T02:59:43.399Z",
+    "updatedAt": "2025-11-02T02:59:43.399Z"
+  },
+  {
+    "id": "8044b043-f505-48cb-ae82-3d5ef45d2b1a",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/638958",
+    "suspectPlatform": "花瓣网",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_26_1.jpg",
+        "/evidence/screenshot_26_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x0ab90532f0864732f2c41d4948557a660cfafa3a83376ac57705fe358c58f9e6",
+      "productInfo": {
+        "seller": "杨军",
+        "sales": 7515,
+        "price": 1691
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x664b959ca44a64501059093bdb2bf2464f2c2ece633ceab37125c35477f9f0b4",
+      "txHash": "0xe036def9e5b71970deab48d08287cd784383515738313e0eaff50083d854090d",
+      "blockHeight": 1554568
+    },
+    "status": "investigating",
+    "createdAt": "2025-09-17T02:59:43.399Z",
+    "updatedAt": "2025-10-17T02:59:43.399Z"
+  },
+  {
+    "id": "eb9a577d-6129-493a-b46e-5d2e6dfa2695",
+    "assetId": "ad14043a-f033-4877-93e6-e0be65666fd7",
+    "asset": {
+      "id": "ad14043a-f033-4877-93e6-e0be65666fd7",
+      "certificateId": "CERT-20251106-741875",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.docx",
+      "fileHash": "0x9142fcdda4707bfc94dcef2d575d24c3938b44ee39ca6549e2764d7f72163993",
+      "fileSize": 7345895,
+      "author": {
+        "name": "罗敏",
+        "idCard": "3303181314417",
+        "ca_cert": "CA-153984"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-24T02:59:43.397Z",
+        "tsa_signature": "0x4fc226b6199f0ea501790eb428955fff4a7d4975671c087ff9465c632294c6ae"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x586747d543e5c10e6523f3308e828dd54a28dceaf9c53b0df87a6c5bf040dd98",
+        "blockHeight": 1518504,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.docx",
+        "tags": [
+          "技术文档",
+          "DOCX"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "094a221f-516a-4d9e-b08e-17d8b52ebc2e",
+      "status": "registered",
+      "createdAt": "2025-08-24T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/270001",
+    "suspectPlatform": "抖音",
+    "similarity": 91,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_27_1.jpg",
+        "/evidence/screenshot_27_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xfeff1b900e7e4670438eac3c63811d77bac86681a21d9f71ebdc30e4bfd68c72",
+      "productInfo": {
+        "seller": "林静",
+        "sales": 8693,
+        "price": 2416
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xb5c9699a8e2fc6abdd1e8856278d1c0055b63121dba34c45ca453000ef1f3a9f",
+      "txHash": "0x008b3340ea7205a4a0527f57f66f357141948cf48d4bc663ef0e0d4e7963a6f5",
+      "blockHeight": 1542194
+    },
+    "status": "pending",
+    "createdAt": "2025-10-21T02:59:43.399Z",
+    "updatedAt": "2025-11-05T02:59:43.399Z"
+  },
+  {
+    "id": "30987fd7-6c46-4df2-98f0-2768b683721c",
+    "assetId": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+    "asset": {
+      "id": "7fbbecd4-07df-42af-ab37-2c154781e49a",
+      "certificateId": "CERT-20251106-829409",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mov",
+      "fileHash": "0x9d6c938214b48e4476caa1a3b57f657752180a816935b9f20d81d53d6af25842",
+      "fileSize": 49104681,
+      "author": {
+        "name": "马磊",
+        "idCard": "4407055538312",
+        "ca_cert": "CA-807081"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-08T02:59:43.396Z",
+        "tsa_signature": "0x6a7fc0ab1143d248492bbe379a9af8bf2e64c92ad2db171f7c51fef17bb1ef00"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe7fce95b44b8f83d23f3e0d6051fb08e8bc2762a09430525839a6c160c42de4c",
+        "blockHeight": 1502174,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-06-08T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/177306",
+    "suspectPlatform": "拼多多",
+    "similarity": 92,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_28_1.jpg",
+        "/evidence/screenshot_28_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x12e001343c7335288d40e292be7e57666432f6e23d6878ebbab478a85260de90",
+      "productInfo": {
+        "seller": "杨洋",
+        "sales": 3738,
+        "price": 3050
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x73baaf59748d504e3025110f5d6cba0ca5f1528fe768f882c7efb3aa049f38d6",
+      "txHash": "0xf4515f7d6be66fc9c82db0df59520b7d60d8c322a0d467bb70d9109a145bc9da",
+      "blockHeight": 1509336
+    },
+    "status": "settled",
+    "createdAt": "2025-09-29T02:59:43.399Z",
+    "updatedAt": "2025-10-28T02:59:43.399Z"
+  },
+  {
+    "id": "51103440-c800-4bae-98f6-93704876d609",
+    "assetId": "dfb39f31-8eb0-4429-9613-80d442244bb0",
+    "asset": {
+      "id": "dfb39f31-8eb0-4429-9613-80d442244bb0",
+      "certificateId": "CERT-20251106-282267",
+      "assetType": "源代码",
+      "fileName": "代码库后端.zip",
+      "fileHash": "0x9812c7eeb298c5fe31dd4836010070c8ab7f6cd2f1e831d309abe097c9da7f23",
+      "fileSize": 7181875,
+      "author": {
+        "name": "张勇",
+        "idCard": "3307868093058",
+        "ca_cert": "CA-482276"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-27T02:59:43.396Z",
+        "tsa_signature": "0x3b6022e0921ffbd68aa38e956a76134b7defba476c35bb6127b6560014347c0f"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1f68410f5eb33fecb84313288e6e84e18a751785eac3c0b5340736b8ba1bde8b",
+        "blockHeight": 1541281,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库后端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+      "status": "licensed",
+      "createdAt": "2025-07-27T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/689070",
+    "suspectPlatform": "淘宝",
+    "similarity": 75,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_29_1.jpg",
+        "/evidence/screenshot_29_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xf8a8d64673245f3f9541cd9a301740ceb9560f3c8368e73c610a6b95fec5a82c",
+      "productInfo": {
+        "seller": "赵勇",
+        "sales": 1545,
+        "price": 3779
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xd6f42f0625e120135a4e229df8552a19ed38203ea46f993368cd2de1faa21b37",
+      "txHash": "0xfb829046e54e6ec5cba21c142e27441ea03e4196013314b46e9a5ac8debbb951",
+      "blockHeight": 1545931
+    },
+    "status": "settled",
+    "createdAt": "2025-08-22T02:59:43.399Z",
+    "updatedAt": "2025-09-19T02:59:43.399Z"
+  },
+  {
+    "id": "3346e293-f343-4bb8-abf8-7fc5f47db636",
+    "assetId": "2a388238-8155-47a8-836b-816420a3979b",
+    "asset": {
+      "id": "2a388238-8155-47a8-836b-816420a3979b",
+      "certificateId": "CERT-20251106-866884",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x3dea6df39aa9de1de8478979a92d809aad96273ea73ded97f7d631dd87837b4e",
+      "fileSize": 42788145,
+      "author": {
+        "name": "黄秀英",
+        "idCard": "5104031214767",
+        "ca_cert": "CA-120828"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-04T02:59:43.398Z",
+        "tsa_signature": "0x216c78912908cf47614ecb31c3b67fed07b5255090405ed137d80f68f153bced"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x882c9b52f0d9ad67b5476dc1c204a182c179bcb43473f551fb68caf25100ee48",
+        "blockHeight": 1573803,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "97d03346-10aa-4f4d-8d24-9ad0e87bdbfd",
+      "status": "registered",
+      "createdAt": "2025-07-04T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/195979",
+    "suspectPlatform": "淘宝",
+    "similarity": 86,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_30_1.jpg",
+        "/evidence/screenshot_30_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x969ec73addc16014421dd26246f80f7df6fc6c973ee6f50dd056113a54bef41e",
+      "productInfo": {
+        "seller": "张勇",
+        "sales": 1035,
+        "price": 4835
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x401920194ce9c56aadc5c8279cafd12e6befdd8c2beb204c68473c2100488733",
+      "txHash": "0xa8b1ac1c7281203af59dddca2555a35315fd13f72f32f9cd366cc5a239c2c712",
+      "blockHeight": 1504092
+    },
+    "status": "monitoring",
+    "createdAt": "2025-08-31T02:59:43.399Z",
+    "updatedAt": "2025-09-01T02:59:43.399Z"
+  },
+  {
+    "id": "79082013-6b5d-44af-80b4-b5921afb083d",
+    "assetId": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+    "asset": {
+      "id": "b6349ab6-2ca9-438a-916d-a35ec0d77a91",
+      "certificateId": "CERT-20251106-087318",
+      "assetType": "视频作品",
+      "fileName": "视频纪录片.mov",
+      "fileHash": "0x7c2019b15c1926caeb585a74b6f8f4931acb20b41c333361d9a61ecf25eef498",
+      "fileSize": 36004985,
+      "author": {
+        "name": "何勇",
+        "idCard": "3109435902400",
+        "ca_cert": "CA-161815"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-16T02:59:43.398Z",
+        "tsa_signature": "0xc1658e158e72a0afcda764ab4c3e7a92e00951e1a5bc1e40c65b50f478a87816"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5ae3e995ad55fcbda87e941982b70f3d7f8c9047327190486a898d4a3952a595",
+        "blockHeight": 1537499,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频纪录片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "1f501daa-bbc2-44c2-ada4-1a62de4cd60e",
+      "status": "registered",
+      "createdAt": "2025-08-16T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/498955",
+    "suspectPlatform": "抖音",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_31_1.jpg",
+        "/evidence/screenshot_31_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xd5b2ba4d6f1e98a1b2941976fcaa6279444ba53f52b04274c735ea4d579203b4",
+      "productInfo": {
+        "seller": "罗丽",
+        "sales": 1263,
+        "price": 4061
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x5135acf494fe35ce5ab1070dd6e8de5c8faf25e9fb5901bfb7c8386b1004ff93",
+      "txHash": "0xaacd8220d225d48101f99f5cb59b7ea69cf6a1a2d588916465b2b28c8e2cc56d",
+      "blockHeight": 1521843
+    },
+    "status": "settled",
+    "createdAt": "2025-10-01T02:59:43.399Z",
+    "updatedAt": "2025-10-28T02:59:43.399Z"
+  },
+  {
+    "id": "f2273e8f-af83-462b-a705-cc385131e6c1",
+    "assetId": "704f30f5-93e1-4374-a77e-1fab172a321f",
+    "asset": {
+      "id": "704f30f5-93e1-4374-a77e-1fab172a321f",
+      "certificateId": "CERT-20251106-453761",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0xc151db70f5a3fba1685b82c82f81ed4e87f9c82d97592b70c34f638d53f8d779",
+      "fileSize": 31669910,
+      "author": {
+        "name": "赵磊",
+        "idCard": "3204893814033",
+        "ca_cert": "CA-490714"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-23T02:59:43.397Z",
+        "tsa_signature": "0x3db657e1414d5f1118863be3b3c07345a0b9c2d6912daa4d150b078b3111e083"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb66db6e9d4f9552b08ad44a26ced59b6135264d35b58c1477b114186183a1885",
+        "blockHeight": 1537001,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+      "status": "registered",
+      "createdAt": "2025-07-23T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/214776",
+    "suspectPlatform": "淘宝",
+    "similarity": 75,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_32_1.jpg",
+        "/evidence/screenshot_32_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xcc899c59ab085085afed79abf7382c9601a1d1b555cfc56054623b3738c6ca9b",
+      "productInfo": {
+        "seller": "王明",
+        "sales": 1287,
+        "price": 327
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x1d7190497c24a90b36f4716193e845adef5c74f6e7199b6ad9ebadcc57df2072",
+      "txHash": "0x52b6a36c16c4078b5d497c1385734232cf1a70fe9f9f8c4b16130db334035550",
+      "blockHeight": 1558794
+    },
+    "status": "pending",
+    "createdAt": "2025-09-14T02:59:43.399Z",
+    "updatedAt": "2025-10-02T02:59:43.399Z"
+  },
+  {
+    "id": "954db6fb-935c-479b-9560-750e47a65022",
+    "assetId": "8da14093-88c9-47c9-8f4c-9e2ab11323be",
+    "asset": {
+      "id": "8da14093-88c9-47c9-8f4c-9e2ab11323be",
+      "certificateId": "CERT-20251106-763596",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0x90244bba7c73bc5af0317d684d39fa487f9e3c510064ebd12e556014b83a1e5f",
+      "fileSize": 17666105,
+      "author": {
+        "name": "李勇",
+        "idCard": "5103658094883",
+        "ca_cert": "CA-283503"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-27T02:59:43.396Z",
+        "tsa_signature": "0x5939ba01a5f3bf7a1655086ae20512eb01abac640eece3d382c8dda04d4ecf7a"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc3c13e54f44266c25b588b0e748f940cdf6af0974364655e8071d3d03fa1e513",
+        "blockHeight": 1577938,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+      "status": "licensed",
+      "createdAt": "2025-05-27T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/126185",
+    "suspectPlatform": "B站",
+    "similarity": 76,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_33_1.jpg",
+        "/evidence/screenshot_33_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xc966ad8612303ec8f4d90851eccbec83936d414765fb118434ede89f4944c230",
+      "productInfo": {
+        "seller": "徐杰",
+        "sales": 561,
+        "price": 3910
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x18f29bf00fa6f96a5ae1d806997053341ef662ab7e617cd022f325c5645c9f6d",
+      "txHash": "0x4d20f300b7f6ea44242ff72421afef066403b56bb79ee6123ce46a0bd441db2f",
+      "blockHeight": 1560829
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-04T02:59:43.399Z",
+    "updatedAt": "2025-10-31T02:59:43.399Z"
+  },
+  {
+    "id": "f2c5c87c-d440-4b2b-a117-13431d2310a8",
+    "assetId": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+    "asset": {
+      "id": "8308981e-0196-4714-8d4c-e53d752fa4b4",
+      "certificateId": "CERT-20251106-979226",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.dwg",
+      "fileHash": "0x1024247087dddd19c620c54b67ea0ccdf1438206b301b2a6f511842fe0aea554",
+      "fileSize": 1536518,
+      "author": {
+        "name": "杨娜",
+        "idCard": "4403272522910",
+        "ca_cert": "CA-622755"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-16T02:59:43.397Z",
+        "tsa_signature": "0x7e0a44a2058c60fd3d93ae3c16114160c934ef80d88e0371029aadf3da966657"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2d80705aa6dd2e39ab5f45f03b29b7ca778ae5b7f95281b9754ade175e32bc05",
+        "blockHeight": 1556488,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "3b1c69a4-8de2-479c-8daa-641f2bb05e3d",
+      "status": "registered",
+      "createdAt": "2025-09-16T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/885407",
+    "suspectPlatform": "拼多多",
+    "similarity": 99,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_34_1.jpg",
+        "/evidence/screenshot_34_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x792fdd3e60e3df39794b7833ff93b5ef49cfe4791e0b65487542af9fcc2b2b69",
+      "productInfo": {
+        "seller": "罗秀英",
+        "sales": 5992,
+        "price": 2912
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x0485f3f20b35f05b6c23491314b69b5271f1e67667b211f8e431274e56401d22",
+      "txHash": "0xf4a8bb186da1016f88e61158efeb19a54b4d73ac42b3f0f76693257f2868c752",
+      "blockHeight": 1551528
+    },
+    "status": "pending",
+    "createdAt": "2025-08-23T02:59:43.399Z",
+    "updatedAt": "2025-09-07T02:59:43.399Z"
+  },
+  {
+    "id": "a23674e9-70d8-4daa-a059-6b02b8b63842",
+    "assetId": "694fec5f-c7fb-409e-8288-4f97d58c5470",
+    "asset": {
+      "id": "694fec5f-c7fb-409e-8288-4f97d58c5470",
+      "certificateId": "CERT-20251106-489950",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xa256a75cacc3fb1b22484695dd314449e0a7d41db1394dcc39d00089c27ff5d7",
+      "fileSize": 51676463,
+      "author": {
+        "name": "马丽",
+        "idCard": "3209144881493",
+        "ca_cert": "CA-423145"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-24T02:59:43.396Z",
+        "tsa_signature": "0x2023c1380460a8eb25c5bf416f7313a87730cce22cf7de6b18c507902a9509b9"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1c122abb5720f02602d456ef2533c0f2d8809f601f3bb84446044bf0f71214ff",
+        "blockHeight": 1592681,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "73f63c29-e7a1-43bd-bebc-e213fb3cdb3a",
+      "status": "registered",
+      "createdAt": "2025-09-24T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/357041",
+    "suspectPlatform": "B站",
+    "similarity": 97,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_35_1.jpg",
+        "/evidence/screenshot_35_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x5532101f34ed853e969ec5b604ab6cb2f69318079dbb63a4d0f52bfde08ad497",
+      "productInfo": {
+        "seller": "郭强",
+        "sales": 2745,
+        "price": 630
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x3cac1508663949696b33d83f79bc554c3a125a43d5aed8d876eca2b66905865f",
+      "txHash": "0x29d3df284ae585f911a384437756fc9fae2a8a9fb46007c6d8ac19e855797c23",
+      "blockHeight": 1530861
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-29T02:59:43.399Z",
+    "updatedAt": "2025-10-25T02:59:43.399Z"
+  },
+  {
+    "id": "f6a51369-a787-408c-a239-a1a4a42a77a6",
+    "assetId": "84739e50-41ac-47d8-a932-a890ce97898f",
+    "asset": {
+      "id": "84739e50-41ac-47d8-a932-a890ce97898f",
+      "certificateId": "CERT-20251106-790650",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0x96457e0e3df509ff566177dcfd2e5f1da5e7aca3d229bbb4ad29e50ef2fb1fff",
+      "fileSize": 37474672,
+      "author": {
+        "name": "张强",
+        "idCard": "1105750098040",
+        "ca_cert": "CA-963393"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-11T02:59:43.396Z",
+        "tsa_signature": "0x5e4b1ac43fe8bf57a945c078dd2fa43c3f14f403e31236d2afc5a4c6133b5574"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xa2acff9b7d81b83e84f9c2dee5ad480a302265caf771dcfe85c2b6f608e120c3",
+        "blockHeight": 1592331,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "4174f62c-4447-494c-bac3-e32f7cb2c202",
+      "status": "licensed",
+      "createdAt": "2025-10-11T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/155196",
+    "suspectPlatform": "花瓣网",
+    "similarity": 78,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_36_1.jpg",
+        "/evidence/screenshot_36_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xdcef14c4c738032be997243c0b9246e2fe9f9a8929aa0101b0c06642ade09a5e",
+      "productInfo": {
+        "seller": "杨勇",
+        "sales": 4681,
+        "price": 2104
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x8a90904b7079333ff97d89dbeb9d62fc1807913292b74de58daffc7bcd4fa19b",
+      "txHash": "0x4651d0a91a0920d999b771564e5e59810bbeed9e721d6b350af3072230662973",
+      "blockHeight": 1552097
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-05T02:59:43.399Z",
+    "updatedAt": "2025-10-08T02:59:43.399Z"
+  },
+  {
+    "id": "e6b2a189-f3e5-4a69-8398-5bfa1e7b96a1",
+    "assetId": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+    "asset": {
+      "id": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+      "certificateId": "CERT-20251106-880472",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0x28c1ca021778ebbc2bc3ebb61620f4d650763af628a1ce3352ad770bd9617330",
+      "fileSize": 5329070,
+      "author": {
+        "name": "何强",
+        "idCard": "3105303066127",
+        "ca_cert": "CA-231188"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-08T02:59:43.397Z",
+        "tsa_signature": "0x3e5cabf7c73a6c3bd3b47d988be70b7281b4da9f9943bc99632fa2ad5670fe20"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fe73e1b439119431ad57d36383cdefe88d02b2ac3517fa18877d9d48ca637ec",
+        "blockHeight": 1547609,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+      "status": "registered",
+      "createdAt": "2025-07-08T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/675962",
+    "suspectPlatform": "京东",
+    "similarity": 85,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_37_1.jpg",
+        "/evidence/screenshot_37_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x210ea15892b73f50321cadd7781f9d6d3d5aec3988066655b8e257beb082c906",
+      "productInfo": {
+        "seller": "何华",
+        "sales": 8653,
+        "price": 2211
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xa2baa796fc91eabfce6ea3db571bd4efd05366cde4f669982595199fd272f624",
+      "txHash": "0x74f72f0b275e45a178f687ac3a3adb699c10dce5993e3ee6c3de4276db1a3117",
+      "blockHeight": 1580012
+    },
+    "status": "closed",
+    "createdAt": "2025-09-22T02:59:43.399Z",
+    "updatedAt": "2025-09-24T02:59:43.399Z"
+  },
+  {
+    "id": "2ba6b15f-2d34-4b96-8dea-6b5602262de3",
+    "assetId": "18011d6f-fdf8-4276-af89-7615309f6663",
+    "asset": {
+      "id": "18011d6f-fdf8-4276-af89-7615309f6663",
+      "certificateId": "CERT-20251106-115733",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mp4",
+      "fileHash": "0x7ef128fa881f267d8df51d8d5a5f59d7d35d3d1a4f0fb0c5de93527aeea7d648",
+      "fileSize": 6988391,
+      "author": {
+        "name": "周艳",
+        "idCard": "3304694458066",
+        "ca_cert": "CA-952219"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-27T02:59:43.398Z",
+        "tsa_signature": "0x419f4b9901aedd55630cb0229e8ae46b701c6f7c970c5747f4db95c7b75f74b3"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc1438856712a57c5d573a6ec38e40e1ac3a10ed455bf2052e66894779f6c208e",
+        "blockHeight": 1568256,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-10-27T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/547274",
+    "suspectPlatform": "京东",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_38_1.jpg",
+        "/evidence/screenshot_38_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x9d97461cf63f1e2d92b50f61a5e5eac10c9518b6870b992eecfa500a0ca1ea40",
+      "productInfo": {
+        "seller": "郭敏",
+        "sales": 9806,
+        "price": 4468
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x553079ef7f93e6e1a3dedfd39bb04a21bf040f4440c00a50f79532947f1db414",
+      "txHash": "0x5884ee386c9c408bfbf3a49b91ff63064c57a126ae6cf7ad1f74018eeba6e6a4",
+      "blockHeight": 1502245
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-27T02:59:43.399Z",
+    "updatedAt": "2025-11-14T02:59:43.399Z"
+  },
+  {
+    "id": "3b1b4a20-1e81-4619-bb84-7518683833fa",
+    "assetId": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+    "asset": {
+      "id": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+      "certificateId": "CERT-20251106-665982",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0xdbef6340ad737c7034ac42844ecb3813d06861f9e1b31123dcb5393d62ea3029",
+      "fileSize": 33723406,
+      "author": {
+        "name": "胡娜",
+        "idCard": "1103224905195",
+        "ca_cert": "CA-311027"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-22T02:59:43.395Z",
+        "tsa_signature": "0x5f3d61efcc5abb1526d78adbbaf90c9969d1d68e2cb02abc1bf42fea81d79edb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xfd60040bd736bb2e9e62b6a1dd4617d5c4b8836f65461cba5cb584c734ac4ece",
+        "blockHeight": 1546631,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+      "status": "registered",
+      "createdAt": "2025-08-22T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/142019",
+    "suspectPlatform": "京东",
+    "similarity": 85,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_39_1.jpg",
+        "/evidence/screenshot_39_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x2ad15130ff9b42d614af8a29c910193e6baab0188e644352702f17e21b9f6339",
+      "productInfo": {
+        "seller": "朱静",
+        "sales": 5234,
+        "price": 4995
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xf0702f256ba1f7e61fc14d40b7c06cf0e0c6f9aff3b6daa34254af567d51bd6f",
+      "txHash": "0xe62938015c5b9fa4988ca6a3744e506d5f85dae8277422928490556a8de847ff",
+      "blockHeight": 1505490
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-28T02:59:43.399Z",
+    "updatedAt": "2025-10-18T02:59:43.399Z"
+  },
+  {
+    "id": "3ddcbff4-2f57-4f5f-994d-64c6bac269f9",
+    "assetId": "f8b1395d-cf65-4ddc-9d35-2347eca2c393",
+    "asset": {
+      "id": "f8b1395d-cf65-4ddc-9d35-2347eca2c393",
+      "certificateId": "CERT-20251106-402851",
+      "assetType": "创意素材",
+      "fileName": "创意设计品牌.png",
+      "fileHash": "0xd4bb8fb8d9e2d284056899e1b6897c7930e84d4b8f6e858243c49bfe459d24a9",
+      "fileSize": 15451235,
+      "author": {
+        "name": "林勇",
+        "idCard": "5107930393115",
+        "ca_cert": "CA-718927"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-07T02:59:43.397Z",
+        "tsa_signature": "0xaa887b6f72392a8b3b77b2771d58bc75eaff7d4c5359f364d4b03d44c166ab43"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2cbe5465b7c9af02760f4899fa3c60b9771470813f38ab7f98a23eef5536beb6",
+        "blockHeight": 1558975,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计品牌.png",
+        "tags": [
+          "创意素材",
+          "PNG"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+      "status": "registered",
+      "createdAt": "2025-08-07T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/665490",
+    "suspectPlatform": "京东",
+    "similarity": 88,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_40_1.jpg",
+        "/evidence/screenshot_40_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xa89e94bdb41e880f114ed7f999e71f6797aeed18f1e4578106ce471fc0cfacfa",
+      "productInfo": {
+        "seller": "李华",
+        "sales": 8195,
+        "price": 4319
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xdc5a601bc753a4de2ff848acc65a79eab90e286a31c7e0417bc569488eb70b7c",
+      "txHash": "0x514fa53e82dfc5834fe233802c45e5742c6450e08140762713b7fa4e02d9bc15",
+      "blockHeight": 1595447
+    },
+    "status": "litigation",
+    "createdAt": "2025-08-27T02:59:43.399Z",
+    "updatedAt": "2025-09-09T02:59:43.399Z"
+  },
+  {
+    "id": "9d385f14-9611-4447-bb62-99b31f5fa2c9",
+    "assetId": "315c9736-b370-4c40-932a-a3f035567215",
+    "asset": {
+      "id": "315c9736-b370-4c40-932a-a3f035567215",
+      "certificateId": "CERT-20251106-607522",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v1.3dmax",
+      "fileHash": "0x09675de9c735a577f6a0cea4f2d4160be32c67ac35ca16c797d0de9e325652bf",
+      "fileSize": 27883516,
+      "author": {
+        "name": "张勇",
+        "idCard": "5102938129517",
+        "ca_cert": "CA-363612"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.396Z",
+        "tsa_signature": "0xcb32f1c7fc53946d3bf9fd14957911f8171235e43c3379ae993d70bae7d0311d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7685707441415f86e6fc47a8a6956d367cf3060313f495a77534ad36c4fdb9ea",
+        "blockHeight": 1591910,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v1.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6c709f32-9b54-451a-bce7-a43de519534e",
+      "status": "licensed",
+      "createdAt": "2025-07-22T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/596024",
+    "suspectPlatform": "站酷",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_41_1.jpg",
+        "/evidence/screenshot_41_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x2a30a6733c82508e133603e63066b0b92eefb57f05d4123616edb90e48b11bf9",
+      "productInfo": {
+        "seller": "黄艳",
+        "sales": 7036,
+        "price": 1737
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x17b27ccc054fff60b72c7d1480524fdf995c4777e10bb73a194e1edc00bd57c9",
+      "txHash": "0xff2306543f61aff8ae646372cb5823584f4a053936730ce6da2d70e630b2eb81",
+      "blockHeight": 1524516
+    },
+    "status": "pending",
+    "createdAt": "2025-08-24T02:59:43.399Z",
+    "updatedAt": "2025-08-27T02:59:43.399Z"
+  },
+  {
+    "id": "3598d7f6-1cf3-4ea1-989a-3dae50805a70",
+    "assetId": "4f9cf1f1-c0c6-49cb-a804-7b4dc5fa79b2",
+    "asset": {
+      "id": "4f9cf1f1-c0c6-49cb-a804-7b4dc5fa79b2",
+      "certificateId": "CERT-20251106-788031",
+      "assetType": "创意素材",
+      "fileName": "创意设计海报.ai",
+      "fileHash": "0x41f3ee2add3c05b77006c372078637379f469d5c00d66ede3559619aab480c18",
+      "fileSize": 21853541,
+      "author": {
+        "name": "郭洋",
+        "idCard": "3302989962082",
+        "ca_cert": "CA-120527"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-20T02:59:43.397Z",
+        "tsa_signature": "0x3700c9d166bd9836283cb82737b7c2ac4768fc92abd864269113da33ea9d3bd7"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x1a215cd57ca2c742fb99f43e593b3ced7d56d5bc7b29d2331802304732f6c47b",
+        "blockHeight": 1592436,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计海报.ai",
+        "tags": [
+          "创意素材",
+          "AI"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "4d3a292d-39ab-468e-a1e0-9464bc73c395",
+      "status": "registered",
+      "createdAt": "2025-06-20T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/202868",
+    "suspectPlatform": "Dribbble",
+    "similarity": 84,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_42_1.jpg",
+        "/evidence/screenshot_42_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xedf69162f2b8e88769eb65ccb6d08f22e1636991167e4ed7720db97e012084cd",
+      "productInfo": {
+        "seller": "王勇",
+        "sales": 7947,
+        "price": 762
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xaaf1d3c57a01c2234a5738bc76f56a98db3bc711859d7fc969469864c309e206",
+      "txHash": "0x66324e68f53847a9896818fbfe9bc8bdf9ea7dd72d55deff6d602d6755df522e",
+      "blockHeight": 1575685
+    },
+    "status": "pending",
+    "createdAt": "2025-10-04T02:59:43.399Z",
+    "updatedAt": "2025-11-01T02:59:43.399Z"
+  },
+  {
+    "id": "6372fa9f-9f40-4ed6-8f2e-4cd08660fe02",
+    "assetId": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+    "asset": {
+      "id": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+      "certificateId": "CERT-20251106-012664",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0xd79bd768f464982735cd5715a9aef72f5c558ebc8db65848bc7c75abe2009e9a",
+      "fileSize": 13522377,
+      "author": {
+        "name": "马磊",
+        "idCard": "1104899207531",
+        "ca_cert": "CA-786254"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-14T02:59:43.396Z",
+        "tsa_signature": "0xccbd657d583ff041ee563d5b555255fd360aeee9ef2ba7a4bc913dde216e0779"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7bb3ad3e56cadfa267fd433bfec5efb03000dce93114cd79fdd5a0b7fc16379a",
+        "blockHeight": 1594874,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-08-14T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/181226",
+    "suspectPlatform": "B站",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_43_1.jpg",
+        "/evidence/screenshot_43_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x3af8a29d703d9fd4a76dccf3595eb0f2b82eb777eaeda60d35c808af3b8d0811",
+      "productInfo": {
+        "seller": "徐秀英",
+        "sales": 2952,
+        "price": 4173
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xd2bc366673869af27b2673cf77cfcc277cfb3128e471965f1604618e48e3af20",
+      "txHash": "0xbcd9b52f1904ea68290d5c8f0367113e1b9548bc42e9d7ee0e9fd1bc5c2e38da",
+      "blockHeight": 1570824
+    },
+    "status": "litigation",
+    "createdAt": "2025-10-23T02:59:43.399Z",
+    "updatedAt": "2025-11-16T02:59:43.399Z"
+  },
+  {
+    "id": "8798890a-8531-46bd-bcdd-ae1a32dd2b2b",
+    "assetId": "103f97e2-e80a-4d66-9bb5-5cdf50769414",
+    "asset": {
+      "id": "103f97e2-e80a-4d66-9bb5-5cdf50769414",
+      "certificateId": "CERT-20251106-332711",
+      "assetType": "视频作品",
+      "fileName": "视频广告.mov",
+      "fileHash": "0x424823d0879bf81b7a7f42aee6b68b06a1c2565a7d5690623bfbc52ce1841191",
+      "fileSize": 26513171,
+      "author": {
+        "name": "马强",
+        "idCard": "4407543633942",
+        "ca_cert": "CA-587412"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-02T02:59:43.397Z",
+        "tsa_signature": "0xfe52c7eb45f0e1e498556a12fc767b305aa6a68831322200a7e1823a1ff2922b"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xde0960946d4dc1b6dd8f3f2a3c377cac6a457bf1ecd399850b3cc7db8811752d",
+        "blockHeight": 1544700,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频广告.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "ee272645-bf02-4648-a850-eadb3416a9af",
+      "status": "licensed",
+      "createdAt": "2025-07-02T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/254769",
+    "suspectPlatform": "小红书",
+    "similarity": 79,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_44_1.jpg",
+        "/evidence/screenshot_44_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x38c60bac4d503276a1be3d4504565749902cd5ddf79134136659c2d803d2000b",
+      "productInfo": {
+        "seller": "刘丽",
+        "sales": 3774,
+        "price": 1676
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x6f5ed4ca15924167bea3c508f69a12d44565c771d5726dac79b2ee3ed444ee43",
+      "txHash": "0x6b01d312aa12b5233c886e40a96ee74ddf053740edbe06d4743e1f1ef02447ff",
+      "blockHeight": 1591372
+    },
+    "status": "investigating",
+    "createdAt": "2025-09-17T02:59:43.399Z",
+    "updatedAt": "2025-09-20T02:59:43.399Z"
+  },
+  {
+    "id": "44723a84-630b-406d-9eb6-1a02fb601bcd",
+    "assetId": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+    "asset": {
+      "id": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+      "certificateId": "CERT-20251106-370778",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.jpg",
+      "fileHash": "0xc318daf01d1fa7fdeb20f0d09234e69e6cd36d4a6b501ae668c50f3336cd5094",
+      "fileSize": 35136525,
+      "author": {
+        "name": "何艳",
+        "idCard": "4401212879699",
+        "ca_cert": "CA-228474"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.396Z",
+        "tsa_signature": "0x57677f9f31141dd6a7115660c1dbc297a205f09c9570a3e670faf296b98bfe68"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x874384e8ae78d9f5540fe7369c217cdd352df8892b3afb53582b41e8cdfdf5a2",
+        "blockHeight": 1571307,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.jpg",
+        "tags": [
+          "创意素材",
+          "JPG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "6c8f53e3-34ce-4cf6-825f-f1ca4c6daf49",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/647769",
+    "suspectPlatform": "站酷",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_45_1.jpg",
+        "/evidence/screenshot_45_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x6bc78643c6ea54ea5db99f2c3069566cb1067abd963a0397c04ab357e57591b8",
+      "productInfo": {
+        "seller": "高磊",
+        "sales": 766,
+        "price": 3507
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xdd6ea5029e1a7bca019aabca8b34ebc4cac64236952f8d67cce681450fd88f6e",
+      "txHash": "0xeeaa11671cab91f60557b8e970bba9a06299a9a547ded94d0d0b4162ded1aad8",
+      "blockHeight": 1561904
+    },
+    "status": "settled",
+    "createdAt": "2025-10-09T02:59:43.399Z",
+    "updatedAt": "2025-10-24T02:59:43.399Z"
+  },
+  {
+    "id": "075ed8e0-22b3-4085-81fe-a32a5e622008",
+    "assetId": "0f2d865f-d148-4e46-b379-31cbb0e2af10",
+    "asset": {
+      "id": "0f2d865f-d148-4e46-b379-31cbb0e2af10",
+      "certificateId": "CERT-20251106-757247",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0x5d79bfcf99b6e69692b0575d269b8c78eb19dd2c832519944c142584b1027645",
+      "fileSize": 7109576,
+      "author": {
+        "name": "李勇",
+        "idCard": "3101304085680",
+        "ca_cert": "CA-528393"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-26T02:59:43.396Z",
+        "tsa_signature": "0x04e91e1e760cf4ab6b3bec03560b21fd25c042df1c0918289e7ccf9e133fdb52"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x5f4a23e4bf1c657879ef62e3fd2379f086508273d3ae6135faa9aeb453e68880",
+        "blockHeight": 1562908,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+      "status": "registered",
+      "createdAt": "2025-07-26T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/476958",
+    "suspectPlatform": "Dribbble",
+    "similarity": 88,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_46_1.jpg",
+        "/evidence/screenshot_46_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x6d6a3964d6c85102ac32a52c8dce8521a87fc4646bf7500d382a91d9a2317869",
+      "productInfo": {
+        "seller": "高军",
+        "sales": 4873,
+        "price": 4428
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x8c32b5b525da34d1b91171556026d21f5ee4ecaeaf9d6f94379172d86ecd75f3",
+      "txHash": "0xc665fc86a197241835ca206213a4582f33d5d6417f49d04089ff3645d3fc724f",
+      "blockHeight": 1580660
+    },
+    "status": "closed",
+    "createdAt": "2025-09-19T02:59:43.399Z",
+    "updatedAt": "2025-10-01T02:59:43.399Z"
+  },
+  {
+    "id": "662c200d-a30b-4c10-8a81-49821cea7178",
+    "assetId": "fa08235f-5c71-4b81-8efe-7f33f0222f72",
+    "asset": {
+      "id": "fa08235f-5c71-4b81-8efe-7f33f0222f72",
+      "certificateId": "CERT-20251106-990218",
+      "assetType": "技术文档",
+      "fileName": "技术文档报告.pdf",
+      "fileHash": "0x456858d8941c69cb749e9ed041f9e98dfe1f9e4149f760eeb57e96e459a61a26",
+      "fileSize": 28316291,
+      "author": {
+        "name": "杨勇",
+        "idCard": "3309936851938",
+        "ca_cert": "CA-265708"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-24T02:59:43.397Z",
+        "tsa_signature": "0xe61afd0c3a393daf3ca7b2fe55507ff50a888eaf62af2d6483835ffda91a8ae5"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7bbc8e587a26ab237c730696ed2c3a2ceb6093cf5dc147250643024ca1ab0237",
+        "blockHeight": 1573317,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档报告.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+      "status": "licensed",
+      "createdAt": "2025-06-24T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/407910",
+    "suspectPlatform": "京东",
+    "similarity": 93,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_47_1.jpg",
+        "/evidence/screenshot_47_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xaf9f9d990e5db59ff99a34db1ae275162d6fe5ff167e8f89bfa3b9c3e97045da",
+      "productInfo": {
+        "seller": "朱军",
+        "sales": 6547,
+        "price": 3721
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x0c7635ce8fa1f41ba0b34b1982e8af5bd0503c1bc81b510e1b0dce98cb12eecf",
+      "txHash": "0xf7fa46d223e8fdfabb53c67ac6617ad3f46bbc73e87b392bf1331ebb6a2485c5",
+      "blockHeight": 1537907
+    },
+    "status": "pending",
+    "createdAt": "2025-10-14T02:59:43.399Z",
+    "updatedAt": "2025-10-15T02:59:43.399Z"
+  },
+  {
+    "id": "5ffb8e10-4854-4962-b53a-c9173e9db473",
+    "assetId": "c6b967e8-0293-4682-a5aa-188587088b63",
+    "asset": {
+      "id": "c6b967e8-0293-4682-a5aa-188587088b63",
+      "certificateId": "CERT-20251106-324961",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.docx",
+      "fileHash": "0x57dc2cd2ce66116b853e9cac08aba7ec56fad5b5173005c6f129ae319d8d8873",
+      "fileSize": 2332304,
+      "author": {
+        "name": "杨磊",
+        "idCard": "3101041824041",
+        "ca_cert": "CA-250356"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-20T02:59:43.397Z",
+        "tsa_signature": "0x39344f72f7d6b996e053f61d142f4653e854f8a1b5fac5a0c6512ab5e5f8178e"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xe42c292cac5ae207239fa73b30e9614640dc8013b637e82cfc35bf08a5ccd4f0",
+        "blockHeight": 1561469,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.docx",
+        "tags": [
+          "技术文档",
+          "DOCX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "5c99696d-5757-421f-9e54-cf373db38d2f",
+      "status": "registered",
+      "createdAt": "2025-10-20T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/614633",
+    "suspectPlatform": "花瓣网",
+    "similarity": 92,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_48_1.jpg",
+        "/evidence/screenshot_48_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x9836accb0edff78a9db098ed1677290aa2baffcd606f483afe1eb202651db19b",
+      "productInfo": {
+        "seller": "赵秀英",
+        "sales": 7955,
+        "price": 2111
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xb96be1dfc892703bd3c88428719d003560a22359371fd6cc3fb3a2c6bc35d32f",
+      "txHash": "0x64f393fdd240485a7d454b0cd027127b0bc55cad52e3f79f14483f5558490be3",
+      "blockHeight": 1508515
+    },
+    "status": "litigation",
+    "createdAt": "2025-08-17T02:59:43.399Z",
+    "updatedAt": "2025-08-20T02:59:43.399Z"
+  },
+  {
+    "id": "47b752b1-0498-48dd-8354-12d16647f85e",
+    "assetId": "dcb058b1-8a7a-41f0-b3f3-6c8bc3a86002",
+    "asset": {
+      "id": "dcb058b1-8a7a-41f0-b3f3-6c8bc3a86002",
+      "certificateId": "CERT-20251106-794518",
+      "assetType": "技术文档",
+      "fileName": "技术文档规范.pdf",
+      "fileHash": "0xdcb6fa40c4d8eb98f8e02fe9c123d1d5353f060f0614bb799950e517ba5f086f",
+      "fileSize": 25966711,
+      "author": {
+        "name": "周艳",
+        "idCard": "3109123664505",
+        "ca_cert": "CA-470622"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-26T02:59:43.397Z",
+        "tsa_signature": "0x7af025bcc6cc6c2bd0ae5b67ae78e6a04e6aa32a797cda968ff43d9869d59f2e"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc0dc98cc60e5dbc1d0325bd1ed95dccf931e50cb8ec03f92e2798d71fd32ad60",
+        "blockHeight": 1563908,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档规范.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-06-26T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/322765",
+    "suspectPlatform": "小红书",
+    "similarity": 80,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_49_1.jpg",
+        "/evidence/screenshot_49_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xed62d47491c22bf34ddcce06dc741fae5b86ca46c862e1c6bc6705aa06bf7418",
+      "productInfo": {
+        "seller": "周丽",
+        "sales": 1523,
+        "price": 828
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x950a346f1375db455ac06f1f2271fa00a931df2bcc74886003779e2630ce9614",
+      "txHash": "0x1a9a993742f5bc8f00e825f5f4f0aec612ccd9da1df45f8df4d8cc542b178c38",
+      "blockHeight": 1568385
+    },
+    "status": "litigation",
+    "createdAt": "2025-08-26T02:59:43.399Z",
+    "updatedAt": "2025-09-14T02:59:43.399Z"
+  },
+  {
+    "id": "37ffc28e-5329-4a78-a4d7-42ecc8a9b178",
+    "assetId": "4039824b-3540-41d2-a049-0a1244ea43ce",
+    "asset": {
+      "id": "4039824b-3540-41d2-a049-0a1244ea43ce",
+      "certificateId": "CERT-20251106-322553",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v1.3dmax",
+      "fileHash": "0x43fc0e6c48b32334e2d86d9ae64e82259a9f057788ccffddad76216b5ece0733",
+      "fileSize": 50105343,
+      "author": {
+        "name": "何艳",
+        "idCard": "3101795111791",
+        "ca_cert": "CA-877803"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-07T02:59:43.397Z",
+        "tsa_signature": "0x1f9f53126eba2e2ffcd11be95c64eef0fa467ee0e77bb632c521dd322b55038f"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc9a45df3136ddca75612f517ddbb4800c8d4f28828e812467710df20246ff0a0",
+        "blockHeight": 1590383,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v1.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "1e4fa69f-f5e7-4390-942d-6ad34c50cdc9",
+      "status": "registered",
+      "createdAt": "2025-09-07T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/547559",
+    "suspectPlatform": "抖音",
+    "similarity": 92,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_50_1.jpg",
+        "/evidence/screenshot_50_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xd26b0928eab53ee01ec1ced4504882c7796d84f3c7101cdc490fd64bee9b93c8",
+      "productInfo": {
+        "seller": "赵强",
+        "sales": 5098,
+        "price": 261
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x9e0142ef9466b2de16709499e7af3326618a3bd68a401093b04cbf042f660a21",
+      "txHash": "0xf57de03ad0ce7d4b4d473012e6ac214f5ca44783f1a94699bb6b33f47eaf55af",
+      "blockHeight": 1502703
+    },
+    "status": "settled",
+    "createdAt": "2025-10-02T02:59:43.399Z",
+    "updatedAt": "2025-10-06T02:59:43.399Z"
+  },
+  {
+    "id": "cc169ca6-453b-4938-86ce-39e38eb4443d",
+    "assetId": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+    "asset": {
+      "id": "33e433f9-52e2-4852-ad9f-a6d17080d48d",
+      "certificateId": "CERT-20251106-665982",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0xdbef6340ad737c7034ac42844ecb3813d06861f9e1b31123dcb5393d62ea3029",
+      "fileSize": 33723406,
+      "author": {
+        "name": "胡娜",
+        "idCard": "1103224905195",
+        "ca_cert": "CA-311027"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-22T02:59:43.395Z",
+        "tsa_signature": "0x5f3d61efcc5abb1526d78adbbaf90c9969d1d68e2cb02abc1bf42fea81d79edb"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xfd60040bd736bb2e9e62b6a1dd4617d5c4b8836f65461cba5cb584c734ac4ece",
+        "blockHeight": 1546631,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+      "status": "registered",
+      "createdAt": "2025-08-22T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.花瓣网.com/product/281400",
+    "suspectPlatform": "花瓣网",
+    "similarity": 96,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_51_1.jpg",
+        "/evidence/screenshot_51_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xe1432c0c5d4a551d5f20d965a5294b1f6b43b280447e606f23e62bd5f1b02f81",
+      "productInfo": {
+        "seller": "郭勇",
+        "sales": 6718,
+        "price": 2621
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xad03fce8c605b29b60c78fc6c9d53958abf775a7c0f16580e0ec516e77175395",
+      "txHash": "0xa58a6dba683a41eb3df6fe95ce739b8258378af8dee3dfcffb003b8369622b86",
+      "blockHeight": 1578283
+    },
+    "status": "settled",
+    "createdAt": "2025-09-25T02:59:43.399Z",
+    "updatedAt": "2025-09-26T02:59:43.399Z"
+  },
+  {
+    "id": "b32af040-1996-4e18-8c60-c22fc2e6ceac",
+    "assetId": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+    "asset": {
+      "id": "fe49ad6b-5a04-4d18-9cb1-88ea4ac1c5fb",
+      "certificateId": "CERT-20251106-880472",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0x28c1ca021778ebbc2bc3ebb61620f4d650763af628a1ce3352ad770bd9617330",
+      "fileSize": 5329070,
+      "author": {
+        "name": "何强",
+        "idCard": "3105303066127",
+        "ca_cert": "CA-231188"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-08T02:59:43.397Z",
+        "tsa_signature": "0x3e5cabf7c73a6c3bd3b47d988be70b7281b4da9f9943bc99632fa2ad5670fe20"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x4fe73e1b439119431ad57d36383cdefe88d02b2ac3517fa18877d9d48ca637ec",
+        "blockHeight": 1547609,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "bffc308f-e8a1-4845-ba19-54e36064fb9c",
+      "status": "registered",
+      "createdAt": "2025-07-08T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/275724",
+    "suspectPlatform": "京东",
+    "similarity": 75,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_52_1.jpg",
+        "/evidence/screenshot_52_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x40151d425dbab5b00ea7a4ec9c71aad58ba6e45bdd2ce3755b5cd6e32e14090d",
+      "productInfo": {
+        "seller": "周磊",
+        "sales": 1885,
+        "price": 3612
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xa2baa796fc91eabfce6ea3db571bd4efd05366cde4f669982595199fd272f624",
+      "txHash": "0xf50dcc3b4a62350899766677193ed3b046693c3f0d9ad48d39b3f002103e4f95",
+      "blockHeight": 1519849
+    },
+    "status": "litigation",
+    "createdAt": "2025-08-29T02:59:43.399Z",
+    "updatedAt": "2025-09-20T02:59:43.399Z"
+  },
+  {
+    "id": "43817dae-ce74-4648-87ce-75c17ee11cb0",
+    "assetId": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+    "asset": {
+      "id": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+      "certificateId": "CERT-20251106-878153",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.pdf",
+      "fileHash": "0x805ff88b9313271ba5d0f8172977ed6e19ad5c5b9938f263e087af7de3bb6b50",
+      "fileSize": 14467943,
+      "author": {
+        "name": "刘洋",
+        "idCard": "4409557626865",
+        "ca_cert": "CA-378173"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-29T02:59:43.397Z",
+        "tsa_signature": "0x8d836e046bdb64c7062e71ac32e17c1bfa59df25eb2e95a5bc535b0bbb81b16d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x50b8e624e0192d24a5c2d7d84ff70269116de9cf93eccce4e72f9bdd3ec4a88f",
+        "blockHeight": 1581846,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+      "status": "registered",
+      "createdAt": "2025-07-29T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/276093",
+    "suspectPlatform": "Dribbble",
+    "similarity": 93,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_53_1.jpg",
+        "/evidence/screenshot_53_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xa2d09d45ff686678c5caf7f15c54020a92942179d70521df902fad6d6777053d",
+      "productInfo": {
+        "seller": "林勇",
+        "sales": 7422,
+        "price": 4446
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x07b8bc580e04e4440356f9407d72880b29d849addbf673a513eb0965efceed0e",
+      "txHash": "0x346229c2cc5712a8a01b41846f75fe7e5374b035cd7e1799a47cfe7b8bbf0d1b",
+      "blockHeight": 1576095
+    },
+    "status": "pending",
+    "createdAt": "2025-10-03T02:59:43.399Z",
+    "updatedAt": "2025-10-07T02:59:43.399Z"
+  },
+  {
+    "id": "458f30e0-3305-4cb5-bb2d-9a397c257d11",
+    "assetId": "9dba8723-7e69-40b8-a9a7-fe8b45f9a13d",
+    "asset": {
+      "id": "9dba8723-7e69-40b8-a9a7-fe8b45f9a13d",
+      "certificateId": "CERT-20251106-261229",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0x515ab4690e601a27730fd6a89bdba872792149d420e27f3faf8e3a1e379b66ee",
+      "fileSize": 22288425,
+      "author": {
+        "name": "王华",
+        "idCard": "5105292025494",
+        "ca_cert": "CA-539521"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-20T02:59:43.398Z",
+        "tsa_signature": "0x38e57ada403fcf921c66ccd878a66266c3891e1da1d98c91939a74e737cd1008"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x3e89dc771e4a7080d1a3c460fd9dec8ecc796c01d1f407656703d32c6abf82b0",
+        "blockHeight": 1554071,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+      "status": "licensed",
+      "createdAt": "2025-05-20T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/656077",
+    "suspectPlatform": "拼多多",
+    "similarity": 86,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_54_1.jpg",
+        "/evidence/screenshot_54_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x7c531ba84fb40bca96260faf5dd1f65b517cc9f64eaacff6ab1ab312e5e15350",
+      "productInfo": {
+        "seller": "郭洋",
+        "sales": 8983,
+        "price": 1660
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xbe1ce8393505f9c6281fa24aa67ebf620c4968d6de38765621c8166ed91e3fe0",
+      "txHash": "0xa581124e0a29aacd98b337e402e06e91540d49666544eec14d11e0aeb0e858ba",
+      "blockHeight": 1509928
+    },
+    "status": "litigation",
+    "createdAt": "2025-10-02T02:59:43.399Z",
+    "updatedAt": "2025-10-25T02:59:43.399Z"
+  },
+  {
+    "id": "42149788-7b49-416b-ae0a-214baf079f44",
+    "assetId": "b8fe960e-9333-4a40-a6f7-a6a9799a0c4c",
+    "asset": {
+      "id": "b8fe960e-9333-4a40-a6f7-a6a9799a0c4c",
+      "certificateId": "CERT-20251106-190997",
+      "assetType": "源代码",
+      "fileName": "代码库SDK.zip",
+      "fileHash": "0x105d9324dadeeb12d2cbb0e1ae3155971f6446bbab06ee5a6feb074e7d8316d8",
+      "fileSize": 18774522,
+      "author": {
+        "name": "杨勇",
+        "idCard": "3103100421488",
+        "ca_cert": "CA-126967"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-11-06T02:59:43.397Z",
+        "tsa_signature": "0x58e15a0e4894aae673b9ddcedd048fb4848882f14a47378746a9ab58765b0a39"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2971c9fb1934d0a40d8248802ac7c71ea3e1f9d737406263ee2af0e1fa52c017",
+        "blockHeight": 1519875,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库SDK.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "aa06c5e0-fa12-4aa4-9faa-6191c667a7df",
+      "status": "licensed",
+      "createdAt": "2025-11-06T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/915245",
+    "suspectPlatform": "京东",
+    "similarity": 90,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_55_1.jpg",
+        "/evidence/screenshot_55_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xae9ee4b9c831d2bffc92b5c8cca88b955dec7c14b603c3cab58c797eae1a89c0",
+      "productInfo": {
+        "seller": "孙强",
+        "sales": 3766,
+        "price": 1404
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x57b307143d5d4be41e49663fd22854550e8034e86f4a5c928199305c05c7be1a",
+      "txHash": "0x73f77f48ebda61bdb14b310e82edd54f13ad30a98240ed6bfb5fb02be6dc1938",
+      "blockHeight": 1513809
+    },
+    "status": "settled",
+    "createdAt": "2025-11-03T02:59:43.399Z",
+    "updatedAt": "2025-12-01T02:59:43.399Z"
+  },
+  {
+    "id": "6ff0b858-7f6f-4033-84e3-fe2ee40bf4fe",
+    "assetId": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+    "asset": {
+      "id": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+      "certificateId": "CERT-20251106-012664",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0xd79bd768f464982735cd5715a9aef72f5c558ebc8db65848bc7c75abe2009e9a",
+      "fileSize": 13522377,
+      "author": {
+        "name": "马磊",
+        "idCard": "1104899207531",
+        "ca_cert": "CA-786254"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-14T02:59:43.396Z",
+        "tsa_signature": "0xccbd657d583ff041ee563d5b555255fd360aeee9ef2ba7a4bc913dde216e0779"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7bb3ad3e56cadfa267fd433bfec5efb03000dce93114cd79fdd5a0b7fc16379a",
+        "blockHeight": 1594874,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-08-14T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/893342",
+    "suspectPlatform": "抖音",
+    "similarity": 88,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_56_1.jpg",
+        "/evidence/screenshot_56_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x2431fce3ce54ff2078de5e2830ff244a82990da937ed3e58b66b613f5501b07d",
+      "productInfo": {
+        "seller": "黄艳",
+        "sales": 6367,
+        "price": 2080
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xf630ab5844ceb0a9d32bc2eaa4f65fe03940c1f98f4d85de75fb13d4526cf362",
+      "txHash": "0x47667b57d0637b9c2e199ca1b32c7c674cdfaf7ee2c883b7b7ddab14eb09f90d",
+      "blockHeight": 1550675
+    },
+    "status": "settled",
+    "createdAt": "2025-10-21T02:59:43.399Z",
+    "updatedAt": "2025-11-18T02:59:43.399Z"
+  },
+  {
+    "id": "d76f0cc0-b8c7-43cc-b9b2-07c59910834b",
+    "assetId": "e725843d-fd33-4e0d-b9cc-d44a68008ff0",
+    "asset": {
+      "id": "e725843d-fd33-4e0d-b9cc-d44a68008ff0",
+      "certificateId": "CERT-20251106-376011",
+      "assetType": "视频作品",
+      "fileName": "视频教程.mp4",
+      "fileHash": "0xb6e9425e77905268cefc49d5ac3db7ccb5f5510467f18df9eeda7d7128732fcf",
+      "fileSize": 49834586,
+      "author": {
+        "name": "张强",
+        "idCard": "3108392762385",
+        "ca_cert": "CA-259957"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-03T02:59:43.398Z",
+        "tsa_signature": "0x8ca3d1d70c3cc3d609888bacf50b7874a5e2f7a59c943bb9e2212868b1c6725c"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9132ae24468006bb5a28216b6b3e7e1ac2b93468f53ed7e49e377522c892225a",
+        "blockHeight": 1537457,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频教程.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "4174f62c-4447-494c-bac3-e32f7cb2c202",
+      "status": "registered",
+      "createdAt": "2025-07-03T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.京东.com/product/125728",
+    "suspectPlatform": "京东",
+    "similarity": 92,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_57_1.jpg",
+        "/evidence/screenshot_57_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x0d25b3eea928243fc6c09b44ad192ea04d272161ba06190be34a9e843cc5119b",
+      "productInfo": {
+        "seller": "陈杰",
+        "sales": 6624,
+        "price": 331
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x25d4f060e35d482a3dc92565752a2e20b5a50a3e9b7352510ddae10250378629",
+      "txHash": "0xf2d2f22ddc690fe7817dda6150582a4607f31ddc57e647f7057bc782f49e594e",
+      "blockHeight": 1574104
+    },
+    "status": "settled",
+    "createdAt": "2025-08-13T02:59:43.399Z",
+    "updatedAt": "2025-08-20T02:59:43.399Z"
+  },
+  {
+    "id": "e3833e3a-17a4-4d04-a234-471b7c733ade",
+    "assetId": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+    "asset": {
+      "id": "626fd44b-90e8-4316-b057-6c0f00f49a14",
+      "certificateId": "CERT-20251106-093617",
+      "assetType": "源代码",
+      "fileName": "代码库SDK.git",
+      "fileHash": "0x839894f1b5b868fd18e68c8da59f9b69f23329e097f0862c8e8de132eb905f12",
+      "fileSize": 29620548,
+      "author": {
+        "name": "张勇",
+        "idCard": "5101228995193",
+        "ca_cert": "CA-937860"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-11T02:59:43.397Z",
+        "tsa_signature": "0x4410563383b8bb482dbfdecfc64cf5d0312644d7de816df7fcce6ac009181c2b"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8d665c719baa73d7debde0b777e0087df42f1b1c9a072a3a403272050b50908a",
+        "blockHeight": 1563746,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库SDK.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "8a467b0d-aad6-49b6-8e4c-705069c7aca4",
+      "status": "licensed",
+      "createdAt": "2025-08-11T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.拼多多.com/product/194354",
+    "suspectPlatform": "拼多多",
+    "similarity": 79,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_58_1.jpg",
+        "/evidence/screenshot_58_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x0aa55d464c709e3a7c5a9edd64d97f9b8c9c0ef6deeb35a00673ef9636a126c4",
+      "productInfo": {
+        "seller": "吴勇",
+        "sales": 7103,
+        "price": 1686
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x6423ac37e4054d5d353455b2d4901225277a9a8bd8f44c21a7ecd4082b8cd9c1",
+      "txHash": "0x0c71a6fba5d919ad432cf5b77d924fa8f1d1fbd4f8a054f1802b1958a67d4eca",
+      "blockHeight": 1580040
+    },
+    "status": "closed",
+    "createdAt": "2025-10-29T02:59:43.399Z",
+    "updatedAt": "2025-11-16T02:59:43.399Z"
+  },
+  {
+    "id": "093ae8cd-7c0f-400f-9bfa-45f42bdbc565",
+    "assetId": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+    "asset": {
+      "id": "4888de9e-ba30-4e74-8982-2dcb35f49118",
+      "certificateId": "CERT-20251106-970322",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0xd42971bab17aef8dfc4c5ee84601017dc2aa75b2be8ffb4e94f0b730c76b3599",
+      "fileSize": 30835006,
+      "author": {
+        "name": "林勇",
+        "idCard": "1101730277658",
+        "ca_cert": "CA-625306"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-06T02:59:43.397Z",
+        "tsa_signature": "0xb317d1ed2e48216928c7138db0c6b01690178016411464c4b6224812f4e062c4"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2e32fd9195e2fe937354c711a250b70c036d8732f12fc583aee2f30d7c77f7b0",
+        "blockHeight": 1513638,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "93aa3ed0-b460-43b2-abee-3f89a7c3ea97",
+      "status": "registered",
+      "createdAt": "2025-06-06T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/972834",
+    "suspectPlatform": "微信公众号",
+    "similarity": 93,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_59_1.jpg",
+        "/evidence/screenshot_59_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x5c051bb2055d1533f5c87718c491525f7829f2545e01fbe1a5412d11e988c044",
+      "productInfo": {
+        "seller": "李华",
+        "sales": 3755,
+        "price": 690
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x901703074238fbdaa1767e4d09b3340b7f44ed3cdf105f48514a8615d5697ede",
+      "txHash": "0xfaa1577d7f4bafbadbe311cfb6ee72078c56c3faa12cd9393f32e4e6c2eabfe5",
+      "blockHeight": 1530604
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-10T02:59:43.399Z",
+    "updatedAt": "2025-09-13T02:59:43.399Z"
+  },
+  {
+    "id": "39ccf4d5-c252-4152-8c35-a557b8b88432",
+    "assetId": "5adfdbde-a06b-494c-aaa7-6fde24f882e7",
+    "asset": {
+      "id": "5adfdbde-a06b-494c-aaa7-6fde24f882e7",
+      "certificateId": "CERT-20251106-618812",
+      "assetType": "设计图纸",
+      "fileName": "产品设计final.dwg",
+      "fileHash": "0xebcdb04bec91ae9966a7d89064efb5e1c9ef85fdd24ec820f62378214431f9ff",
+      "fileSize": 4024787,
+      "author": {
+        "name": "刘磊",
+        "idCard": "4403451515637",
+        "ca_cert": "CA-143066"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-11T02:59:43.395Z",
+        "tsa_signature": "0xcec23de46aa54e18577ccd5b9bb9f6c9caf4860b7a0b38ca3331488fd5d51f75"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x973d427688db174a7c8e927f64ad771a1a86bd746e739871a2765eb1c46bc7e1",
+        "blockHeight": 1548969,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计final.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "f204d26a-6bdb-4690-a862-77ba5206173f",
+      "status": "licensed",
+      "createdAt": "2025-08-11T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/943332",
+    "suspectPlatform": "微信公众号",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_60_1.jpg",
+        "/evidence/screenshot_60_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xd707479704b533f1a1168d02cab74b944d08c24c6d5417efe48926f11a23c79c",
+      "productInfo": {
+        "seller": "吴艳",
+        "sales": 1681,
+        "price": 4956
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x90c68e7134731b797f6d71c2ad118d0c7f328e3d1daaea274ff5b3a017c96e34",
+      "txHash": "0x90039bb2fe75b62de988f8c2df9d2fc26ca57f01c2d00d3a5c133d1b6f54773e",
+      "blockHeight": 1599577
+    },
+    "status": "closed",
+    "createdAt": "2025-09-19T02:59:43.399Z",
+    "updatedAt": "2025-09-24T02:59:43.399Z"
+  },
+  {
+    "id": "c6a5fb53-e171-4375-91fa-508d6091e556",
+    "assetId": "18011d6f-fdf8-4276-af89-7615309f6663",
+    "asset": {
+      "id": "18011d6f-fdf8-4276-af89-7615309f6663",
+      "certificateId": "CERT-20251106-115733",
+      "assetType": "视频作品",
+      "fileName": "视频演示.mp4",
+      "fileHash": "0x7ef128fa881f267d8df51d8d5a5f59d7d35d3d1a4f0fb0c5de93527aeea7d648",
+      "fileSize": 6988391,
+      "author": {
+        "name": "周艳",
+        "idCard": "3304694458066",
+        "ca_cert": "CA-952219"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-27T02:59:43.398Z",
+        "tsa_signature": "0x419f4b9901aedd55630cb0229e8ae46b701c6f7c970c5747f4db95c7b75f74b3"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc1438856712a57c5d573a6ec38e40e1ac3a10ed455bf2052e66894779f6c208e",
+        "blockHeight": 1568256,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频演示.mp4",
+        "tags": [
+          "视频作品",
+          "MP4"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eae13ce0-ac83-4735-81a0-3150bda376d8",
+      "status": "registered",
+      "createdAt": "2025-10-27T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/387011",
+    "suspectPlatform": "B站",
+    "similarity": 95,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_61_1.jpg",
+        "/evidence/screenshot_61_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x11bb7884a5a36ea20b82a5b90f74bb5d5036c1b118fca927c5082b2034f242bd",
+      "productInfo": {
+        "seller": "胡磊",
+        "sales": 3076,
+        "price": 1719
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x8dddd9227780bb0bdb9f9b2d558b5a18598077d4912e98338f0980a356e7a9d6",
+      "txHash": "0x8ccba755d63d90fd0f89e25d7fc47e6a7eaf3e6d258dd18719e2712198894971",
+      "blockHeight": 1583843
+    },
+    "status": "pending",
+    "createdAt": "2025-10-08T02:59:43.399Z",
+    "updatedAt": "2025-10-25T02:59:43.399Z"
+  },
+  {
+    "id": "78927e05-5158-4af8-afe8-9306ed72fcf4",
+    "assetId": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+    "asset": {
+      "id": "287eb83b-4bbf-4a57-ad98-7a4e97e38e46",
+      "certificateId": "CERT-20251106-370778",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.jpg",
+      "fileHash": "0xc318daf01d1fa7fdeb20f0d09234e69e6cd36d4a6b501ae668c50f3336cd5094",
+      "fileSize": 35136525,
+      "author": {
+        "name": "何艳",
+        "idCard": "4401212879699",
+        "ca_cert": "CA-228474"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-02T02:59:43.396Z",
+        "tsa_signature": "0x57677f9f31141dd6a7115660c1dbc297a205f09c9570a3e670faf296b98bfe68"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x874384e8ae78d9f5540fe7369c217cdd352df8892b3afb53582b41e8cdfdf5a2",
+        "blockHeight": 1571307,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.jpg",
+        "tags": [
+          "创意素材",
+          "JPG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "6c8f53e3-34ce-4cf6-825f-f1ca4c6daf49",
+      "status": "registered",
+      "createdAt": "2025-09-02T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.小红书.com/product/524606",
+    "suspectPlatform": "小红书",
+    "similarity": 84,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_62_1.jpg",
+        "/evidence/screenshot_62_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x514f7f6fe776668ff83390eb8a23725949ff2746ffdfc1eaf79a99ad6da34cf1",
+      "productInfo": {
+        "seller": "吴强",
+        "sales": 8444,
+        "price": 4713
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x15569136f92bee29a7218feeda3946fb39545f7fa346232f5a09c78200fd362d",
+      "txHash": "0x09aae738b142f173dc58db7d93d90b3c10035c745247b791c71da27f5f6d4595",
+      "blockHeight": 1594650
+    },
+    "status": "settled",
+    "createdAt": "2025-11-06T02:59:43.399Z",
+    "updatedAt": "2025-11-14T02:59:43.399Z"
+  },
+  {
+    "id": "f9dcfb65-db27-409d-bcd2-f3911f515464",
+    "assetId": "bfb4e1fb-52b1-4e80-b4ca-dabdbadebb72",
+    "asset": {
+      "id": "bfb4e1fb-52b1-4e80-b4ca-dabdbadebb72",
+      "certificateId": "CERT-20251106-444349",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.jpg",
+      "fileHash": "0xb50bca6f6387a269e58a83139135801cb65e987a1769d9665954abee10b54937",
+      "fileSize": 8308859,
+      "author": {
+        "name": "王娜",
+        "idCard": "5104802221270",
+        "ca_cert": "CA-737500"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-06-02T02:59:43.397Z",
+        "tsa_signature": "0x708a8dffe95649a88ebfc663da8c832fbc443576475a99fef8a58d8520d95a17"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x00a59496cc3db4d5834ae15cffa903960bb2a1069e3e4d4c60cc99a639039ac7",
+        "blockHeight": 1572389,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.jpg",
+        "tags": [
+          "创意素材",
+          "JPG"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "ce9b9147-47bf-47ac-85a3-9139b106c230",
+      "status": "registered",
+      "createdAt": "2025-06-02T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/641999",
+    "suspectPlatform": "Dribbble",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_63_1.jpg",
+        "/evidence/screenshot_63_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x0282c0d8699966b6d5b0ad5842a5456f544a97bba769ef9eb71f237994ace482",
+      "productInfo": {
+        "seller": "郭明",
+        "sales": 2894,
+        "price": 4337
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xf2b7b39c34959d27f6c1cb7704809f12f7d2d1099ffc622e39529ba5f5094440",
+      "txHash": "0x28451d0bbaef462c91b5cd187bf6697755be54b89a74196ad356701f9654d01b",
+      "blockHeight": 1522091
+    },
+    "status": "closed",
+    "createdAt": "2025-10-24T02:59:43.399Z",
+    "updatedAt": "2025-11-07T02:59:43.399Z"
+  },
+  {
+    "id": "1c35dd98-a0de-42b7-bcf5-8a473e9c6887",
+    "assetId": "af02c455-a577-4463-bfed-4ff693722b9b",
+    "asset": {
+      "id": "af02c455-a577-4463-bfed-4ff693722b9b",
+      "certificateId": "CERT-20251106-172367",
+      "assetType": "源代码",
+      "fileName": "代码库API.zip",
+      "fileHash": "0xb967595484e9b44a191def44c506a13a5e8568a50d86fdbc13a8d5147f380059",
+      "fileSize": 11847189,
+      "author": {
+        "name": "陈华",
+        "idCard": "4402984061464",
+        "ca_cert": "CA-116131"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-10T02:59:43.396Z",
+        "tsa_signature": "0x99ebc57a7e8631c596d2ed60ccdf08c23445e06cb7147b59fbfbae409d1170e0"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c652d182cbd6e8fffbb082f1a0a0069f540df27cc0e0cce014cebeb9f4709b",
+        "blockHeight": 1520012,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "1a8e54cd-974e-46d3-b1f7-91846993a64d",
+      "status": "registered",
+      "createdAt": "2025-07-10T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/950818",
+    "suspectPlatform": "站酷",
+    "similarity": 96,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_64_1.jpg",
+        "/evidence/screenshot_64_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x8a83216798d4f9877ebfb287ae17bc9bbc7d6edb574bb74dc68c1a4e0761ecba",
+      "productInfo": {
+        "seller": "何强",
+        "sales": 9108,
+        "price": 4338
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xe18648d56e131719f3c3ab52f2c7a3a290280107f130ecf6d71ef92fba9b4f60",
+      "txHash": "0x699449b961df81d97f89a3a9230e7774413204818549c095675ff28d3f13764d",
+      "blockHeight": 1502161
+    },
+    "status": "closed",
+    "createdAt": "2025-10-26T02:59:43.399Z",
+    "updatedAt": "2025-11-05T02:59:43.399Z"
+  },
+  {
+    "id": "dd716168-63c1-4559-aedc-f96d84b5e5a5",
+    "assetId": "7bb9277a-f232-4b9c-953e-8a9e706d7a0f",
+    "asset": {
+      "id": "7bb9277a-f232-4b9c-953e-8a9e706d7a0f",
+      "certificateId": "CERT-20251106-989428",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v2.dwg",
+      "fileHash": "0x51548f8a1a184dc4b0941e7d24326d2722de507a332c6c918fd6bdaf41296384",
+      "fileSize": 45336804,
+      "author": {
+        "name": "林娜",
+        "idCard": "4407331767992",
+        "ca_cert": "CA-945729"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-09T02:59:43.396Z",
+        "tsa_signature": "0xd06a8e3cbfe00d9fc858fb6be5b0776f0b8567cc3dc0fb65f48330b4ac207428"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x74c78a57b944a1a337c79400a394ad01aa2f568341e74aaf885db6f10c16718d",
+        "blockHeight": 1501936,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v2.dwg",
+        "tags": [
+          "设计图纸",
+          "DWG"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "e9f83f8a-6e6a-45a6-aef0-df91475cb895",
+      "status": "licensed",
+      "createdAt": "2025-09-09T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/982686",
+    "suspectPlatform": "Dribbble",
+    "similarity": 94,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_65_1.jpg",
+        "/evidence/screenshot_65_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x327c0251be53375f87b60aeafeb3500360eee4a7b7eefd166c429154a533f920",
+      "productInfo": {
+        "seller": "王勇",
+        "sales": 1099,
+        "price": 2487
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x2fa9d46bd5c2c39d34fa1ba8b1799bcc075b6b6694f6d4de2308c06263ddb6a5",
+      "txHash": "0xbb283e59e06bfda3eb6f201e55a540ab9c155d083adada144bc58b156602b491",
+      "blockHeight": 1598678
+    },
+    "status": "monitoring",
+    "createdAt": "2025-08-24T02:59:43.399Z",
+    "updatedAt": "2025-09-20T02:59:43.399Z"
+  },
+  {
+    "id": "eab914ec-eeb5-4225-b27f-8aca1beebc86",
+    "assetId": "b790f71e-8331-4da1-a902-bb2fe40557b5",
+    "asset": {
+      "id": "b790f71e-8331-4da1-a902-bb2fe40557b5",
+      "certificateId": "CERT-20251106-386730",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.docx",
+      "fileHash": "0xa7f342b64df88e2a700a7162b190181fc4c0670b768670a0c871451ca00e648e",
+      "fileSize": 21835638,
+      "author": {
+        "name": "何勇",
+        "idCard": "4401973951655",
+        "ca_cert": "CA-964180"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-29T02:59:43.397Z",
+        "tsa_signature": "0x88f07328588cda335e11bd57c1af6cad71bc1574918787e1d8abdb6d8392f07e"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x3c4b0430f8d77fc5e6b5f6e32db3946bfad45416d62267195e32b6b334851e8b",
+        "blockHeight": 1574768,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.docx",
+        "tags": [
+          "技术文档",
+          "DOCX"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "b6ff328c-e710-4e68-b35d-ab0ef9f601bd",
+      "status": "licensed",
+      "createdAt": "2025-08-29T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/539263",
+    "suspectPlatform": "站酷",
+    "similarity": 92,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_66_1.jpg",
+        "/evidence/screenshot_66_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x29235c39a62c65fd0e5cbdb9eefab5ad071ec6aafe231bb9a764a6255c67488e",
+      "productInfo": {
+        "seller": "罗军",
+        "sales": 1115,
+        "price": 2660
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xd9e765cdf9fc3f08e9786ba688e434425c4ca358dc0a84bed66fe5a12f1f7ab7",
+      "txHash": "0xaa5d9ed48b012ff5d6e282989ac18d23c76c2d63773d25f6be4d60cfc11631ba",
+      "blockHeight": 1520655
+    },
+    "status": "litigation",
+    "createdAt": "2025-09-10T02:59:43.399Z",
+    "updatedAt": "2025-10-09T02:59:43.399Z"
+  },
+  {
+    "id": "0743a04e-28a0-42bf-b0b9-fbda573309c8",
+    "assetId": "315c9736-b370-4c40-932a-a3f035567215",
+    "asset": {
+      "id": "315c9736-b370-4c40-932a-a3f035567215",
+      "certificateId": "CERT-20251106-607522",
+      "assetType": "设计图纸",
+      "fileName": "产品设计v1.3dmax",
+      "fileHash": "0x09675de9c735a577f6a0cea4f2d4160be32c67ac35ca16c797d0de9e325652bf",
+      "fileSize": 27883516,
+      "author": {
+        "name": "张勇",
+        "idCard": "5102938129517",
+        "ca_cert": "CA-363612"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.396Z",
+        "tsa_signature": "0xcb32f1c7fc53946d3bf9fd14957911f8171235e43c3379ae993d70bae7d0311d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7685707441415f86e6fc47a8a6956d367cf3060313f495a77534ad36c4fdb9ea",
+        "blockHeight": 1591910,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计v1.3dmax",
+        "tags": [
+          "设计图纸",
+          "3DMAX"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6c709f32-9b54-451a-bce7-a43de519534e",
+      "status": "licensed",
+      "createdAt": "2025-07-22T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/482691",
+    "suspectPlatform": "淘宝",
+    "similarity": 77,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_67_1.jpg",
+        "/evidence/screenshot_67_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x80381b6765578879376af0ca56535783e563b669100338eca904fe92b61ad036",
+      "productInfo": {
+        "seller": "王杰",
+        "sales": 6636,
+        "price": 3166
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xbad1bacf1ccce5ea638370cc008647f18b9d8fe20741401aa92bc8cbbc58b4ad",
+      "txHash": "0x3303e1961ecb619082ab9898b630133b651755bcc9f1ec174bd06728f6232528",
+      "blockHeight": 1511902
+    },
+    "status": "investigating",
+    "createdAt": "2025-08-09T02:59:43.399Z",
+    "updatedAt": "2025-08-18T02:59:43.399Z"
+  },
+  {
+    "id": "2c6d7cbc-a209-480c-8b27-04f44e3f779c",
+    "assetId": "ca09171d-1371-4924-8222-11ea99cff7d4",
+    "asset": {
+      "id": "ca09171d-1371-4924-8222-11ea99cff7d4",
+      "certificateId": "CERT-20251106-817076",
+      "assetType": "技术文档",
+      "fileName": "技术文档规范.pdf",
+      "fileHash": "0xb4e01ddca6a76976b23239798fe4de014a5d63a31a35472dfa0b56f8d952204c",
+      "fileSize": 26465880,
+      "author": {
+        "name": "赵磊",
+        "idCard": "3204287982664",
+        "ca_cert": "CA-885923"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-03T02:59:43.397Z",
+        "tsa_signature": "0xa939f3dc6437ffe57c667987da1035e8bbd82629a771c0112caa10b9265fd1ab"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb91375d1b5573a9753a5cf516fe469648691936669f85a43a18a8fabc9ac8b1c",
+        "blockHeight": 1563214,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档规范.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+      "status": "registered",
+      "createdAt": "2025-07-03T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/436893",
+    "suspectPlatform": "Dribbble",
+    "similarity": 83,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_68_1.jpg",
+        "/evidence/screenshot_68_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x14c3d843f740442eff1e9468dcf0ee71a214462c5c8e4f6c9885af788b613704",
+      "productInfo": {
+        "seller": "郭强",
+        "sales": 8054,
+        "price": 3346
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x5ced64394b2f33425ac13dc68be9dc8402e836d5c5b5d1a8b8bf3224355b2921",
+      "txHash": "0x1cd777359b210677f942d10ff6c9143c4d0f6744a33360806c6c07ec7867fbab",
+      "blockHeight": 1595306
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-26T02:59:43.399Z",
+    "updatedAt": "2025-11-05T02:59:43.399Z"
+  },
+  {
+    "id": "ba3450bb-b36e-48ff-a440-db5244598293",
+    "assetId": "e7e726a7-9411-4caa-a185-45fa566a3d3e",
+    "asset": {
+      "id": "e7e726a7-9411-4caa-a185-45fa566a3d3e",
+      "certificateId": "CERT-20251106-421922",
+      "assetType": "创意素材",
+      "fileName": "创意设计设计.psd",
+      "fileHash": "0x35e86a17883ba9b6f3cb085a591ae45a7539df12040c5d9ebee73aac942dbb31",
+      "fileSize": 13243292,
+      "author": {
+        "name": "胡娜",
+        "idCard": "1106710478079",
+        "ca_cert": "CA-798107"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-09-08T02:59:43.395Z",
+        "tsa_signature": "0x5c547d51901b9d85b1606b919e7d59d310ccd0ec3cce794e86d88eb6262bb349"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb7a41eeef881ab183b6d95c31505eb6655510cb90e998ee7ee341c02cad73b7e",
+        "blockHeight": 1521228,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计设计.psd",
+        "tags": [
+          "创意素材",
+          "PSD"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "b112996a-447c-4998-af2f-8eb8ac0d09b7",
+      "status": "licensed",
+      "createdAt": "2025-09-08T02:59:43.395Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/957812",
+    "suspectPlatform": "Dribbble",
+    "similarity": 89,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_69_1.jpg",
+        "/evidence/screenshot_69_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x0f61e8843628273ad4bf3ee4d2f96a2bf0e675b83cb2a4ee5bfa3413325cd18e",
+      "productInfo": {
+        "seller": "陈明",
+        "sales": 4703,
+        "price": 2779
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x5e3f9f2aefde9c93ae58e3a0bc8e9ef067ea6c48839be4dee82da08a8cd50953",
+      "txHash": "0xe48cea5dad0fffe3cd3e7fa1fb1e3fa8dcafb77e8a51d8930a436581b41286d0",
+      "blockHeight": 1591037
+    },
+    "status": "litigation",
+    "createdAt": "2025-09-27T02:59:43.400Z",
+    "updatedAt": "2025-10-22T02:59:43.400Z"
+  },
+  {
+    "id": "7647770a-11d6-4ba9-b318-cb95bbcfad67",
+    "assetId": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+    "asset": {
+      "id": "42ccd349-1aa9-4030-a545-d2f9f7f9d363",
+      "certificateId": "CERT-20251106-012664",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0xd79bd768f464982735cd5715a9aef72f5c558ebc8db65848bc7c75abe2009e9a",
+      "fileSize": 13522377,
+      "author": {
+        "name": "马磊",
+        "idCard": "1104899207531",
+        "ca_cert": "CA-786254"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-14T02:59:43.396Z",
+        "tsa_signature": "0xccbd657d583ff041ee563d5b555255fd360aeee9ef2ba7a4bc913dde216e0779"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x7bb3ad3e56cadfa267fd433bfec5efb03000dce93114cd79fdd5a0b7fc16379a",
+        "blockHeight": 1594874,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "2ee874a2-bcc2-4488-bd72-45b5f623b661",
+      "status": "registered",
+      "createdAt": "2025-08-14T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.抖音.com/product/398182",
+    "suspectPlatform": "抖音",
+    "similarity": 90,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_70_1.jpg",
+        "/evidence/screenshot_70_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x7b8673932da8068ff47be3ce027c98dd0943c3dbea6b4d1acdfc3344f846fb36",
+      "productInfo": {
+        "seller": "吴敏",
+        "sales": 4523,
+        "price": 4368
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xf630ab5844ceb0a9d32bc2eaa4f65fe03940c1f98f4d85de75fb13d4526cf362",
+      "txHash": "0x2f68f37e7649bc639bf27d678e154b117773a6124e7681397cc5333958c7970d",
+      "blockHeight": 1501684
+    },
+    "status": "pending",
+    "createdAt": "2025-09-10T02:59:43.400Z",
+    "updatedAt": "2025-09-11T02:59:43.400Z"
+  },
+  {
+    "id": "377f8d55-aec5-42ca-8c0c-d6cf2f6f7f8d",
+    "assetId": "ad14043a-f033-4877-93e6-e0be65666fd7",
+    "asset": {
+      "id": "ad14043a-f033-4877-93e6-e0be65666fd7",
+      "certificateId": "CERT-20251106-741875",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.docx",
+      "fileHash": "0x9142fcdda4707bfc94dcef2d575d24c3938b44ee39ca6549e2764d7f72163993",
+      "fileSize": 7345895,
+      "author": {
+        "name": "罗敏",
+        "idCard": "3303181314417",
+        "ca_cert": "CA-153984"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-24T02:59:43.397Z",
+        "tsa_signature": "0x4fc226b6199f0ea501790eb428955fff4a7d4975671c087ff9465c632294c6ae"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x586747d543e5c10e6523f3308e828dd54a28dceaf9c53b0df87a6c5bf040dd98",
+        "blockHeight": 1518504,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.docx",
+        "tags": [
+          "技术文档",
+          "DOCX"
+        ],
+        "license": "CC BY-SA"
+      },
+      "ownerId": "094a221f-516a-4d9e-b08e-17d8b52ebc2e",
+      "status": "registered",
+      "createdAt": "2025-08-24T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.dribbble.com/product/921932",
+    "suspectPlatform": "Dribbble",
+    "similarity": 84,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_71_1.jpg",
+        "/evidence/screenshot_71_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x09cb0b6b90569060f085f030d48944c55640f2f8b5b2eefae85562b04ba3ddba",
+      "productInfo": {
+        "seller": "陈军",
+        "sales": 1043,
+        "price": 2691
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x171d33c4cafa46eb9fe788ddae3f64cd7f9bd3ab7ebd997576322bf4de3702b1",
+      "txHash": "0x053f4ec2df2e07410c5cf35dda6740bc0ec93fb2b932ad2e8ffad86f7639b663",
+      "blockHeight": 1542601
+    },
+    "status": "monitoring",
+    "createdAt": "2025-09-04T02:59:43.400Z",
+    "updatedAt": "2025-09-19T02:59:43.400Z"
+  },
+  {
+    "id": "e5fb5ef2-0ba7-414e-8f5e-42faa2017ecf",
+    "assetId": "86f71d7c-6799-43a0-954d-35739a5415e0",
+    "asset": {
+      "id": "86f71d7c-6799-43a0-954d-35739a5415e0",
+      "certificateId": "CERT-20251106-185657",
+      "assetType": "设计图纸",
+      "fileName": "产品设计revised.skp",
+      "fileHash": "0x39e852ac3c6912c253fad95c9786f8078ee38ce587c04496a060a6e285135bff",
+      "fileSize": 49345298,
+      "author": {
+        "name": "刘洋",
+        "idCard": "5101309081155",
+        "ca_cert": "CA-815671"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-26T02:59:43.397Z",
+        "tsa_signature": "0xc95e6ca23ea0c35ccb56a72540a041db0351678f69af6d91dcc6145e9e8ed0bf"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb6c381c1cdd0e646ec57c7c0530c5df1aeb5edc2cfc6e0ef2e888678d310ae42",
+        "blockHeight": 1515911,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "设计图纸文件：产品设计revised.skp",
+        "tags": [
+          "设计图纸",
+          "SKP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "dd1e2d43-4b4c-427f-ba77-1cd749d73f8d",
+      "status": "registered",
+      "createdAt": "2025-07-26T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/138009",
+    "suspectPlatform": "淘宝",
+    "similarity": 95,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_72_1.jpg",
+        "/evidence/screenshot_72_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x9f7e6411409e971f43a10990a9521e84002308f76d1487e639ae5ac2b50bb204",
+      "productInfo": {
+        "seller": "马洋",
+        "sales": 489,
+        "price": 2546
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x7d9f6c3c9d911b75e64e9b03f997102a910c3a61e294ea4e8e2e645c40cf41a5",
+      "txHash": "0x7e10cdaa354f293b949676555fabf499135f94577bcbfd5fb0e060d0fb4cd61a",
+      "blockHeight": 1562387
+    },
+    "status": "monitoring",
+    "createdAt": "2025-08-16T02:59:43.400Z",
+    "updatedAt": "2025-09-13T02:59:43.400Z"
+  },
+  {
+    "id": "9be77a49-5d98-4dee-a29c-df9fcd47c42b",
+    "assetId": "704f30f5-93e1-4374-a77e-1fab172a321f",
+    "asset": {
+      "id": "704f30f5-93e1-4374-a77e-1fab172a321f",
+      "certificateId": "CERT-20251106-453761",
+      "assetType": "源代码",
+      "fileName": "代码库API.git",
+      "fileHash": "0xc151db70f5a3fba1685b82c82f81ed4e87f9c82d97592b70c34f638d53f8d779",
+      "fileSize": 31669910,
+      "author": {
+        "name": "赵磊",
+        "idCard": "3204893814033",
+        "ca_cert": "CA-490714"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-23T02:59:43.397Z",
+        "tsa_signature": "0x3db657e1414d5f1118863be3b3c07345a0b9c2d6912daa4d150b078b3111e083"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xb66db6e9d4f9552b08ad44a26ced59b6135264d35b58c1477b114186183a1885",
+        "blockHeight": 1537001,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库API.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "eef20361-9c8f-4d3b-95a1-e280a4a482d7",
+      "status": "registered",
+      "createdAt": "2025-07-23T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.微信公众号.com/product/383128",
+    "suspectPlatform": "微信公众号",
+    "similarity": 78,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_73_1.jpg",
+        "/evidence/screenshot_73_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x883aa7a62bff2d74af0d44b29f7a4d9ca4d415fd6e2f4aaaa61d2904946cdc51",
+      "productInfo": {
+        "seller": "朱勇",
+        "sales": 23,
+        "price": 4698
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x295a227f9dd0f8cfc7849d1e5768cb0c6fb515d4a05576692646aa2226a08ac8",
+      "txHash": "0x77db100f1c5d6e826a8e6e333bcf82cf5210dcd4f77b8ec49b30ee1689d0198b",
+      "blockHeight": 1541757
+    },
+    "status": "monitoring",
+    "createdAt": "2025-10-23T02:59:43.400Z",
+    "updatedAt": "2025-11-07T02:59:43.400Z"
+  },
+  {
+    "id": "cff7f6f6-23f3-4655-b146-a925d5472d39",
+    "assetId": "9dba8723-7e69-40b8-a9a7-fe8b45f9a13d",
+    "asset": {
+      "id": "9dba8723-7e69-40b8-a9a7-fe8b45f9a13d",
+      "certificateId": "CERT-20251106-261229",
+      "assetType": "源代码",
+      "fileName": "代码库前端.zip",
+      "fileHash": "0x515ab4690e601a27730fd6a89bdba872792149d420e27f3faf8e3a1e379b66ee",
+      "fileSize": 22288425,
+      "author": {
+        "name": "王华",
+        "idCard": "5105292025494",
+        "ca_cert": "CA-539521"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-20T02:59:43.398Z",
+        "tsa_signature": "0x38e57ada403fcf921c66ccd878a66266c3891e1da1d98c91939a74e737cd1008"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x3e89dc771e4a7080d1a3c460fd9dec8ecc796c01d1f407656703d32c6abf82b0",
+        "blockHeight": 1554071,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库前端.zip",
+        "tags": [
+          "源代码",
+          "ZIP"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "25109be8-06c5-49e3-b2d5-9b6b4836542e",
+      "status": "licensed",
+      "createdAt": "2025-05-20T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/623890",
+    "suspectPlatform": "B站",
+    "similarity": 86,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_74_1.jpg",
+        "/evidence/screenshot_74_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xa9b7ef8463704f877b4b5b07e13b5b4b4a2921d197e57c76c459b0a96c3801b7",
+      "productInfo": {
+        "seller": "高艳",
+        "sales": 3121,
+        "price": 1861
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xa846f0bb2a462e7e7b02e50479d020222a4c1d3170a5d7ff28a0abca28afb920",
+      "txHash": "0x7d14971bf2ff213e1838b91dd5d22d9305effe2f2a182a22a67bf8761c328135",
+      "blockHeight": 1586747
+    },
+    "status": "litigation",
+    "createdAt": "2025-10-14T02:59:43.400Z",
+    "updatedAt": "2025-10-20T02:59:43.400Z"
+  },
+  {
+    "id": "a5113de9-386c-45fd-be83-ef6e6e95fe50",
+    "assetId": "8da14093-88c9-47c9-8f4c-9e2ab11323be",
+    "asset": {
+      "id": "8da14093-88c9-47c9-8f4c-9e2ab11323be",
+      "certificateId": "CERT-20251106-763596",
+      "assetType": "视频作品",
+      "fileName": "视频宣传片.mov",
+      "fileHash": "0x90244bba7c73bc5af0317d684d39fa487f9e3c510064ebd12e556014b83a1e5f",
+      "fileSize": 17666105,
+      "author": {
+        "name": "李勇",
+        "idCard": "5103658094883",
+        "ca_cert": "CA-283503"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-05-27T02:59:43.396Z",
+        "tsa_signature": "0x5939ba01a5f3bf7a1655086ae20512eb01abac640eece3d382c8dda04d4ecf7a"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0xc3c13e54f44266c25b588b0e748f940cdf6af0974364655e8071d3d03fa1e513",
+        "blockHeight": 1577938,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "视频作品文件：视频宣传片.mov",
+        "tags": [
+          "视频作品",
+          "MOV"
+        ],
+        "license": "CC BY"
+      },
+      "ownerId": "6f69fb00-df8a-4a5b-b4fa-44a38400fdf5",
+      "status": "licensed",
+      "createdAt": "2025-05-27T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/126205",
+    "suspectPlatform": "站酷",
+    "similarity": 96,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_75_1.jpg",
+        "/evidence/screenshot_75_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0xed187add7c59bbbee8cd6387821f97f14bee1605fd3b2f79a0a514d3d6c121ce",
+      "productInfo": {
+        "seller": "杨磊",
+        "sales": 1673,
+        "price": 215
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x28668a63a96dde67408658f4d2b68a70275f71ebcf562ef7057bf71818c137ae",
+      "txHash": "0x59d9bbaa568520596e5b56a3a7e6d028eb75ad90be2466a1024c43e6f9a96f5c",
+      "blockHeight": 1584118
+    },
+    "status": "litigation",
+    "createdAt": "2025-10-21T02:59:43.400Z",
+    "updatedAt": "2025-11-04T02:59:43.400Z"
+  },
+  {
+    "id": "fddf413f-5d7b-4a53-85d8-a1cfad684cb3",
+    "assetId": "ccae826b-e39a-41a9-a439-a8591672a88c",
+    "asset": {
+      "id": "ccae826b-e39a-41a9-a439-a8591672a88c",
+      "certificateId": "CERT-20251106-899787",
+      "assetType": "技术文档",
+      "fileName": "技术文档方案.pdf",
+      "fileHash": "0xd18198ce62f321efb510efa672d0edf704e8aa1ef84b0ee48e411bd6505bbdd7",
+      "fileSize": 12959260,
+      "author": {
+        "name": "朱秀英",
+        "idCard": "4402711926608",
+        "ca_cert": "CA-355806"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-08-24T02:59:43.396Z",
+        "tsa_signature": "0x6a2f51631c14ba900d2a818118be7ade70ad7218f93669afb29d4206a0d6794f"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x9b11d2c0609d82e47ba298ec5c344947472bf0be600d13e0848a30c720cb2bbe",
+        "blockHeight": 1596613,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档方案.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "52a74fc6-e97f-4093-b8f5-368f0943839f",
+      "status": "licensed",
+      "createdAt": "2025-08-24T02:59:43.396Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/926545",
+    "suspectPlatform": "淘宝",
+    "similarity": 78,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_76_1.jpg",
+        "/evidence/screenshot_76_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x517efbed90cffb333d7b151e12760aa8190dc7d73f08c8b865e34aebdced8296",
+      "productInfo": {
+        "seller": "高静",
+        "sales": 8971,
+        "price": 930
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x48480edbcfcb744fb187f02edbf93fb87bb23e525ac8048e9d8604482e16c134",
+      "txHash": "0x36a3d616813256ff03454c2dba853c57c6f1146228842f9899578edec1f33104",
+      "blockHeight": 1588543
+    },
+    "status": "closed",
+    "createdAt": "2025-09-13T02:59:43.400Z",
+    "updatedAt": "2025-09-24T02:59:43.400Z"
+  },
+  {
+    "id": "3c3b03b7-4e0c-4eda-8871-6fa12eaabb04",
+    "assetId": "fbd0087b-352d-4c09-8056-df620645131c",
+    "asset": {
+      "id": "fbd0087b-352d-4c09-8056-df620645131c",
+      "certificateId": "CERT-20251106-424773",
+      "assetType": "创意素材",
+      "fileName": "创意设计logo.ai",
+      "fileHash": "0xef16b519a74775817e1a18b34db00a286c6895b3b281640240c6ba8b7004969e",
+      "fileSize": 8894084,
+      "author": {
+        "name": "杨军",
+        "idCard": "3108829213489",
+        "ca_cert": "CA-321428"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-22T02:59:43.398Z",
+        "tsa_signature": "0x9c3985159c9966c5bc2ef664d90cb74ff253a2b3ae27de53c5517dcbb2b2ae87"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x8850ed1e9f8e3d0df5f03a09124e4e93313bd04361f99565027a783f6f7e21d6",
+        "blockHeight": 1517667,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "创意素材文件：创意设计logo.ai",
+        "tags": [
+          "创意素材",
+          "AI"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "d4a837e2-c7d3-4ba5-bd17-963cf70411d3",
+      "status": "registered",
+      "createdAt": "2025-07-22T02:59:43.398Z"
+    },
+    "suspectUrl": "https://www.b站.com/product/689560",
+    "suspectPlatform": "B站",
+    "similarity": 98,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_77_1.jpg",
+        "/evidence/screenshot_77_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x478f74daf9dd376cb891388bba77c93f418492cbe0b0757406ed1a2125530317",
+      "productInfo": {
+        "seller": "李秀英",
+        "sales": 5256,
+        "price": 4284
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0xb6816e41776e7dd28394024e13ee99030c990241f76efaee8c164b989abe4c71",
+      "txHash": "0xe3e2fe0cdc224995f1b7fc3d034a6a736e7f7f04094baa1f3186a364d46e92f3",
+      "blockHeight": 1594711
+    },
+    "status": "pending",
+    "createdAt": "2025-10-15T02:59:43.400Z",
+    "updatedAt": "2025-10-27T02:59:43.400Z"
+  },
+  {
+    "id": "0d8ef6f9-7a7b-4600-a99a-30e9f638615c",
+    "assetId": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+    "asset": {
+      "id": "16060b22-c065-4cd3-9d9b-27eb75d0ec0e",
+      "certificateId": "CERT-20251106-878153",
+      "assetType": "技术文档",
+      "fileName": "技术文档说明书.pdf",
+      "fileHash": "0x805ff88b9313271ba5d0f8172977ed6e19ad5c5b9938f263e087af7de3bb6b50",
+      "fileSize": 14467943,
+      "author": {
+        "name": "刘洋",
+        "idCard": "4409557626865",
+        "ca_cert": "CA-378173"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-07-29T02:59:43.397Z",
+        "tsa_signature": "0x8d836e046bdb64c7062e71ac32e17c1bfa59df25eb2e95a5bc535b0bbb81b16d"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x50b8e624e0192d24a5c2d7d84ff70269116de9cf93eccce4e72f9bdd3ec4a88f",
+        "blockHeight": 1581846,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "技术文档文件：技术文档说明书.pdf",
+        "tags": [
+          "技术文档",
+          "PDF"
+        ],
+        "license": "CC BY-NC"
+      },
+      "ownerId": "02f13647-8a45-4869-9ebc-1e8baacd2eb1",
+      "status": "registered",
+      "createdAt": "2025-07-29T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.站酷.com/product/384185",
+    "suspectPlatform": "站酷",
+    "similarity": 76,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_78_1.jpg",
+        "/evidence/screenshot_78_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x1c945a8b00ad1664c3dd48470ee6b613f7edd2cd5f50c1aa3a737d0ad6b8cd6a",
+      "productInfo": {
+        "seller": "杨华",
+        "sales": 3075,
+        "price": 3473
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x0304509e4878505b9a921a8a4a62d5e513f1e7660dca36726bba8e722999eee2",
+      "txHash": "0xdf51dff526e443f90c886bc386443645339a1e34103243e4ef0f2dfd0ad843de",
+      "blockHeight": 1573922
+    },
+    "status": "investigating",
+    "createdAt": "2025-10-30T02:59:43.400Z",
+    "updatedAt": "2025-11-05T02:59:43.400Z"
+  },
+  {
+    "id": "bf24ed76-e1e3-468b-af3e-134d19fffa3c",
+    "assetId": "88c00d29-9f1a-4d18-a573-49402a6f9397",
+    "asset": {
+      "id": "88c00d29-9f1a-4d18-a573-49402a6f9397",
+      "certificateId": "CERT-20251106-646510",
+      "assetType": "源代码",
+      "fileName": "代码库后端.git",
+      "fileHash": "0xd10da84292b966aaa9936233faa2d98b35eec930bc23e5223493abdef0b3a1db",
+      "fileSize": 19188181,
+      "author": {
+        "name": "吴敏",
+        "idCard": "4409003499850",
+        "ca_cert": "CA-592787"
+      },
+      "timestamp": {
+        "tsa": "国家授时中心",
+        "time": "2025-10-12T02:59:43.397Z",
+        "tsa_signature": "0xf695a04c7f983c629425bcdbb9ba7fcd9870773c3225751bf6137955a1070001"
+      },
+      "blockchain": {
+        "chain": "Hyperledger Fabric",
+        "txHash": "0x2aff2ba0699fbd0d3b196bf6a7106251d96bc19d9386fde42690860131bab756",
+        "blockHeight": 1506429,
+        "node": "ip-registry-node1.example.com"
+      },
+      "metadata": {
+        "description": "源代码文件：代码库后端.git",
+        "tags": [
+          "源代码",
+          "GIT"
+        ],
+        "license": "保留所有权利"
+      },
+      "ownerId": "076c3fce-3670-4945-9d1e-0f63c0dc8103",
+      "status": "registered",
+      "createdAt": "2025-10-12T02:59:43.397Z"
+    },
+    "suspectUrl": "https://www.淘宝.com/product/262335",
+    "suspectPlatform": "淘宝",
+    "similarity": 75,
+    "evidence": {
+      "screenshots": [
+        "/evidence/screenshot_79_1.jpg",
+        "/evidence/screenshot_79_2.jpg"
+      ],
+      "sourceCode": "网页源代码哈希: 0x8194ad56fae1f17f040dc8030b444646eeb7fbab94926caced93163e663f2bb6",
+      "productInfo": {
+        "seller": "胡艳",
+        "sales": 7835,
+        "price": 262
+      }
+    },
+    "blockchain": {
+      "evidenceHash": "0x8cd746828ad18d97c604d293bbf2b5974615803737c6273049eebe124c23eaac",
+      "txHash": "0x6d796994b00c30437ecf6cfadac8d6b9c4a4e04a3a45af15e4239c03ac54f567",
+      "blockHeight": 1565840
+    },
+    "status": "investigating",
+    "createdAt": "2025-09-20T02:59:43.400Z",
+    "updatedAt": "2025-10-09T02:59:43.400Z"
+  }
+]

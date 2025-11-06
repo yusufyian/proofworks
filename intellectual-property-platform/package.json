@@ -1,0 +1,22 @@
+{
+  "name": "intellectual-property-platform",
+  "version": "1.0.0",
+  "description": "知识产权数实资产凭证与维权平台",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build:all": "npm run build:backend && npm run build:frontend"
+  },
+  "keywords": [
+    "intellectual-property",
+    "blockchain",
+    "copyright",
+    "patent",
+    "certificate"
+  ],
+  "author": "",
+  "license": "MIT"
+}
