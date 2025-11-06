@@ -34,7 +34,7 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">核心优势</span>
+            <span className="text-white">核心优势</span>
           </h2>
           <p className="text-2xl text-gray-300 max-w-4xl mx-auto">
             基于区块链技术的可信数据基础设施

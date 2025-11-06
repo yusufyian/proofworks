@@ -40,7 +40,7 @@ export function Stats() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">数据说话</span>
+            <span className="text-white">数据说话</span>
           </h2>
           <p className="text-xl text-gray-300">
             用事实证明我们的价值

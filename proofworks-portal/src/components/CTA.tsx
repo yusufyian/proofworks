@@ -13,7 +13,7 @@ export function CTA() {
           className="text-center"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">开启数字化转型之旅</span>
+            <span className="text-white">开启数字化转型之旅</span>
           </h2>
           <p className="text-xl text-gray-300 mb-12">
             联系我们，获取专属解决方案和定制化服务

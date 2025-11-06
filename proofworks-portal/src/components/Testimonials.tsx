@@ -49,7 +49,7 @@ export function Testimonials() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">客户评价</span>
+            <span className="text-white">客户评价</span>
           </h2>
           <p className="text-xl text-gray-300">
             听听客户怎么说

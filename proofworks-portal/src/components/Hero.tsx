@@ -32,7 +32,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight"
           >
-            <span className="text-gradient block mb-4">链证云</span>
+            <span className="text-blue-400 block mb-4">链证云</span>
             <span className="text-white block text-5xl md:text-6xl lg:text-7xl font-light">
               企业级区块链解决方案
             </span>
@@ -63,7 +63,7 @@ export function Hero() {
               href="#applications"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
-              className="group px-10 py-5 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl font-semibold text-xl shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 flex items-center justify-center gap-3 min-w-[240px]"
+              className="group px-10 py-5 bg-blue-600 rounded-xl font-semibold text-xl shadow-2xl hover:bg-blue-700 hover:shadow-blue-500/50 transition-all duration-300 flex items-center justify-center gap-3 min-w-[240px]"
             >
               探索解决方案
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />

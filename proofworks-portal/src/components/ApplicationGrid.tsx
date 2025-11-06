@@ -16,7 +16,7 @@ export function ApplicationGrid() {
           className="text-center mb-20"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">十大规模化应用解决方案</span>
+            <span className="text-white">十大规模化应用解决方案</span>
           </h2>
           <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
             覆盖供应链金融、食品安全、合规监管、数据要素等核心场景
@@ -49,7 +49,7 @@ export function ApplicationGrid() {
           className="mt-20"
         >
           <h3 className="text-3xl font-bold text-center mb-12">
-            <span className="text-gradient">为什么选择 链证云？</span>
+            <span className="text-white">为什么选择 链证云？</span>
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[

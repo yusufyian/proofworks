@@ -44,7 +44,7 @@ export function ApplicationSearch() {
         className="mb-8"
       >
         <h2 className="text-3xl font-bold mb-6 text-center">
-          <span className="text-gradient">搜索解决方案</span>
+          <span className="text-white">搜索解决方案</span>
         </h2>
         
         {/* Search bar */}

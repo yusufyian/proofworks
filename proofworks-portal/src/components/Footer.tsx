@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-gradient mb-4">链证云</h3>
+            <h3 className="text-xl font-bold text-blue-400 mb-4">链证云</h3>
             <p className="text-gray-400 text-sm">
               企业级区块链应用解决方案平台
               <br />
