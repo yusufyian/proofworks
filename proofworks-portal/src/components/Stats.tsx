@@ -30,7 +30,7 @@ export function Stats() {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 relative bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,9 +40,9 @@ export function Stats() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-white">数据说话</span>
+            <span className="text-gray-900">数据说话</span>
           </h2>
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-gray-600">
             用事实证明我们的价值
           </p>
         </motion.div>
@@ -60,8 +60,8 @@ export function Stats() {
               <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${stat.color} flex items-center justify-center mx-auto mb-4`}>
                 <stat.icon className="w-8 h-8 text-white" />
               </div>
-              <div className="text-3xl font-bold mb-2">{stat.value}</div>
-              <div className="text-gray-300">{stat.label}</div>
+              <div className="text-3xl font-bold mb-2 text-gray-900">{stat.value}</div>
+              <div className="text-gray-600">{stat.label}</div>
             </motion.div>
           ))}
         </div>
@@ -69,4 +69,3 @@ export function Stats() {
     </section>
   );
 }
-

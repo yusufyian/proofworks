@@ -35,7 +35,7 @@ export function ApplicationSearch() {
   }, [searchTerm, selectedIndustry]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export function ApplicationSearch() {
         className="mb-8"
       >
         <h2 className="text-3xl font-bold mb-6 text-center">
-          <span className="text-white">搜索解决方案</span>
+          <span className="text-gray-900">搜索解决方案</span>
         </h2>
         
         {/* Search bar */}
@@ -55,7 +55,7 @@ export function ApplicationSearch() {
             placeholder="搜索应用名称、功能或行业..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-12 pr-4 py-4 glass rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full pl-12 pr-4 py-4 glass rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
 
@@ -67,7 +67,7 @@ export function ApplicationSearch() {
             className={`px-4 py-2 rounded-lg transition-all ${
               selectedIndustry === 'all'
                 ? 'bg-blue-600 text-white'
-                : 'glass text-gray-300 hover:bg-white/10'
+                : 'glass text-gray-600 hover:bg-gray-100'
             }`}
           >
             全部
@@ -79,7 +79,7 @@ export function ApplicationSearch() {
               className={`px-4 py-2 rounded-lg transition-all ${
                 selectedIndustry === industry
                   ? 'bg-blue-600 text-white'
-                  : 'glass text-gray-300 hover:bg-white/10'
+                  : 'glass text-gray-600 hover:bg-gray-100'
               }`}
             >
               {industry}
@@ -98,18 +98,18 @@ export function ApplicationSearch() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 whileHover={{ y: -8, scale: 1.02 }}
-                className="glass rounded-2xl p-6 h-full flex flex-col cursor-pointer group relative overflow-hidden"
+                className="glass rounded-2xl p-6 h-full flex flex-col cursor-pointer group relative overflow-hidden border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all"
               >
-                <div className={`absolute inset-0 bg-gradient-to-br ${app.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
+                <div className={`absolute inset-0 bg-gradient-to-br ${app.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
                 <div className="relative z-10">
                   <div className="text-4xl mb-4">{app.icon}</div>
-                  <h3 className="text-xl font-bold mb-2">{app.shortName}</h3>
-                  <p className="text-sm text-gray-300 mb-4 line-clamp-2">{app.tagline}</p>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">{app.shortName}</h3>
+                  <p className="text-sm text-gray-600 mb-4 line-clamp-2">{app.tagline}</p>
                   <div className="flex flex-wrap gap-2">
                     {app.industries.slice(0, 2).map((industry, i) => (
                       <span
                         key={i}
-                        className="px-2 py-1 text-xs rounded-full bg-white/10"
+                        className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-600"
                       >
                         {industry}
                       </span>
@@ -121,19 +121,18 @@ export function ApplicationSearch() {
           ))
         ) : (
           <div className="col-span-full text-center py-12">
-            <p className="text-gray-400 text-lg">未找到匹配的解决方案</p>
-            <p className="text-gray-500 text-sm mt-2">试试其他关键词或筛选条件</p>
+            <p className="text-gray-500 text-lg">未找到匹配的解决方案</p>
+            <p className="text-gray-400 text-sm mt-2">试试其他关键词或筛选条件</p>
           </div>
         )}
       </div>
 
       {/* Result count */}
       {filteredApplications.length > 0 && (
-        <div className="mt-8 text-center text-gray-400">
+        <div className="mt-8 text-center text-gray-500">
           找到 {filteredApplications.length} 个解决方案
         </div>
       )}
     </div>
   );
 }
-

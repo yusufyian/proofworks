@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
 
 export function Testimonials() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 relative bg-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -49,9 +49,9 @@ export function Testimonials() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-white">客户评价</span>
+            <span className="text-gray-900">客户评价</span>
           </h2>
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-gray-600">
             听听客户怎么说
           </p>
         </motion.div>
@@ -66,8 +66,8 @@ export function Testimonials() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="glass p-6 rounded-xl hover:scale-105 transition-transform duration-300"
             >
-              <Quote className="w-8 h-8 text-blue-400 mb-4" />
-              <p className="text-gray-300 mb-6 line-clamp-4">{testimonial.content}</p>
+              <Quote className="w-8 h-8 text-blue-600 mb-4" />
+              <p className="text-gray-700 mb-6 line-clamp-4 leading-relaxed">{testimonial.content}</p>
               
               <div className="flex items-center gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, j) => (
@@ -75,12 +75,12 @@ export function Testimonials() {
                 ))}
               </div>
 
-              <div className="border-t border-white/10 pt-4">
-                <div className="font-semibold">{testimonial.name}</div>
-                <div className="text-sm text-gray-400">{testimonial.role}</div>
+              <div className="border-t border-gray-200 pt-4">
+                <div className="font-semibold text-gray-900">{testimonial.name}</div>
+                <div className="text-sm text-gray-600">{testimonial.role}</div>
                 <div className="text-sm text-gray-500">{testimonial.company}</div>
                 <div className="mt-2">
-                  <span className="text-xs px-2 py-1 rounded-full bg-blue-500/20 text-blue-300">
+                  <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-700">
                     {testimonial.application}
                   </span>
                 </div>

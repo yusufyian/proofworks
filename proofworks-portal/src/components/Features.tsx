@@ -24,7 +24,7 @@ export function Features() {
   ];
 
   return (
-    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 relative bg-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -34,9 +34,9 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-white">核心优势</span>
+            <span className="text-gray-900">核心优势</span>
           </h2>
-          <p className="text-2xl text-gray-300 max-w-4xl mx-auto">
+          <p className="text-2xl text-gray-600 max-w-4xl mx-auto">
             基于区块链技术的可信数据基础设施
           </p>
         </motion.div>
@@ -54,8 +54,8 @@ export function Features() {
               <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${feature.color} flex items-center justify-center mb-6`}>
                 <feature.icon className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-              <p className="text-gray-300">{feature.description}</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{feature.title}</h3>
+              <p className="text-gray-600">{feature.description}</p>
             </motion.div>
           ))}
         </div>

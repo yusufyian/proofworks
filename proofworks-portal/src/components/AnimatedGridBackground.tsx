@@ -24,8 +24,8 @@ export function AnimatedGridBackground() {
     const draw = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const gridSize = 100;
-      const lineColor = 'rgba(255, 255, 255, 0.02)';
+      const gridSize = 120;
+      const lineColor = 'rgba(0, 0, 0, 0.02)';
       const lineWidth = 0.5;
 
       ctx.strokeStyle = lineColor;
@@ -47,22 +47,22 @@ export function AnimatedGridBackground() {
         ctx.stroke();
       }
 
-      // 添加动态效果 - 轻微移动的亮点
-      time += 0.005;
-      const pulseSize = 1.5;
-      const pulseColor = 'rgba(59, 130, 246, 0.05)';
+      // 添加动态效果 - 轻微移动的亮点（更淡，适合白色背景）
+      time += 0.003;
+      const pulseSize = 1.2;
+      const pulseColor = 'rgba(59, 130, 246, 0.04)';
 
-      for (let i = 0; i < 3; i++) {
-        const x = (Math.sin(time + i * 1.5) * 0.5 + 0.5) * canvas.width;
-        const y = (Math.cos(time * 0.7 + i) * 0.5 + 0.5) * canvas.height;
+      for (let i = 0; i < 2; i++) {
+        const x = (Math.sin(time + i * 2) * 0.5 + 0.5) * canvas.width;
+        const y = (Math.cos(time * 0.5 + i) * 0.5 + 0.5) * canvas.height;
         
-        const gradient = ctx.createRadialGradient(x, y, 0, x, y, pulseSize * 30);
+        const gradient = ctx.createRadialGradient(x, y, 0, x, y, pulseSize * 40);
         gradient.addColorStop(0, pulseColor);
         gradient.addColorStop(1, 'transparent');
         
         ctx.fillStyle = gradient;
         ctx.beginPath();
-        ctx.arc(x, y, pulseSize * 30, 0, Math.PI * 2);
+        ctx.arc(x, y, pulseSize * 40, 0, Math.PI * 2);
         ctx.fill();
       }
 
@@ -81,7 +81,7 @@ export function AnimatedGridBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ mixBlendMode: 'screen' }}
+      style={{ opacity: 0.3 }}
     />
   );
 }

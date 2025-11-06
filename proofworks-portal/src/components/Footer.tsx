@@ -3,13 +3,13 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-black/20 backdrop-blur-xl">
+    <footer className="border-t border-gray-200 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-blue-400 mb-4">链证云</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="text-xl font-bold text-blue-600 mb-4">链证云</h3>
+            <p className="text-gray-600 text-sm">
               企业级区块链应用解决方案平台
               <br />
               助力企业数字化转型
@@ -18,32 +18,32 @@ export function Footer() {
 
           {/* Solutions */}
           <div>
-            <h4 className="font-semibold mb-4">解决方案</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link to="/app/supply-chain-finance" className="hover:text-white transition-colors">供应链金融</Link></li>
-              <li><Link to="/app/food-traceability" className="hover:text-white transition-colors">食品追溯</Link></li>
-              <li><Link to="/app/cold-chain-medical" className="hover:text-white transition-colors">冷链医药</Link></li>
-              <li><Link to="/app/data-privacy-compliance" className="hover:text-white transition-colors">数据合规</Link></li>
+            <h4 className="font-semibold mb-4 text-gray-900">解决方案</h4>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li><Link to="/app/supply-chain-finance" className="hover:text-blue-600 transition-colors">供应链金融</Link></li>
+              <li><Link to="/app/food-traceability" className="hover:text-blue-600 transition-colors">食品追溯</Link></li>
+              <li><Link to="/app/cold-chain-medical" className="hover:text-blue-600 transition-colors">冷链医药</Link></li>
+              <li><Link to="/app/data-privacy-compliance" className="hover:text-blue-600 transition-colors">数据合规</Link></li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4">公司信息</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#features" className="hover:text-white transition-colors">核心优势</a></li>
-              <li><a href="#applications" className="hover:text-white transition-colors">全部方案</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors">联系我们</a></li>
+            <h4 className="font-semibold mb-4 text-gray-900">公司信息</h4>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li><a href="#features" className="hover:text-blue-600 transition-colors">核心优势</a></li>
+              <li><a href="#applications" className="hover:text-blue-600 transition-colors">全部方案</a></li>
+              <li><a href="#contact" className="hover:text-blue-600 transition-colors">联系我们</a></li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4">联系方式</h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <h4 className="font-semibold mb-4 text-gray-900">联系方式</h4>
+            <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:contact@proofworks.com" className="hover:text-white transition-colors">
+                <a href="mailto:contact@proofworks.com" className="hover:text-blue-600 transition-colors">
                   contact@proofworks.com
                 </a>
               </li>
@@ -60,11 +60,10 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-white/10 pt-8 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
           <p>© 2025 链证云. All rights reserved.</p>
         </div>
       </div>
     </footer>
   );
 }
-

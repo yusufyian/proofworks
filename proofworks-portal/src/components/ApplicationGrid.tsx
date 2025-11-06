@@ -5,7 +5,7 @@ import { Target, Zap, Shield } from 'lucide-react';
 
 export function ApplicationGrid() {
   return (
-    <section id="applications" className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section id="applications" className="py-20 px-4 sm:px-6 lg:px-8 relative bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <motion.div
@@ -16,17 +16,17 @@ export function ApplicationGrid() {
           className="text-center mb-20"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-white">十大规模化应用解决方案</span>
+            <span className="text-gray-900">十大规模化应用解决方案</span>
           </h2>
-          <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             覆盖供应链金融、食品安全、合规监管、数据要素等核心场景
             <br />
-            <span className="text-xl text-gray-400">助力企业数字化转型，实现降本增效与合规保障</span>
+            <span className="text-xl text-gray-500">助力企业数字化转型，实现降本增效与合规保障</span>
           </p>
         </motion.div>
 
         {/* Application cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 items-stretch">
           {applications.map((app, index) => (
             <motion.div
               key={app.id}
@@ -34,6 +34,7 @@ export function ApplicationGrid() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="h-full"
             >
               <ApplicationCard application={app} />
             </motion.div>
@@ -48,8 +49,8 @@ export function ApplicationGrid() {
           transition={{ duration: 0.6 }}
           className="mt-20"
         >
-          <h3 className="text-3xl font-bold text-center mb-12">
-            <span className="text-white">为什么选择 链证云？</span>
+          <h3 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            为什么选择 链证云？
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -83,8 +84,8 @@ export function ApplicationGrid() {
                 <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-6`}>
                   <item.icon className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-xl font-bold mb-3">{item.title}</h4>
-                <p className="text-gray-300">{item.description}</p>
+                <h4 className="text-xl font-bold mb-3 text-gray-900">{item.title}</h4>
+                <p className="text-gray-600">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -93,4 +94,3 @@ export function ApplicationGrid() {
     </section>
   );
 }
-
