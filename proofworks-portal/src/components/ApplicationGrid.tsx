@@ -13,20 +13,20 @@ export function ApplicationGrid() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gradient">十大规模化应用解决方案</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
             覆盖供应链金融、食品安全、合规监管、数据要素等核心场景
             <br />
-            助力企业数字化转型，实现降本增效与合规保障
+            <span className="text-xl text-gray-400">助力企业数字化转型，实现降本增效与合规保障</span>
           </p>
         </motion.div>
 
         {/* Application cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {applications.map((app, index) => (
             <motion.div
               key={app.id}

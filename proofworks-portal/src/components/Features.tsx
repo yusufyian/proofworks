@@ -33,10 +33,10 @@ export function Features() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gradient">核心优势</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-300 max-w-4xl mx-auto">
             基于区块链技术的可信数据基础设施
           </p>
         </motion.div>

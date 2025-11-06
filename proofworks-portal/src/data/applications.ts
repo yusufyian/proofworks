@@ -218,7 +218,8 @@ export const applications: Application[] = [
       { label: '碳中和', value: '供应链协同' }
     ],
     color: 'emerald',
-    gradient: 'from-emerald-500 to-teal-500'
+    gradient: 'from-emerald-500 to-teal-500',
+    demoUrl: '/carbon-esg-platform/frontend'
   },
   {
     id: 'intellectual-property',
@@ -246,7 +247,8 @@ export const applications: Application[] = [
       { label: '挽回损失', value: '≥500万/年' }
     ],
     color: 'indigo',
-    gradient: 'from-indigo-500 to-purple-500'
+    gradient: 'from-indigo-500 to-purple-500',
+    demoUrl: '/intellectual-property-platform/frontend'
   },
   {
     id: 'equipment-maintenance',
@@ -274,7 +276,8 @@ export const applications: Application[] = [
       { label: '回收期', value: '3-6个月' }
     ],
     color: 'orange',
-    gradient: 'from-orange-500 to-red-500'
+    gradient: 'from-orange-500 to-red-500',
+    demoUrl: '/equipment-maintenance-platform/frontend'
   },
   {
     id: 'cross-border-compliance',
@@ -302,7 +305,8 @@ export const applications: Application[] = [
       { label: '跨境协作', value: '高效安全' }
     ],
     color: 'violet',
-    gradient: 'from-violet-500 to-purple-500'
+    gradient: 'from-violet-500 to-purple-500',
+    demoUrl: '/cross-border-compliance-platform/frontend'
   }
 ];
 

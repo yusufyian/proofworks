@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, CheckCircle2, Target, TrendingUp } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Target, TrendingUp, Play, ExternalLink } from 'lucide-react';
 import { applications } from '../data/applications';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
@@ -42,10 +42,29 @@ export default function ApplicationDetail() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="text-6xl mb-4">{app.icon}</div>
+            <div className="text-6xl mb-6">{app.icon}</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{app.name}</h1>
             <p className="text-xl text-white/90 mb-6">{app.tagline}</p>
-            <p className="text-lg text-white/80 max-w-3xl">{app.description}</p>
+            <p className="text-lg text-white/80 max-w-3xl mb-8">{app.description}</p>
+            
+            {/* Demo button */}
+            {app.demoUrl && (
+              <motion.a
+                href={app.demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.3 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-gray-900 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
+              >
+                <Play className="w-5 h-5" />
+                立即体验 Demo
+                <ExternalLink className="w-5 h-5" />
+              </motion.a>
+            )}
           </motion.div>
         </div>
       </div>
@@ -157,13 +176,31 @@ export default function ApplicationDetail() {
           >
             <div className="glass p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4">准备开始了吗？</h3>
-              <p className="text-gray-300 mb-6">联系我们获取专属解决方案和定制化服务</p>
-              <a
-                href="mailto:contact@proofworks.com"
-                className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                立即咨询
-              </a>
+              <p className="text-gray-300 mb-8">联系我们获取专属解决方案和定制化服务</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                {app.demoUrl && (
+                  <motion.a
+                    href={app.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-gray-900 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                  >
+                    <Play className="w-5 h-5" />
+                    体验 Demo
+                    <ExternalLink className="w-4 h-4" />
+                  </motion.a>
+                )}
+                <motion.a
+                  href="mailto:contact@proofworks.com"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  立即咨询
+                </motion.a>
+              </div>
             </div>
           </motion.div>
         </div>
