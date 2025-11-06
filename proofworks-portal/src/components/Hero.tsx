@@ -32,7 +32,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight"
           >
-            <span className="text-gradient block mb-4">ProofWorks</span>
+            <span className="text-gradient block mb-4">链证云</span>
             <span className="text-white block text-5xl md:text-6xl lg:text-7xl font-light">
               企业级区块链解决方案
             </span>

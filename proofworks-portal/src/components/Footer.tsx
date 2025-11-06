@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-gradient mb-4">ProofWorks</h3>
+            <h3 className="text-xl font-bold text-gradient mb-4">链证云</h3>
             <p className="text-gray-400 text-sm">
               企业级区块链应用解决方案平台
               <br />
@@ -61,7 +61,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/10 pt-8 text-center text-sm text-gray-400">
-          <p>© 2025 ProofWorks. All rights reserved.</p>
+          <p>© 2025 链证云. All rights reserved.</p>
         </div>
       </div>
     </footer>

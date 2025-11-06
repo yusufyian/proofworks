@@ -49,7 +49,7 @@ export function ApplicationGrid() {
           className="mt-20"
         >
           <h3 className="text-3xl font-bold text-center mb-12">
-            <span className="text-gradient">为什么选择 ProofWorks？</span>
+            <span className="text-gradient">为什么选择 链证云？</span>
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
