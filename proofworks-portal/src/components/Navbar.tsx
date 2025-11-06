@@ -38,7 +38,7 @@ export function Navbar() {
             </a>
             <a
               href="mailto:contact@proofworks.com"
-              className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+              className="px-4 py-2 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               立即咨询
             </a>
@@ -84,7 +84,7 @@ export function Navbar() {
             </a>
             <a
               href="mailto:contact@proofworks.com"
-              className="block px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-center"
+              className="block px-4 py-2 bg-blue-600 rounded-lg font-semibold text-center hover:bg-blue-700 transition-colors"
             >
               立即咨询
             </a>

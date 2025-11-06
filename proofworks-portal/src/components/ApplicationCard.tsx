@@ -7,7 +7,22 @@ interface ApplicationCardProps {
   application: Application;
 }
 
+const colorMap: Record<string, string> = {
+  blue: 'bg-blue-600 hover:bg-blue-700',
+  green: 'bg-green-600 hover:bg-green-700',
+  cyan: 'bg-cyan-600 hover:bg-cyan-700',
+  yellow: 'bg-yellow-600 hover:bg-yellow-700',
+  purple: 'bg-purple-600 hover:bg-purple-700',
+  red: 'bg-red-600 hover:bg-red-700',
+  emerald: 'bg-emerald-600 hover:bg-emerald-700',
+  indigo: 'bg-indigo-600 hover:bg-indigo-700',
+  orange: 'bg-orange-600 hover:bg-orange-700',
+  violet: 'bg-violet-600 hover:bg-violet-700',
+};
+
 export function ApplicationCard({ application }: ApplicationCardProps) {
+  const buttonColorClass = colorMap[application.color] || 'bg-blue-600 hover:bg-blue-700';
+
   return (
     <div className="group relative">
       <motion.div
@@ -60,7 +75,7 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
             onClick={(e) => e.stopPropagation()}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className={`relative z-20 mt-4 px-4 py-2.5 bg-gradient-to-r ${application.gradient} rounded-lg text-white text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2`}
+            className={`relative z-20 mt-4 px-4 py-2.5 ${buttonColorClass} rounded-lg text-white text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2`}
           >
             <Play className="w-4 h-4" />
             查看Demo

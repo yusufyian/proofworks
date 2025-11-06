@@ -24,8 +24,10 @@ export default function ApplicationDetail() {
   }
 
   return (
-    <div className="min-h-screen">
-      <Navbar />
+    <div className="min-h-screen relative">
+      <AnimatedGridBackground />
+      <div className="relative z-10">
+        <Navbar />
       {/* Header */}
       <div className={`relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br ${app.gradient} opacity-90 mt-16`}>
         <div className="max-w-7xl mx-auto">
@@ -196,7 +198,7 @@ export default function ApplicationDetail() {
                   href="mailto:contact@proofworks.com"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                  className="inline-block px-8 py-4 bg-blue-600 rounded-lg font-semibold text-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300"
                 >
                   立即咨询
                 </motion.a>
@@ -206,8 +208,9 @@ export default function ApplicationDetail() {
         </div>
       </div>
 
-      <Footer />
-      <ScrollToTop />
+        <Footer />
+        <ScrollToTop />
+      </div>
     </div>
   );
 }

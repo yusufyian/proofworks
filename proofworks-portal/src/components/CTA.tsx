@@ -44,7 +44,7 @@ export function CTA() {
             href="mailto:contact@proofworks.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="inline-block px-8 py-4 bg-blue-600 rounded-lg font-semibold text-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300"
           >
             立即联系我们
           </motion.a>

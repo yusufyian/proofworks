@@ -66,7 +66,7 @@ export function ApplicationSearch() {
             onClick={() => setSelectedIndustry('all')}
             className={`px-4 py-2 rounded-lg transition-all ${
               selectedIndustry === 'all'
-                ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                ? 'bg-blue-600 text-white'
                 : 'glass text-gray-300 hover:bg-white/10'
             }`}
           >
@@ -78,7 +78,7 @@ export function ApplicationSearch() {
               onClick={() => setSelectedIndustry(industry)}
               className={`px-4 py-2 rounded-lg transition-all ${
                 selectedIndustry === industry
-                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'glass text-gray-300 hover:bg-white/10'
               }`}
             >
