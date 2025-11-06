@@ -1,0 +1,70 @@
+import { Link } from 'react-router-dom';
+import { Mail, Phone, MapPin } from 'lucide-react';
+
+export function Footer() {
+  return (
+    <footer className="border-t border-white/10 bg-black/20 backdrop-blur-xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          {/* Brand */}
+          <div>
+            <h3 className="text-xl font-bold text-gradient mb-4">ProofWorks</h3>
+            <p className="text-gray-400 text-sm">
+              企业级区块链应用解决方案平台
+              <br />
+              助力企业数字化转型
+            </p>
+          </div>
+
+          {/* Solutions */}
+          <div>
+            <h4 className="font-semibold mb-4">解决方案</h4>
+            <ul className="space-y-2 text-sm text-gray-400">
+              <li><Link to="/app/supply-chain-finance" className="hover:text-white transition-colors">供应链金融</Link></li>
+              <li><Link to="/app/food-traceability" className="hover:text-white transition-colors">食品追溯</Link></li>
+              <li><Link to="/app/cold-chain-medical" className="hover:text-white transition-colors">冷链医药</Link></li>
+              <li><Link to="/app/data-privacy-compliance" className="hover:text-white transition-colors">数据合规</Link></li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h4 className="font-semibold mb-4">公司信息</h4>
+            <ul className="space-y-2 text-sm text-gray-400">
+              <li><a href="#features" className="hover:text-white transition-colors">核心优势</a></li>
+              <li><a href="#applications" className="hover:text-white transition-colors">全部方案</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">联系我们</a></li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold mb-4">联系方式</h4>
+            <ul className="space-y-3 text-sm text-gray-400">
+              <li className="flex items-center gap-2">
+                <Mail className="w-4 h-4" />
+                <a href="mailto:contact@proofworks.com" className="hover:text-white transition-colors">
+                  contact@proofworks.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4" />
+                <span>400-XXX-XXXX</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 mt-0.5" />
+                <span>北京市朝阳区</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="border-t border-white/10 pt-8 text-center text-sm text-gray-400">
+          <p>© 2025 ProofWorks. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+}
+

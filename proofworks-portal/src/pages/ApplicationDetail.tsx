@@ -1,0 +1,177 @@
+import { useParams, Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { ArrowLeft, CheckCircle2, Target, TrendingUp } from 'lucide-react';
+import { applications } from '../data/applications';
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
+import { ScrollToTop } from '../components/ScrollToTop';
+
+export default function ApplicationDetail() {
+  const { id } = useParams<{ id: string }>();
+  const app = applications.find(a => a.id === id);
+
+  if (!app) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold mb-4">应用未找到</h1>
+          <Link to="/" className="text-blue-400 hover:underline">
+            返回首页
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen">
+      <Navbar />
+      {/* Header */}
+      <div className={`relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br ${app.gradient} opacity-90 mt-16`}>
+        <div className="max-w-7xl mx-auto">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            <span>返回首页</span>
+          </Link>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="text-6xl mb-4">{app.icon}</div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">{app.name}</h1>
+            <p className="text-xl text-white/90 mb-6">{app.tagline}</p>
+            <p className="text-lg text-white/80 max-w-3xl">{app.description}</p>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          {/* Pain Points */}
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <Target className="w-8 h-8 text-red-400" />
+              <h2 className="text-3xl font-bold">核心痛点</h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {app.painPoints.map((point, i) => (
+                <div key={i} className="glass p-4 rounded-lg flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-red-400 text-sm">!</span>
+                  </div>
+                  <p className="text-gray-300">{point}</p>
+                </div>
+              ))}
+            </div>
+          </motion.section>
+
+          {/* Core Value */}
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <CheckCircle2 className="w-8 h-8 text-green-400" />
+              <h2 className="text-3xl font-bold">核心价值</h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {app.coreValue.map((value, i) => (
+                <div key={i} className="glass p-4 rounded-lg flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <CheckCircle2 className="w-4 h-4 text-green-400" />
+                  </div>
+                  <p className="text-gray-300 font-medium">{value}</p>
+                </div>
+              ))}
+            </div>
+          </motion.section>
+
+          {/* Key Metrics */}
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <TrendingUp className="w-8 h-8 text-blue-400" />
+              <h2 className="text-3xl font-bold">关键指标</h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {app.keyMetrics.map((metric, i) => (
+                <div
+                  key={i}
+                  className={`glass p-6 rounded-xl text-center bg-gradient-to-br ${app.gradient} opacity-20 hover:opacity-30 transition-opacity`}
+                >
+                  <div className="text-3xl font-bold mb-2">{metric.value}</div>
+                  <div className="text-sm text-gray-300">{metric.label}</div>
+                </div>
+              ))}
+            </div>
+          </motion.section>
+
+          {/* Industries */}
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <h2 className="text-3xl font-bold mb-6">适用行业</h2>
+            <div className="flex flex-wrap gap-3">
+              {app.industries.map((industry, i) => (
+                <div
+                  key={i}
+                  className={`px-4 py-2 rounded-full bg-gradient-to-r ${app.gradient} opacity-80 text-white font-medium`}
+                >
+                  {industry}
+                </div>
+              ))}
+            </div>
+          </motion.section>
+
+          {/* CTA */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center"
+          >
+            <div className="glass p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4">准备开始了吗？</h3>
+              <p className="text-gray-300 mb-6">联系我们获取专属解决方案和定制化服务</p>
+              <a
+                href="mailto:contact@proofworks.com"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                立即咨询
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+
+      <Footer />
+      <ScrollToTop />
+    </div>
+  );
+}
+
