@@ -74,7 +74,7 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
             className={`relative z-20 mt-4 px-4 py-2.5 ${buttonColorClass} rounded-lg text-white text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2`}
           >
             <Play className="w-4 h-4" />
-            查看Demo
+            进入演示
           </motion.a>
         )}
       </motion.div>

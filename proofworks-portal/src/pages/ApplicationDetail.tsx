@@ -64,7 +64,7 @@ export default function ApplicationDetail() {
                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-gray-900 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl hover:bg-gray-50 transition-all duration-300"
               >
                 <Play className="w-5 h-5" />
-                立即体验 Demo
+                进入演示
                 <ExternalLink className="w-5 h-5" />
               </motion.a>
             )}
@@ -191,7 +191,7 @@ export default function ApplicationDetail() {
                     className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white border-2 border-gray-300 text-gray-900 rounded-lg font-semibold text-lg shadow-lg hover:border-blue-600 hover:shadow-xl transition-all duration-300"
                   >
                     <Play className="w-5 h-5" />
-                    体验 Demo
+                    进入演示
                     <ExternalLink className="w-4 h-4" />
                   </motion.a>
                 )}
