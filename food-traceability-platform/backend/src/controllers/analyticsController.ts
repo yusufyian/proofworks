@@ -103,9 +103,11 @@ export const getOverview = (req: Request, res: Response) => {
       const currentDate = new Date(start);
       while (currentDate <= end) {
         const weekStart = startOfDay(currentDate);
-        const weekEnd = new Date(currentDate);
+        let weekEnd = new Date(currentDate);
         weekEnd.setDate(weekEnd.getDate() + 6);
-        if (weekEnd > end) weekEnd = end;
+        if (weekEnd > end) {
+          weekEnd = new Date(end);
+        }
         const weekEndDay = endOfDay(weekEnd);
         
         const weekBatches = filteredBatches.filter(b => {
@@ -131,8 +133,10 @@ export const getOverview = (req: Request, res: Response) => {
       const currentDate = new Date(start);
       while (currentDate <= end) {
         const monthStart = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
-        const monthEnd = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
-        if (monthEnd > end) monthEnd = end;
+        let monthEnd = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+        if (monthEnd > end) {
+          monthEnd = new Date(end);
+        }
         const monthEndDay = endOfDay(monthEnd);
         
         const monthBatches = filteredBatches.filter(b => {
@@ -345,9 +349,9 @@ export const getLogisticsAnalysis = (req: Request, res: Response) => {
       return eventDate >= start && eventDate <= end;
     });
 
-    // 物流相关事件
+    // 物流相关事件（包括门店上架，用于计算门店停留时间）
     const logisticsEvents = filteredEvents.filter(e => 
-      ['装车', '运输', '到货', '入库', '出库'].includes(e.eventType)
+      ['装车', '运输', '到货', '入库', '出库', '上架'].includes(e.eventType)
     );
 
     // 计算各环节停留时间
@@ -363,18 +367,64 @@ export const getLogisticsAnalysis = (req: Request, res: Response) => {
         .filter(e => e.traceCode === traceCode)
         .sort((a, b) => parseISO(a.timestamp).getTime() - parseISO(b.timestamp).getTime());
 
+      // 查找装车事件和对应的到货事件
+      let loadEvent: TransferEvent | null = null;
+      
+      for (let i = 0; i < codeEvents.length; i++) {
+        const current = codeEvents[i];
+        
+        // 找到装车事件
+        if (current.eventType === '装车' && !loadEvent) {
+          loadEvent = current;
+        }
+        
+        // 如果已有装车事件，查找对应的到货事件
+        if (loadEvent && current.eventType === '到货') {
+          const hours = differenceInHours(parseISO(current.timestamp), parseISO(loadEvent.timestamp));
+          if (hours > 0) {
+            stayTimes['运输'].push(hours);
+          }
+          loadEvent = null; // 重置，准备查找下一组
+        }
+      }
+      
+      // 计算仓储停留时间（相邻事件）
       for (let i = 0; i < codeEvents.length - 1; i++) {
         const current = codeEvents[i];
         const next = codeEvents[i + 1];
         
-        const hours = differenceInHours(parseISO(next.timestamp), parseISO(current.timestamp));
-        
         if (current.eventType === '入库' && next.eventType === '出库') {
+          const hours = differenceInHours(parseISO(next.timestamp), parseISO(current.timestamp));
           stayTimes['仓储'].push(hours);
-        } else if (current.eventType === '装车' && next.eventType === '到货') {
-          stayTimes['运输'].push(hours);
-        } else if (current.eventType === '到货' && next.eventType === '上架') {
-          stayTimes['门店'].push(hours);
+        }
+      }
+      
+      // 计算门店停留时间：查找门店入库（在"到货"之后的"入库"）和对应的"上架"事件
+      let storeInEvent: TransferEvent | null = null;
+      let foundArrival = false;
+      
+      for (let i = 0; i < codeEvents.length; i++) {
+        const current = codeEvents[i];
+        
+        // 找到"到货"事件，标记已到达门店
+        if (current.eventType === '到货') {
+          foundArrival = true;
+        }
+        
+        // 如果已到达门店，查找门店入库事件
+        if (foundArrival && current.eventType === '入库' && !storeInEvent) {
+          storeInEvent = current;
+        }
+        
+        // 如果已有门店入库事件，查找对应的上架事件
+        if (storeInEvent && current.eventType === '上架') {
+          const hours = differenceInHours(parseISO(current.timestamp), parseISO(storeInEvent.timestamp));
+          if (hours > 0) {
+            stayTimes['门店'].push(hours);
+          }
+          // 重置，准备查找下一组
+          storeInEvent = null;
+          foundArrival = false;
         }
       }
     });
