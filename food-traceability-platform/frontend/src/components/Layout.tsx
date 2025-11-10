@@ -9,9 +9,11 @@ import {
   Menu,
   X,
   Shield,
-  TrendingUp
+  TrendingUp,
+  Bot
 } from 'lucide-react';
 import HelpTooltip from './HelpTooltip';
+import { AIAssistantSidebar } from './AIAssistantSidebar';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -29,6 +31,7 @@ const menuItems = [
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   const location = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [aiAssistantOpen, setAIAssistantOpen] = useState(false);
 
   const currentPath = location.pathname;
 
@@ -112,7 +115,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       </aside>
 
       {/* 主内容区 */}
-      <div className="lg:pl-72">
+      <div className={`lg:pl-72 transition-all duration-300 ${aiAssistantOpen ? 'lg:pr-96' : ''}`}>
         {/* 顶部栏 */}
         <header className="bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200 sticky top-0 z-10">
           <div className="flex items-center justify-between h-16 px-6">
@@ -124,6 +127,20 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             </button>
             <div className="flex-1" />
             <div className="flex items-center space-x-4">
+              {/* AI助手按钮 */}
+              <button
+                onClick={() => setAIAssistantOpen(true)}
+                className={`hidden md:flex items-center space-x-2 px-4 py-2 rounded-xl border transition-all duration-200 group ${
+                  aiAssistantOpen
+                    ? 'bg-gradient-to-r from-purple-600 to-purple-700 text-white border-purple-600'
+                    : 'bg-gradient-to-r from-purple-50 to-purple-100 hover:from-purple-100 hover:to-purple-200 border-purple-200'
+                }`}
+                title={aiAssistantOpen ? '关闭AI助手' : '打开AI助手'}
+              >
+                <Bot className={`w-5 h-5 group-hover:scale-110 transition-transform ${aiAssistantOpen ? 'text-white' : 'text-purple-600'}`} />
+                <span className={`text-sm font-medium ${aiAssistantOpen ? 'text-white' : 'text-purple-700'}`}>AI助手</span>
+              </button>
+              {/* 系统状态 */}
               <div className="hidden md:flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-primary-50 to-primary-100 rounded-xl border border-primary-200">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                 <span className="text-sm font-medium text-primary-700">系统正常</span>
@@ -137,6 +154,9 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           {children}
         </main>
       </div>
+
+      {/* AI助手侧边栏 */}
+      <AIAssistantSidebar isOpen={aiAssistantOpen} onClose={() => setAIAssistantOpen(false)} />
     </div>
   );
 };
