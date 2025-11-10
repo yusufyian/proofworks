@@ -26,7 +26,7 @@ export function ApplicationGrid() {
         </motion.div>
 
         {/* Application cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20" style={{ gridAutoRows: '1fr', gridAutoColumns: '1fr' }}>
           {applications.map((app, index) => (
             <motion.div
               key={app.id}
@@ -34,7 +34,7 @@ export function ApplicationGrid() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="h-full"
+              className="h-full w-full flex"
             >
               <ApplicationCard application={app} />
             </motion.div>
@@ -50,7 +50,7 @@ export function ApplicationGrid() {
           className="mt-20"
         >
           <h3 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            为什么选择 链证云？
+            为什么选择 申达链？
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[

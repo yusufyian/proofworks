@@ -76,10 +76,8 @@ export function Testimonials() {
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                <div className="text-sm text-gray-600">{testimonial.role}</div>
-                <div className="text-sm text-gray-500">{testimonial.company}</div>
-                <div className="mt-2">
+                <div className="text-sm text-gray-500 mb-2">{testimonial.company}</div>
+                <div>
                   <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-700">
                     {testimonial.application}
                   </span>

@@ -20,10 +20,11 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
   const buttonColorClass = colorMap[application.color] || 'bg-blue-600 hover:bg-blue-700';
 
   return (
-    <div className="group relative">
+    <div className="group relative h-full w-full flex">
       <motion.div
         whileHover={{ y: -4 }}
-        className="glass rounded-2xl p-8 h-full min-h-[360px] flex flex-col relative overflow-visible border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all duration-300"
+        className="glass rounded-2xl p-8 h-full w-full flex flex-col relative overflow-hidden border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all duration-300"
+        style={{ minWidth: 0 }}
       >
         {/* Subtle gradient overlay on hover */}
         <div className={`absolute inset-0 bg-gradient-to-br ${application.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500 rounded-2xl`}></div>
@@ -36,11 +37,11 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
               <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all" />
             </div>
 
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">{application.shortName}</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed line-clamp-2">{application.tagline}</p>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900 line-clamp-1">{application.shortName}</h3>
+            <p className="text-gray-600 mb-4 leading-relaxed line-clamp-2 min-h-[3rem]">{application.tagline}</p>
 
             {/* Key metrics */}
-            <div className="flex flex-wrap gap-2 mb-6">
+            <div className="flex flex-wrap gap-2 mb-4">
               {application.keyMetrics.slice(0, 2).map((metric, i) => (
                 <div
                   key={i}
@@ -52,9 +53,9 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
             </div>
 
             {/* Industries */}
-            <div className="mt-auto pt-6 border-t border-gray-200 mb-4">
-              <p className="text-xs text-gray-500 mb-3 uppercase tracking-wider">适用行业</p>
-              <p className="text-sm text-gray-600 line-clamp-2">
+            <div className="mt-auto pt-4 border-t border-gray-200 mb-4">
+              <p className="text-xs text-gray-500 mb-2 uppercase tracking-wider">适用行业</p>
+              <p className="text-sm text-gray-600 line-clamp-2 min-h-[2.5rem]">
                 {application.industries.slice(0, 3).join(' · ')}
                 {application.industries.length > 3 && ' ...'}
               </p>

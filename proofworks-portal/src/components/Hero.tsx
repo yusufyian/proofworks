@@ -29,7 +29,7 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight"
           >
-            <span className="text-blue-600 block mb-4">链证云</span>
+            <span className="text-blue-600 block mb-4">申达链</span>
             <span className="text-gray-900 block text-5xl md:text-6xl lg:text-7xl font-light">
               企业级区块链解决方案
             </span>

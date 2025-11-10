@@ -37,7 +37,7 @@ npm run dev
 ```
 
 前端地址: http://localhost:3002
-后端地址: http://localhost:3003
+后端地址: http://localhost:3022
 
 ### 构建生产版本
 

@@ -7,7 +7,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const app = express();
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3022;
 
 // 中间件
 app.use(cors());
