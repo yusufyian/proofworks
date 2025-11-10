@@ -131,12 +131,22 @@ export default function HelpTooltip({
       </button>
       {isVisible && (
         <div 
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 transition-opacity duration-200"
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 p-4 transition-opacity duration-200"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
           onClick={() => setIsVisible(false)}
         >
           <div
             ref={tooltipRef}
-            className="bg-white rounded-3xl shadow-2xl max-w-lg w-full max-h-[80vh] overflow-hidden border border-gray-100 transform transition-all duration-200 scale-100"
+            className="bg-white rounded-3xl shadow-2xl max-w-lg w-full max-h-[80vh] overflow-hidden border border-gray-100 transform transition-all duration-300 ease-out modal-center"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="sticky top-0 bg-gradient-to-r from-primary-600 to-primary-700 text-white p-6 rounded-t-3xl border-b border-white/10">

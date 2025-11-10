@@ -144,6 +144,8 @@ export const Products: React.FC = () => {
                   <div className="flex items-center justify-between text-xs text-gray-500">
                     <span>创建时间: {new Date(product.createdAt).toLocaleDateString()}</span>
                     <HelpTooltip 
+                      mode="click"
+                      title="产品详细信息"
                       content={
                         <div>
                           <p className="font-semibold mb-2">产品详细信息</p>

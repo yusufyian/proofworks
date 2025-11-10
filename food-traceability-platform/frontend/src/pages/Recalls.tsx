@@ -77,7 +77,11 @@ export const Recalls: React.FC = () => {
               <option value="中">中</option>
               <option value="低">低</option>
             </select>
-            <HelpTooltip content="筛选不同状态和风险等级的召回记录。风险等级分为紧急、高、中、低四个级别，状态包括进行中、已完成、已取消。" />
+            <HelpTooltip 
+              mode="click"
+              title="召回筛选说明"
+              content="筛选不同状态和风险等级的召回记录。风险等级分为紧急、高、中、低四个级别，状态包括进行中、已完成、已取消。" 
+            />
           </div>
         </div>
 

@@ -8,7 +8,8 @@ import {
   BarChart3,
   Menu,
   X,
-  Shield
+  Shield,
+  TrendingUp
 } from 'lucide-react';
 import HelpTooltip from './HelpTooltip';
 
@@ -22,6 +23,7 @@ const menuItems = [
   { path: '/batches', icon: BarChart3, label: '批次管理', help: '查看和管理产品批次信息，包括批次状态、流转记录、质检报告等。支持按产品、状态、日期筛选。' },
   { path: '/trace', icon: Search, label: '追溯查询', help: '通过追溯码或批次号查询产品的完整溯源信息，包括流转路径、IoT数据、质检报告等。' },
   { path: '/recalls', icon: AlertTriangle, label: '召回管理', help: '管理产品召回记录，包括召回原因、风险等级、召回进度跟踪等。支持按状态、风险等级筛选。' },
+  { path: '/analytics', icon: TrendingUp, label: '数据分析', help: '全方位数据洞察与趋势分析，包括宏观KPI、温控合规、物流绩效、质量分析等。' },
 ];
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {

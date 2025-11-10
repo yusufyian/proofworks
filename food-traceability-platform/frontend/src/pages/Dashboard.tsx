@@ -193,7 +193,7 @@ export const Dashboard: React.FC = () => {
                       <Icon className="w-8 h-8 text-white relative z-10" />
                     </div>
                     <HelpTooltip
-                      mode="hover"
+                      mode="click"
                       title={card.title}
                       content={card.help}
                     />
@@ -226,7 +226,7 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
-                  mode="hover"
+                  mode="click"
                   title="批次状态分布"
                   content="显示所有批次的状态分布情况，包括生产中、合格、不合格、已召回等状态。" 
                 />
@@ -283,7 +283,7 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
-                  mode="hover"
+                  mode="click"
                   title="产品类别分布"
                   content="显示不同产品类别的数量分布，包括水果、蔬菜、肉类、水产、乳制品等。" 
                 />
@@ -343,7 +343,7 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
-                  mode="hover"
+                  mode="click"
                   title="每日事件趋势"
                   content="显示最近7天的流转事件数量趋势，帮助了解系统活动情况。" 
                 />
@@ -413,7 +413,7 @@ export const Dashboard: React.FC = () => {
               </div>
               <div className="flex-1" />
               <HelpTooltip 
-                mode="hover"
+                mode="click"
                 title="最近批次"
                 content="显示最近创建的批次信息，包括产品名称、批次号、生产日期和状态。" 
               />

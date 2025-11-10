@@ -121,7 +121,7 @@ export const Trace: React.FC = () => {
                   {loading ? '查询中...' : '查询'}
                 </button>
                 <HelpTooltip 
-                  mode="hover"
+                  mode="click"
                   title="追溯码说明"
                   content="追溯码格式：企业代码6位 + 产品类别2位 + 生产日期6位 + 批次2位 + 序列号3位 + 校验位1位，共20位。可以通过扫描产品包装上的二维码获取追溯码。" 
                 />
@@ -164,7 +164,11 @@ export const Trace: React.FC = () => {
             <div className="card">
               <div className="flex items-start justify-between mb-4">
                 <h2 className="text-2xl font-bold text-gray-900">产品信息</h2>
-                <HelpTooltip content="显示产品的基本信息，包括产品名称、品牌、规格、生产企业、产地等。" />
+                <HelpTooltip 
+                  mode="click"
+                  title="产品信息"
+                  content="显示产品的基本信息，包括产品名称、品牌、规格、生产企业、产地等。" 
+                />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
@@ -207,7 +211,11 @@ export const Trace: React.FC = () => {
             <div className="card">
               <div className="flex items-start justify-between mb-4">
                 <h2 className="text-2xl font-bold text-gray-900">批次信息</h2>
-                <HelpTooltip content="显示批次的基本信息，包括批次号、生产日期、保质期、数量、质检报告等。" />
+                <HelpTooltip 
+                  mode="click"
+                  title="批次信息"
+                  content="显示批次的基本信息，包括批次号、生产日期、保质期、数量、质检报告等。" 
+                />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
@@ -271,7 +279,7 @@ export const Trace: React.FC = () => {
                   <p className="text-sm text-gray-500 mt-1">共 {result.events.length} 个流转节点</p>
                 </div>
                 <HelpTooltip 
-                  mode="hover"
+                  mode="click"
                   title="流转时间轴"
                   content="显示产品从种植到销售的完整流转路径，包括各个关键环节的时间、地点、操作人员等信息。每个节点都记录了详细的流转信息，确保全程可追溯。" 
                 />
@@ -356,7 +364,11 @@ export const Trace: React.FC = () => {
               <div className="card">
                 <div className="flex items-start justify-between mb-4">
                   <h2 className="text-2xl font-bold text-gray-900">IoT传感器数据</h2>
-                  <HelpTooltip content="显示来自各种传感器设备的实时数据，包括温度、湿度、GPS定位等信息，确保产品在流转过程中的环境条件符合要求。" />
+                  <HelpTooltip 
+                    mode="click"
+                    title="IoT传感器数据"
+                    content="显示来自各种传感器设备的实时数据，包括温度、湿度、GPS定位等信息，确保产品在流转过程中的环境条件符合要求。" 
+                  />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {result.iotData.slice(0, 12).map((data) => (
@@ -391,7 +403,11 @@ export const Trace: React.FC = () => {
               <div className="card border-2 border-orange-300 bg-orange-50">
                 <div className="flex items-start justify-between mb-4">
                   <h2 className="text-2xl font-bold text-orange-900">⚠️ 召回信息</h2>
-                  <HelpTooltip content="如果产品涉及召回，会在此显示召回原因、风险等级、召回进度等信息。" />
+                  <HelpTooltip 
+                    mode="click"
+                    title="召回信息"
+                    content="如果产品涉及召回，会在此显示召回原因、风险等级、召回进度等信息。" 
+                  />
                 </div>
                 <div className="space-y-3">
                   <div>

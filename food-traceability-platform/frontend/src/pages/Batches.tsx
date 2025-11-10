@@ -68,7 +68,11 @@ export const Batches: React.FC = () => {
                 <option key={status} value={status}>{status}</option>
               ))}
             </select>
-            <HelpTooltip content="筛选不同状态的批次，包括生产中、合格、不合格、已召回、已售罄等状态。" />
+            <HelpTooltip 
+              mode="click"
+              title="批次状态筛选"
+              content="筛选不同状态的批次，包括生产中、合格、不合格、已召回、已售罄等状态。" 
+            />
           </div>
         </div>
 

@@ -133,7 +133,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>产品名称 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="产品名称"
                   content="请输入产品的完整名称，例如：有机草莓、绿色蔬菜等。"
                 />
@@ -152,7 +152,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>品牌 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="品牌"
                   content="产品的品牌名称。"
                 />
@@ -171,7 +171,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>产品类别 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="产品类别"
                   content="选择产品所属的类别，用于分类管理。"
                 />
@@ -192,7 +192,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>规格</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="规格"
                   content="产品的规格，例如：500g/盒、1kg/袋等。"
                 />
@@ -217,7 +217,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>企业名称 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="企业名称"
                   content="生产该产品的企业全称。"
                 />
@@ -239,7 +239,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>统一社会信用代码 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="统一社会信用代码"
                   content="企业的18位统一社会信用代码。"
                 />
@@ -262,7 +262,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>生产许可证</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="生产许可证"
                   content="食品生产许可证编号。"
                 />
@@ -283,7 +283,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>企业地址</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="企业地址"
                   content="生产企业的详细地址。"
                 />
@@ -311,7 +311,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>省份 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="省份"
                   content="产品产地的省份。"
                 />
@@ -333,7 +333,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>城市 *</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="城市"
                   content="产品产地的城市。"
                 />
@@ -355,7 +355,7 @@ export default function CreateProductModal({ isOpen, onClose, onSuccess }: Creat
               <label className="label flex items-center space-x-2">
                 <span>区县</span>
                 <HelpTooltip
-                  mode="hover"
+                  mode="click"
                   title="区县"
                   content="产品产地的区县。"
                 />
