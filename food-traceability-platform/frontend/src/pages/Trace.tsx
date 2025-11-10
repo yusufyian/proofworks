@@ -37,9 +37,15 @@ export const Trace: React.FC = () => {
       setLoading(true);
       setError(null);
       const response = await traceApi.traceByBatch(id);
-      setResult(response.data || null);
+      // apiClient 拦截器已经返回了 response.data，所以 response 就是 { success, data }
+      if (response.success && response.data) {
+        setResult(response.data);
+      } else {
+        setError(response.error || '查询失败');
+        setResult(null);
+      }
     } catch (err: any) {
-      setError(err.response?.data?.error || '查询失败');
+      setError(err.response?.data?.error || err.message || '查询失败');
       setResult(null);
     } finally {
       setLoading(false);
@@ -56,9 +62,15 @@ export const Trace: React.FC = () => {
       setLoading(true);
       setError(null);
       const response = await traceApi.traceByCode(traceCode.trim());
-      setResult(response.data || null);
+      // apiClient 拦截器已经返回了 response.data，所以 response 就是 { success, data }
+      if (response.success && response.data) {
+        setResult(response.data);
+      } else {
+        setError(response.error || '查询失败，请确认追溯码格式是否正确');
+        setResult(null);
+      }
     } catch (err: any) {
-      setError(err.response?.data?.error || '查询失败，请确认追溯码格式是否正确');
+      setError(err.response?.data?.error || err.message || '查询失败，请确认追溯码格式是否正确');
       setResult(null);
     } finally {
       setLoading(false);
@@ -276,7 +288,7 @@ export const Trace: React.FC = () => {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900">流转时间轴</h2>
-                  <p className="text-sm text-gray-500 mt-1">共 {result.events.length} 个流转节点</p>
+                  <p className="text-sm text-gray-500 mt-1">共 {result.events?.length || 0} 个流转节点</p>
                 </div>
                 <HelpTooltip 
                   mode="click"
@@ -285,77 +297,87 @@ export const Trace: React.FC = () => {
                 />
               </div>
               <div className="relative">
-                <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-green-500 via-blue-500 to-purple-500"></div>
-                <div className="space-y-4">
-                  {result.events.map((event, idx) => {
-                    const stage = getEventStage(event.eventType, idx);
-                    const stageColors: Record<string, string> = {
-                      '种植阶段': 'from-green-500 to-green-600',
-                      '加工阶段': 'from-blue-500 to-blue-600',
-                      '质检阶段': 'from-purple-500 to-purple-600',
-                      '仓储阶段': 'from-yellow-500 to-yellow-600',
-                      '物流阶段': 'from-orange-500 to-orange-600',
-                      '销售阶段': 'from-pink-500 to-pink-600',
-                    };
-                    const stageColor = stageColors[stage] || 'from-gray-500 to-gray-600';
-                    
-                    return (
-                      <div key={event.id} className="relative pl-12">
-                        <div className={`absolute left-0 top-1 w-8 h-8 bg-gradient-to-br ${stageColor} rounded-full flex items-center justify-center text-white text-lg shadow-lg border-2 border-white`}>
-                          {getEventIcon(event.eventType)}
-                        </div>
-                        <div className="bg-white rounded-lg p-4 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                          <div className="flex items-start justify-between mb-2">
-                            <div className="flex-1">
-                              <div className="flex items-center gap-2 mb-1">
-                                <h4 className="font-semibold text-gray-900">{event.eventType}</h4>
-                                <span className={`px-2 py-0.5 text-xs font-medium rounded-full ${
-                                  stage === '种植阶段' ? 'bg-green-100 text-green-800' :
-                                  stage === '加工阶段' ? 'bg-blue-100 text-blue-800' :
-                                  stage === '质检阶段' ? 'bg-purple-100 text-purple-800' :
-                                  stage === '仓储阶段' ? 'bg-yellow-100 text-yellow-800' :
-                                  stage === '物流阶段' ? 'bg-orange-100 text-orange-800' :
-                                  'bg-pink-100 text-pink-800'
-                                }`}>
-                                  {stage}
-                                </span>
+                {result.events && result.events.length > 0 ? (
+                  <>
+                    <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-green-500 via-blue-500 to-purple-500"></div>
+                    <div className="space-y-4">
+                      {result.events.map((event, idx) => {
+                        const stage = getEventStage(event.eventType, idx);
+                        const stageColors: Record<string, string> = {
+                          '种植阶段': 'from-green-500 to-green-600',
+                          '加工阶段': 'from-blue-500 to-blue-600',
+                          '质检阶段': 'from-purple-500 to-purple-600',
+                          '仓储阶段': 'from-yellow-500 to-yellow-600',
+                          '物流阶段': 'from-orange-500 to-orange-600',
+                          '销售阶段': 'from-pink-500 to-pink-600',
+                        };
+                        const stageColor = stageColors[stage] || 'from-gray-500 to-gray-600';
+                        
+                        return (
+                          <div key={event.id} className="relative pl-12">
+                            <div className={`absolute left-0 top-1 w-8 h-8 bg-gradient-to-br ${stageColor} rounded-full flex items-center justify-center text-white text-lg shadow-lg border-2 border-white`}>
+                              {getEventIcon(event.eventType)}
+                            </div>
+                            <div className="bg-white rounded-lg p-4 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+                              <div className="flex items-start justify-between mb-2">
+                                <div className="flex-1">
+                                  <div className="flex items-center gap-2 mb-1">
+                                    <h4 className="font-semibold text-gray-900">{event.eventType}</h4>
+                                    <span className={`px-2 py-0.5 text-xs font-medium rounded-full ${
+                                      stage === '种植阶段' ? 'bg-green-100 text-green-800' :
+                                      stage === '加工阶段' ? 'bg-blue-100 text-blue-800' :
+                                      stage === '质检阶段' ? 'bg-purple-100 text-purple-800' :
+                                      stage === '仓储阶段' ? 'bg-yellow-100 text-yellow-800' :
+                                      stage === '物流阶段' ? 'bg-orange-100 text-orange-800' :
+                                      'bg-pink-100 text-pink-800'
+                                    }`}>
+                                      {stage}
+                                    </span>
+                                  </div>
+                                  <p className="text-sm text-gray-600 mt-1">
+                                    <MapPin className="w-4 h-4 inline mr-1" />
+                                    {event.location.name}
+                                  </p>
+                                </div>
+                                <div className="text-right text-sm text-gray-600 ml-4">
+                                  <Clock className="w-4 h-4 inline mr-1" />
+                                  {format(new Date(event.timestamp), 'yyyy-MM-dd HH:mm')}
+                                </div>
                               </div>
-                              <p className="text-sm text-gray-600 mt-1">
-                                <MapPin className="w-4 h-4 inline mr-1" />
-                                {event.location.name}
-                              </p>
-                            </div>
-                            <div className="text-right text-sm text-gray-600 ml-4">
-                              <Clock className="w-4 h-4 inline mr-1" />
-                              {format(new Date(event.timestamp), 'yyyy-MM-dd HH:mm')}
+                              <div className="mt-2 text-sm text-gray-600 space-y-1">
+                                <p>操作人员: <span className="font-medium">{event.operator.name}</span> ({event.operator.role})</p>
+                                <p>所属企业: <span className="font-medium">{event.operator.company}</span></p>
+                                {event.content.quantity && (
+                                  <p>数量: <span className="font-medium">{event.content.quantity}</span></p>
+                                )}
+                                {event.content.temperature !== undefined && (
+                                  <p className="flex items-center gap-1">
+                                    <Thermometer className="w-4 h-4" />
+                                    温度: <span className="font-medium">{event.content.temperature}°C</span>
+                                  </p>
+                                )}
+                                {event.content.humidity !== undefined && (
+                                  <p>湿度: <span className="font-medium">{event.content.humidity}%</span></p>
+                                )}
+                              </div>
+                              {event.txHash && (
+                                <div className="mt-2 pt-2 border-t border-gray-100 text-xs text-gray-500 font-mono">
+                                  区块高度: {event.blockHeight} | 交易哈希: {event.txHash.slice(0, 20)}...
+                                </div>
+                              )}
                             </div>
                           </div>
-                          <div className="mt-2 text-sm text-gray-600 space-y-1">
-                            <p>操作人员: <span className="font-medium">{event.operator.name}</span> ({event.operator.role})</p>
-                            <p>所属企业: <span className="font-medium">{event.operator.company}</span></p>
-                            {event.content.quantity && (
-                              <p>数量: <span className="font-medium">{event.content.quantity}</span></p>
-                            )}
-                            {event.content.temperature !== undefined && (
-                              <p className="flex items-center gap-1">
-                                <Thermometer className="w-4 h-4" />
-                                温度: <span className="font-medium">{event.content.temperature}°C</span>
-                              </p>
-                            )}
-                            {event.content.humidity !== undefined && (
-                              <p>湿度: <span className="font-medium">{event.content.humidity}%</span></p>
-                            )}
-                          </div>
-                          {event.txHash && (
-                            <div className="mt-2 pt-2 border-t border-gray-100 text-xs text-gray-500 font-mono">
-                              区块高度: {event.blockHeight} | 交易哈希: {event.txHash.slice(0, 20)}...
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                        );
+                      })}
+                    </div>
+                  </>
+                ) : (
+                  <div className="py-12 text-center">
+                    <div className="text-gray-400 text-6xl mb-4">📋</div>
+                    <p className="text-gray-500 text-lg mb-2">暂无流转记录</p>
+                    <p className="text-gray-400 text-sm">该批次尚未开始流转或流转数据正在录入中</p>
+                  </div>
+                )}
               </div>
             </div>
 
