@@ -44,15 +44,15 @@ export const Products: React.FC = () => {
         {/* 标题 */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold gradient-text">产品管理</h1>
-            <p className="text-gray-600 mt-1">管理产品档案与基本信息</p>
+            <h1 className="text-3xl font-bold gradient-text">产品档案</h1>
+            <p className="text-gray-600 mt-1">产品档案与基础信息统一管理</p>
           </div>
           <button
             onClick={() => setShowCreateModal(true)}
             className="btn-primary flex items-center space-x-2"
           >
             <Plus className="w-5 h-5" />
-            <span>新增产品</span>
+            <span>新增产品档案</span>
           </button>
         </div>
 
@@ -63,7 +63,7 @@ export const Products: React.FC = () => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="搜索产品名称或品牌..."
+                placeholder="请输入产品名称或品牌进行检索..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
@@ -77,7 +77,7 @@ export const Products: React.FC = () => {
                 onChange={(e) => setCategoryFilter(e.target.value)}
                 className="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
-                <option value="">所有类别</option>
+                <option value="">全部类别</option>
                 {categories.map(cat => (
                   <option key={cat} value={cat}>{cat}</option>
                 ))}
@@ -87,7 +87,7 @@ export const Products: React.FC = () => {
               onClick={handleSearch}
               className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg transition-all"
             >
-              搜索
+              检索
             </button>
           </div>
         </div>
@@ -116,7 +116,7 @@ export const Products: React.FC = () => {
                 
                 <div className="space-y-2 text-sm text-gray-600 mb-4">
                   <div className="flex items-center justify-between">
-                    <span>规格:</span>
+                    <span>产品规格:</span>
                     <span className="font-medium">{product.specification}</span>
                   </div>
                   <div className="flex items-center justify-between">
@@ -124,7 +124,7 @@ export const Products: React.FC = () => {
                     <span className="font-medium truncate ml-2">{product.manufacturer.name}</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span>产地:</span>
+                    <span>产品产地:</span>
                     <span className="font-medium">{product.origin.province} {product.origin.city}</span>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ export const Products: React.FC = () => {
 
         {!loading && products.length === 0 && (
           <div className="text-center py-12 text-gray-500">
-            没有找到匹配的产品
+            未找到匹配的产品记录
           </div>
         )}
 

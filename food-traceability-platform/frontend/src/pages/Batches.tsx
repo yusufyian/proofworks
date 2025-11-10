@@ -42,8 +42,8 @@ export const Batches: React.FC = () => {
         {/* 标题 */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold gradient-text">批次管理</h1>
-            <p className="text-gray-600 mt-1">查看和管理产品批次信息</p>
+            <h1 className="text-3xl font-bold gradient-text">批次管控</h1>
+            <p className="text-gray-600 mt-1">产品批次全生命周期信息管理</p>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export const Batches: React.FC = () => {
               onChange={(e) => setStatusFilter(e.target.value)}
               className="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
-              <option value="">所有状态</option>
+              <option value="">全部状态</option>
               {statusOptions.map(status => (
                 <option key={status} value={status}>{status}</option>
               ))}
@@ -64,7 +64,7 @@ export const Batches: React.FC = () => {
             <HelpTooltip 
               mode="click"
               title="批次状态筛选"
-              content="筛选不同状态的批次，包括生产中、合格、不合格、已召回、已售罄等状态。" 
+              content="按不同状态维度筛选批次，包括生产中、合格、不合格、已召回、已售罄等状态。" 
             />
           </div>
         </div>
@@ -85,7 +85,7 @@ export const Batches: React.FC = () => {
                     <th className="text-left py-4 px-6 text-sm font-semibold">生产日期</th>
                     <th className="text-left py-4 px-6 text-sm font-semibold">数量</th>
                     <th className="text-left py-4 px-6 text-sm font-semibold">状态</th>
-                    <th className="text-left py-4 px-6 text-sm font-semibold">质检报告</th>
+                    <th className="text-left py-4 px-6 text-sm font-semibold">质量检测报告</th>
                     <th className="text-left py-4 px-6 text-sm font-semibold">操作</th>
                   </tr>
                 </thead>
@@ -116,7 +116,7 @@ export const Batches: React.FC = () => {
                         </span>
                       </td>
                       <td className="py-4 px-6 text-sm text-gray-600">
-                        {batch.qualityReports.length} 份
+                        {batch.qualityReports.length} 项
                       </td>
                       <td className="py-4 px-6">
                         <Link
@@ -124,7 +124,7 @@ export const Batches: React.FC = () => {
                           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
                         >
                           <Eye className="w-4 h-4" />
-                          <span>查看追溯</span>
+                          <span>查看溯源</span>
                         </Link>
                       </td>
                     </tr>
@@ -137,7 +137,7 @@ export const Batches: React.FC = () => {
 
         {!loading && batches.length === 0 && (
           <div className="text-center py-12 text-gray-500">
-            没有找到匹配的批次
+            未找到匹配的批次记录
           </div>
         )}
       </div>

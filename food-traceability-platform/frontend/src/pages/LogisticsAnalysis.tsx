@@ -79,7 +79,7 @@ export const LogisticsAnalysis: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold gradient-text">物流绩效分析</h1>
-            <p className="text-gray-600 mt-1">物流环节效率与绩效统计</p>
+            <p className="text-gray-600 mt-1">物流环节效率与绩效深度统计</p>
           </div>
           <DateRangeFilter
             startDate={startDate}
@@ -94,7 +94,7 @@ export const LogisticsAnalysis: React.FC = () => {
           <div className="card">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-600 mb-1">物流事件总数</p>
+                <p className="text-sm text-gray-600 mb-1">物流事件总量</p>
                 <p className="text-2xl font-bold text-blue-600">{data.totalLogisticsEvents}</p>
               </div>
               <div className="p-3 bg-blue-100 rounded-xl">
@@ -102,7 +102,7 @@ export const LogisticsAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              装车、运输、到货等事件
+              涵盖装车、运输、到货等环节
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export const LogisticsAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              入库到出库平均时间
+              入库至出库平均时长
             </div>
           </div>
 
@@ -136,7 +136,7 @@ export const LogisticsAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              装车到到货平均时间
+              装车至到货平均时长
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export const LogisticsAnalysis: React.FC = () => {
             <HelpTooltip
               mode="click"
               title="停留时间"
-              content="统计仓储、运输、门店等各环节的平均停留时间，帮助识别效率瓶颈。"
+              content="统计仓储、运输、门店等各环节的平均停留时间，便于识别效率瓶颈与优化机会。"
             />
           </div>
           <ResponsiveContainer width="100%" height={300}>
@@ -170,7 +170,7 @@ export const LogisticsAnalysis: React.FC = () => {
               <HelpTooltip
                 mode="click"
                 title="地点活跃度"
-                content="统计各地点发生的物流事件数量，识别主要流转节点。"
+                content="统计各地点发生的物流事件数量，识别主要流转节点与核心枢纽。"
               />
             </div>
             <ResponsiveContainer width="100%" height={400}>
@@ -190,7 +190,7 @@ export const LogisticsAnalysis: React.FC = () => {
               <HelpTooltip
                 mode="click"
                 title="操作员活跃度"
-                content="统计各操作员处理的物流事件数量，评估工作负荷。"
+                content="统计各操作员处理的物流事件数量，评估工作负荷与效率水平。"
               />
             </div>
             <ResponsiveContainer width="100%" height={400}>

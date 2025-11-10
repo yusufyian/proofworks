@@ -70,7 +70,7 @@ export const TemperatureAnalysis: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold gradient-text">温控合规分析</h1>
-            <p className="text-gray-600 mt-1">温度监控数据统计与合规性分析</p>
+            <p className="text-gray-600 mt-1">温度监测数据统计与合规性深度分析</p>
           </div>
           <DateRangeFilter
             startDate={startDate}
@@ -90,7 +90,7 @@ export const TemperatureAnalysis: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="温控合规率"
-                    content="温度控制在2-8°C范围内的数据点占总数据点的百分比。合规率越高，说明冷链物流质量越好。"
+                    content="温度控制在2-8°C范围内的监测数据点占总数据点的百分比。合规率越高，表明冷链物流质量水平越好。"
                   />
                 </div>
                 <AnimatedNumber 
@@ -116,7 +116,7 @@ export const TemperatureAnalysis: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="异常事件"
-                    content="温度超出规定范围或出现异常波动的事件数量。异常事件需要及时处理，确保产品质量安全。"
+                    content="温度超出规定范围或出现异常波动的事件数量。异常事件需及时处理，确保产品质量安全。"
                   />
                 </div>
                 <p className="text-2xl font-bold text-orange-600">{data.abnormalEvents}</p>
@@ -126,7 +126,7 @@ export const TemperatureAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              需要关注的事件
+              需重点关注的事件
             </div>
           </div>
 
@@ -138,7 +138,7 @@ export const TemperatureAnalysis: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="数据点总数"
-                    content="统计期间内所有温度监测数据点的总数。数据点越多，说明监测覆盖越全面，数据越可靠。"
+                    content="统计期间内所有温度监测数据点的总量。数据点越多，表明监测覆盖越全面，数据越可靠。"
                   />
                 </div>
                 <p className="text-2xl font-bold text-blue-600">{data.totalDataPoints.toLocaleString()}</p>
@@ -156,11 +156,11 @@ export const TemperatureAnalysis: React.FC = () => {
         {/* 温度分布饼图 */}
         <div className="card">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-gray-900">温度分布统计</h3>
+              <h3 className="text-lg font-semibold text-gray-900">温度分布统计</h3>
             <HelpTooltip
               mode="click"
               title="温度分布"
-              content="统计不同温度范围内的数据点数量，帮助识别温控异常情况。"
+              content="统计不同温度范围内的数据点数量，便于识别温控异常情况。"
             />
           </div>
           <ResponsiveContainer width="100%" height={300}>

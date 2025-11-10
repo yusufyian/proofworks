@@ -89,7 +89,7 @@ export const QualityAnalysis: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold gradient-text">质量分析</h1>
-            <p className="text-gray-600 mt-1">产品质量统计与不合格项分析</p>
+            <p className="text-gray-600 mt-1">产品质量统计与不合格项深度分析</p>
           </div>
           <DateRangeFilter
             startDate={startDate}
@@ -109,7 +109,7 @@ export const QualityAnalysis: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="合格率"
-                    content="通过质检并符合标准的批次占总批次的百分比。合格率反映了产品质量控制水平，是衡量企业质量管理能力的重要指标。"
+                    content="通过质量检测并符合标准的批次占总批次的百分比。合格率反映产品质量控制水平，是衡量企业质量管理能力的重要指标。"
                   />
                 </div>
                 <AnimatedNumber 
@@ -131,11 +131,11 @@ export const QualityAnalysis: React.FC = () => {
             <div className="flex items-center justify-between">
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <p className="text-sm text-gray-600">批次总数</p>
+                  <p className="text-sm text-gray-600">批次总量</p>
                   <HelpTooltip
                     mode="click"
-                    title="批次总数"
-                    content="统计时间范围内所有产品批次的总数，包括各种状态的批次。"
+                    title="批次总量"
+                    content="统计时间范围内所有产品批次的总量，包括各种状态的批次。"
                   />
                 </div>
                 <p className="text-2xl font-bold text-gray-900">{data.totalBatches}</p>
@@ -145,7 +145,7 @@ export const QualityAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              统计范围内批次
+              统计时间范围内批次
             </div>
           </div>
 
@@ -157,7 +157,7 @@ export const QualityAnalysis: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="不合格项"
-                    content="检测中发现的不合格问题类型数量。不合格项越多，说明质量问题越复杂，需要重点关注和改进。"
+                    content="检测中发现的不合格问题类型数量。不合格项越多，表明质量问题越复杂，需要重点关注与改进。"
                   />
                 </div>
                 <p className="text-2xl font-bold text-orange-600">{Object.keys(data.qualityIssues).length}</p>
@@ -167,7 +167,7 @@ export const QualityAnalysis: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 text-sm text-gray-600">
-              需要关注的问题类型
+              需重点关注的问题类型
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export const QualityAnalysis: React.FC = () => {
               <HelpTooltip
                 mode="click"
                 title="批次状态"
-                content="统计不同状态的批次数量，包括合格、生产中、不合格、已召回等。"
+                content="统计不同状态的批次数量，包括合格、生产中、不合格、已召回等状态维度。"
               />
             </div>
             <ResponsiveContainer width="100%" height={300}>

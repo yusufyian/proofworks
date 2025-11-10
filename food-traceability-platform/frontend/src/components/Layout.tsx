@@ -20,12 +20,12 @@ interface LayoutProps {
 }
 
 const menuItems = [
-  { path: '/', icon: LayoutDashboard, label: '仪表盘', help: '查看系统整体统计信息和关键指标，包括产品数量、批次状态、事件统计等。' },
-  { path: '/products', icon: Package, label: '产品管理', help: '管理产品档案，包括产品基本信息、产地信息、企业资质等。支持按类别、品牌、关键词搜索。' },
-  { path: '/batches', icon: BarChart3, label: '批次管理', help: '查看和管理产品批次信息，包括批次状态、流转记录、质检报告等。支持按产品、状态、日期筛选。' },
-  { path: '/trace', icon: Search, label: '追溯查询', help: '通过追溯码或批次号查询产品的完整溯源信息，包括流转路径、IoT数据、质检报告等。' },
-  { path: '/recalls', icon: AlertTriangle, label: '召回管理', help: '管理产品召回记录，包括召回原因、风险等级、召回进度跟踪等。支持按状态、风险等级筛选。' },
-  { path: '/analytics', icon: TrendingUp, label: '数据分析', help: '全方位数据洞察与趋势分析，包括宏观KPI、温控合规、物流绩效、质量分析等。' },
+  { path: '/', icon: LayoutDashboard, label: '数据总览', help: '实时监控系统核心运营指标与业务概览，涵盖产品规模、批次分布、流转事件等关键数据维度。' },
+  { path: '/products', icon: Package, label: '产品档案', help: '统一管理产品基础信息、产地溯源、企业资质认证等核心档案数据。支持多维度检索与分类筛选。' },
+  { path: '/batches', icon: BarChart3, label: '批次管控', help: '全生命周期批次信息管理，包括生产状态、流转轨迹、质量检测报告等。支持多条件组合查询。' },
+  { path: '/trace', icon: Search, label: '溯源查询', help: '基于追溯码或批次标识，获取产品全链路溯源信息，包括流转路径、物联网监测数据、质量认证报告等。' },
+  { path: '/recalls', icon: AlertTriangle, label: '召回管控', help: '产品召回事件全流程管理，包括风险等级评估、召回进度追踪、区域分布统计等。支持多维度筛选与监控。' },
+  { path: '/analytics', icon: TrendingUp, label: '智能分析', help: '多维度数据洞察与趋势预测，涵盖宏观KPI、温控合规性、物流效能、质量指标等深度分析。' },
 ];
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -59,8 +59,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="text-xl font-bold text-white block">产品追溯平台</span>
-                <span className="text-xs text-primary-100">Traceability Platform</span>
+                <span className="text-xl font-bold text-white block">全链路追溯系统</span>
+                <span className="text-xs text-primary-100">Full-Chain Traceability System</span>
               </div>
             </div>
             <button
@@ -108,7 +108,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="p-4 border-t border-gray-200 bg-white/50 backdrop-blur-sm">
             <div className="flex items-center space-x-2 px-4 py-3 bg-gradient-to-r from-gray-50 to-white rounded-xl border border-gray-200">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-gray-700">系统运行正常</span>
+              <span className="text-sm font-medium text-gray-700">系统运行稳定</span>
             </div>
           </div>
         </div>
@@ -135,15 +135,15 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                     ? 'bg-gradient-to-r from-purple-600 to-purple-700 text-white border-purple-600'
                     : 'bg-gradient-to-r from-purple-50 to-purple-100 hover:from-purple-100 hover:to-purple-200 border-purple-200'
                 }`}
-                title={aiAssistantOpen ? '关闭AI助手' : '打开AI助手'}
+                title={aiAssistantOpen ? '关闭智能助手' : '打开智能助手'}
               >
                 <Bot className={`w-5 h-5 group-hover:scale-110 transition-transform ${aiAssistantOpen ? 'text-white' : 'text-purple-600'}`} />
-                <span className={`text-sm font-medium ${aiAssistantOpen ? 'text-white' : 'text-purple-700'}`}>AI助手</span>
+                <span className={`text-sm font-medium ${aiAssistantOpen ? 'text-white' : 'text-purple-700'}`}>智能助手</span>
               </button>
               {/* 系统状态 */}
               <div className="hidden md:flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-primary-50 to-primary-100 rounded-xl border border-primary-200">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium text-primary-700">系统正常</span>
+                <span className="text-sm font-medium text-primary-700">系统运行正常</span>
               </div>
             </div>
           </div>

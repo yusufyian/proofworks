@@ -67,8 +67,8 @@ export const Analytics: React.FC = () => {
         {/* 标题和筛选 */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold gradient-text">数据分析</h1>
-            <p className="text-gray-600 mt-1">全方位数据洞察与趋势分析</p>
+            <h1 className="text-3xl font-bold gradient-text">智能数据分析</h1>
+            <p className="text-gray-600 mt-1">多维度数据洞察与趋势预测分析</p>
           </div>
           <DateRangeFilter
             startDate={startDate}
@@ -88,7 +88,7 @@ export const Analytics: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="追溯覆盖率"
-                    content="已建立完整追溯链的产品批次占总批次的百分比。追溯覆盖率越高，说明系统的追溯能力越强，目标值应≥80%。"
+                    content="已建立完整追溯链的产品批次占总批次的百分比。追溯覆盖率越高，表明系统追溯能力越强，目标值应≥80%。"
                   />
                 </div>
                 <span className="text-2xl font-bold text-primary-600">
@@ -109,11 +109,11 @@ export const Analytics: React.FC = () => {
             <div className="flex items-center justify-between">
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <p className="text-sm text-gray-600">合规率</p>
+                  <p className="text-sm text-gray-600">质量合规率</p>
                   <HelpTooltip
                     mode="click"
-                    title="合规率"
-                    content="通过质检并符合标准的批次占总批次的百分比。合规率反映了产品质量控制水平，是衡量企业质量管理能力的重要指标。"
+                    title="质量合规率"
+                    content="通过质量检测并符合标准的批次占总批次的百分比。合规率反映产品质量控制水平，是衡量企业质量管理能力的重要指标。"
                   />
                 </div>
                 <span className="text-2xl font-bold text-green-600">
@@ -125,7 +125,7 @@ export const Analytics: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 flex items-center text-sm">
-              <span className="text-gray-600">合格批次占比</span>
+              <span className="text-gray-600">合格批次比例</span>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ export const Analytics: React.FC = () => {
               </div>
             </div>
             <div className="mt-2 flex items-center text-sm">
-              <span className="text-gray-600">需关注批次</span>
+              <span className="text-gray-600">需重点关注批次</span>
             </div>
           </div>
 
@@ -161,7 +161,7 @@ export const Analytics: React.FC = () => {
                   <HelpTooltip
                     mode="click"
                     title="温控合规率"
-                    content="温度控制在规定范围内（通常为2-8°C）的数据点占总数据点的百分比。温控合规率反映了冷链物流的质量，对于需要低温保存的产品至关重要。"
+                    content="温度控制在规定范围内（通常为2-8°C）的监测数据点占总数据点的百分比。温控合规率反映冷链物流质量水平，对需要低温保存的产品至关重要。"
                   />
                 </div>
                 <span className="text-2xl font-bold text-blue-600">
@@ -186,7 +186,7 @@ export const Analytics: React.FC = () => {
               <HelpTooltip
                 mode="click"
                 title="批次趋势"
-                content="显示每日新增批次数量的变化趋势，帮助了解生产节奏和业务增长情况。"
+                content="展示每日新增批次数量的变化趋势，便于洞察生产节奏与业务增长态势。"
               />
             </div>
             <ResponsiveContainer width="100%" height={300}>
@@ -221,7 +221,7 @@ export const Analytics: React.FC = () => {
               <HelpTooltip
                 mode="click"
                 title="事件趋势"
-                content="显示每日流转事件数量的变化趋势，反映系统活跃度和业务流转情况。"
+                content="展示每日流转事件数量的变化趋势，反映系统运营活跃度与业务流转情况。"
               />
             </div>
             <ResponsiveContainer width="100%" height={300}>
@@ -256,7 +256,7 @@ export const Analytics: React.FC = () => {
           <div className="card">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-600 mb-1">产品总数</p>
+                <p className="text-sm text-gray-600 mb-1">产品档案总数</p>
                 <p className="text-2xl font-bold text-gray-900">{kpis.totalProducts}</p>
               </div>
               <Package className="w-8 h-8 text-gray-400" />
@@ -266,7 +266,7 @@ export const Analytics: React.FC = () => {
           <div className="card">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-600 mb-1">批次总数</p>
+                <p className="text-sm text-gray-600 mb-1">批次总量</p>
                 <p className="text-2xl font-bold text-gray-900">{kpis.totalBatches}</p>
               </div>
               <BarChart3 className="w-8 h-8 text-gray-400" />
@@ -276,7 +276,7 @@ export const Analytics: React.FC = () => {
           <div className="card">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-600 mb-1">事件总数</p>
+                <p className="text-sm text-gray-600 mb-1">流转事件总数</p>
                 <p className="text-2xl font-bold text-gray-900">{kpis.totalEvents}</p>
               </div>
               <Activity className="w-8 h-8 text-gray-400" />
@@ -294,7 +294,7 @@ export const Analytics: React.FC = () => {
               <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">温控合规分析</h3>
-            <p className="text-sm text-gray-600">温度监控数据统计与合规性分析</p>
+            <p className="text-sm text-gray-600">温度监测数据统计与合规性深度分析</p>
           </Link>
 
           <Link to="/analytics/quality" className="card hover:shadow-lg transition-shadow group">
@@ -305,7 +305,7 @@ export const Analytics: React.FC = () => {
               <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-green-600 transition-colors" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">质量分析</h3>
-            <p className="text-sm text-gray-600">产品质量统计与不合格项分析</p>
+            <p className="text-sm text-gray-600">产品质量统计与不合格项深度分析</p>
           </Link>
 
           <Link to="/analytics/logistics" className="card hover:shadow-lg transition-shadow group">
@@ -316,7 +316,7 @@ export const Analytics: React.FC = () => {
               <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-orange-600 transition-colors" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">物流绩效分析</h3>
-            <p className="text-sm text-gray-600">物流环节效率与绩效统计</p>
+            <p className="text-sm text-gray-600">物流环节效率与绩效深度统计</p>
           </Link>
         </div>
       </div>

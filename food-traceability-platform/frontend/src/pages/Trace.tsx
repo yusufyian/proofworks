@@ -48,7 +48,7 @@ export const Trace: React.FC = () => {
 
   const handleSearch = async () => {
     if (!traceCode.trim()) {
-      setError('请输入追溯码');
+      setError('请输入有效的追溯码');
       return;
     }
 
@@ -58,7 +58,7 @@ export const Trace: React.FC = () => {
       const response = await traceApi.traceByCode(traceCode.trim());
       setResult(response.data || null);
     } catch (err: any) {
-      setError(err.response?.data?.error || '查询失败，请检查追溯码是否正确');
+      setError(err.response?.data?.error || '查询失败，请确认追溯码格式是否正确');
       setResult(null);
     } finally {
       setLoading(false);
@@ -91,8 +91,8 @@ export const Trace: React.FC = () => {
         {/* 标题 */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold gradient-text">追溯查询</h1>
-            <p className="text-gray-600 mt-1">通过追溯码查询产品完整溯源信息</p>
+            <h1 className="text-3xl font-bold gradient-text">溯源查询</h1>
+            <p className="text-gray-600 mt-1">基于追溯码查询产品全链路溯源信息</p>
           </div>
         </div>
 
@@ -103,7 +103,7 @@ export const Trace: React.FC = () => {
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder={batchId ? "正在加载批次信息..." : "请输入20位追溯码"}
+                placeholder={batchId ? "正在加载批次信息..." : "请输入20位追溯码进行查询"}
                 value={traceCode}
                 onChange={(e) => setTraceCode(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && !batchId && handleSearch()}
@@ -118,12 +118,12 @@ export const Trace: React.FC = () => {
                   disabled={loading}
                   className="btn-primary px-8 py-3 disabled:opacity-50"
                 >
-                  {loading ? '查询中...' : '查询'}
+                  {loading ? '查询中...' : '开始查询'}
                 </button>
                 <HelpTooltip 
                   mode="click"
                   title="追溯码说明"
-                  content="追溯码格式：企业代码6位 + 产品类别2位 + 生产日期6位 + 批次2位 + 序列号3位 + 校验位1位，共20位。可以通过扫描产品包装上的二维码获取追溯码。" 
+                  content="追溯码格式：企业代码6位 + 产品类别2位 + 生产日期6位 + 批次2位 + 序列号3位 + 校验位1位，共20位。可通过扫描产品包装上的二维码获取追溯码。" 
                 />
               </>
             )}
@@ -132,7 +132,7 @@ export const Trace: React.FC = () => {
           {/* 示例追溯码 */}
           {!batchId && sampleCodes.length > 0 && (
             <div className="mt-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
-              <p className="text-sm font-semibold text-gray-700 mb-2">示例追溯码（点击快速查询）：</p>
+              <p className="text-sm font-semibold text-gray-700 mb-2">示例追溯码（点击即可快速查询）：</p>
               <div className="flex flex-wrap gap-2">
                 {sampleCodes.slice(0, 5).map((code) => (
                   <button
@@ -167,7 +167,7 @@ export const Trace: React.FC = () => {
                 <HelpTooltip 
                   mode="click"
                   title="产品信息"
-                  content="显示产品的基本信息，包括产品名称、品牌、规格、生产企业、产地等。" 
+                  content="展示产品的基本信息，包括产品名称、品牌、规格、生产企业、产地等。" 
                 />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -214,7 +214,7 @@ export const Trace: React.FC = () => {
                 <HelpTooltip 
                   mode="click"
                   title="批次信息"
-                  content="显示批次的基本信息，包括批次号、生产日期、保质期、数量、质检报告等。" 
+                  content="展示批次的基本信息，包括批次号、生产日期、保质期、数量、质量检测报告等。" 
                 />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -249,7 +249,7 @@ export const Trace: React.FC = () => {
               {/* 质检报告 */}
               {result.batch.qualityReports.length > 0 && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">质检报告</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">质量检测报告</h3>
                   <div className="space-y-2">
                     {result.batch.qualityReports.map((report, idx) => (
                       <div key={idx} className="p-4 bg-blue-50 rounded-lg">
@@ -281,7 +281,7 @@ export const Trace: React.FC = () => {
                 <HelpTooltip 
                   mode="click"
                   title="流转时间轴"
-                  content="显示产品从种植到销售的完整流转路径，包括各个关键环节的时间、地点、操作人员等信息。每个节点都记录了详细的流转信息，确保全程可追溯。" 
+                  content="展示产品从种植到销售的完整流转路径，包括各个关键环节的时间、地点、操作人员等信息。每个节点均记录详细的流转信息，确保全程可追溯。" 
                 />
               </div>
               <div className="relative">
@@ -363,11 +363,11 @@ export const Trace: React.FC = () => {
             {result.iotData.length > 0 && (
               <div className="card">
                 <div className="flex items-start justify-between mb-4">
-                  <h2 className="text-2xl font-bold text-gray-900">IoT传感器数据</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">物联网监测数据</h2>
                   <HelpTooltip 
                     mode="click"
-                    title="IoT传感器数据"
-                    content="显示来自各种传感器设备的实时数据，包括温度、湿度、GPS定位等信息，确保产品在流转过程中的环境条件符合要求。" 
+                    title="物联网监测数据"
+                    content="展示来自各类传感器设备的实时监测数据，包括温度、湿度、GPS定位等信息，确保产品在流转过程中的环境条件符合要求。" 
                   />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -406,7 +406,7 @@ export const Trace: React.FC = () => {
                   <HelpTooltip 
                     mode="click"
                     title="召回信息"
-                    content="如果产品涉及召回，会在此显示召回原因、风险等级、召回进度等信息。" 
+                    content="如产品涉及召回，将在此展示召回原因、风险等级、召回进度等信息。" 
                   />
                 </div>
                 <div className="space-y-3">

@@ -56,7 +56,7 @@ export const DateRangeFilter: React.FC<DateRangeFilterProps> = ({
         />
       </div>
       <div className="flex items-center space-x-2 flex-wrap gap-2">
-        <span className="text-xs text-gray-500">快速选择：</span>
+        <span className="text-xs text-gray-500">快捷选择：</span>
         <button
           onClick={() => quickSelect(7)}
           className="px-3 py-1 text-xs bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"

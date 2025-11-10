@@ -53,56 +53,56 @@ export const Dashboard: React.FC = () => {
   if (!stats) {
     return (
       <Layout>
-        <div className="text-center text-gray-500">加载失败</div>
+        <div className="text-center text-gray-500">数据加载失败</div>
       </Layout>
     );
   }
 
   const statCards = [
     {
-      title: '产品总数',
+      title: '产品档案总数',
       value: stats.overview.totalProducts,
       icon: Package,
       color: 'from-blue-500 to-cyan-500',
       bgColor: 'bg-blue-50',
       gradient: 'linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%)',
-      help: '系统中注册的产品档案总数，包括各类食品和农产品。'
+      help: '系统内已注册的产品档案总量，涵盖各类食品及农产品品类。'
     },
     {
-      title: '批次总数',
+      title: '批次总量',
       value: stats.overview.totalBatches,
       icon: Boxes,
       color: 'from-purple-500 to-purple-600',
       bgColor: 'bg-purple-50',
       gradient: 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
-      help: '所有产品批次的总数，每个批次都有唯一的追溯码前缀。'
+      help: '系统内所有产品批次的总量，每个批次均具备唯一追溯标识前缀。'
     },
     {
-      title: '流转事件',
+      title: '流转事件总数',
       value: stats.overview.totalEvents,
       icon: Activity,
       color: 'from-pink-500 to-pink-600',
       bgColor: 'bg-pink-50',
       gradient: 'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
-      help: '记录在产品流转过程中的所有事件，包括生产、运输、入库、出库等。'
+      help: '产品全链路流转过程中记录的所有事件总量，涵盖生产、运输、仓储、销售等各环节。'
     },
     {
-      title: 'IoT数据点',
+      title: '物联网监测数据',
       value: stats.overview.totalIoTData,
       icon: Database,
       color: 'from-green-500 to-emerald-500',
       bgColor: 'bg-green-50',
       gradient: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
-      help: '来自各种传感器设备的物联网数据，包括温度、湿度、GPS定位等。'
+      help: '来自各类传感器设备的物联网监测数据总量，包括温度、湿度、GPS定位等环境参数。'
     },
     {
-      title: '进行中召回',
+      title: '进行中召回事件',
       value: stats.overview.activeRecalls,
       icon: AlertTriangle,
       color: 'from-orange-500 to-amber-500',
       bgColor: 'bg-orange-50',
       gradient: 'linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%)',
-      help: '当前正在进行中的产品召回事件数量。'
+      help: '当前处于执行阶段的产品召回事件数量。'
     },
   ];
 
@@ -152,12 +152,12 @@ export const Dashboard: React.FC = () => {
           <div className="relative z-10">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-4xl font-bold mb-2">追溯平台仪表盘</h1>
-                <p className="text-primary-100 text-lg">Food Traceability Platform Dashboard</p>
+                <h1 className="text-4xl font-bold mb-2">全链路追溯系统总览</h1>
+                <p className="text-primary-100 text-lg">Full-Chain Traceability System Overview</p>
               </div>
               <div className="hidden lg:flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl border border-white/30">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="font-medium">实时数据</span>
+                <span className="font-medium">实时监控</span>
               </div>
             </div>
           </div>
@@ -222,13 +222,13 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold gradient-text">批次状态分布</h2>
-                  <p className="text-sm text-gray-500">状态占比分析</p>
+                  <p className="text-sm text-gray-500">状态占比统计</p>
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
                   mode="click"
                   title="批次状态分布"
-                  content="显示所有批次的状态分布情况，包括生产中、合格、不合格、已召回等状态。" 
+                  content="展示系统内所有批次的状态分布情况，包括生产中、合格、不合格、已召回等状态维度。" 
                 />
               </div>
             {batchStatusData.length > 0 ? (
@@ -262,7 +262,7 @@ export const Dashboard: React.FC = () => {
               <div className="h-[300px] flex items-center justify-center text-gray-400">
                 <div className="text-center">
                   <BarChart3 className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p>暂无数据</p>
+                  <p>暂无数据记录</p>
                 </div>
               </div>
             )}
@@ -279,13 +279,13 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold gradient-text">产品类别分布</h2>
-                  <p className="text-sm text-gray-500">类别数量统计</p>
+                  <p className="text-sm text-gray-500">类别规模统计</p>
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
                   mode="click"
                   title="产品类别分布"
-                  content="显示不同产品类别的数量分布，包括水果、蔬菜、肉类、水产、乳制品等。" 
+                  content="展示不同产品类别的数量分布情况，涵盖水果、蔬菜、肉类、水产、乳制品等品类。" 
                 />
               </div>
             {categoryData.length > 0 ? (
@@ -322,7 +322,7 @@ export const Dashboard: React.FC = () => {
               <div className="h-[300px] flex items-center justify-center text-gray-400">
                 <div className="text-center">
                   <Package className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p>暂无数据</p>
+                  <p>暂无数据记录</p>
                 </div>
               </div>
             )}
@@ -339,13 +339,13 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold gradient-text">每日事件趋势</h2>
-                  <p className="text-sm text-gray-500">最近7天活动统计</p>
+                  <p className="text-sm text-gray-500">近7日活动统计</p>
                 </div>
                 <div className="flex-1" />
                 <HelpTooltip 
                   mode="click"
                   title="每日事件趋势"
-                  content="显示最近7天的流转事件数量趋势，帮助了解系统活动情况。" 
+                  content="展示近7日流转事件数量变化趋势，便于洞察系统运营活跃度与业务节奏。" 
                 />
               </div>
             {dailyEventsData.length > 0 ? (
@@ -391,7 +391,7 @@ export const Dashboard: React.FC = () => {
               <div className="h-[300px] flex items-center justify-center text-gray-400">
                 <div className="text-center">
                   <TrendingUp className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p>暂无数据</p>
+                  <p>暂无数据记录</p>
                 </div>
               </div>
             )}
@@ -408,14 +408,14 @@ export const Dashboard: React.FC = () => {
                 <Boxes className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold gradient-text">最近批次</h2>
-                <p className="text-sm text-gray-500">最新创建的批次信息</p>
+                  <h2 className="text-2xl font-bold gradient-text">最新批次</h2>
+                  <p className="text-sm text-gray-500">最近创建的批次信息</p>
               </div>
               <div className="flex-1" />
               <HelpTooltip 
                 mode="click"
                 title="最近批次"
-                content="显示最近创建的批次信息，包括产品名称、批次号、生产日期和状态。" 
+                  content="展示最近创建的批次信息，包括产品名称、批次号、生产日期和当前状态。"
               />
             </div>
             <div className="overflow-x-auto">

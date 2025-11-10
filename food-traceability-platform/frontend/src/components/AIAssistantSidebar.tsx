@@ -10,7 +10,7 @@ export const AIAssistantSidebar: React.FC<AIAssistantSidebarProps> = ({ isOpen, 
   const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
     {
       role: 'assistant',
-      content: '您好！我是追溯平台的AI助手，可以帮您解答关于产品追溯、数据分析、系统使用等方面的问题。有什么我可以帮助您的吗？'
+      content: '您好！我是全链路追溯系统的智能助手，可为您解答关于产品溯源、数据分析、系统使用等方面的问题。请问有什么可以为您服务的？'
     }
   ]);
   const [inputValue, setInputValue] = useState('');
@@ -27,12 +27,12 @@ export const AIAssistantSidebar: React.FC<AIAssistantSidebarProps> = ({ isOpen, 
     // 模拟AI回复（实际项目中应该调用真实的AI API）
     setTimeout(() => {
       const responses = [
-        '根据您的问题，我建议您查看数据分析页面中的相关统计信息。',
-        '您可以通过追溯查询功能，输入追溯码来查看产品的完整流转路径。',
-        '关于批次管理，您可以在批次管理页面中查看所有批次的状态和详细信息。',
-        '如果您需要查看温控数据，请访问数据分析 > 温控合规分析页面。',
-        '系统支持按日期范围筛选数据，您可以使用页面顶部的日期选择器。',
-        '如果您遇到任何问题，可以点击页面上的问号图标查看帮助信息。'
+        '根据您的问题，建议您查看智能数据分析页面中的相关统计信息。',
+        '您可通过溯源查询功能，输入追溯码查看产品的完整流转路径。',
+        '关于批次管控，您可在批次管控页面查看所有批次的状态和详细信息。',
+        '如您需要查看温控数据，请访问智能分析 > 温控合规分析页面。',
+        '系统支持按日期范围筛选数据，您可使用页面顶部的日期选择器。',
+        '如您遇到任何问题，可点击页面上的问号图标查看帮助信息。'
       ];
       const randomResponse = responses[Math.floor(Math.random() * responses.length)];
       setMessages(prev => [...prev, { role: 'assistant', content: randomResponse }]);
@@ -66,8 +66,8 @@ export const AIAssistantSidebar: React.FC<AIAssistantSidebarProps> = ({ isOpen, 
               <Bot className="w-6 h-6 text-white" />
             </div>
             <div>
-              <span className="text-lg font-bold text-white block">AI助手</span>
-              <span className="text-xs text-purple-100">智能问答助手</span>
+              <span className="text-lg font-bold text-white block">智能助手</span>
+              <span className="text-xs text-purple-100">Intelligent Assistant</span>
             </div>
           </div>
           <button
@@ -95,7 +95,7 @@ export const AIAssistantSidebar: React.FC<AIAssistantSidebarProps> = ({ isOpen, 
                 {message.role === 'assistant' && (
                   <div className="flex items-center space-x-2 mb-2">
                     <Sparkles className="w-4 h-4 text-purple-600" />
-                    <span className="text-xs font-medium text-purple-600">AI助手</span>
+                    <span className="text-xs font-medium text-purple-600">智能助手</span>
                   </div>
                 )}
                 <p className="text-sm whitespace-pre-wrap">{message.content}</p>
@@ -124,7 +124,7 @@ export const AIAssistantSidebar: React.FC<AIAssistantSidebarProps> = ({ isOpen, 
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="输入您的问题..."
+                placeholder="请输入您的问题..."
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm"
                 disabled={isLoading}
               />

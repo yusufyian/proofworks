@@ -47,8 +47,8 @@ export const Recalls: React.FC = () => {
         {/* 标题 */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold gradient-text">召回管理</h1>
-            <p className="text-gray-600 mt-1">管理与跟踪产品召回事件</p>
+            <h1 className="text-3xl font-bold gradient-text">召回管控</h1>
+            <p className="text-gray-600 mt-1">产品召回事件全流程管理与跟踪</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export const Recalls: React.FC = () => {
               onChange={(e) => setStatusFilter(e.target.value)}
               className="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
-              <option value="">所有状态</option>
+              <option value="">全部状态</option>
               <option value="进行中">进行中</option>
               <option value="已完成">已完成</option>
               <option value="已取消">已取消</option>
@@ -71,7 +71,7 @@ export const Recalls: React.FC = () => {
               onChange={(e) => setRiskFilter(e.target.value)}
               className="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
-              <option value="">所有风险等级</option>
+              <option value="">全部风险等级</option>
               <option value="紧急">紧急</option>
               <option value="高">高</option>
               <option value="中">中</option>
@@ -80,7 +80,7 @@ export const Recalls: React.FC = () => {
             <HelpTooltip 
               mode="click"
               title="召回筛选说明"
-              content="筛选不同状态和风险等级的召回记录。风险等级分为紧急、高、中、低四个级别，状态包括进行中、已完成、已取消。" 
+              content="按不同状态和风险等级维度筛选召回记录。风险等级分为紧急、高、中、低四个级别，状态包括进行中、已完成、已取消。" 
             />
           </div>
         </div>
@@ -193,7 +193,7 @@ export const Recalls: React.FC = () => {
 
         {!loading && recalls.length === 0 && (
           <div className="text-center py-12 text-gray-500">
-            没有找到匹配的召回记录
+            未找到匹配的召回记录
           </div>
         )}
       </div>
