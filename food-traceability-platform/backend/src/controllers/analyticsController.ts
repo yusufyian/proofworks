@@ -13,8 +13,11 @@ export const getOverview = (req: Request, res: Response) => {
     const batches = FileStorage.getBatches();
     const events = FileStorage.getEvents();
     const recalls = FileStorage.getRecalls();
-    const iotData = FileStorage.getIoTData();
-
+    
+    // 优化：只加载时间范围内的IoT数据，而不是全部
+    // 先过滤事件获取时间范围，然后只处理相关的IoT数据
+    const allIoTData = FileStorage.getIoTData();
+    
     // 过滤时间范围内的数据
     const filteredBatches = batches.filter(b => {
       const batchDate = parseISO(b.productionDate);
@@ -24,6 +27,12 @@ export const getOverview = (req: Request, res: Response) => {
     const filteredEvents = events.filter(e => {
       const eventDate = parseISO(e.timestamp);
       return eventDate >= start && eventDate <= end;
+    });
+    
+    // 只处理时间范围内的IoT数据（基于事件时间范围）
+    const filteredIoTData = allIoTData.filter(d => {
+      const dataDate = parseISO(d.timestamp);
+      return dataDate >= start && dataDate <= end;
     });
 
     // 宏观KPI
@@ -52,8 +61,8 @@ export const getOverview = (req: Request, res: Response) => {
       ? (totalRecalls / filteredBatches.length) * 100 
       : 0;
 
-    // 温度合规率（基于IoT数据）
-    const tempData = iotData.filter(d => d.sensorType === 'temperature' && typeof d.value === 'number');
+    // 温度合规率（基于IoT数据）- 使用已过滤的数据
+    const tempData = filteredIoTData.filter(d => d.sensorType === 'temperature' && typeof d.value === 'number');
     const validTempData = tempData.filter(d => {
       const temp = d.value as number;
       return temp >= 2 && temp <= 8; // 2-8°C为合规范围

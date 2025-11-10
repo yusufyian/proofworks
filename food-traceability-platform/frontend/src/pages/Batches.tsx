@@ -20,20 +20,13 @@ export const Batches: React.FC = () => {
       setLoading(true);
       const params: any = {};
       if (statusFilter) params.status = statusFilter;
+      // 添加分页参数，默认每页100条
+      params.page = 1;
+      params.pageSize = 100;
       
       const result = await batchApi.getBatches(params);
-      const batches = result.data || [];
-      const batchesWithProducts = await Promise.all(
-        batches.map(async (batch: Batch) => {
-          try {
-            const productResult = await productApi.getProduct(batch.productId);
-            return { ...batch, productName: productResult.data.name };
-          } catch {
-            return { ...batch, productName: '未知产品' };
-          }
-        })
-      );
-      setBatches(batchesWithProducts);
+      // 后端已经返回了包含productName的批次数据，无需再次查询
+      setBatches(result.data || []);
     } catch (error) {
       console.error('Failed to load batches:', error);
     } finally {

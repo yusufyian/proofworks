@@ -3,7 +3,7 @@ import { FileStorage } from '../storage/fileStorage';
 
 export const getBatches = (req: Request, res: Response) => {
   try {
-    const { productId, status, startDate, endDate } = req.query;
+    const { productId, status, startDate, endDate, page = '1', pageSize = '100' } = req.query;
     let batches = FileStorage.getBatches();
     
     if (productId) {
@@ -22,7 +22,35 @@ export const getBatches = (req: Request, res: Response) => {
       batches = batches.filter(b => b.productionDate <= (endDate as string));
     }
     
-    res.json({ success: true, data: batches, total: batches.length });
+    // 获取所有产品信息（一次性加载，避免N+1查询）
+    const products = FileStorage.getProducts();
+    const productMap = new Map(products.map(p => [p.id, p]));
+    
+    // 分页处理
+    const pageNum = parseInt(page as string, 10);
+    const size = parseInt(pageSize as string, 10);
+    const total = batches.length;
+    const start = (pageNum - 1) * size;
+    const end = start + size;
+    const paginatedBatches = batches.slice(start, end);
+    
+    // 为每个批次添加产品名称
+    const batchesWithProducts = paginatedBatches.map(batch => {
+      const product = productMap.get(batch.productId);
+      return {
+        ...batch,
+        productName: product?.name || '未知产品'
+      };
+    });
+    
+    res.json({ 
+      success: true, 
+      data: batchesWithProducts, 
+      total,
+      page: pageNum,
+      pageSize: size,
+      totalPages: Math.ceil(total / size)
+    });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
   }

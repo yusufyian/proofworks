@@ -5,6 +5,7 @@ export interface Batch {
   batchNumber: string;
   traceCodePrefix: string;
   productId: string;
+  productName?: string; // 后端返回时已包含产品名称
   productionDate: string;
   expiryDays: number;
   quantity: number;
@@ -28,8 +29,8 @@ export interface Batch {
 }
 
 export const batchApi = {
-  getBatches: (params?: { productId?: string; status?: string; startDate?: string; endDate?: string }) => {
-    return apiClient.get<{ success: boolean; data: Batch[]; total: number }>('/batches', { params });
+  getBatches: (params?: { productId?: string; status?: string; startDate?: string; endDate?: string; page?: number; pageSize?: number }) => {
+    return apiClient.get<{ success: boolean; data: Batch[]; total: number; page?: number; pageSize?: number; totalPages?: number }>('/batches', { params });
   },
   
   getBatch: (id: string) => {
