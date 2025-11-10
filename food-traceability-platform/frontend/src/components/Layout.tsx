@@ -59,7 +59,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="text-xl font-bold text-white block">追溯平台</span>
+                <span className="text-xl font-bold text-white block">产品追溯平台</span>
                 <span className="text-xs text-primary-100">Traceability Platform</span>
               </div>
             </div>
