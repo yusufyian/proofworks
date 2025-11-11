@@ -1,8 +1,14 @@
 import { motion } from 'framer-motion';
-import { CheckCircle2, BarChart3, Users } from 'lucide-react';
+import { CheckCircle2, BarChart3, Users, Database } from 'lucide-react';
 
 export function Features() {
   const features = [
+    {
+      icon: Database,
+      title: '数据即资产',
+      description: '将追溯数据转化为可确权、可交易、可增值的数字资产，释放数据要素价值',
+      color: 'from-indigo-500 to-purple-500'
+    },
     {
       icon: BarChart3,
       title: '数据驱动决策',
@@ -36,12 +42,15 @@ export function Features() {
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gray-900">核心优势</span>
           </h2>
-          <p className="text-2xl text-gray-600 max-w-4xl mx-auto">
+          <p className="text-2xl text-gray-600 max-w-4xl mx-auto mb-4">
             基于区块链技术的可信数据基础设施
+          </p>
+          <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+            让数据成为可确权、可流通、可增值的数字资产
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, i) => (
             <motion.div
               key={i}

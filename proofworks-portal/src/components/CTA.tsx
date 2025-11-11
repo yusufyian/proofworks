@@ -15,8 +15,11 @@ export function CTA() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-gray-900">开启数字化转型之旅</span>
           </h2>
-          <p className="text-xl text-gray-600 mb-12">
+          <p className="text-xl text-gray-600 mb-4">
             联系我们，获取专属解决方案和定制化服务
+          </p>
+          <p className="text-lg text-gray-500 mb-12">
+            让您的数据成为可确权、可流通、可增值的数字资产
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">

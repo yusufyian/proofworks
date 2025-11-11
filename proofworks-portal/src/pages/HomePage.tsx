@@ -19,7 +19,7 @@ export default function HomePage() {
         <Hero />
         <Stats />
         <Features />
-        <ApplicationSearch />
+        {/* <ApplicationSearch /> */}
         <ApplicationGrid />
         <Testimonials />
         <CTA />

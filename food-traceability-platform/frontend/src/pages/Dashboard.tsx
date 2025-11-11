@@ -153,7 +153,8 @@ export const Dashboard: React.FC = () => {
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-4xl font-bold mb-2">全链路追溯系统总览</h1>
-                <p className="text-primary-100 text-lg">Full-Chain Traceability System Overview</p>
+                <p className="text-primary-100 text-lg mb-3">Full-Chain Traceability System Overview</p>
+                <p className="text-primary-200 text-base font-medium">未来数据即资产 · 每一份追溯数据都是宝贵的数字资产</p>
               </div>
               <div className="hidden lg:flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl border border-white/30">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>

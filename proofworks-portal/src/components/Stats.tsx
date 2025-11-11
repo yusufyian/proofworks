@@ -42,8 +42,11 @@ export function Stats() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-gray-900">数据说话</span>
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-600 mb-2">
             用事实证明我们的价值
+          </p>
+          <p className="text-base text-gray-500">
+            数据即资产 · 让每一份数据都产生价值
           </p>
         </motion.div>
 

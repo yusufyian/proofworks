@@ -40,7 +40,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-2xl md:text-3xl text-gray-600 mb-16 max-w-4xl mx-auto leading-relaxed font-light"
+            className="text-2xl md:text-3xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-light"
           >
             十大规模化应用解决方案
             <br />
@@ -48,6 +48,23 @@ export function Hero() {
               降本增效 · 合规保障 · 数字化转型
             </span>
           </motion.p>
+
+          {/* Data as Asset concept */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            className="mb-16 max-w-4xl mx-auto"
+          >
+            <div className="inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100 shadow-sm">
+              <div className="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
+              <p className="text-lg md:text-xl font-semibold text-gray-800">
+                <span className="text-blue-600">数据即资产</span>
+                <span className="text-gray-600 mx-2">·</span>
+                <span className="text-gray-700">每一份不能被串改的可溯源数据都是宝贵的数字资产</span>
+              </p>
+            </div>
+          </motion.div>
 
           {/* CTA buttons - larger and more prominent */}
           <motion.div
