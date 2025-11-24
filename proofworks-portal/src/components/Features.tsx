@@ -5,26 +5,26 @@ export function Features() {
   const features = [
     {
       icon: Database,
-      title: '数据即资产',
-      description: '将追溯数据转化为可确权、可交易、可增值的数字资产，释放数据要素价值',
+      title: '可信数据空间',
+      description: '原始数据不出域、数据可用不可见，为数据要素市场化创造安全条件',
       color: 'from-indigo-500 to-purple-500'
     },
     {
       icon: BarChart3,
-      title: '数据驱动决策',
-      description: '实时数据分析和可视化报表，助力企业精准决策',
+      title: '自主可控技术',
+      description: '自主可控的高可信区块链网络，高性能、高安全、高互通',
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Users,
-      title: '多方协作',
-      description: '支持供应链上下游、金融机构、监管机构等多方参与',
+      title: '产业深度融合',
+      description: '脱虚向实，技术与产业深度融合，解决政务、医疗、教育、工业制造等领域的信任协作难题',
       color: 'from-purple-500 to-pink-500'
     },
     {
       icon: CheckCircle2,
-      title: '合规保障',
-      description: '严格遵守国内法律法规，通过审计和监管检查',
+      title: '主权区块链',
+      description: '国家主权和法律框架下运行，拥抱技术、排除投机，确保安全可控合规',
       color: 'from-green-500 to-emerald-500'
     }
   ];
@@ -43,10 +43,10 @@ export function Features() {
             <span className="text-gray-900">核心优势</span>
           </h2>
           <p className="text-2xl text-gray-600 max-w-4xl mx-auto mb-4">
-            基于区块链技术的可信数据基础设施
+            国家数字基础设施核心，为数据要素市场化奠定基石
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto">
-            让数据成为可确权、可流通、可增值的数字资产
+            服务实体经济和国家数字化战略，让数据成为可确权、可流通、可增值的数字资产
           </p>
         </motion.div>
 

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -10,9 +10,9 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold text-blue-600 mb-4">申达链</h3>
             <p className="text-gray-600 text-sm">
-              企业级区块链应用解决方案平台
+              服务实体经济和国家数字化战略的区块链基础设施
               <br />
-              助力企业数字化转型
+              构建自主可控的高可信区块链网络，为数据要素市场化奠定基石
             </p>
           </div>
 
@@ -43,17 +43,13 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:contact@proofworks.com" className="hover:text-blue-600 transition-colors">
-                  contact@proofworks.com
+                <a href="mailto:xenda@ftmoon.com" className="hover:text-blue-600 transition-colors">
+                  xenda@ftmoon.com
                 </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span>400-XXX-XXXX</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>北京市朝阳区</span>
+                <span>上海陆家嘴</span>
               </li>
             </ul>
           </div>

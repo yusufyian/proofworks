@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { WeChatQRModal } from './WeChatQR';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showQRModal, setShowQRModal] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,12 +38,12 @@ export function Navbar() {
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
               联系我们
             </a>
-            <a
-              href="mailto:contact@proofworks.com"
+            <button
+              onClick={() => setShowQRModal(true)}
               className="px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               立即咨询
-            </a>
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -82,15 +84,19 @@ export function Navbar() {
             >
               联系我们
             </a>
-            <a
-              href="mailto:contact@proofworks.com"
-              className="block px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold text-center hover:bg-blue-700 transition-colors"
+            <button
+              onClick={() => {
+                setShowQRModal(true);
+                setIsOpen(false);
+              }}
+              className="block w-full px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold text-center hover:bg-blue-700 transition-colors"
             >
               立即咨询
-            </a>
+            </button>
           </motion.div>
         )}
       </div>
+      <WeChatQRModal isOpen={showQRModal} onClose={() => setShowQRModal(false)} />
     </nav>
   );
 }

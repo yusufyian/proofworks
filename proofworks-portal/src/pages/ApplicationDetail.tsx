@@ -1,15 +1,18 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, Target, TrendingUp, Play, ExternalLink } from 'lucide-react';
+import { useState } from 'react';
 import { applications } from '../data/applications';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { ScrollToTop } from '../components/ScrollToTop';
 import { AnimatedGridBackground } from '../components/AnimatedGridBackground';
+import { WeChatQRModal } from '../components/WeChatQR';
 
 export default function ApplicationDetail() {
   const { id } = useParams<{ id: string }>();
   const app = applications.find(a => a.id === id);
+  const [showQRModal, setShowQRModal] = useState(false);
 
   if (!app) {
     return (
@@ -179,7 +182,7 @@ export default function ApplicationDetail() {
           >
             <div className="glass p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">准备开始了吗？</h3>
-              <p className="text-gray-600 mb-8">联系我们获取专属解决方案和定制化服务</p>
+              <p className="text-gray-600 mb-8">联系我们获取服务实体经济的区块链解决方案，实现技术与产业深度融合</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 {app.demoUrl && (
                   <motion.a
@@ -195,14 +198,14 @@ export default function ApplicationDetail() {
                     <ExternalLink className="w-4 h-4" />
                   </motion.a>
                 )}
-                <motion.a
-                  href="mailto:contact@proofworks.com"
+                <motion.button
+                  onClick={() => setShowQRModal(true)}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold text-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300"
                 >
                   立即咨询
-                </motion.a>
+                </motion.button>
               </div>
             </div>
           </motion.div>
@@ -211,6 +214,7 @@ export default function ApplicationDetail() {
 
         <Footer />
         <ScrollToTop />
+        <WeChatQRModal isOpen={showQRModal} onClose={() => setShowQRModal(false)} />
       </div>
     </div>
   );

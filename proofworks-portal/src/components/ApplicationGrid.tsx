@@ -19,9 +19,9 @@ export function ApplicationGrid() {
             <span className="text-gray-900">十大规模化应用解决方案</span>
           </h2>
           <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            覆盖供应链金融、食品安全、合规监管、数据要素等核心场景
+            脱虚向实，技术与产业深度融合
             <br />
-            <span className="text-xl text-gray-500">助力企业数字化转型，实现降本增效与合规保障</span>
+            <span className="text-xl text-gray-500">覆盖政务、医疗、教育、工业制造等领域，解决商业与社会治理中的信任协作难题</span>
           </p>
         </motion.div>
 
@@ -56,20 +56,20 @@ export function ApplicationGrid() {
             {[
               {
                 icon: Target,
-                title: '直击痛点',
-                description: '深入理解行业需求，直击企业核心痛点，提供针对性的解决方案',
+                title: '服务实体经济',
+                description: '聚焦技术与实体经济结合部，解决行业痛点，拥有实际落地案例',
                 color: 'from-blue-500 to-cyan-500'
               },
               {
                 icon: Zap,
-                title: '快速见效',
-                description: '投资回收期短，快速实现业务价值，ROI显著提升',
+                title: '产业深度融合',
+                description: '与政府及大型国企深度合作，在政务、医疗、教育、工业制造等领域实现产业融合',
                 color: 'from-purple-500 to-pink-500'
               },
               {
                 icon: Shield,
-                title: '合规保障',
-                description: '严格遵守国内监管要求，100%合规，避免法律风险',
+                title: '主权区块链',
+                description: '国家主权和法律框架下运行，拥抱技术、排除投机，确保安全可控合规',
                 color: 'from-green-500 to-emerald-500'
               }
             ].map((item, i) => (

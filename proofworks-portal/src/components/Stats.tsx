@@ -43,10 +43,10 @@ export function Stats() {
             <span className="text-gray-900">数据说话</span>
           </h2>
           <p className="text-xl text-gray-600 mb-2">
-            用事实证明我们的价值
+            用事实证明技术与实体经济深度融合的价值
           </p>
           <p className="text-base text-gray-500">
-            数据即资产 · 让每一份数据都产生价值
+            数据即资产 · 为数据要素市场化创造安全可信条件
           </p>
         </motion.div>
 

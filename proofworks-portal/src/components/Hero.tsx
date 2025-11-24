@@ -31,7 +31,7 @@ export function Hero() {
           >
             <span className="text-blue-600 block mb-4">申达链</span>
             <span className="text-gray-900 block text-5xl md:text-6xl lg:text-7xl font-light">
-              企业级区块链解决方案
+              服务实体经济的可信区块链基础设施
             </span>
           </motion.h1>
 
@@ -42,10 +42,10 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-2xl md:text-3xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-light"
           >
-            十大规模化应用解决方案
+            自主可控的高可信区块链网络
             <br />
             <span className="text-xl md:text-2xl text-gray-500 mt-4 block">
-              降本增效 · 合规保障 · 数字化转型
+              脱虚向实 · 产业融合 · 数据要素市场化
             </span>
           </motion.p>
 
@@ -61,7 +61,7 @@ export function Hero() {
               <p className="text-lg md:text-xl font-semibold text-gray-800">
                 <span className="text-blue-600">数据即资产</span>
                 <span className="text-gray-600 mx-2">·</span>
-                <span className="text-gray-700">每一份不能被串改的可溯源数据都是宝贵的数字资产</span>
+                <span className="text-gray-700">原始数据不出域、数据可用不可见，奠定数据要素市场化基石</span>
               </p>
             </div>
           </motion.div>
