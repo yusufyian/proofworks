@@ -57,7 +57,9 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
-          <p>© 2025 申达链. All rights reserved.</p>
+          <p className="copyright mt-4">
+            Copyright &#169; 2017-2026 申达链.可信区块链基础设施 | 行文教科 | <a target="_blank" href="https://beian.miit.gov.cn" className="hover:text-blue-600 transition-colors">沪ICP备19046337号-1</a>
+          </p>
         </div>
       </div>
     </footer>

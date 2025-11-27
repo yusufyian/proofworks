@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { QrCode, Smartphone } from 'lucide-react';
+import { createPortal } from 'react-dom';
 import ServiceQR1 from '../static/qr/Service_QR_1.png';
 import ServiceQR2 from '../static/qr/Service_QR_2.png';
 import DevCommunityQR from '../static/qr/dev_community_QR.png';
@@ -54,24 +55,26 @@ interface WeChatQRModalProps {
 }
 
 export function WeChatQRModal({ isOpen, onClose }: WeChatQRModalProps) {
-  return (
+  const modalContent = (
     <AnimatePresence>
       {isOpen && (
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
+          className="fixed inset-0 z-[9999] bg-black/50 backdrop-blur-sm p-4 overflow-y-auto"
           onClick={onClose}
+          style={{ position: 'fixed' }}
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            transition={{ type: "spring", duration: 0.5 }}
-            onClick={(e) => e.stopPropagation()}
-            className="bg-white rounded-2xl p-6 md:p-8 max-w-4xl w-full shadow-2xl relative max-h-[90vh] overflow-y-auto"
-          >
+          <div className="min-h-full flex items-center justify-center py-8">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: "spring", duration: 0.5 }}
+              onClick={(e) => e.stopPropagation()}
+              className="bg-white rounded-2xl p-6 md:p-8 max-w-4xl w-full shadow-2xl relative max-h-[calc(100vh-4rem)] overflow-y-auto my-auto"
+            >
             <button
               onClick={onClose}
               className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors z-10"
@@ -107,10 +110,13 @@ export function WeChatQRModal({ isOpen, onClose }: WeChatQRModalProps) {
                 guideText="打开微信扫一扫，加入社群"
               />
             </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </motion.div>
       )}
     </AnimatePresence>
   );
+
+  return typeof document !== 'undefined' ? createPortal(modalContent, document.body) : null;
 }
 

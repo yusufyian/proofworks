@@ -1,11 +1,15 @@
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
+import { useState } from 'react';
 import { WeChatQRCard } from './WeChatQR';
+import { EmailConsultationModal } from './EmailConsultation';
 import ServiceQR1 from '../static/qr/Service_QR_1.png';
 import ServiceQR2 from '../static/qr/Service_QR_2.png';
 import DevCommunityQR from '../static/qr/dev_community_QR.png';
 
 export function CTA() {
+  const [showEmailModal, setShowEmailModal] = useState(false);
+
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 relative bg-white">
       <div className="max-w-4xl mx-auto">
@@ -26,18 +30,26 @@ export function CTA() {
             构建可信数据空间，为数据要素市场化奠定基石，让数据成为可确权、可流通、可增值的数字资产
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* 邮件咨询 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="glass p-6 rounded-xl"
+              className="glass p-6 rounded-xl flex flex-col"
             >
               <Mail className="w-8 h-8 text-blue-600 mx-auto mb-3" />
               <p className="text-sm text-gray-500 mb-1">邮件咨询</p>
-              <p className="font-semibold text-gray-900">xenda@ftmoon.com</p>
+              <p className="font-semibold text-gray-900 mb-4">xenda@ftmoon.com</p>
+              <motion.button
+                onClick={() => setShowEmailModal(true)}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="mt-auto px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold text-sm shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
+              >
+                发送邮件咨询
+              </motion.button>
             </motion.div>
 
             {/* 微信咨询 - 产品咨询 1 */}
@@ -64,17 +76,9 @@ export function CTA() {
               guideText="打开微信扫一扫，加入社群"
             />
           </div>
-
-          <motion.a
-            href="mailto:xenda@ftmoon.com"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold text-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300"
-          >
-            发送邮件咨询
-          </motion.a>
         </motion.div>
       </div>
+      <EmailConsultationModal isOpen={showEmailModal} onClose={() => setShowEmailModal(false)} />
     </section>
   );
 }
