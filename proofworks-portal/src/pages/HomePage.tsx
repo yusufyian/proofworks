@@ -3,7 +3,6 @@ import { Hero } from '../components/Hero';
 import { Features } from '../components/Features';
 import { Stats } from '../components/Stats';
 import { ApplicationGrid } from '../components/ApplicationGrid';
-import { ApplicationSearch } from '../components/ApplicationSearch';
 import { Testimonials } from '../components/Testimonials';
 import { CTA } from '../components/CTA';
 import { Footer } from '../components/Footer';

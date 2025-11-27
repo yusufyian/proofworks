@@ -16,6 +16,10 @@ const colorMap: Record<string, string> = {
   violet: 'bg-violet-600 hover:bg-violet-700',
 };
 
+interface ApplicationCardProps {
+  application: Application;
+}
+
 export function ApplicationCard({ application }: ApplicationCardProps) {
   const buttonColorClass = colorMap[application.color] || 'bg-blue-600 hover:bg-blue-700';
 
@@ -42,7 +46,7 @@ export function ApplicationCard({ application }: ApplicationCardProps) {
 
             {/* Key metrics */}
             <div className="flex flex-wrap gap-2 mb-4">
-              {application.keyMetrics.slice(0, 2).map((metric, i) => (
+              {application.keyMetrics.slice(0, 2).map((metric: { label: string; value: string }, i: number) => (
                 <div
                   key={i}
                   className={`px-4 py-2 rounded-lg text-sm font-medium bg-gradient-to-r ${application.gradient} opacity-90 text-white`}
