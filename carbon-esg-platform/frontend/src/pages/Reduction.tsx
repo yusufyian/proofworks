@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { reductionApi } from '../api/reduction';
 import { blockchainApi } from '../api/blockchain';
-import { TrendingDown, Search, Award, Clock, Link2, Copy, CheckCircle2 } from 'lucide-react';
+import { TrendingDown, Search, Award, Link2, Copy, CheckCircle2 } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Reduction() {

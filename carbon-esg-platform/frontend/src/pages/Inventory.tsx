@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { inventoryApi } from '../api/inventory';
 import { blockchainApi } from '../api/blockchain';
-import { FileText, Plus, Search, CheckCircle2, Clock, AlertCircle, Link2, Copy } from 'lucide-react';
-import { format } from 'date-fns';
+import { FileText, Search, CheckCircle2, Clock, Link2, Copy } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Inventory() {

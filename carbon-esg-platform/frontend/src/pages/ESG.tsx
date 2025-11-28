@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { esgApi } from '../api/esg';
 import { blockchainApi } from '../api/blockchain';
-import { Award, Search, FileText, Link2, Copy, CheckCircle2 } from 'lucide-react';
+import { Award, Search, Link2, Copy, CheckCircle2 } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function ESG() {

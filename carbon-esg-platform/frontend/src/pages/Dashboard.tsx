@@ -3,12 +3,12 @@ import { useQuery } from 'react-query';
 import { dashboardApi } from '../api/dashboard';
 import { useAuthStore } from '../store/authStore';
 import { 
-  FileText, Leaf, TrendingDown, Award, Activity, Zap, 
+  Leaf, TrendingDown, Award, Activity, Zap, 
   BarChart3, PieChart, Sparkles, Globe, Factory
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { 
-  LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart as RechartsPieChart, 
+  AreaChart, Area, PieChart as RechartsPieChart, 
   Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
 } from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';

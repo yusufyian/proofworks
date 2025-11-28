@@ -6,7 +6,7 @@ import { useState } from 'react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Blockchain() {
-  const { data, isLoading, refetch } = useQuery('blockchain-records', blockchainApi.getRecords);
+  const { data, isLoading } = useQuery('blockchain-records', blockchainApi.getRecords);
   const [copiedHash, setCopiedHash] = useState<string | null>(null);
 
   const records = data?.data || [];
