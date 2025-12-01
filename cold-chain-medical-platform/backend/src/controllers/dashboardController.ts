@@ -10,7 +10,7 @@ function getLastNDays(n: number) {
   return days;
 }
 
-export const getDashboardStats = async (req: any, res: Response) => {
+export const getStats = async (req: any, res: Response) => {
   try {
     const batches = await storage.findBatches();
     const devices = await storage.findDevices();
@@ -120,3 +120,6 @@ export const getDashboardStats = async (req: any, res: Response) => {
     });
   }
 };
+
+// 导出别名，兼容旧代码
+export const getDashboardStats = getStats;

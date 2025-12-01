@@ -57,7 +57,7 @@ function PrivateRoute({ children }: { children: React.ReactNode }) {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/reconciliation">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route

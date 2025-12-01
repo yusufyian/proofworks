@@ -1,0 +1,98 @@
+{
+  "users": [],
+  "companies": [],
+  "emissionFactors": [
+    {
+      "id": "faf19100-64dd-4f0d-9e2d-72f225aa3680",
+      "name": "电力（华北电网）",
+      "category": "energy",
+      "unit": "kgCO2/kWh",
+      "factor": 0.8843,
+      "source": "生态环境部2023年",
+      "version": "2023",
+      "year": 2023,
+      "region": "华北",
+      "createdAt": "2025-12-01T02:39:36.539Z",
+      "updatedAt": "2025-12-01T02:39:36.540Z"
+    },
+    {
+      "id": "81a738d1-7719-4098-a241-12565d3842bd",
+      "name": "天然气",
+      "category": "energy",
+      "unit": "kgCO2/m³",
+      "factor": 2.1622,
+      "source": "国家标准",
+      "version": "2021",
+      "year": 2021,
+      "createdAt": "2025-12-01T02:39:36.541Z",
+      "updatedAt": "2025-12-01T02:39:36.541Z"
+    },
+    {
+      "id": "7c6ccf4b-dbd9-45c8-b6f5-60bda1fd1b8c",
+      "name": "汽油",
+      "category": "energy",
+      "unit": "kgCO2/L",
+      "factor": 2.925,
+      "source": "国家标准",
+      "version": "2021",
+      "year": 2021,
+      "createdAt": "2025-12-01T02:39:36.541Z",
+      "updatedAt": "2025-12-01T02:39:36.541Z"
+    },
+    {
+      "id": "0fa02325-f263-47e8-b14f-217c627f2831",
+      "name": "柴油",
+      "category": "energy",
+      "unit": "kgCO2/L",
+      "factor": 3.0956,
+      "source": "国家标准",
+      "version": "2021",
+      "year": 2021,
+      "createdAt": "2025-12-01T02:39:36.542Z",
+      "updatedAt": "2025-12-01T02:39:36.542Z"
+    },
+    {
+      "id": "42167dea-649d-40d2-a5df-41ee6253ec48",
+      "name": "煤炭（烟煤）",
+      "category": "energy",
+      "unit": "kgCO2/kg",
+      "factor": 1.9003,
+      "source": "国家标准",
+      "version": "2021",
+      "year": 2021,
+      "createdAt": "2025-12-01T02:39:36.543Z",
+      "updatedAt": "2025-12-01T02:39:36.543Z"
+    },
+    {
+      "id": "9935ad3a-74ee-4a90-a549-f1a620c48e2d",
+      "name": "公路运输",
+      "category": "transport",
+      "unit": "kgCO2/(t·km)",
+      "factor": 0.12,
+      "source": "IPCC",
+      "version": "2019",
+      "year": 2019,
+      "createdAt": "2025-12-01T02:39:36.544Z",
+      "updatedAt": "2025-12-01T02:39:36.544Z"
+    },
+    {
+      "id": "affc45cd-984e-4d45-83b3-69fec25acec9",
+      "name": "铁路运输",
+      "category": "transport",
+      "unit": "kgCO2/(t·km)",
+      "factor": 0.018,
+      "source": "IPCC",
+      "version": "2019",
+      "year": 2019,
+      "createdAt": "2025-12-01T02:39:36.544Z",
+      "updatedAt": "2025-12-01T02:39:36.544Z"
+    }
+  ],
+  "activityData": [],
+  "carbonInventories": [],
+  "productCarbonFootprints": [],
+  "reductionProjects": [],
+  "esgReports": [],
+  "verifications": [],
+  "supplierCarbonData": []
+}

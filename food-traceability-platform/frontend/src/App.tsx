@@ -11,7 +11,7 @@ import { LogisticsAnalysis } from './pages/LogisticsAnalysis';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/food-traceability">
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/products" element={<Products />} />

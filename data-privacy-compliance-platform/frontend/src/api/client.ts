@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3025';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/data-privacy-compliance/api';
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -30,7 +30,7 @@ apiClient.interceptors.response.use(
     if (error.response?.status === 401) {
       localStorage.removeItem('token');
       localStorage.removeItem('user');
-      window.location.href = '/login';
+      window.location.href = '/data-privacy-compliance/login';
     }
     return Promise.reject(error);
   }

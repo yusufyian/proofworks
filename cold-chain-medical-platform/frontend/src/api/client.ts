@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: '/api',
+  baseURL: '/cold-chain-medical/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -29,7 +29,7 @@ client.interceptors.response.use(
   (error) => {
     if (error.response?.status === 401) {
       localStorage.removeItem('token');
-      window.location.href = '/login';
+      window.location.href = '/cold-chain-medical/login';
     }
     return Promise.reject(error);
   }

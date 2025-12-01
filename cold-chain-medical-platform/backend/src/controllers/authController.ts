@@ -87,3 +87,6 @@ export const getMe = async (req: any, res: Response) => {
     });
   }
 };
+
+// 导出别名，兼容旧代码
+export const getCurrentUser = getMe;

@@ -133,7 +133,7 @@ export class DataGenerator {
 
   static generateDevices(companies: Company[]): Device[] {
     const devices: Device[] = [];
-    const warehouses = companies.filter(c => c.type === 'producer' || c.type === 'distributor');
+    const warehouses = companies.filter(c => c.type === 'producer' || c.type === 'wholesaler');
     const logistics = companies.filter(c => c.type === 'logistics');
 
     // 仓库设备
@@ -142,14 +142,14 @@ export class DataGenerator {
       for (let i = 0; i < deviceCount; i++) {
         devices.push({
           id: uuidv4(),
-          deviceNo: `WH-${company.name.substring(0, 2)}-${String(index + 1).padStart(3, '0')}-${String(i + 1).padStart(2, '0')}`,
+          deviceId: `WH-${company.name.substring(0, 2)}-${String(index + 1).padStart(3, '0')}-${String(i + 1).padStart(2, '0')}`,
+          name: `${company.name}冷库${i + 1}号库`,
+          type: 'warehouse',
           deviceType: 'warehouse',
-          model: randomChoice(DEVICE_MODELS.warehouse),
-          manufacturer: randomChoice(DEVICE_MANUFACTURERS),
-          installationLocation: `${company.name}冷库${i + 1}号库`,
+          location: `${company.name}冷库${i + 1}号库`,
           calibrationDate: dayjs().subtract(randomInt(0, 6), 'month').toISOString(),
           nextCalibrationDate: dayjs().add(randomInt(0, 6), 'month').toISOString(),
-          status: randomChoice(['active', 'active', 'active', 'maintenance']),
+          status: randomChoice(['online', 'online', 'online', 'maintenance']),
           createdAt: dayjs().subtract(randomInt(30, 180), 'day').toISOString(),
           updatedAt: dayjs().subtract(randomInt(1, 30), 'day').toISOString(),
         });
@@ -162,14 +162,14 @@ export class DataGenerator {
       for (let i = 0; i < vehicleCount; i++) {
         devices.push({
           id: uuidv4(),
-          deviceNo: `VEH-${company.name.substring(0, 2)}-${String(index + 1).padStart(3, '0')}-${String(i + 1).padStart(3, '0')}`,
+          deviceId: `VEH-${company.name.substring(0, 2)}-${String(index + 1).padStart(3, '0')}-${String(i + 1).padStart(3, '0')}`,
+          name: `冷链车-${String(i + 1).padStart(3, '0')}`,
+          type: 'vehicle',
           deviceType: 'vehicle',
-          model: randomChoice(DEVICE_MODELS.vehicle),
-          manufacturer: randomChoice(DEVICE_MANUFACTURERS),
           vehicleId: `V${String(randomInt(10000, 99999))}`,
           calibrationDate: dayjs().subtract(randomInt(0, 6), 'month').toISOString(),
           nextCalibrationDate: dayjs().add(randomInt(0, 6), 'month').toISOString(),
-          status: randomChoice(['active', 'active', 'active', 'maintenance']),
+          status: randomChoice(['online', 'online', 'online', 'maintenance']),
           createdAt: dayjs().subtract(randomInt(30, 180), 'day').toISOString(),
           updatedAt: dayjs().subtract(randomInt(1, 30), 'day').toISOString(),
         });
@@ -180,13 +180,13 @@ export class DataGenerator {
     for (let i = 0; i < 50; i++) {
       devices.push({
         id: uuidv4(),
-        deviceNo: `PORT-${String(i + 1).padStart(4, '0')}`,
+        deviceId: `PORT-${String(i + 1).padStart(4, '0')}`,
+        name: `便携设备-${String(i + 1).padStart(4, '0')}`,
+        type: 'portable',
         deviceType: 'portable',
-        model: randomChoice(DEVICE_MODELS.portable),
-        manufacturer: randomChoice(DEVICE_MANUFACTURERS),
         calibrationDate: dayjs().subtract(randomInt(0, 6), 'month').toISOString(),
         nextCalibrationDate: dayjs().add(randomInt(0, 6), 'month').toISOString(),
-        status: randomChoice(['active', 'active', 'inactive']),
+        status: randomChoice(['online', 'online', 'offline']),
         createdAt: dayjs().subtract(randomInt(30, 180), 'day').toISOString(),
         updatedAt: dayjs().subtract(randomInt(1, 30), 'day').toISOString(),
       });
@@ -207,13 +207,25 @@ export class DataGenerator {
       const expiryDate = productionDate.add(randomInt(180, 730), 'day');
       
       // 根据产品类型确定温度要求
-      let tempRequirement;
+      let tempRange;
       if (productName.includes('疫苗')) {
-        tempRequirement = { min: 2, max: 8, type: 'refrigerated' as const };
+        tempRange = { min: 2, max: 8 };
       } else if (productName.includes('胰岛素') || productName.includes('干扰素')) {
-        tempRequirement = { min: 2, max: 8, type: 'refrigerated' as const };
+        tempRange = { min: 2, max: 8 };
       } else {
-        tempRequirement = { min: 2, max: 8, type: 'refrigerated' as const };
+        tempRange = { min: 2, max: 8 };
+      }
+
+      // 确定产品类型
+      let productType: Batch['productType'] = 'vaccine_cold';
+      if (productName.includes('疫苗')) {
+        productType = 'vaccine_cold';
+      } else if (productName.includes('胰岛素')) {
+        productType = 'insulin';
+      } else if (productName.includes('干扰素') || productName.includes('白蛋白')) {
+        productType = 'biologic';
+      } else {
+        productType = 'cold_drug';
       }
 
       const statuses: Batch['status'][] = ['in_storage', 'in_transit', 'delivered', 'in_storage', 'in_transit'];
@@ -223,15 +235,16 @@ export class DataGenerator {
         id: uuidv4(),
         batchNo: `BATCH-${productionDate.format('YYYYMMDD')}-${String(i + 1).padStart(4, '0')}`,
         productName,
+        productType,
         productCode: `PROD-${productName.substring(0, 2).toUpperCase()}-${String(randomInt(1000, 9999))}`,
-        specification: `${randomInt(5, 50)}ml/支`,
-        manufacturer: producer.name,
+        producerId: producer.id,
         manufacturerId: producer.id,
         productionDate: productionDate.toISOString(),
         expiryDate: expiryDate.toISOString(),
         quantity: randomInt(100, 10000),
         unit: '支',
-        temperatureRequirement: tempRequirement,
+        temperatureRange: tempRange,
+        temperatureRequirement: tempRange,
         traceCode: `TRACE-${randomInt(100000000000, 999999999999)}`,
         status,
         currentLocation: status === 'delivered' ? randomChoice(companies.filter(c => c.type === 'hospital' || c.type === 'pharmacy')).name : producer.name,
@@ -254,12 +267,12 @@ export class DataGenerator {
 
     // 为每个批次生成温度记录
     batches.forEach((batch) => {
-      const tempMin = batch.temperatureRequirement.min;
-      const tempMax = batch.temperatureRequirement.max;
+      const tempMin = batch.temperatureRange.min;
+      const tempMax = batch.temperatureRange.max;
       const tempCenter = (tempMin + tempMax) / 2;
 
       // 存储期间的记录
-      if (batch.status !== 'in_production') {
+      if (batch.status === 'in_storage' || batch.status === 'in_transit' || batch.status === 'delivered') {
         const storageDevice = randomChoice(warehouseDevices);
         const storageStart = dayjs(batch.createdAt);
         const daysInStorage = randomInt(1, 30);
@@ -283,7 +296,6 @@ export class DataGenerator {
                 id: uuidv4(),
                 batchId: batch.id,
                 deviceId: storageDevice.id,
-                deviceType: 'warehouse',
                 timestamp: timestamp.toISOString(),
                 temperature: parseFloat(temperature.toFixed(2)),
                 humidity: randomFloat(40, 70),
@@ -323,14 +335,12 @@ export class DataGenerator {
               id: uuidv4(),
               batchId: batch.id,
               deviceId: transportDevice.id,
-              deviceType: transportDevice.deviceType,
               timestamp: timestamp.toISOString(),
               temperature: parseFloat(temperature.toFixed(2)),
               humidity: randomFloat(45, 75),
               location: {
                 lat: city.lat + randomFloat(-0.5, 0.5),
                 lng: city.lng + randomFloat(-0.5, 0.5),
-                address: `${city.name}市`,
               },
               vibration: randomFloat(0.2, 1.5),
               doorStatus: randomChoice(['open', 'closed', 'closed', 'closed', 'closed']),
@@ -350,7 +360,7 @@ export class DataGenerator {
   ): Transport[] {
     const transports: Transport[] = [];
     const producers = companies.filter(c => c.type === 'producer');
-    const distributors = companies.filter(c => c.type === 'distributor');
+    const wholesalers = companies.filter(c => c.type === 'wholesaler');
     const hospitals = companies.filter(c => c.type === 'hospital' || c.type === 'pharmacy');
     const logistics = companies.filter(c => c.type === 'logistics');
 
@@ -361,31 +371,30 @@ export class DataGenerator {
       const batchGroup = inTransitBatches.slice(i * 2, (i + 1) * 2).filter(Boolean);
       if (batchGroup.length === 0) continue;
 
-      const origin = randomChoice([...producers, ...distributors]);
-      const destination = randomChoice([...distributors, ...hospitals]);
+      const origin = randomChoice([...producers, ...wholesalers]);
+      const destination = randomChoice([...wholesalers, ...hospitals]);
       const logisticsCompany = randomChoice(logistics);
       
       const startTime = dayjs().subtract(randomInt(1, 30), 'day');
       const estimatedHours = randomInt(4, 12);
       const estimatedArrival = startTime.add(estimatedHours, 'hour');
       
-      const statuses: Transport['status'][] = ['completed', 'completed', 'completed', 'in_transit', 'abnormal'];
+      const statuses: Transport['status'][] = ['delivered', 'delivered', 'delivered', 'in_transit', 'pending'];
       const status = randomChoice(statuses);
       
-      const actualArrival = status === 'completed' || status === 'abnormal'
+      const actualArrival = status === 'delivered'
         ? estimatedArrival.add(randomInt(-2, 4), 'hour')
         : undefined;
 
       // 生成路线
-      const waypoints = [];
+      const waypoints: Array<{ lat: number; lng: number; name: string }> = [];
       const startCity = randomChoice(CITIES);
       const endCity = randomChoice(CITIES.filter(c => c.name !== startCity.name));
       
       waypoints.push({
         lat: startCity.lat,
         lng: startCity.lng,
-        address: `${startCity.name}市 - ${origin.name}`,
-        timestamp: startTime.toISOString(),
+        name: `${startCity.name}市 - ${origin.name}`,
       });
 
       // 中间点
@@ -395,32 +404,37 @@ export class DataGenerator {
         waypoints.push({
           lat: midCity.lat,
           lng: midCity.lng,
-          address: `${midCity.name}市 - 中转站`,
-          timestamp: startTime.add((j + 1) * estimatedHours / (midPoints + 1), 'hour').toISOString(),
+          name: `${midCity.name}市 - 中转站`,
         });
       }
 
       waypoints.push({
         lat: endCity.lat,
         lng: endCity.lng,
-        address: `${endCity.name}市 - ${destination.name}`,
-        timestamp: actualArrival?.toISOString() || estimatedArrival.toISOString(),
+        name: `${endCity.name}市 - ${destination.name}`,
       });
 
       transports.push({
         id: uuidv4(),
         transportNo: `TRANS-${startTime.format('YYYYMMDD')}-${String(i + 1).padStart(4, '0')}`,
         batchIds: batchGroup.map(b => b.id),
+        fromCompanyId: origin.id,
+        toCompanyId: destination.id,
         originCompanyId: origin.id,
         destinationCompanyId: destination.id,
         vehicleId: `V${String(randomInt(10000, 99999))}`,
         driverName: `司机${randomInt(1, 100)}`,
         driverPhone: `1${randomInt(3, 9)}${String(randomInt(100000000, 999999999))}`,
         startTime: startTime.toISOString(),
+        endTime: actualArrival?.toISOString(),
         estimatedArrivalTime: estimatedArrival.toISOString(),
         actualArrivalTime: actualArrival?.toISOString(),
         status,
-        route: { waypoints },
+        route: {
+          start: { lat: startCity.lat, lng: startCity.lng, name: `${startCity.name}市 - ${origin.name}` },
+          end: { lat: endCity.lat, lng: endCity.lng, name: `${endCity.name}市 - ${destination.name}` },
+          waypoints: waypoints.slice(1, -1),
+        },
         createdAt: startTime.toISOString(),
         updatedAt: actualArrival?.toISOString() || dayjs().toISOString(),
       });
@@ -439,6 +453,7 @@ export class DataGenerator {
     // 分析温度记录，找出异常
     const recordsByBatch = new Map<string, TemperatureRecord[]>();
     temperatureRecords.forEach(record => {
+      if (!record.batchId) return; // 跳过没有 batchId 的记录
       if (!recordsByBatch.has(record.batchId)) {
         recordsByBatch.set(record.batchId, []);
       }
@@ -449,8 +464,8 @@ export class DataGenerator {
       const batch = batches.find(b => b.id === batchId);
       if (!batch) return;
 
-      const tempMin = batch.temperatureRequirement.min;
-      const tempMax = batch.temperatureRequirement.max;
+      const tempMin = batch.temperatureRange.min;
+      const tempMax = batch.temperatureRange.max;
 
       // 检查温度异常
       records.forEach((record, index) => {
@@ -461,21 +476,20 @@ export class DataGenerator {
             .filter(r => r.temperature < tempMin || r.temperature > tempMax).length;
 
           if (consecutiveAbnormal >= 3) {
-            const severity = consecutiveAbnormal >= 20 ? 'critical' : consecutiveAbnormal >= 10 ? 'high' : 'medium';
-            const alertType = record.temperature > tempMax ? 'temperature_high' : 'temperature_low';
+            const level = consecutiveAbnormal >= 20 ? 'critical' : consecutiveAbnormal >= 10 ? 'serious' : 'warning';
+            const alertType: Alert['type'] = record.temperature > tempMax ? 'temperature' : 'temperature';
 
             alerts.push({
               id: uuidv4(),
               batchId,
-              transportId: transports.find(t => t.batchIds.includes(batchId))?.id,
               deviceId: record.deviceId,
-              alertType,
-              severity,
-              title: `批次 ${batch.batchNo} 温度${alertType === 'temperature_high' ? '过高' : '过低'}`,
-              description: `检测到批次 ${batch.batchNo} 在 ${dayjs(record.timestamp).format('YYYY-MM-DD HH:mm')} 温度异常：${record.temperature}°C，超出范围 [${tempMin}°C, ${tempMax}°C]`,
+              type: alertType,
+              level,
+              message: `检测到批次 ${batch.batchNo} 在 ${dayjs(record.timestamp).format('YYYY-MM-DD HH:mm')} 温度异常：${record.temperature}°C，超出范围 [${tempMin}°C, ${tempMax}°C]`,
               temperature: record.temperature,
-              expectedRange: { min: tempMin, max: tempMax },
-              status: severity === 'critical' ? 'active' : randomChoice(['active', 'acknowledged', 'resolved']),
+              threshold: record.temperature > tempMax ? tempMax : tempMin,
+              duration: consecutiveAbnormal * 5, // 假设每5分钟一条记录
+              status: level === 'critical' ? 'pending' : randomChoice(['pending', 'acknowledged', 'resolved']),
               createdAt: record.timestamp,
               updatedAt: record.timestamp,
             });
@@ -486,18 +500,17 @@ export class DataGenerator {
 
     // 生成一些其他类型的告警
     transports.forEach(transport => {
-      if (transport.status === 'abnormal') {
+      if (transport.status === 'pending' && transport.estimatedArrivalTime && dayjs(transport.estimatedArrivalTime).isBefore(dayjs())) {
         alerts.push({
           id: uuidv4(),
           batchId: transport.batchIds[0],
-          transportId: transport.id,
-          deviceId: uuidv4(),
-          alertType: 'delayed',
-          severity: 'medium',
-          title: `运输 ${transport.transportNo} 延迟`,
-          description: `运输任务 ${transport.transportNo} 预计到达时间已过，但尚未到达目的地`,
-          status: randomChoice(['active', 'acknowledged', 'resolved']),
-          createdAt: transport.estimatedArrivalTime,
+          deviceId: transport.vehicleId || uuidv4(),
+          type: 'device_offline',
+          level: 'warning',
+          message: `运输任务 ${transport.transportNo} 预计到达时间已过，但尚未到达目的地`,
+          duration: dayjs().diff(dayjs(transport.estimatedArrivalTime), 'minute'),
+          status: randomChoice(['pending', 'acknowledged', 'resolved']),
+          createdAt: transport.estimatedArrivalTime || transport.createdAt,
           updatedAt: transport.updatedAt,
         });
       }
@@ -509,11 +522,11 @@ export class DataGenerator {
   static generateTraceRecords(batches: Batch[], companies: Company[]): TraceRecord[] {
     const records: TraceRecord[] = [];
     const producers = companies.filter(c => c.type === 'producer');
-    const distributors = companies.filter(c => c.type === 'distributor');
+    const wholesalers = companies.filter(c => c.type === 'wholesaler');
     const hospitals = companies.filter(c => c.type === 'hospital' || c.type === 'pharmacy');
 
     batches.forEach(batch => {
-      const producer = producers.find(c => c.id === batch.manufacturerId);
+      const producer = producers.find(c => c.id === (batch.manufacturerId || batch.producerId));
       if (!producer) return;
 
       let currentTime = dayjs(batch.productionDate);
@@ -548,14 +561,14 @@ export class DataGenerator {
         operator: `仓库管理员${randomInt(1, 20)}`,
         operatorId: uuidv4(),
         timestamp: currentTime.toISOString(),
-        temperature: randomFloat(batch.temperatureRequirement.min, batch.temperatureRequirement.max),
+        temperature: randomFloat(batch.temperatureRange.min, batch.temperatureRange.max),
         quantity: batch.quantity,
         notes: `批次 ${batch.batchNo} 入库`,
         createdAt: currentTime.toISOString(),
       });
 
       // 出库
-      if (batch.status !== 'in_production') {
+      if (batch.status === 'in_storage' || batch.status === 'in_transit' || batch.status === 'delivered') {
         currentTime = currentTime.add(randomInt(1, 30), 'day');
         records.push({
           id: uuidv4(),
@@ -567,7 +580,7 @@ export class DataGenerator {
           operator: `仓库管理员${randomInt(1, 20)}`,
           operatorId: uuidv4(),
           timestamp: currentTime.toISOString(),
-          temperature: randomFloat(batch.temperatureRequirement.min, batch.temperatureRequirement.max),
+          temperature: randomFloat(batch.temperatureRange.min, batch.temperatureRange.max),
           quantity: batch.quantity,
           notes: `批次 ${batch.batchNo} 出库`,
           createdAt: currentTime.toISOString(),
@@ -575,26 +588,26 @@ export class DataGenerator {
 
         // 如果是配送，记录配送商
         if (batch.status === 'in_transit' || batch.status === 'delivered') {
-          const distributor = randomChoice(distributors);
+          const wholesaler = randomChoice(wholesalers);
           currentTime = currentTime.add(randomInt(1, 6), 'hour');
           records.push({
             id: uuidv4(),
             batchId: batch.id,
             eventType: 'transport_start',
-            location: distributor.address,
-            companyId: distributor.id,
-            companyName: distributor.name,
+            location: wholesaler.address,
+            companyId: wholesaler.id,
+            companyName: wholesaler.name,
             operator: `物流员${randomInt(1, 30)}`,
             operatorId: uuidv4(),
             timestamp: currentTime.toISOString(),
-            temperature: randomFloat(batch.temperatureRequirement.min, batch.temperatureRequirement.max),
+            temperature: randomFloat(batch.temperatureRange.min, batch.temperatureRange.max),
             notes: `批次 ${batch.batchNo} 开始运输`,
             createdAt: currentTime.toISOString(),
           });
 
           // 送达
           if (batch.status === 'delivered') {
-            const destination = randomChoice([...distributors, ...hospitals].filter(c => c.id !== distributor.id));
+            const destination = randomChoice([...wholesalers, ...hospitals].filter(c => c.id !== wholesaler.id));
             currentTime = currentTime.add(randomInt(4, 12), 'hour');
             records.push({
               id: uuidv4(),
@@ -606,7 +619,7 @@ export class DataGenerator {
               operator: `收货员${randomInt(1, 20)}`,
               operatorId: uuidv4(),
               timestamp: currentTime.toISOString(),
-              temperature: randomFloat(batch.temperatureRequirement.min, batch.temperatureRequirement.max),
+              temperature: randomFloat(batch.temperatureRange.min, batch.temperatureRange.max),
               quantity: batch.quantity,
               notes: `批次 ${batch.batchNo} 送达`,
               createdAt: currentTime.toISOString(),

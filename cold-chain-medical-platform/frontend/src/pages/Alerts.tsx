@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { alertsApi } from '../api/alerts';
-import { AlertTriangle, CheckCircle, XCircle, Clock, Filter } from 'lucide-react';
+import { AlertTriangle, Filter } from 'lucide-react';
 import { format } from 'date-fns';
 import HelpTooltip from '../components/HelpTooltip';
 

@@ -16,6 +16,7 @@ export interface Company {
   address: string;
   contact: string;
   phone: string;
+  unifiedSocialCreditCode?: string;
   createdAt: string;
   updatedAt: string;
 }
@@ -25,6 +26,7 @@ export interface Device {
   deviceId: string;
   name: string;
   type: 'warehouse' | 'vehicle' | 'portable';
+  deviceType?: 'warehouse' | 'vehicle' | 'portable'; // 别名，兼容旧代码
   location?: string;
   vehicleId?: string;
   status: 'online' | 'offline' | 'maintenance';
@@ -39,12 +41,18 @@ export interface Batch {
   batchNo: string;
   productName: string;
   productType: 'vaccine_cold' | 'vaccine_frozen' | 'biologic' | 'insulin' | 'cold_drug' | 'cool_drug';
+  productCode?: string;
   producerId: string;
+  manufacturerId?: string; // 别名，兼容旧代码
   productionDate: string;
   expiryDate: string;
   quantity: number;
   unit: string;
   temperatureRange: {
+    min: number;
+    max: number;
+  };
+  temperatureRequirement?: { // 别名，兼容旧代码
     min: number;
     max: number;
   };
@@ -96,11 +104,15 @@ export interface Transport {
   batchIds: string[];
   fromCompanyId: string;
   toCompanyId: string;
+  originCompanyId?: string; // 别名，兼容旧代码
+  destinationCompanyId?: string; // 别名，兼容旧代码
   vehicleId?: string;
   driverName?: string;
   driverPhone?: string;
   startTime: string;
   endTime?: string;
+  estimatedArrivalTime?: string; // 兼容旧代码
+  actualArrivalTime?: string; // 兼容旧代码
   status: 'pending' | 'in_transit' | 'delivered' | 'rejected' | 'cancelled';
   route?: {
     start: { lat: number; lng: number; name: string };
@@ -130,4 +142,23 @@ export interface Incident {
   inspectedAt?: string;
   createdAt: string;
   updatedAt: string;
+}
+
+// 导出别名类型，兼容旧代码
+export type TemperatureRecord = TemperatureData;
+
+export interface TraceRecord {
+  id: string;
+  batchId: string;
+  eventType: string;
+  location: string;
+  companyId?: string;
+  companyName?: string;
+  operator?: string;
+  operatorId?: string;
+  timestamp: string;
+  temperature?: number;
+  quantity?: number;
+  notes?: string;
+  createdAt: string;
 }

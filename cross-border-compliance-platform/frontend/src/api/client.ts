@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 
 const apiClient = axios.create({
-  baseURL: '/api',
+  baseURL: '/cross-border-compliance/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -26,7 +26,7 @@ apiClient.interceptors.response.use(
   (error) => {
     if (error.response?.status === 401) {
       useAuthStore.getState().logout();
-      window.location.href = '/login';
+      window.location.href = '/cross-border-compliance/login';
     }
     return Promise.reject(error);
   }

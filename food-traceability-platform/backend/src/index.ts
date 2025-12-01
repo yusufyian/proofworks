@@ -12,7 +12,10 @@ const app = express();
 const PORT = process.env.PORT || 3022;
 
 // 中间件
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || 'https://www.ftmoon.com',
+  credentials: true
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

@@ -176,13 +176,16 @@ class FileStorage {
     return this.data.batches.find(b => b.id === id) || null;
   }
 
-  async findBatches(filter?: { producerId?: string; status?: string; search?: string }): Promise<Batch[]> {
+  async findBatches(filter?: { producerId?: string; status?: string; search?: string; batchNo?: string }): Promise<Batch[]> {
     let result = [...this.data.batches];
     if (filter?.producerId) {
       result = result.filter(b => b.producerId === filter.producerId);
     }
     if (filter?.status) {
       result = result.filter(b => b.status === filter.status);
+    }
+    if (filter?.batchNo) {
+      result = result.filter(b => b.batchNo === filter.batchNo);
     }
     if (filter?.search) {
       const searchLower = filter.search.toLowerCase();
@@ -260,6 +263,56 @@ class FileStorage {
     }
     
     return sorted;
+  }
+
+  // 别名方法，兼容旧代码
+  async findTemperatureRecords(filter: {
+    deviceId?: string;
+    batchId?: string;
+    startTime?: string;
+    endTime?: string;
+  }): Promise<TemperatureData[]> {
+    return this.findTemperatureData(filter);
+  }
+
+  // 查找追溯记录（从运输记录和温度数据中构建）
+  async findTraceRecords(batchId: string): Promise<any[]> {
+    const batch = await this.findBatch(batchId);
+    if (!batch) return [];
+
+    const transports = this.data.transports.filter(t => t.batchIds.includes(batchId));
+    const temperatureData = this.data.temperatureData.filter(t => t.batchId === batchId);
+
+    const records: any[] = [];
+
+    // 添加生产记录
+    records.push({
+      id: uuidv4(),
+      batchId: batch.id,
+      eventType: 'production',
+      location: batch.currentLocation || '',
+      companyId: batch.producerId,
+      timestamp: batch.productionDate,
+      notes: `批次 ${batch.batchNo} 生产完成`,
+    });
+
+    // 添加运输记录
+    transports.forEach(transport => {
+      records.push({
+        id: transport.id,
+        batchId: batch.id,
+        eventType: 'transport',
+        location: transport.route?.start.name || '',
+        companyId: transport.fromCompanyId,
+        timestamp: transport.startTime,
+        notes: `运输单 ${transport.transportNo}`,
+      });
+    });
+
+    // 按时间排序
+    return records.sort((a, b) => 
+      new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
+    );
   }
 
   // Alerts

@@ -86,3 +86,61 @@ export const updateAlert = async (req: any, res: Response) => {
     });
   }
 };
+
+export const acknowledgeAlert = async (req: any, res: Response) => {
+  try {
+    const { id } = req.params;
+    const alert = await storage.updateAlert(id, {
+      status: 'acknowledged',
+      handlerId: req.user?.userId,
+      handledAt: new Date().toISOString(),
+    });
+    
+    if (!alert) {
+      return res.status(404).json({
+        success: false,
+        message: '告警不存在',
+      });
+    }
+
+    res.json({
+      success: true,
+      data: alert,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+export const resolveAlert = async (req: any, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { resolution } = req.body;
+    const alert = await storage.updateAlert(id, {
+      status: 'resolved',
+      handlerId: req.user?.userId,
+      handledAt: new Date().toISOString(),
+      resolution: resolution || '已处理',
+    });
+    
+    if (!alert) {
+      return res.status(404).json({
+        success: false,
+        message: '告警不存在',
+      });
+    }
+
+    res.json({
+      success: true,
+      data: alert,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};

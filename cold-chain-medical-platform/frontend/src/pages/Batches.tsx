@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { batchesApi } from '../api/batches';
-import { Package, Search, Filter, Info } from 'lucide-react';
+import { Package, Search, Filter } from 'lucide-react';
 import { format } from 'date-fns';
 import HelpTooltip from '../components/HelpTooltip';
 

@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import { devicesApi } from '../api/devices';
-import { Cpu, CheckCircle, XCircle, AlertCircle, Calendar } from 'lucide-react';
+import { Cpu, AlertCircle } from 'lucide-react';
 import { format } from 'date-fns';
 import HelpTooltip from '../components/HelpTooltip';
 

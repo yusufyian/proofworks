@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 
 const apiClient = axios.create({
-  baseURL: '/api',
+  baseURL: '/supply-chain-finance/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -28,7 +28,7 @@ apiClient.interceptors.response.use(
   (error) => {
     if (error.response?.status === 401) {
       useAuthStore.getState().logout();
-      window.location.href = '/login';
+      window.location.href = '/supply-chain-finance/login';
     }
     return Promise.reject(error);
   }

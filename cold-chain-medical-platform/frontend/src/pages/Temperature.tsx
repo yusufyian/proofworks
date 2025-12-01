@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { useQuery } from 'react-query';
 import { temperatureApi } from '../api/temperature';
 import { batchesApi } from '../api/batches';
-import { Thermometer, Snowflake, Calendar } from 'lucide-react';
+import { Thermometer, Snowflake } from 'lucide-react';
 import { format, subDays } from 'date-fns';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine } from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';
@@ -269,7 +269,7 @@ export default function Temperature() {
                   stroke="#3b82f6" 
                   strokeWidth={2}
                   dot={chartData.length < 50}
-                  dotRadius={chartData.length < 50 ? 3 : 0}
+                  radius={chartData.length < 50 ? 3 : 0}
                   activeDot={{ r: 5 }}
                   name="温度 (°C)"
                   isAnimationActive={true}

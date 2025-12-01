@@ -59,7 +59,16 @@ export async function createInventory(req: AuthRequest, res: Response) {
 
     const totalEmissions = (scope1Emissions || 0) + (scope2Emissions || 0) + (scope3Emissions || 0);
 
-    const inventoryData = {
+    const inventoryData: {
+      companyId: string;
+      period: any;
+      scope1Emissions: any;
+      scope2Emissions: any;
+      scope3Emissions: any;
+      totalEmissions: any;
+      status: any;
+      blockchainHash?: string;
+    } = {
       companyId: req.user.companyId!,
       period,
       scope1Emissions: scope1Emissions || 0,

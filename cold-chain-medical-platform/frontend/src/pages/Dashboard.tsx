@@ -4,7 +4,7 @@ import { dashboardApi } from '../api/dashboard';
 import { useAuthStore } from '../store/authStore';
 import { 
   Package, AlertTriangle, Truck, Cpu, TrendingUp, CheckCircle2, 
-  Activity, Zap, BarChart3, PieChart, Sparkles, Snowflake, Thermometer
+  Activity, BarChart3, PieChart, Sparkles, Snowflake, Thermometer
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { 
@@ -111,17 +111,6 @@ export default function Dashboard() {
     return [];
   };
 
-  const getAlertDistribution = () => {
-    if (stats.alertStats) {
-      return [
-        { name: '预警', value: stats.alertStats.warning || 0, color: chartColors.warning },
-        { name: '严重', value: stats.alertStats.serious || 0, color: chartColors.danger },
-        { name: '紧急', value: stats.alertStats.critical || 0, color: '#dc2626' },
-      ].filter(item => item.value > 0);
-    }
-    return [];
-  };
-
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-64">
@@ -135,7 +124,6 @@ export default function Dashboard() {
 
   const trendData = getTrendData();
   const statusData = getStatusDistribution();
-  const alertData = getAlertDistribution();
 
   return (
     <div className="space-y-8 relative">

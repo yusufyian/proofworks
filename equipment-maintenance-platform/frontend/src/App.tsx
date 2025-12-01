@@ -14,7 +14,7 @@ function App() {
   const { isAuthenticated } = useAuthStore();
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/equipment-maintenance">
       <Routes>
         <Route path="/login" element={isAuthenticated ? <Navigate to="/" /> : <Login />} />
         <Route

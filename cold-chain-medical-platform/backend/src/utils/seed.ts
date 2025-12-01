@@ -309,7 +309,6 @@ async function seed() {
       threshold: batch.temperatureRange.max,
       duration: Math.floor(Math.random() * 120) + 10,
       status: ['pending', 'acknowledged', 'resolved', 'false_alarm'][Math.floor(Math.random() * 4)] as Alert['status'],
-      createdAt: dayjs().subtract(Math.floor(Math.random() * 30), 'day').toISOString(),
     });
   }
 
@@ -343,7 +342,6 @@ async function seed() {
         end: { lat: endCity.lat, lng: endCity.lng, name: endCity.name },
       },
       complianceScore: Math.random() > 0.2 ? Math.floor(Math.random() * 15) + 85 : Math.floor(Math.random() * 20) + 70,
-      createdAt: dayjs().subtract(Math.floor(Math.random() * 30), 'day').toISOString(),
     });
   }
 
