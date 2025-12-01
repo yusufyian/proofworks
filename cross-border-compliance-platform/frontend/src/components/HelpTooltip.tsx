@@ -4,7 +4,6 @@ import { HelpCircle, X } from 'lucide-react';
 interface HelpTooltipProps {
   content: string | React.ReactNode;
   title?: string;
-  position?: 'top' | 'bottom' | 'left' | 'right';
   mode?: 'hover' | 'click';
   className?: string;
 }
@@ -12,7 +11,6 @@ interface HelpTooltipProps {
 export default function HelpTooltip({
   content,
   title,
-  position = 'top',
   mode = 'click',
   className = '',
 }: HelpTooltipProps) {

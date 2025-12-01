@@ -2,13 +2,13 @@ import { useQuery } from 'react-query';
 import { dashboardApi } from '../api/dashboard';
 import { useAuthStore } from '../store/authStore';
 import { 
-  FileText, AlertTriangle, Shield, ShoppingCart, Cpu, TrendingUp, 
-  CheckCircle2, Activity, Zap, BarChart3, PieChart, Sparkles, Network
+  FileText, AlertTriangle, Shield, ShoppingCart, TrendingUp, 
+  PieChart, Sparkles, Network
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { 
   AreaChart, Area, PieChart as RechartsPieChart, 
-  Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';
 import AnimatedNumber from '../components/AnimatedNumber';

@@ -1,16 +1,15 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import { equipmentApi } from '../api/equipment';
-import { ArrowLeft, Package, Cpu, Link } from 'lucide-react';
+import { ArrowLeft, Link } from 'lucide-react';
 import { format } from 'date-fns';
-import HelpTooltip from '../components/HelpTooltip';
 
 export default function EquipmentDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { data, isLoading } = useQuery(
     ['equipment', id],
-    () => equipmentApi.getById(id!),
+    () => equipmentApi.get(id!),
     { enabled: !!id }
   );
 

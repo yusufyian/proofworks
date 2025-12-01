@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import { sequelize, initializeDatabase } from './index';
+import { initializeDatabase } from './index';
 import { logger } from '../utils/logger';
 
 const defaultPassword = '123456'; // 默认密码

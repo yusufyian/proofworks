@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { dataAssetApi } from '../api/dataAssets';
-import { Database, Search, Filter, HelpCircle } from 'lucide-react';
+import { Database, Search } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function DataAssets() {

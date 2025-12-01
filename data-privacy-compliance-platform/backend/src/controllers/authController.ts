@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
 import { getStorage, updateStorage } from '../storage/fileStorage';
 import { AppError } from '../middleware/errorHandler';
 import { User } from '../types';
@@ -35,6 +35,9 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
       return storage;
     });
 
+    const jwtSecret: string = process.env.JWT_SECRET || 'secret';
+    const expiresIn: string = process.env.JWT_EXPIRES_IN || '7d';
+    const signOptions: SignOptions = { expiresIn: expiresIn as any };
     const token = jwt.sign(
       {
         id: newUser.id,
@@ -43,8 +46,8 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
         name: newUser.name,
         organization: newUser.organization,
       },
-      process.env.JWT_SECRET || 'secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      jwtSecret,
+      signOptions
     );
 
     res.status(201).json({
@@ -84,6 +87,9 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
       throw new AppError('邮箱或密码错误', 401);
     }
 
+    const jwtSecret: string = process.env.JWT_SECRET || 'secret';
+    const expiresIn: string = process.env.JWT_EXPIRES_IN || '7d';
+    const signOptions: SignOptions = { expiresIn: expiresIn as any };
     const token = jwt.sign(
       {
         id: user.id,
@@ -92,8 +98,8 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
         name: user.name,
         organization: user.organization,
       },
-      process.env.JWT_SECRET || 'secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      jwtSecret,
+      signOptions
     );
 
     res.json({

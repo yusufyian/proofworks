@@ -59,7 +59,7 @@ export async function performThreeWayMatch(req: AuthRequest, res: Response) {
     // 明细匹配（简化版：检查是否有明细项）
     const hasInvoiceItems = invoice.items && invoice.items.length > 0;
     const hasOrderItems = order.items && order.items.length > 0;
-    const itemMatch = hasInvoiceItems && hasOrderItems;
+    const itemMatch: boolean = !!(hasInvoiceItems && hasOrderItems);
 
     // 计算匹配状态
     let matchStatus: 'matched' | 'partial' | 'unmatched';

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
 import { authApi } from '../api/auth';
-import { Lock, Shield } from 'lucide-react';
+import { Lock } from 'lucide-react';
 
 export default function Register() {
   const navigate = useNavigate();

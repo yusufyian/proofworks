@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { FileStorage } from '../storage/fileStorage';
 import { format, subDays, parseISO, startOfDay, endOfDay, differenceInHours } from 'date-fns';
+import { TransferEvent } from '../types';
 
 // 获取概览数据
 export const getOverview = (req: Request, res: Response) => {

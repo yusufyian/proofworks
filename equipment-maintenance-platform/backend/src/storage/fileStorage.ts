@@ -107,6 +107,132 @@ class FileStorage {
   saveBlockchainRecords(records: BlockchainRecord[]): void {
     fs.writeFileSync(this.blockchainRecordsFile, JSON.stringify(records, null, 2));
   }
+
+  // Create methods
+  createUser(userData: Omit<User, 'id' | 'createdAt'>): User {
+    const users = this.getUsers();
+    const newUser: User = {
+      ...userData,
+      id: `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+    };
+    users.push(newUser);
+    this.saveUsers(users);
+    return newUser;
+  }
+
+  createEquipment(equipmentData: Omit<Equipment, 'id' | 'createdAt' | 'updatedAt'>): Equipment {
+    const equipment = this.getEquipment();
+    const newEquipment: Equipment = {
+      ...equipmentData,
+      id: `eq-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    equipment.push(newEquipment);
+    this.saveEquipment(equipment);
+    return newEquipment;
+  }
+
+  createMaintenancePlan(planData: Omit<MaintenancePlan, 'id' | 'createdAt'>): MaintenancePlan {
+    const plans = this.getMaintenancePlans();
+    const newPlan: MaintenancePlan = {
+      ...planData,
+      id: `plan-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+    };
+    plans.push(newPlan);
+    this.saveMaintenancePlans(plans);
+    return newPlan;
+  }
+
+  createWorkOrder(orderData: Omit<WorkOrder, 'id' | 'createdAt' | 'updatedAt'>): WorkOrder {
+    const orders = this.getWorkOrders();
+    const newOrder: WorkOrder = {
+      ...orderData,
+      id: `wo-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    orders.push(newOrder);
+    this.saveWorkOrders(orders);
+    return newOrder;
+  }
+
+  createSparePart(partData: Omit<SparePart, 'id' | 'createdAt' | 'updatedAt'>): SparePart {
+    const parts = this.getSpareParts();
+    const newPart: SparePart = {
+      ...partData,
+      id: `sp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    parts.push(newPart);
+    this.saveSpareParts(parts);
+    return newPart;
+  }
+
+  // IoT Data methods
+  private iotDataFile = path.join(DATA_DIR, 'iotData.json');
+
+  findIoTData(filter?: { equipmentId?: string; startTime?: string; endTime?: string }): any[] {
+    if (!fs.existsSync(this.iotDataFile)) return [];
+    const allData = JSON.parse(fs.readFileSync(this.iotDataFile, 'utf-8'));
+    if (!filter) return allData;
+    
+    return allData.filter((item: any) => {
+      if (filter.equipmentId && item.equipmentId !== filter.equipmentId) return false;
+      if (filter.startTime && item.timestamp < filter.startTime) return false;
+      if (filter.endTime && item.timestamp > filter.endTime) return false;
+      return true;
+    });
+  }
+
+  createIoTData(data: any): any {
+    const allData = this.findIoTData();
+    const newData = {
+      ...data,
+      id: `iot-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+    };
+    allData.push(newData);
+    fs.writeFileSync(this.iotDataFile, JSON.stringify(allData, null, 2));
+    return newData;
+  }
+
+  createBlockchainRecord(recordData: any): BlockchainRecord {
+    const records = this.getBlockchainRecords();
+    // Map recordType from generateData format to BlockchainRecord format
+    let recordType: 'equipment' | 'maintenance' | 'repair' | 'health' = 'equipment';
+    if (recordData.recordType === 'equipment_registration') {
+      recordType = 'equipment';
+    } else if (recordData.recordType === 'maintenance_record') {
+      recordType = 'maintenance';
+    } else if (recordData.recordType === 'repair_record') {
+      recordType = 'repair';
+    }
+    
+    const newRecord: BlockchainRecord = {
+      recordType,
+      recordId: recordData.equipmentId || recordData.orderId || `record-${Date.now()}`,
+      id: `bc-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      txHash: `tx-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      dataHash: `hash-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      timestamp: new Date().toISOString(),
+      createdAt: new Date().toISOString(),
+    };
+    records.push(newRecord);
+    this.saveBlockchainRecords(records);
+    return newRecord;
+  }
+
+  findAllWorkOrders(filter?: { status?: string }): WorkOrder[] {
+    const orders = this.getWorkOrders();
+    if (!filter) return orders;
+    if (filter.status) {
+      return orders.filter(o => o.status === filter.status);
+    }
+    return orders;
+  }
 }
 
 export default new FileStorage();

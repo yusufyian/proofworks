@@ -1,8 +1,8 @@
 import express from 'express';
 import { authenticate } from '../middleware/auth';
 import {
-  getAllWorkOrders,
-  getWorkOrder,
+  getWorkOrders,
+  getWorkOrderById,
   createWorkOrder,
   updateWorkOrder,
 } from '../controllers/workOrderController';
@@ -10,8 +10,8 @@ import {
 const router = express.Router();
 
 router.use(authenticate);
-router.get('/', getAllWorkOrders);
-router.get('/:id', getWorkOrder);
+router.get('/', getWorkOrders);
+router.get('/:id', getWorkOrderById);
 router.post('/', createWorkOrder);
 router.put('/:id', updateWorkOrder);
 

@@ -9,7 +9,7 @@ export default function WorkOrderDetail() {
   const navigate = useNavigate();
   const { data, isLoading } = useQuery(
     ['work-order', id],
-    () => workOrderApi.getById(id!),
+    () => workOrderApi.get(id!),
     { enabled: !!id }
   );
 

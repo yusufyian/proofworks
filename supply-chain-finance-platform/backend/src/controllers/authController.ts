@@ -1,11 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { v4 as uuidv4 } from 'uuid';
 import { storage } from '../storage/fileStorage';
 import { AppError } from '../middleware/errorHandler';
 import { AuthRequest } from '../middleware/auth';
-import { logger } from '../utils/logger';
 
 export const register = async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -48,6 +46,8 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
     });
 
     // 生成JWT token
+    const jwtSecret = (process.env.JWT_SECRET || 'secret') as string;
+    const expiresIn = (process.env.JWT_EXPIRES_IN || '7d') as string;
     const token = jwt.sign(
       {
         id: user.id,
@@ -55,8 +55,8 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
         role: user.role,
         email: user.email
       },
-      process.env.JWT_SECRET || 'secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      jwtSecret,
+      { expiresIn }
     );
 
     res.status(201).json({
@@ -107,6 +107,8 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
     const company = await storage.findCompany({ id: user.companyId });
 
     // 生成JWT token
+    const jwtSecret = (process.env.JWT_SECRET || 'secret') as string;
+    const expiresIn = (process.env.JWT_EXPIRES_IN || '7d') as string;
     const token = jwt.sign(
       {
         id: user.id,
@@ -114,8 +116,8 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
         role: user.role,
         email: user.email
       },
-      process.env.JWT_SECRET || 'secret',
-      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
+      jwtSecret,
+      { expiresIn }
     );
 
     res.json({

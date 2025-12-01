@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Layout } from '../components/Layout';
 import { batchApi, Batch } from '../api/batches';
-import { productApi } from '../api/products';
 import HelpTooltip from '../components/HelpTooltip';
 import { Filter, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -24,9 +23,11 @@ export const Batches: React.FC = () => {
       params.page = 1;
       params.pageSize = 100;
       
-      const result = await batchApi.getBatches(params);
+      const result: any = await batchApi.getBatches(params);
       // 后端已经返回了包含productName的批次数据，无需再次查询
-      setBatches(result.data || []);
+      if (result && result.success && result.data) {
+        setBatches(result.data);
+      }
     } catch (error) {
       console.error('Failed to load batches:', error);
     } finally {

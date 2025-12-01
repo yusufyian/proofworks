@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import { invoiceApi } from '../api/invoices';
-import { ArrowLeft, CheckCircle2, XCircle, AlertTriangle, RefreshCw } from 'lucide-react';
+import { ArrowLeft, RefreshCw } from 'lucide-react';
 import { format } from 'date-fns';
 import HelpTooltip from '../components/HelpTooltip';
 

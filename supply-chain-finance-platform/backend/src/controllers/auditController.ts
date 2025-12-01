@@ -1,6 +1,5 @@
 import { Response, NextFunction } from 'express';
 import { storage } from '../storage/fileStorage';
-import { AppError } from '../middleware/errorHandler';
 import { AuthRequest } from '../middleware/auth';
 
 export const getAuditLogs = async (req: AuthRequest, res: Response, next: NextFunction) => {
@@ -38,7 +37,7 @@ export const getAuditLogs = async (req: AuthRequest, res: Response, next: NextFu
   }
 };
 
-export const getAuditStats = async (req: AuthRequest, res: Response, next: NextFunction) => {
+export const getAuditStats = async (_req: AuthRequest, res: Response, next: NextFunction) => {
   try {
     const logs = await storage.findAuditLogs({});
     const totalLogs = logs.length;

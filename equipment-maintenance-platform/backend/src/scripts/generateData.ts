@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import { storage } from '../storage/fileStorage';
+import storage from '../storage/fileStorage';
 
 // 中文姓名库
 const surnames = ['王', '李', '张', '刘', '陈', '杨', '赵', '黄', '周', '吴', '徐', '孙', '胡', '朱', '高', '林', '何', '郭', '马', '罗', '梁', '宋', '郑', '谢', '韩', '唐', '冯', '于', '董', '萧'];
@@ -72,12 +72,14 @@ async function generateData() {
   for (let i = 0; i < 50; i++) {
     const name = generateChineseName();
     const email = `user${i + 1}@company.com`;
+    const username = `user${i + 1}`;
     const hashedPassword = await bcrypt.hash('123456', 10);
     const user = await storage.createUser({
+      username,
       email,
       password: hashedPassword,
       name,
-      role: randomElement(roles),
+      role: randomElement(roles) as 'admin' | 'manager' | 'technician' | 'operator',
       department: randomElement(departments),
       phone: `1${randomInt(3, 9)}${randomInt(100000000, 999999999)}`,
     });
@@ -91,30 +93,36 @@ async function generateData() {
   for (let i = 0; i < 150; i++) {
     const type = randomElement(equipmentTypes);
     const code = `EQ-${String(i + 1).padStart(4, '0')}`;
-    const purchaseDate = randomDate(new Date(2020, 0, 1), new Date(2023, 11, 31));
+    const purchaseDateStr = randomDate(new Date(2020, 0, 1), new Date(2023, 11, 31));
+    const purchaseDate = new Date(purchaseDateStr);
     const warrantyDate = new Date(purchaseDate);
     warrantyDate.setFullYear(warrantyDate.getFullYear() + 2);
 
+    const locationStr = randomElement(locations);
+    const workshopStr = randomElement(workshops);
     const equipment = await storage.createEquipment({
-      code,
+      equipmentNo: code,
       name: `${type.name}-${String(i + 1).padStart(3, '0')}`,
       model: type.model,
       category: type.category,
       serialNumber: `SN-${randomInt(100000, 999999)}`,
       supplier: randomElement(suppliers),
-      purchaseDate,
+      purchaseDate: purchaseDateStr,
       purchasePrice: randomInt(50000, 500000),
-      warrantyExpiryDate: warrantyDate.toISOString(),
-      department: randomElement(departments),
-      workshop: randomElement(workshops),
-      location: randomElement(locations),
-      responsiblePerson: randomElement(users).name,
-      responsiblePersonId: randomElement(users).id,
-      status: randomElement(['normal', 'maintenance', 'repair', 'idle']),
+      status: randomElement(['normal', 'maintenance', 'repair', 'scrapped']) as 'normal' | 'maintenance' | 'repair' | 'scrapped',
+      location: {
+        workshop: workshopStr,
+        position: locationStr,
+      },
+      responsibility: {
+        department: randomElement(departments),
+        person: randomElement(users).name,
+      },
       healthScore: randomInt(60, 100),
-      power: randomFloat(10, 100),
-      weight: randomFloat(500, 5000),
-      installationDate: purchaseDate,
+      technicalParams: {
+        power: randomFloat(10, 100),
+        weight: randomFloat(500, 5000),
+      },
     });
     equipmentList.push(equipment);
   }
@@ -124,7 +132,8 @@ async function generateData() {
   console.log('生成维保计划数据...');
   const maintenanceTypes = ['daily', 'weekly', 'monthly', 'quarterly', 'yearly'];
   for (const equipment of equipmentList.slice(0, 100)) {
-    const lastMaintenance = randomDate(new Date(2023, 0, 1), new Date());
+    const lastMaintenanceStr = randomDate(new Date(2023, 0, 1), new Date());
+    const lastMaintenance = new Date(lastMaintenanceStr);
     const maintenanceType = randomElement(maintenanceTypes);
     let nextDate = new Date(lastMaintenance);
     
@@ -148,16 +157,21 @@ async function generateData() {
 
     await storage.createMaintenancePlan({
       equipmentId: equipment.id,
-      equipmentCode: equipment.code,
+      equipmentNo: equipment.equipmentNo,
       equipmentName: equipment.name,
-      maintenanceType,
-      scheduledDate: nextDate.toISOString(),
-      lastMaintenanceDate: lastMaintenance,
-      tasks: ['清洁设备', '检查润滑', '紧固螺栓', '校准精度'],
-      status: Math.random() > 0.7 ? 'overdue' : randomElement(['pending', 'completed']),
-      assignedTo: randomElement(users).name,
-      assignedToId: randomElement(users).id,
-      estimatedHours: randomFloat(1, 8, 1),
+      planType: 'preventive',
+      maintenanceType: (maintenanceType === 'daily' || maintenanceType === 'weekly' || maintenanceType === 'monthly' || maintenanceType === 'quarterly' || maintenanceType === 'yearly' 
+        ? 'calendar' : 'runtime') as 'calendar' | 'runtime' | 'cycle',
+      nextMaintenanceDate: nextDate.toISOString(),
+      lastMaintenanceDate: lastMaintenanceStr,
+      tasks: [
+        { id: '1', name: '清洁设备', description: '清洁设备表面和内部', estimatedHours: 0.5, required: true },
+        { id: '2', name: '检查润滑', description: '检查润滑系统', estimatedHours: 0.5, required: true },
+        { id: '3', name: '紧固螺栓', description: '检查并紧固所有螺栓', estimatedHours: 1, required: true },
+        { id: '4', name: '校准精度', description: '校准设备精度', estimatedHours: 2, required: false },
+      ],
+      status: Math.random() > 0.7 ? 'overdue' : randomElement(['scheduled', 'completed']) as 'scheduled' | 'in_progress' | 'completed' | 'overdue',
+      assignedTo: randomElement(users).id,
     });
   }
   console.log('已生成维保计划数据');
@@ -169,29 +183,28 @@ async function generateData() {
   
   for (let i = 0; i < 200; i++) {
     const equipment = randomElement(equipmentList);
-    const createDate = randomDate(new Date(2023, 0, 1), new Date());
+    const createDateStr = randomDate(new Date(2023, 0, 1), new Date());
+    const createDate = new Date(createDateStr);
     const status = randomElement(workOrderStatuses);
     let completeDate: string | undefined;
     
     if (status === 'completed' || status === 'closed') {
-      completeDate = randomDate(new Date(createDate), new Date());
+      completeDate = randomDate(createDate, new Date());
     }
 
     await storage.createWorkOrder({
+      orderNo: `WO-${Date.now()}-${i}`,
       equipmentId: equipment.id,
-      equipmentCode: equipment.code,
+      equipmentNo: equipment.equipmentNo,
       equipmentName: equipment.name,
       type: Math.random() > 0.3 ? 'repair' : 'maintenance',
-      priority: randomElement(priorities),
-      status,
-      description: Math.random() > 0.5 ? '设备异响，需检查' : '定期保养维护',
+      priority: randomElement(priorities) as 'urgent' | 'important' | 'normal' | 'low',
+      status: (status === 'closed' ? 'completed' : status) as 'pending' | 'assigned' | 'in_progress' | 'completed' | 'cancelled',
       reportedBy: randomElement(users).name,
-      reportedById: randomElement(users).id,
-      assignedTo: randomElement(users).name,
-      assignedToId: randomElement(users).id,
-      createdAt: createDate,
-      completedAt: completeDate,
-      downtime: status === 'completed' || status === 'closed' ? randomInt(30, 480) : undefined,
+      reportedAt: createDateStr,
+      assignedTo: randomElement(users).id,
+      faultDescription: Math.random() > 0.5 ? '设备异响，需检查' : '定期保养维护',
+      downtimeHours: status === 'completed' || status === 'closed' ? randomInt(30, 480) : undefined,
       cost: status === 'completed' || status === 'closed' ? randomInt(500, 5000) : undefined,
     });
   }
@@ -203,16 +216,19 @@ async function generateData() {
   for (let i = 0; i < 100; i++) {
     const partType = randomElement(sparePartTypes);
     await storage.createSparePart({
+      partNo: `SP-${String(i + 1).padStart(4, '0')}`,
       name: `${partType}-${String(i + 1).padStart(3, '0')}`,
-      partNumber: `SP-${String(i + 1).padStart(4, '0')}`,
+      model: `MODEL-${i + 1}`,
       category: partType,
-      quantity: randomInt(0, 100),
-      minQuantity: randomInt(5, 20),
       unit: '件',
+      currentStock: randomInt(0, 100),
+      minStock: randomInt(5, 20),
+      safeStock: randomInt(20, 50),
+      maxStock: randomInt(80, 150),
       unitPrice: randomFloat(50, 5000, 2),
       supplier: randomElement(suppliers),
       location: randomElement(['A库', 'B库', 'C库']),
-      equipmentIds: [randomElement(equipmentList).id],
+      abcClass: randomElement(['A', 'B', 'C']) as 'A' | 'B' | 'C',
     });
   }
   console.log('已生成备件数据');
@@ -228,7 +244,7 @@ async function generateData() {
       const timestamp = new Date(startTime.getTime() + i * 60 * 60 * 1000);
       await storage.createIoTData({
         equipmentId: equipment.id,
-        equipmentCode: equipment.code,
+        equipmentNo: equipment.equipmentNo,
         vibration: randomFloat(0.5, 5.0, 2),
         temperature: randomFloat(30, 80, 1),
         current: randomFloat(10, 50, 1),
@@ -249,9 +265,9 @@ async function generateData() {
     await storage.createBlockchainRecord({
       recordType: 'equipment_registration',
       equipmentId: equipment.id,
-      equipmentCode: equipment.code,
+      equipmentCode: equipment.equipmentNo,
       data: {
-        code: equipment.code,
+        code: equipment.equipmentNo,
         name: equipment.name,
         purchaseDate: equipment.purchaseDate,
         supplier: equipment.supplier,
@@ -265,11 +281,11 @@ async function generateData() {
     await storage.createBlockchainRecord({
       recordType: 'repair_record',
       equipmentId: order.equipmentId,
-      equipmentCode: order.equipmentCode,
+      equipmentCode: order.equipmentNo,
       data: {
-        orderNumber: order.orderNumber,
-        description: order.description,
-        completedAt: order.completedAt,
+        orderNumber: order.orderNo,
+        description: order.faultDescription || '维修完成',
+        completedAt: order.endTime || order.updatedAt,
         cost: order.cost,
       },
     });

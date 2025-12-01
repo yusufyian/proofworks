@@ -4,9 +4,11 @@ interface AnimatedNumberProps {
   value: number;
   decimals?: number;
   duration?: number;
+  suffix?: string;
+  className?: string;
 }
 
-export default function AnimatedNumber({ value, decimals = 0, duration = 1000 }: AnimatedNumberProps) {
+export default function AnimatedNumber({ value, decimals = 0, duration = 1000, suffix = '', className = '' }: AnimatedNumberProps) {
   const [displayValue, setDisplayValue] = useState(0);
 
   useEffect(() => {
@@ -37,7 +39,7 @@ export default function AnimatedNumber({ value, decimals = 0, duration = 1000 }:
     };
   }, [value, duration]);
 
-  return <span>{displayValue.toFixed(decimals)}</span>;
+  return <span className={className}>{displayValue.toFixed(decimals)}{suffix}</span>;
 }
 
 

@@ -1,8 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import { assetsApi } from '../api/assets';
-import { blockchainApi } from '../api/blockchain';
-import { ShieldCheck, FileText, Clock, Link as LinkIcon } from 'lucide-react';
+import { ShieldCheck, FileText, Clock } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function AssetDetail() {

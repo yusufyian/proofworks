@@ -1,16 +1,11 @@
-import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { dashboardApi } from '../api/dashboard';
 import { useAuthStore } from '../store/authStore';
 import { 
   Database, Shield, Cpu, FileCheck, Link2, TrendingUp, Activity,
-  CheckCircle2, Clock, AlertCircle
+  CheckCircle2
 } from 'lucide-react';
 import { format } from 'date-fns';
-import { 
-  LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart as RechartsPieChart, 
-  Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
-} from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Dashboard() {
@@ -29,14 +24,6 @@ export default function Dashboard() {
       default:
         return '用户';
     }
-  };
-
-  const chartColors = {
-    primary: '#6366f1',
-    secondary: '#8b5cf6',
-    success: '#10b981',
-    warning: '#f59e0b',
-    danger: '#ef4444',
   };
 
   const getStatCards = () => {

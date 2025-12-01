@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { paymentsApi } from '../api/payments';
-import { CreditCard, CheckCircle2, Clock, XCircle, AlertCircle } from 'lucide-react';
+import { CreditCard, CheckCircle2, Clock, XCircle } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Payments() {

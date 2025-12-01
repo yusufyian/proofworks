@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Layout } from '../components/Layout';
 import { analyticsApi, QualityAnalysis as QualityAnalysisData } from '../api/analytics';
 import { DateRangeFilter } from '../components/DateRangeFilter';
-import { format, subDays } from 'date-fns';
+import { format } from 'date-fns';
 import { 
   BarChart, Bar, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts';
-import { CheckCircle, XCircle, AlertCircle, FileText } from 'lucide-react';
+import { CheckCircle, AlertCircle, FileText } from 'lucide-react';
 import AnimatedNumber from '../components/AnimatedNumber';
 import HelpTooltip from '../components/HelpTooltip';
 
@@ -27,8 +27,8 @@ export const QualityAnalysis: React.FC = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const response = await analyticsApi.getQualityAnalysis({ startDate, endDate });
-      if (response && response.data) {
+      const response: any = await analyticsApi.getQualityAnalysis({ startDate, endDate });
+      if (response && response.success && response.data) {
         setData(response.data);
       }
     } catch (error) {
@@ -195,7 +195,7 @@ export const QualityAnalysis: React.FC = () => {
                   fill="#8884d8"
                   dataKey="value"
                 >
-                  {statusData.map((entry, index) => (
+                  {statusData.map((_entry, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>

@@ -1,4 +1,4 @@
-import { Response } from 'express';
+import express, { Response } from 'express';
 import fileStorage from '../storage/fileStorage';
 import { getBlockchainInfo } from '../utils/blockchain';
 

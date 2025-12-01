@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import api from '../services/api';
-import { Activity, TrendingUp, AlertCircle } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 import { format } from 'date-fns';
 

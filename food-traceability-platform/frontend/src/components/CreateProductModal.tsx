@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Package, X } from 'lucide-react';
 import Modal from './Modal';
 import HelpTooltip from './HelpTooltip';
-import { productApi, Product } from '../api/products';
+import { productApi } from '../api/products';
 
 interface CreateProductModalProps {
   isOpen: boolean;

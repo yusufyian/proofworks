@@ -44,6 +44,23 @@ export const getSpareParts = async (req: AuthRequest, res: Response) => {
   }
 };
 
+export const getSparePart = async (req: AuthRequest, res: Response) => {
+  try {
+    const { id } = req.params;
+    const parts = fileStorage.getSpareParts();
+    const part = parts.find(p => p.id === id);
+
+    if (!part) {
+      return res.status(404).json({ error: '备件不存在' });
+    }
+
+    res.json(part);
+  } catch (error: any) {
+    logger.error('Get spare part error:', error);
+    res.status(500).json({ error: '获取备件详情失败' });
+  }
+};
+
 export const createSparePart = async (req: AuthRequest, res: Response) => {
   try {
     const parts = fileStorage.getSpareParts();

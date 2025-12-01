@@ -1,9 +1,192 @@
 {
-  "users": [],
-  "companies": [],
+  "users": [
+    {
+      "id": "f55686a9-9e63-4b0b-bb12-a5753373a076",
+      "email": "admin@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "272bd36e-d6d0-4aad-969c-3291a3e491d3",
+      "role": "core_enterprise",
+      "name": "张总经理",
+      "phone": "13800138000",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.463Z",
+      "updatedAt": "2025-12-01T05:03:03.463Z"
+    },
+    {
+      "id": "6d8e77c0-6541-4188-8b74-ab5fb57d5cb7",
+      "email": "supplier1@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "57f69979-9969-40ad-937b-293a78638e0d",
+      "role": "supplier",
+      "name": "供应商1用户",
+      "phone": "13800138001",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.464Z",
+      "updatedAt": "2025-12-01T05:03:03.464Z"
+    },
+    {
+      "id": "7c81f0a7-3bea-4849-9389-c850f8bdeb95",
+      "email": "supplier2@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "a8e79a6a-9ed7-43c4-af9d-423d44935f9f",
+      "role": "supplier",
+      "name": "供应商2用户",
+      "phone": "13800138002",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.465Z",
+      "updatedAt": "2025-12-01T05:03:03.465Z"
+    },
+    {
+      "id": "34392743-2bbc-403c-9a37-47d435fb34d4",
+      "email": "supplier3@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "3feee9c7-f286-4779-b165-31d2a7a42752",
+      "role": "supplier",
+      "name": "供应商3用户",
+      "phone": "13800138003",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.468Z",
+      "updatedAt": "2025-12-01T05:03:03.468Z"
+    },
+    {
+      "id": "e6ed29f6-b7df-4379-b19c-ed62c0aa753a",
+      "email": "supplier4@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "80819b5a-1d5a-4a14-b832-42f51e0ea26b",
+      "role": "supplier",
+      "name": "供应商4用户",
+      "phone": "13800138004",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.471Z",
+      "updatedAt": "2025-12-01T05:03:03.471Z"
+    },
+    {
+      "id": "e25a3659-d84e-4116-b22c-c66a5f5ddd0e",
+      "email": "supplier5@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "bd69fd87-c4cb-4e11-96c4-f71838d0db40",
+      "role": "supplier",
+      "name": "供应商5用户",
+      "phone": "13800138005",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.474Z",
+      "updatedAt": "2025-12-01T05:03:03.474Z"
+    },
+    {
+      "id": "d6bc0425-4b36-45e9-80a0-3cc8cd06207d",
+      "email": "bank1@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "e03faf1f-877d-4fa0-aef2-b07e70f9cc84",
+      "role": "bank",
+      "name": "银行1用户",
+      "phone": "13800138010",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.475Z",
+      "updatedAt": "2025-12-01T05:03:03.475Z"
+    },
+    {
+      "id": "1d4f3689-1184-44b6-8990-22589b1b4558",
+      "email": "bank2@example.com",
+      "password": "$2a$10$dP.HPmTBtET1sk41AnF6j.rLtmlEI/3pbKaiUS0e0AijqiFIfKvyy",
+      "companyId": "53442e6e-cd2b-49a6-981c-ee8f4d24f2e0",
+      "role": "bank",
+      "name": "银行2用户",
+      "phone": "13800138011",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.483Z",
+      "updatedAt": "2025-12-01T05:03:03.483Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "272bd36e-d6d0-4aad-969c-3291a3e491d3",
+      "name": "华夏科技集团股份有限公司",
+      "unifiedSocialCreditCode": "91110000MA00123456",
+      "type": "core_enterprise",
+      "creditRating": "AAA",
+      "creditLimit": 500000000,
+      "usedCreditLimit": 0,
+      "address": "北京市朝阳区科技园区1号",
+      "contactPerson": "张总",
+      "contactPhone": "010-88888888",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.437Z",
+      "updatedAt": "2025-12-01T05:03:03.439Z"
+    },
+    {
+      "id": "57f69979-9969-40ad-937b-293a78638e0d",
+      "name": "华东电子材料有限公司",
+      "unifiedSocialCreditCode": "91110000MA00234567",
+      "type": "supplier",
+      "creditRating": "AA",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.443Z",
+      "updatedAt": "2025-12-01T05:03:03.443Z"
+    },
+    {
+      "id": "a8e79a6a-9ed7-43c4-af9d-423d44935f9f",
+      "name": "华南精密制造股份有限公司",
+      "unifiedSocialCreditCode": "91110000MA00345678",
+      "type": "supplier",
+      "creditRating": "A",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.443Z",
+      "updatedAt": "2025-12-01T05:03:03.443Z"
+    },
+    {
+      "id": "3feee9c7-f286-4779-b165-31d2a7a42752",
+      "name": "华北物流服务有限公司",
+      "unifiedSocialCreditCode": "91110000MA00456789",
+      "type": "supplier",
+      "creditRating": "BBB",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.448Z",
+      "updatedAt": "2025-12-01T05:03:03.448Z"
+    },
+    {
+      "id": "80819b5a-1d5a-4a14-b832-42f51e0ea26b",
+      "name": "西南金属加工有限公司",
+      "unifiedSocialCreditCode": "91110000MA00567890",
+      "type": "supplier",
+      "creditRating": "A",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.449Z",
+      "updatedAt": "2025-12-01T05:03:03.449Z"
+    },
+    {
+      "id": "bd69fd87-c4cb-4e11-96c4-f71838d0db40",
+      "name": "东北化工原料有限公司",
+      "unifiedSocialCreditCode": "91110000MA00678901",
+      "type": "supplier",
+      "creditRating": "AA",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.452Z",
+      "updatedAt": "2025-12-01T05:03:03.452Z"
+    },
+    {
+      "id": "e03faf1f-877d-4fa0-aef2-b07e70f9cc84",
+      "name": "工商银行供应链金融部",
+      "unifiedSocialCreditCode": "91110000MA00789012",
+      "type": "bank",
+      "creditRating": "AAA",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.455Z",
+      "updatedAt": "2025-12-01T05:03:03.455Z"
+    },
+    {
+      "id": "53442e6e-cd2b-49a6-981c-ee8f4d24f2e0",
+      "name": "建设银行数字金融中心",
+      "unifiedSocialCreditCode": "91110000MA00890123",
+      "type": "bank",
+      "creditRating": "AAA",
+      "status": "active",
+      "createdAt": "2025-12-01T05:03:03.458Z",
+      "updatedAt": "2025-12-01T05:03:03.458Z"
+    }
+  ],
   "emissionFactors": [
     {
-      "id": "faf19100-64dd-4f0d-9e2d-72f225aa3680",
+      "id": "bdf5f257-e4e0-4f3a-9519-899d26dd327d",
       "name": "电力（华北电网）",
       "category": "energy",
       "unit": "kgCO2/kWh",
@@ -12,11 +195,11 @@
       "version": "2023",
       "year": 2023,
       "region": "华北",
-      "createdAt": "2025-12-01T02:39:36.539Z",
-      "updatedAt": "2025-12-01T02:39:36.540Z"
+      "createdAt": "2025-12-01T05:02:59.837Z",
+      "updatedAt": "2025-12-01T05:02:59.841Z"
     },
     {
-      "id": "81a738d1-7719-4098-a241-12565d3842bd",
+      "id": "976d792f-9ced-42f3-9542-a247bed07111",
       "name": "天然气",
       "category": "energy",
       "unit": "kgCO2/m³",
@@ -24,11 +207,11 @@
       "source": "国家标准",
       "version": "2021",
       "year": 2021,
-      "createdAt": "2025-12-01T02:39:36.541Z",
-      "updatedAt": "2025-12-01T02:39:36.541Z"
+      "createdAt": "2025-12-01T05:02:59.842Z",
+      "updatedAt": "2025-12-01T05:02:59.842Z"
     },
     {
-      "id": "7c6ccf4b-dbd9-45c8-b6f5-60bda1fd1b8c",
+      "id": "7b52b6c4-dfe2-425e-81c4-e119dc56438c",
       "name": "汽油",
       "category": "energy",
       "unit": "kgCO2/L",
@@ -36,11 +219,11 @@
       "source": "国家标准",
       "version": "2021",
       "year": 2021,
-      "createdAt": "2025-12-01T02:39:36.541Z",
-      "updatedAt": "2025-12-01T02:39:36.541Z"
+      "createdAt": "2025-12-01T05:02:59.843Z",
+      "updatedAt": "2025-12-01T05:02:59.843Z"
     },
     {
-      "id": "0fa02325-f263-47e8-b14f-217c627f2831",
+      "id": "a01bea7a-3e53-4114-82db-64b64dbb29e2",
       "name": "柴油",
       "category": "energy",
       "unit": "kgCO2/L",
@@ -48,11 +231,11 @@
       "source": "国家标准",
       "version": "2021",
       "year": 2021,
-      "createdAt": "2025-12-01T02:39:36.542Z",
-      "updatedAt": "2025-12-01T02:39:36.542Z"
+      "createdAt": "2025-12-01T05:02:59.850Z",
+      "updatedAt": "2025-12-01T05:02:59.850Z"
     },
     {
-      "id": "42167dea-649d-40d2-a5df-41ee6253ec48",
+      "id": "ca81beb8-fae8-4d81-b438-52331f8eeeeb",
       "name": "煤炭（烟煤）",
       "category": "energy",
       "unit": "kgCO2/kg",
@@ -60,11 +243,11 @@
       "source": "国家标准",
       "version": "2021",
       "year": 2021,
-      "createdAt": "2025-12-01T02:39:36.543Z",
-      "updatedAt": "2025-12-01T02:39:36.543Z"
+      "createdAt": "2025-12-01T05:02:59.853Z",
+      "updatedAt": "2025-12-01T05:02:59.853Z"
     },
     {
-      "id": "9935ad3a-74ee-4a90-a549-f1a620c48e2d",
+      "id": "7a86fada-5cb0-4ac5-91e2-66fc5224774d",
       "name": "公路运输",
       "category": "transport",
       "unit": "kgCO2/(t·km)",
@@ -72,11 +255,11 @@
       "source": "IPCC",
       "version": "2019",
       "year": 2019,
-      "createdAt": "2025-12-01T02:39:36.544Z",
-      "updatedAt": "2025-12-01T02:39:36.544Z"
+      "createdAt": "2025-12-01T05:02:59.854Z",
+      "updatedAt": "2025-12-01T05:02:59.854Z"
     },
     {
-      "id": "affc45cd-984e-4d45-83b3-69fec25acec9",
+      "id": "bf656370-0517-4130-be29-1724e3f46af7",
       "name": "铁路运输",
       "category": "transport",
       "unit": "kgCO2/(t·km)",
@@ -84,8 +267,8 @@
       "source": "IPCC",
       "version": "2019",
       "year": 2019,
-      "createdAt": "2025-12-01T02:39:36.544Z",
-      "updatedAt": "2025-12-01T02:39:36.544Z"
+      "createdAt": "2025-12-01T05:02:59.859Z",
+      "updatedAt": "2025-12-01T05:02:59.859Z"
     }
   ],
   "activityData": [],

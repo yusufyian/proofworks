@@ -31,6 +31,16 @@ for project in "${PROJECTS[@]}"; do
     cd "$BACKEND_DIR"
     
     if [ -f "package.json" ]; then
+      # 检查 node_modules 是否存在，如果不存在则安装依赖
+      if [ ! -d "node_modules" ]; then
+        echo "正在安装 $project 的依赖..."
+        npm install
+        if [ $? -ne 0 ]; then
+          echo "❌ $project 依赖安装失败"
+          continue
+        fi
+      fi
+      
       echo "正在构建 $project..."
       npm run build
       

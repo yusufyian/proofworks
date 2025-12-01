@@ -159,16 +159,16 @@ export async function approveReimbursement(req: AuthRequest, res: Response) {
       comment
     };
 
-    let approvalStatus = reimbursement.approvalStatus;
+    let approvalStatus: 'pending' | 'approved' | 'rejected' = reimbursement.approvalStatus;
     let paymentStatus = reimbursement.paymentStatus;
 
     if (action === 'reject') {
-      approvalStatus = 'rejected';
+      approvalStatus = 'rejected' as const;
     } else {
       // 检查是否所有节点都已批准
       const allApproved = approvalFlow.every(node => node.status === 'approved');
       if (allApproved) {
-        approvalStatus = 'approved';
+        approvalStatus = 'approved' as const;
         paymentStatus = 'paid';
       } else {
         // 更新当前审批人

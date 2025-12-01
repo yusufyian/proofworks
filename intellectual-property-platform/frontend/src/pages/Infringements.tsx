@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import { infringementsApi } from '../api/infringements';
-import { AlertTriangle, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Infringements() {

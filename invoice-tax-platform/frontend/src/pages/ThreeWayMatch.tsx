@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 import { matchApi } from '../api/matches';
 import { invoiceApi } from '../api/invoices';
 import { orderApi } from '../api/orders';
-import { FileCheck, Search, CheckCircle2, XCircle, AlertTriangle, Info } from 'lucide-react';
+import { CheckCircle2, XCircle, AlertTriangle, Info } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 import { format } from 'date-fns';
 

@@ -27,9 +27,9 @@ export const Analytics: React.FC = () => {
   const loadOverview = async () => {
     try {
       setLoading(true);
-      const response = await analyticsApi.getOverview({ startDate, endDate });
+      const response: any = await analyticsApi.getOverview({ startDate, endDate });
       // API client 拦截器已经返回了 response.data，所以 response 就是 { success, data }
-      if (response && response.data) {
+      if (response && response.success && response.data) {
         setOverview(response.data);
       }
     } catch (error) {

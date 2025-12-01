@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import { assetsApi } from '../api/assets';
-import { FileText, Plus, ExternalLink } from 'lucide-react';
+import { Plus, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HelpTooltip from '../components/HelpTooltip';
 

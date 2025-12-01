@@ -2,7 +2,7 @@ import { useQuery } from 'react-query';
 import { dashboardApi } from '../api/dashboard';
 import { 
   FileCheck, FileText, ArrowLeftRight, CreditCard, Package, 
-  FileBarChart, TrendingUp, CheckCircle2, Clock, AlertCircle
+  FileBarChart, CheckCircle2, Clock, AlertCircle
 } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 import { format } from 'date-fns';

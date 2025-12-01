@@ -1,6 +1,5 @@
 import { useQuery } from 'react-query';
 import { apiClient } from '../api/client';
-import { Shield, ExternalLink } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function RightsProtection() {

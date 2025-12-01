@@ -25,8 +25,10 @@ export const Trace: React.FC = () => {
 
   const loadSampleCodes = async () => {
     try {
-      const response = await traceApi.getSampleCodes();
-      setSampleCodes(response.data.sampleCodes || []);
+      const response: any = await traceApi.getSampleCodes();
+      if (response && response.success && response.data) {
+        setSampleCodes(response.data.sampleCodes || []);
+      }
     } catch (error) {
       console.error('Failed to load sample codes:', error);
     }
@@ -36,12 +38,12 @@ export const Trace: React.FC = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await traceApi.traceByBatch(id);
+      const response: any = await traceApi.traceByBatch(id);
       // apiClient 拦截器已经返回了 response.data，所以 response 就是 { success, data }
-      if (response.success && response.data) {
+      if (response && response.success && response.data) {
         setResult(response.data);
       } else {
-        setError(response.error || '查询失败');
+        setError('查询失败');
         setResult(null);
       }
     } catch (err: any) {
@@ -61,12 +63,12 @@ export const Trace: React.FC = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await traceApi.traceByCode(traceCode.trim());
+      const response: any = await traceApi.traceByCode(traceCode.trim());
       // apiClient 拦截器已经返回了 response.data，所以 response 就是 { success, data }
-      if (response.success && response.data) {
+      if (response && response.success && response.data) {
         setResult(response.data);
       } else {
-        setError(response.error || '查询失败，请确认追溯码格式是否正确');
+        setError('查询失败，请确认追溯码格式是否正确');
         setResult(null);
       }
     } catch (err: any) {
@@ -88,7 +90,7 @@ export const Trace: React.FC = () => {
     return '📍';
   };
 
-  const getEventStage = (eventType: string, index: number) => {
+  const getEventStage = (_eventType: string, index: number) => {
     if (index < 3) return '种植阶段';
     if (index < 6) return '加工阶段';
     if (index < 9) return '质检阶段';

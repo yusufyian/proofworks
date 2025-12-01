@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 import { dashboardApi } from '../api/dashboard';
 import { useAuthStore } from '../store/authStore';
 import { 
-  FileText, Receipt, CreditCard, TrendingUp, DollarSign, Clock, 
+  FileText, TrendingUp, DollarSign, Clock, 
   CheckCircle2, AlertTriangle, Activity, BarChart3, PieChart, Sparkles
 } from 'lucide-react';
 import { format } from 'date-fns';

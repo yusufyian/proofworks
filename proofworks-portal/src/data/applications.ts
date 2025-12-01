@@ -45,7 +45,7 @@ export const applications: Application[] = [
     ],
     color: 'blue',
     gradient: 'from-blue-500 to-cyan-500',
-    demoUrl: '/supply-chain-finance-platform/frontend'
+    demoUrl: '/supply-chain-finance'
   },
   {
     id: 'food-traceability',
@@ -74,7 +74,7 @@ export const applications: Application[] = [
     ],
     color: 'green',
     gradient: 'from-green-500 to-emerald-500',
-    demoUrl: '/food-traceability-platform/frontend'
+    demoUrl: '/food-traceability'
   },
   {
     id: 'cold-chain-medical',
@@ -103,7 +103,7 @@ export const applications: Application[] = [
     ],
     color: 'cyan',
     gradient: 'from-cyan-500 to-blue-500',
-    demoUrl: '/cold-chain-medical-platform/frontend'
+    demoUrl: '/cold-chain-medical'
   },
   {
     id: 'reconciliation',
@@ -132,7 +132,7 @@ export const applications: Application[] = [
     ],
     color: 'yellow',
     gradient: 'from-yellow-500 to-orange-500',
-    demoUrl: '/reconciliation-platform/frontend'
+    demoUrl: '/reconciliation'
   },
   {
     id: 'data-privacy-compliance',
@@ -161,7 +161,7 @@ export const applications: Application[] = [
     ],
     color: 'purple',
     gradient: 'from-purple-500 to-pink-500',
-    demoUrl: '/data-privacy-compliance-platform/frontend'
+    demoUrl: '/data-privacy-compliance'
   },
   {
     id: 'invoice-tax',
@@ -190,7 +190,7 @@ export const applications: Application[] = [
     ],
     color: 'red',
     gradient: 'from-red-500 to-pink-500',
-    demoUrl: '/invoice-tax-platform/frontend'
+    demoUrl: '/invoice-tax'
   },
   {
     id: 'carbon-esg',
@@ -219,7 +219,7 @@ export const applications: Application[] = [
     ],
     color: 'emerald',
     gradient: 'from-emerald-500 to-teal-500',
-    demoUrl: '/carbon-esg-platform/frontend'
+    demoUrl: '/carbon-esg'
   },
   {
     id: 'intellectual-property',
@@ -248,7 +248,7 @@ export const applications: Application[] = [
     ],
     color: 'indigo',
     gradient: 'from-indigo-500 to-purple-500',
-    demoUrl: '/intellectual-property-platform/frontend'
+    demoUrl: '/intellectual-property'
   },
   {
     id: 'equipment-maintenance',
@@ -277,7 +277,7 @@ export const applications: Application[] = [
     ],
     color: 'orange',
     gradient: 'from-orange-500 to-red-500',
-    demoUrl: '/equipment-maintenance-platform/frontend'
+    demoUrl: '/equipment-maintenance'
   },
   {
     id: 'cross-border-compliance',
@@ -306,7 +306,7 @@ export const applications: Application[] = [
     ],
     color: 'violet',
     gradient: 'from-violet-500 to-purple-500',
-    demoUrl: '/cross-border-compliance-platform/frontend'
+    demoUrl: '/cross-border-compliance'
   }
 ];
 

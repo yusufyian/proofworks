@@ -314,7 +314,8 @@ async function generateReimbursements() {
       return sum + (inv?.totalAmount || 0);
     }, 0);
     
-    const expenseType = expenseTypes[Math.floor(Math.random() * expenseTypes.length)];
+    const expenseType: 'travel' | 'meals' | 'office' | 'entertainment' | 'other' = 
+      expenseTypes[Math.floor(Math.random() * expenseTypes.length)] as 'travel' | 'meals' | 'office' | 'entertainment' | 'other';
     const budgetCheckStatus: 'pending' | 'passed' | 'failed' = 
       Math.random() < 0.9 ? 'passed' : Math.random() < 0.5 ? 'pending' : 'failed';
     

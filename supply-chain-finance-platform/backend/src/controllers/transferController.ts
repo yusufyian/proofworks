@@ -73,7 +73,7 @@ export const createTransfer = async (req: AuthRequest, res: Response, next: Next
       });
     } else {
       // 拆分转让：创建新凭证
-      const newCertificate = await storage.createCertificate({
+      await storage.createCertificate({
         certificateNumber: `${certificate.certificateNumber}-S${Date.now()}`,
         originalCertificateId: certificate.id,
         creditorId: certificate.creditorId,
@@ -180,7 +180,7 @@ export const getTransfers = async (req: AuthRequest, res: Response, next: NextFu
     const offset = (pageNum - 1) * limitNum;
     transfers = transfers.slice(offset, offset + limitNum);
 
-    res.json({
+    return res.json({
       success: true,
       data: {
         transfers,
@@ -193,7 +193,7 @@ export const getTransfers = async (req: AuthRequest, res: Response, next: NextFu
       }
     });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 };
 

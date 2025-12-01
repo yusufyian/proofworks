@@ -15,9 +15,9 @@ export class AppError extends Error {
 
 export const errorHandler = (
   err: Error | AppError,
-  req: Request,
+  _req: Request,
   res: Response,
-  next: NextFunction
+  _next: NextFunction
 ) => {
   const statusCode = err instanceof AppError ? err.statusCode : 500;
   const message = err.message || '服务器内部错误';
@@ -25,8 +25,8 @@ export const errorHandler = (
   logger.error('错误:', {
     message: err.message,
     stack: err.stack,
-    path: req.path,
-    method: req.method
+    path: _req.path,
+    method: _req.method
   });
 
   res.status(statusCode).json({

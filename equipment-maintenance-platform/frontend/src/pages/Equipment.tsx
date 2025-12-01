@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import api from '../services/api';
-import { Cpu, Plus, Search, Filter, HelpCircle } from 'lucide-react';
+import { Cpu, Plus, Search } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 import CreateEquipmentModal from '../components/CreateEquipmentModal';
 

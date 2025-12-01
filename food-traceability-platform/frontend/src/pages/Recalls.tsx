@@ -22,8 +22,10 @@ export const Recalls: React.FC = () => {
       if (statusFilter) params.status = statusFilter;
       if (riskFilter) params.riskLevel = riskFilter;
       
-      const result = await recallApi.getRecalls(params);
-      setRecalls(result.data || []);
+      const result: any = await recallApi.getRecalls(params);
+      if (result && result.success && result.data) {
+        setRecalls(result.data);
+      }
     } catch (error) {
       console.error('Failed to load recalls:', error);
     } finally {

@@ -8,8 +8,7 @@ import {
   LogOut,
   Menu,
   X,
-  FileCheck,
-  Network
+  FileCheck
 } from 'lucide-react';
 import { useState } from 'react';
 

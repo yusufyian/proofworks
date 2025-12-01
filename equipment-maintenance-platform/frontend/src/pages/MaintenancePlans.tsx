@@ -7,7 +7,7 @@ import HelpTooltip from '../components/HelpTooltip';
 export default function MaintenancePlans() {
   const { data, isLoading } = useQuery(
     'maintenance-plans',
-    () => maintenanceApi.getPlans({ limit: 50 })
+    () => maintenanceApi.getAll()
   );
 
   const plans = data?.data?.plans || [];
@@ -20,7 +20,6 @@ export default function MaintenancePlans() {
             <div className="flex items-center space-x-2">
               <h1 className="text-4xl font-bold gradient-text mb-2">维保计划</h1>
               <HelpTooltip
-                mode="click"
                 title="维保计划"
                 content="维保计划系统根据设备类型和使用情况，自动生成预防性维护计划。包括日常保养、一级保养、二级保养等不同级别的维保任务，确保设备在最佳状态下运行。"
               />

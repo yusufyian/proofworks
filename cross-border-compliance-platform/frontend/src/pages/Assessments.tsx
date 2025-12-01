@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { assessmentsApi } from '../api/assessments';
-import { FileCheck, CheckCircle2, Clock, XCircle, HelpCircle } from 'lucide-react';
+import { FileCheck, CheckCircle2, Clock, XCircle } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
 export default function Assessments() {

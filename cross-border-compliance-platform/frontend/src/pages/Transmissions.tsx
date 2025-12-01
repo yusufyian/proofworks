@@ -85,8 +85,16 @@ export default function Transmissions() {
                     <td className="px-4 py-3 text-sm text-gray-700">{t.dataSize} KB</td>
                     <td className="px-4 py-3">
                       <div className="flex items-center space-x-2">
-                        {t.desensitized && <Eye className="w-4 h-4 text-blue-500" title="已脱敏" />}
-                        {t.encrypted && <Lock className="w-4 h-4 text-green-500" title="已加密" />}
+                        {t.desensitized && (
+                          <span title="已脱敏">
+                            <Eye className="w-4 h-4 text-blue-500" />
+                          </span>
+                        )}
+                        {t.encrypted && (
+                          <span title="已加密">
+                            <Lock className="w-4 h-4 text-green-500" />
+                          </span>
+                        )}
                       </div>
                     </td>
                     <td className="px-4 py-3">{getStatusBadge(t.status)}</td>

@@ -2,13 +2,13 @@ import { useQuery } from 'react-query';
 import api from '../services/api';
 import { useAuthStore } from '../store/authStore';
 import { 
-  Cpu, Wrench, Calendar, Package, Activity, TrendingUp, 
-  CheckCircle2, AlertTriangle, Clock, BarChart3
+  Cpu, Wrench, Package, Activity, 
+  AlertTriangle
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { 
-  AreaChart, Area, PieChart as RechartsPieChart, 
-  Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  PieChart as RechartsPieChart, 
+  Pie, Cell, Tooltip, ResponsiveContainer 
 } from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';
 
@@ -226,7 +226,7 @@ export default function Dashboard() {
                   fill="#8884d8"
                   dataKey="value"
                 >
-                  {healthData.map((entry, index) => (
+                  {healthData.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>

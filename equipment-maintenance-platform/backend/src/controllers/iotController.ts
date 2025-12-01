@@ -1,6 +1,6 @@
 import { Response } from 'express';
 import { AuthRequest } from '../middleware/auth';
-import { storage } from '../storage/fileStorage';
+import storage from '../storage/fileStorage';
 
 export const getIoTData = async (req: AuthRequest, res: Response) => {
   try {

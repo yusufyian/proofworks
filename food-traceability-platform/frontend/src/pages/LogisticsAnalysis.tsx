@@ -2,15 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Layout } from '../components/Layout';
 import { analyticsApi, LogisticsAnalysis as LogisticsAnalysisData } from '../api/analytics';
 import { DateRangeFilter } from '../components/DateRangeFilter';
-import { format, subDays } from 'date-fns';
+import { format } from 'date-fns';
 import { 
-  BarChart, Bar, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  BarChart, Bar,
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts';
-import { Truck, Clock, MapPin, User } from 'lucide-react';
+import { Truck, Clock } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 
-const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'];
 
 export const LogisticsAnalysis: React.FC = () => {
   // 默认显示从2024年6月1日开始的所有数据
@@ -26,8 +25,8 @@ export const LogisticsAnalysis: React.FC = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const response = await analyticsApi.getLogisticsAnalysis({ startDate, endDate });
-      if (response && response.data) {
+      const response: any = await analyticsApi.getLogisticsAnalysis({ startDate, endDate });
+      if (response && response.success && response.data) {
         setData(response.data);
       }
     } catch (error) {

@@ -2,9 +2,8 @@ import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
 import { invoiceApi } from '../api/invoices';
-import { FileText, Search, Filter, Upload, CheckCircle2, XCircle, AlertTriangle, Eye } from 'lucide-react';
+import { FileText, Search, Upload, Eye } from 'lucide-react';
 import { format } from 'date-fns';
-import HelpTooltip from '../components/HelpTooltip';
 
 export default function Invoices() {
   const [search, setSearch] = useState('');
@@ -12,7 +11,7 @@ export default function Invoices() {
   const [riskLevel, setRiskLevel] = useState<string>('');
   const [page, setPage] = useState(1);
 
-  const { data, isLoading, refetch } = useQuery(
+  const { data, isLoading } = useQuery(
     ['invoices', search, verifyStatus, riskLevel, page],
     () => invoiceApi.getList({ search, verifyStatus, riskLevel, page, limit: 20 })
   );

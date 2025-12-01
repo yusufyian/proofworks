@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Layout } from '../components/Layout';
 import { analyticsApi, TemperatureAnalysis as TemperatureAnalysisData } from '../api/analytics';
 import { DateRangeFilter } from '../components/DateRangeFilter';
-import { format, subDays } from 'date-fns';
+import { format } from 'date-fns';
 import { 
   LineChart, Line, BarChart, Bar, PieChart, Pie, Cell,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
@@ -27,8 +27,8 @@ export const TemperatureAnalysis: React.FC = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const response = await analyticsApi.getTemperatureAnalysis({ startDate, endDate });
-      if (response && response.data) {
+      const response: any = await analyticsApi.getTemperatureAnalysis({ startDate, endDate });
+      if (response && response.success && response.data) {
         setData(response.data);
       }
     } catch (error) {
@@ -175,7 +175,7 @@ export const TemperatureAnalysis: React.FC = () => {
                 fill="#8884d8"
                 dataKey="value"
               >
-                {tempRangeData.map((entry, index) => (
+                {tempRangeData.map((_entry, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>

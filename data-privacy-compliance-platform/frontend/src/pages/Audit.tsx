@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { auditApi } from '../api/audit';
-import { FileCheck, Search } from 'lucide-react';
+import { FileCheck } from 'lucide-react';
 import HelpTooltip from '../components/HelpTooltip';
 import { format } from 'date-fns';
 

@@ -23,8 +23,10 @@ export const Products: React.FC = () => {
       if (searchTerm) params.search = searchTerm;
       if (categoryFilter) params.category = categoryFilter;
       
-      const result = await productApi.getProducts(params);
-      setProducts(result.data || []);
+      const result: any = await productApi.getProducts(params);
+      if (result && result.success && result.data) {
+        setProducts(result.data);
+      }
     } catch (error) {
       console.error('Failed to load products:', error);
     } finally {

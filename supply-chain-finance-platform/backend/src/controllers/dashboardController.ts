@@ -1,6 +1,5 @@
 import { Response, NextFunction } from 'express';
 import { storage } from '../storage/fileStorage';
-import { AppError } from '../middleware/errorHandler';
 import { AuthRequest } from '../middleware/auth';
 
 // 生成最近7天的日期数组

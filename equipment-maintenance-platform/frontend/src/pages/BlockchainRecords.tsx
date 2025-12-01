@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import { useQuery } from 'react-query';
 import { blockchainApi } from '../api/blockchain';
-import { Cpu, Link, Search, CheckCircle2 } from 'lucide-react';
+import { Cpu, Link, CheckCircle2 } from 'lucide-react';
 import { format } from 'date-fns';
 import HelpTooltip from '../components/HelpTooltip';
 
@@ -13,13 +12,12 @@ const operationMap: Record<string, { label: string; color: string }> = {
 };
 
 export default function BlockchainRecords() {
-  const [page, setPage] = useState(1);
   const { data, isLoading } = useQuery(
-    ['blockchain-records', page],
-    () => blockchainApi.getRecords({ page, limit: 20 })
+    'blockchain-records',
+    () => blockchainApi.getAll()
   );
 
-  const records = data?.data?.records || [];
+  const records = data?.data || [];
 
   return (
     <div className="space-y-6">
@@ -29,7 +27,6 @@ export default function BlockchainRecords() {
             <div className="flex items-center space-x-2">
               <h1 className="text-4xl font-bold gradient-text mb-2">区块链存证</h1>
               <HelpTooltip
-                mode="click"
                 title="区块链存证"
                 content="所有关键操作（设备创建、维保记录、工单等）都会通过区块链技术进行存证，确保数据的不可篡改性和可追溯性。每条记录都有唯一的交易哈希和区块哈希，可以通过这些哈希值在区块链上验证数据的真实性。"
               />
