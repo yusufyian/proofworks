@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
 import { storage } from '../storage/fileStorage';
 import { AppError } from '../middleware/errorHandler';
 import { AuthRequest } from '../middleware/auth';
@@ -46,8 +46,7 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
     });
 
     // 生成JWT token
-    const jwtSecret = (process.env.JWT_SECRET || 'secret') as string;
-    const expiresIn = (process.env.JWT_EXPIRES_IN || '7d') as string;
+    const jwtSecret = process.env.JWT_SECRET || 'secret';
     const token = jwt.sign(
       {
         id: user.id,
@@ -56,7 +55,7 @@ export const register = async (req: Request, res: Response, next: NextFunction) 
         email: user.email
       },
       jwtSecret,
-      { expiresIn }
+      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' } as SignOptions
     );
 
     res.status(201).json({
@@ -107,8 +106,7 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
     const company = await storage.findCompany({ id: user.companyId });
 
     // 生成JWT token
-    const jwtSecret = (process.env.JWT_SECRET || 'secret') as string;
-    const expiresIn = (process.env.JWT_EXPIRES_IN || '7d') as string;
+    const jwtSecret = process.env.JWT_SECRET || 'secret';
     const token = jwt.sign(
       {
         id: user.id,
@@ -117,7 +115,7 @@ export const login = async (req: Request, res: Response, next: NextFunction) => 
         email: user.email
       },
       jwtSecret,
-      { expiresIn }
+      { expiresIn: process.env.JWT_EXPIRES_IN || '7d' } as SignOptions
     );
 
     res.json({

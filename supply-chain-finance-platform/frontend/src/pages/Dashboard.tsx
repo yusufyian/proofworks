@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { 
-  LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart as RechartsPieChart, 
+  AreaChart, Area, PieChart as RechartsPieChart, 
   Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
 } from 'recharts';
 import HelpTooltip from '../components/HelpTooltip';

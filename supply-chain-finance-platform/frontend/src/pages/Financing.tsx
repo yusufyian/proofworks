@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { financingApi, Financing } from '../api/financing';
 import { useAuthStore } from '../store/authStore';
-import { CreditCard, Plus, Search, CheckCircle2, XCircle, Clock, DollarSign, TrendingUp, X } from 'lucide-react';
-import { format } from 'date-fns';
+import { CreditCard, Plus, Search, CheckCircle2, XCircle, Clock, DollarSign, X } from 'lucide-react';
 import CreateFinancingModal from '../components/CreateFinancingModal';
 import HelpTooltip from '../components/HelpTooltip';
 

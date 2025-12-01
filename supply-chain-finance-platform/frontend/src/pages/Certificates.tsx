@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { useQuery, useMutation, useQueryClient } from 'react-query';
+import { useQuery, useQueryClient } from 'react-query';
 import { useNavigate } from 'react-router-dom';
 import { certificatesApi, Certificate } from '../api/certificates';
 import { useAuthStore } from '../store/authStore';
-import { FileText, Plus, Search, CheckCircle2, Clock, Lock, Split, TrendingUp, X } from 'lucide-react';
+import { FileText, Plus, Search, CheckCircle2, Lock, Split, TrendingUp, X } from 'lucide-react';
 import { format } from 'date-fns';
 import CreateCertificateModal from '../components/CreateCertificateModal';
 import HelpTooltip from '../components/HelpTooltip';

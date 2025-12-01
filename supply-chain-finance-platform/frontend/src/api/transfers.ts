@@ -13,6 +13,7 @@ export interface Transfer {
   certificate?: any;
   fromCompany?: { id: string; name: string };
   toCompany?: { id: string; name: string };
+  createdAt?: string;
 }
 
 export const transfersApi = {

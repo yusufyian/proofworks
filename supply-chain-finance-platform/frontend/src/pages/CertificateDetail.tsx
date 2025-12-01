@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import { certificatesApi } from '../api/certificates';
-import { ArrowLeft, FileText, Calendar, DollarSign, Hash, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, DollarSign, Hash } from 'lucide-react';
 import { format } from 'date-fns';
 import { useNavigate } from 'react-router-dom';
 
-const statusMap = {
+const statusMap: Record<string, { label: string; color: string }> = {
   holding: { label: '持有中', color: 'bg-green-100 text-green-800' },
   transferred: { label: '已转让', color: 'bg-blue-100 text-blue-800' },
   pledged: { label: '已质押', color: 'bg-yellow-100 text-yellow-800' },
